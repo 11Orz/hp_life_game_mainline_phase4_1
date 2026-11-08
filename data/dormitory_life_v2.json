@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "canonLayer": "game_original",
+    "note": "室友均为原创人物，避免与原著同寝安排冲突"
+  },
+  "items": [
+    {
+      "house": "gryffindor",
+      "scene": "壁炉旁传来压低的笑声",
+      "roommateId": "roommate_gryffindor",
+      "roommateName": "艾琳·阿什",
+      "events": [
+        {
+          "id": "arrival",
+          "text": "壁炉旁传来压低的笑声",
+          "effect": {
+            "comfort": 1
+          }
+        },
+        {
+          "id": "introduction",
+          "text": "你可以向室友询问学院传统，或者一起讨论魁地奇。",
+          "effect": {
+            "social": 1
+          }
+        },
+        {
+          "id": "belongings",
+          "text": "你检查魔杖、课本与行李，想起暑假里做过的选择。",
+          "effect": {
+            "preparedness": 1
+          }
+        },
+        {
+          "id": "lights_out",
+          "text": "宿舍逐渐安静下来，明天将是第一天正式上课。",
+          "effect": {
+            "energy": 1
+          }
+        }
+      ],
+      "choices": {
+        "talk": {
+          "trust": 5,
+          "social": 2,
+          "energy": -1
+        },
+        "unpack": {
+          "preparedness": 2,
+          "energy": -1
+        },
+        "rest": {
+          "energy": 3,
+          "comfort": 1
+        }
+      }
+    },
+    {
+      "house": "slytherin",
+      "scene": "湖水投下的微光缓缓划过石墙",
+      "roommateId": "roommate_slytherin",
+      "roommateName": "西奥·维尔",
+      "events": [
+        {
+          "id": "arrival",
+          "text": "湖水投下的微光缓缓划过石墙",
+          "effect": {
+            "comfort": 1
+          }
+        },
+        {
+          "id": "introduction",
+          "text": "有人询问你的志向，也有人选择保持沉默。",
+          "effect": {
+            "social": 1
+          }
+        },
+        {
+          "id": "belongings",
+          "text": "你检查魔杖、课本与行李，想起暑假里做过的选择。",
+          "effect": {
+            "preparedness": 1
+          }
+        },
+        {
+          "id": "lights_out",
+          "text": "宿舍逐渐安静下来，明天将是第一天正式上课。",
+          "effect": {
+            "energy": 1
+          }
+        }
+      ],
+      "choices": {
+        "talk": {
+          "trust": 5,
+          "social": 2,
+          "energy": -1
+        },
+        "unpack": {
+          "preparedness": 2,
+          "energy": -1
+        },
+        "rest": {
+          "energy": 3,
+          "comfort": 1
+        }
+      }
+    },
+    {
+      "house": "ravenclaw",
+      "scene": "高塔窗边堆着尚未整理的书",
+      "roommateId": "roommate_ravenclaw",
+      "roommateName": "米拉·芬奇",
+      "events": [
+        {
+          "id": "arrival",
+          "text": "高塔窗边堆着尚未整理的书",
+          "effect": {
+            "comfort": 1
+          }
+        },
+        {
+          "id": "introduction",
+          "text": "一位室友邀请你讨论入口谜题。",
+          "effect": {
+            "social": 1
+          }
+        },
+        {
+          "id": "belongings",
+          "text": "你检查魔杖、课本与行李，想起暑假里做过的选择。",
+          "effect": {
+            "preparedness": 1
+          }
+        },
+        {
+          "id": "lights_out",
+          "text": "宿舍逐渐安静下来，明天将是第一天正式上课。",
+          "effect": {
+            "energy": 1
+          }
+        }
+      ],
+      "choices": {
+        "talk": {
+          "trust": 5,
+          "social": 2,
+          "energy": -1
+        },
+        "unpack": {
+          "preparedness": 2,
+          "energy": -1
+        },
+        "rest": {
+          "energy": 3,
+          "comfort": 1
+        }
+      }
+    },
+    {
+      "house": "hufflepuff",
+      "scene": "暖黄色的灯光照在木制家具上",
+      "roommateId": "roommate_hufflepuff",
+      "roommateName": "乔·梅多斯",
+      "events": [
+        {
+          "id": "arrival",
+          "text": "暖黄色的灯光照在木制家具上",
+          "effect": {
+            "comfort": 1
+          }
+        },
+        {
+          "id": "introduction",
+          "text": "室友主动帮忙安放行李，并询问你是否适应新环境。",
+          "effect": {
+            "social": 1
+          }
+        },
+        {
+          "id": "belongings",
+          "text": "你检查魔杖、课本与行李，想起暑假里做过的选择。",
+          "effect": {
+            "preparedness": 1
+          }
+        },
+        {
+          "id": "lights_out",
+          "text": "宿舍逐渐安静下来，明天将是第一天正式上课。",
+          "effect": {
+            "energy": 1
+          }
+        }
+      ],
+      "choices": {
+        "talk": {
+          "trust": 5,
+          "social": 2,
+          "energy": -1
+        },
+        "unpack": {
+          "preparedness": 2,
+          "energy": -1
+        },
+        "rest": {
+          "energy": 3,
+          "comfort": 1
+        }
+      }
+    }
+  ]
+}

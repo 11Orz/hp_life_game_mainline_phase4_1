@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "列车人物与时间约束"
+  },
+  "items": [
+    {
+      "id": "harry_potter",
+      "name": "哈利·波特",
+      "canon": true,
+      "encounter": "车站短暂相遇；列车中不替代罗恩的原著位置"
+    },
+    {
+      "id": "ron_weasley",
+      "name": "罗恩·韦斯莱",
+      "canon": true,
+      "encounter": "车站及走廊擦肩；与哈利的原著初遇不改变"
+    },
+    {
+      "id": "hermione_granger",
+      "name": "赫敏·格兰杰",
+      "canon": true,
+      "encounter": "列车上寻找纳威的蟾蜍"
+    },
+    {
+      "id": "neville_longbottom",
+      "name": "纳威·隆巴顿",
+      "canon": true,
+      "encounter": "寻找蟾蜍"
+    },
+    {
+      "id": "train_classmate_1991",
+      "name": "同龄新生",
+      "canon": false,
+      "encounter": "原创同学，可以建立长期关系"
+    }
+  ]
+}

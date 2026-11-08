@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_propaganda",
+  "records": [
+    {
+      "id": "ministry_denial",
+      "title": "官方否认",
+      "available_from": "1995-01-01",
+      "claim": "魔法部对伏地魔归来的说法予以否认",
+      "truth_status": "false",
+      "canon_level": "canon_summary"
+    },
+    {
+      "id": "witness_uncertainty",
+      "title": "未经核实的目击",
+      "available_from": "1995-09-01",
+      "claim": "一名原创证人声称看到了危险人物",
+      "truth_status": "unverified",
+      "canon_level": "game_original"
+    },
+    {
+      "id": "civilian_alert",
+      "title": "平民安全提醒",
+      "available_from": "1996-07-01",
+      "claim": "某条原创出行路线存在风险",
+      "truth_status": "contextual",
+      "canon_level": "game_original"
+    },
+    {
+      "id": "occupation_notice",
+      "title": "战时管控消息",
+      "available_from": "1997-08-01",
+      "claim": "魔法部控制下的官方通知可能具有偏见",
+      "truth_status": "contextual",
+      "canon_level": "canon_context"
+    }
+  ]
+}

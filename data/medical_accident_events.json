@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_accident_events",
+  "description": "可触发的校园、战时与社会事故",
+  "items": [
+    {
+      "id": "duel_practice",
+      "name": "决斗练习误伤",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "duel_backfire",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "quidditch_fall",
+      "name": "魁地奇训练坠落",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "broom_crash",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "potion_class",
+      "name": "魔药课坩埚爆炸",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "cauldron_explosion",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "greenhouse",
+      "name": "温室植物伤害",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "greenhouse_plant",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "owl_injury",
+      "name": "受伤猫头鹰求助",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "creature_bite",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "artifact_dorm",
+      "name": "寝室诅咒饰品",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "cursed_jewelry",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "transfiguration_class",
+      "name": "变形课意外",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "partial_transfiguration",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "floo_trip",
+      "name": "假期飞路网事故",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "floo_misroute",
+      "setting": "travel",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "apparition_lesson",
+      "name": "幻影显形训练意外",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "apparition_splinch",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "library_curse",
+      "name": "图书馆旧书异常",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "enchanted_object",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "creature_rescue",
+      "name": "保护区受伤生物",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "creature_escape",
+      "setting": "outdoors",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "hospital_overload",
+      "name": "战时医院拥挤",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "lab_experiment",
+      "setting": "war",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "unexplained_blast",
+      "name": "夜间不明魔法爆发",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "obscurial_outburst",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "mandrake_class",
+      "name": "曼德拉草课事故",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "mandrake_exposure",
+      "setting": "school",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    },
+    {
+      "id": "research_spill",
+      "name": "研究室试剂泄漏",
+      "description": "原创事故事件：救援优先、调查证据、治疗与后果",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "accidentTypeId": "spell_contamination",
+      "setting": "adult",
+      "choices": [
+        "seek_help",
+        "secure_scene",
+        "investigate_after_safety"
+      ],
+      "requiresDateCheck": true,
+      "oncePerDay": true
+    }
+  ]
+}

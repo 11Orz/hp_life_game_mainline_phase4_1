@@ -1,0 +1,733 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "start": "1991-09-01",
+    "end": "1998-06-30"
+  },
+  "sourcePolicy": {
+    "layers": [
+      "novel_canon",
+      "official_supplement",
+      "game_continuity",
+      "original"
+    ],
+    "priority": [
+      "seven_novels",
+      "rowling_official",
+      "supplementary_works",
+      "wiki_crosscheck",
+      "original_game_design"
+    ],
+    "warning": "原著事实与玩家原创经历严格分离；精确章节、月份与个别细节待逐章复核。"
+  },
+  "integration": {
+    "standaloneDataOnly": true,
+    "requiresNewStoryEngine": true,
+    "existingSchedulerDoesNotAutoLoad": true
+  },
+  "dataset": "mystery_clues",
+  "count": 28,
+  "clues": [
+    {
+      "id": "era_1991_1992_clue_01",
+      "arcId": "era_1991_1992",
+      "title": "禁区传闻的细节",
+      "description": "一条关于“禁区传闻”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1991_1992_chapter_01",
+      "payoffChapterId": "era_1991_1992_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1991_1992_clue_01_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1991_1992_clue_02",
+      "arcId": "era_1991_1992",
+      "title": "尼可·勒梅的名字的细节",
+      "description": "一条关于“尼可·勒梅的名字”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1991_1992_chapter_03",
+      "payoffChapterId": "era_1991_1992_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1991_1992_clue_02_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1991_1992_clue_03",
+      "arcId": "era_1991_1992",
+      "title": "走廊巡逻异常的细节",
+      "description": "一条关于“走廊巡逻异常”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1991_1992_chapter_05",
+      "payoffChapterId": "era_1991_1992_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1991_1992_clue_03_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1991_1992_clue_04",
+      "arcId": "era_1991_1992",
+      "title": "守护关卡的线索的细节",
+      "description": "一条关于“守护关卡的线索”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1991_1992_chapter_07",
+      "payoffChapterId": "era_1991_1992_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1991_1992_clue_04_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1992_1993_clue_01",
+      "arcId": "era_1992_1993",
+      "title": "墙上的警告的细节",
+      "description": "一条关于“墙上的警告”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1992_1993_chapter_01",
+      "payoffChapterId": "era_1992_1993_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1992_1993_clue_01_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1992_1993_clue_02",
+      "arcId": "era_1992_1993",
+      "title": "古老的血统传闻的细节",
+      "description": "一条关于“古老的血统传闻”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1992_1993_chapter_03",
+      "payoffChapterId": "era_1992_1993_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1992_1993_clue_02_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1992_1993_clue_03",
+      "arcId": "era_1992_1993",
+      "title": "幽灵与旧校史的细节",
+      "description": "一条关于“幽灵与旧校史”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1992_1993_chapter_05",
+      "payoffChapterId": "era_1992_1993_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1992_1993_clue_03_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1992_1993_clue_04",
+      "arcId": "era_1992_1993",
+      "title": "石化危机升级的细节",
+      "description": "一条关于“石化危机升级”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1992_1993_chapter_07",
+      "payoffChapterId": "era_1992_1993_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1992_1993_clue_04_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1993_1994_clue_01",
+      "arcId": "era_1993_1994",
+      "title": "列车上的寒意的细节",
+      "description": "一条关于“列车上的寒意”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1993_1994_chapter_01",
+      "payoffChapterId": "era_1993_1994_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1993_1994_clue_01_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1993_1994_clue_02",
+      "arcId": "era_1993_1994",
+      "title": "尖叫棚屋的故事的细节",
+      "description": "一条关于“尖叫棚屋的故事”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1993_1994_chapter_03",
+      "payoffChapterId": "era_1993_1994_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1993_1994_clue_02_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1993_1994_clue_03",
+      "arcId": "era_1993_1994",
+      "title": "禁林边缘的黑影的细节",
+      "description": "一条关于“禁林边缘的黑影”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1993_1994_chapter_05",
+      "payoffChapterId": "era_1993_1994_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1993_1994_clue_03_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1993_1994_clue_04",
+      "arcId": "era_1993_1994",
+      "title": "湖畔的异常的细节",
+      "description": "一条关于“湖畔的异常”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1993_1994_chapter_07",
+      "payoffChapterId": "era_1993_1994_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1993_1994_clue_04_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1994_1995_clue_01",
+      "arcId": "era_1994_1995",
+      "title": "远方来客的细节",
+      "description": "一条关于“远方来客”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1994_1995_chapter_01",
+      "payoffChapterId": "era_1994_1995_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1994_1995_clue_01_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1994_1995_clue_02",
+      "arcId": "era_1994_1995",
+      "title": "赛场安全检查的细节",
+      "description": "一条关于“赛场安全检查”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1994_1995_chapter_03",
+      "payoffChapterId": "era_1994_1995_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1994_1995_clue_02_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1994_1995_clue_03",
+      "arcId": "era_1994_1995",
+      "title": "水下救援情报的细节",
+      "description": "一条关于“水下救援情报”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1994_1995_chapter_05",
+      "payoffChapterId": "era_1994_1995_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1994_1995_clue_03_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1994_1995_clue_04",
+      "arcId": "era_1994_1995",
+      "title": "迷宫布置疑点的细节",
+      "description": "一条关于“迷宫布置疑点”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1994_1995_chapter_07",
+      "payoffChapterId": "era_1994_1995_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1994_1995_clue_04_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1995_1996_clue_01",
+      "arcId": "era_1995_1996",
+      "title": "新任教师的规则的细节",
+      "description": "一条关于“新任教师的规则”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1995_1996_chapter_01",
+      "payoffChapterId": "era_1995_1996_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1995_1996_clue_01_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1995_1996_clue_02",
+      "arcId": "era_1995_1996",
+      "title": "课堂禁止实践的细节",
+      "description": "一条关于“课堂禁止实践”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1995_1996_chapter_03",
+      "payoffChapterId": "era_1995_1996_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1995_1996_clue_02_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1995_1996_clue_03",
+      "arcId": "era_1995_1996",
+      "title": "告密者的线索的细节",
+      "description": "一条关于“告密者的线索”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1995_1996_chapter_05",
+      "payoffChapterId": "era_1995_1996_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1995_1996_clue_03_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1995_1996_clue_04",
+      "arcId": "era_1995_1996",
+      "title": "期末考与搜查的细节",
+      "description": "一条关于“期末考与搜查”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1995_1996_chapter_07",
+      "payoffChapterId": "era_1995_1996_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1995_1996_clue_04_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1996_1997_clue_01",
+      "arcId": "era_1996_1997",
+      "title": "被封锁的房间的细节",
+      "description": "一条关于“被封锁的房间”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1996_1997_chapter_01",
+      "payoffChapterId": "era_1996_1997_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1996_1997_clue_01_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1996_1997_clue_02",
+      "arcId": "era_1996_1997",
+      "title": "消失柜的传闻的细节",
+      "description": "一条关于“消失柜的传闻”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1996_1997_chapter_03",
+      "payoffChapterId": "era_1996_1997_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1996_1997_clue_02_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1996_1997_clue_03",
+      "arcId": "era_1996_1997",
+      "title": "受伤同学的证词的细节",
+      "description": "一条关于“受伤同学的证词”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1996_1997_chapter_05",
+      "payoffChapterId": "era_1996_1997_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1996_1997_clue_03_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1996_1997_clue_04",
+      "arcId": "era_1996_1997",
+      "title": "塔楼守夜的细节",
+      "description": "一条关于“塔楼守夜”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1996_1997_chapter_07",
+      "payoffChapterId": "era_1996_1997_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1996_1997_clue_04_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1997_1998_clue_01",
+      "arcId": "era_1997_1998",
+      "title": "新校规与缺席名单的细节",
+      "description": "一条关于“新校规与缺席名单”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1997_1998_chapter_01",
+      "payoffChapterId": "era_1997_1998_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1997_1998_clue_01_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1997_1998_clue_02",
+      "arcId": "era_1997_1998",
+      "title": "禁书区被清空的细节",
+      "description": "一条关于“禁书区被清空”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1997_1998_chapter_03",
+      "payoffChapterId": "era_1997_1998_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1997_1998_clue_02_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1997_1998_clue_03",
+      "arcId": "era_1997_1998",
+      "title": "失踪学生的家书的细节",
+      "description": "一条关于“失踪学生的家书”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1997_1998_chapter_05",
+      "payoffChapterId": "era_1997_1998_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1997_1998_clue_03_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    },
+    {
+      "id": "era_1997_1998_clue_04",
+      "arcId": "era_1997_1998",
+      "title": "战前撤离计划的细节",
+      "description": "一条关于“战前撤离计划”的不起眼线索，在后续调查中可能具有价值。",
+      "introducedInChapterId": "era_1997_1998_chapter_07",
+      "payoffChapterId": "era_1997_1998_chapter_08",
+      "source": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "discovery": {
+        "requiresAny": [
+          "investigate",
+          "report"
+        ],
+        "cluePoints": 1
+      },
+      "stateKey": "era_1997_1998_clue_04_found",
+      "payoff": {
+        "bossPreparationBonus": 3,
+        "unlockDialogue": true
+      },
+      "optional": true
+    }
+  ]
+}

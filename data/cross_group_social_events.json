@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "dataset": "cross_group_social_events",
+  "records": [
+    {
+      "id": "forest_mediation",
+      "name": "禁林事故调解",
+      "topic_id": "forest_accident",
+      "group_id": "centaurs",
+      "available_from": "1995-10-03",
+      "requires_evidence": "forest_witness",
+      "actions": [
+        "listen",
+        "verify",
+        "mediate"
+      ],
+      "canon_level": "game_original"
+    },
+    {
+      "id": "goblin_contract_meeting",
+      "name": "遗物契约会谈",
+      "topic_id": "artifact_dispute",
+      "group_id": "goblins",
+      "available_from": "1994-01-01",
+      "requires_evidence": "bank_contract_rumor",
+      "actions": [
+        "listen",
+        "verify",
+        "mediate"
+      ],
+      "canon_level": "game_original"
+    },
+    {
+      "id": "elf_private_conversation",
+      "name": "厨房里的谈话",
+      "topic_id": "elf_rights",
+      "group_id": "house_elves",
+      "available_from": "1994-09-01",
+      "requires_evidence": "elf_working_conditions",
+      "actions": [
+        "listen",
+        "protect_privacy"
+      ],
+      "canon_level": "game_original"
+    },
+    {
+      "id": "lake_boundary_talk",
+      "name": "黑湖边界协商",
+      "topic_id": "lake_cooperation",
+      "group_id": "merpeople",
+      "available_from": "1995-01-01",
+      "requires_evidence": "lake_cooperation",
+      "actions": [
+        "listen",
+        "mediate"
+      ],
+      "canon_level": "game_original"
+    },
+    {
+      "id": "protect_student_identity",
+      "name": "保护同学隐私",
+      "topic_id": "privacy_discrimination",
+      "group_id": "werewolves",
+      "available_from": "1995-09-01",
+      "requires_evidence": "werewolf_privacy",
+      "actions": [
+        "protect_privacy",
+        "verify"
+      ],
+      "canon_level": "game_original"
+    }
+  ]
+}

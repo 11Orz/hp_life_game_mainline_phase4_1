@@ -1,0 +1,664 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_canon_relationships",
+  "description": "有来源的亲缘婚姻关系；parent方向为父母到子女，spouse/sibling无方向；缺失的世代不自动连接。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "rel_001",
+      "from_id": "james_potter",
+      "to_id": "harry_potter",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_002",
+      "from_id": "lily_evans",
+      "to_id": "harry_potter",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_003",
+      "from_id": "arthur_weasley",
+      "to_id": "ron_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_004",
+      "from_id": "molly_prewett",
+      "to_id": "ron_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_005",
+      "from_id": "arthur_weasley",
+      "to_id": "ginny_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_006",
+      "from_id": "molly_prewett",
+      "to_id": "ginny_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_007",
+      "from_id": "arthur_weasley",
+      "to_id": "bill_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_008",
+      "from_id": "molly_prewett",
+      "to_id": "bill_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_009",
+      "from_id": "arthur_weasley",
+      "to_id": "charlie_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_010",
+      "from_id": "molly_prewett",
+      "to_id": "charlie_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_011",
+      "from_id": "arthur_weasley",
+      "to_id": "percy_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_012",
+      "from_id": "molly_prewett",
+      "to_id": "percy_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_013",
+      "from_id": "arthur_weasley",
+      "to_id": "fred_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_014",
+      "from_id": "molly_prewett",
+      "to_id": "fred_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_015",
+      "from_id": "arthur_weasley",
+      "to_id": "george_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_016",
+      "from_id": "molly_prewett",
+      "to_id": "george_weasley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_017",
+      "from_id": "orion_black",
+      "to_id": "sirius_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_018",
+      "from_id": "walburga_black",
+      "to_id": "sirius_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_019",
+      "from_id": "orion_black",
+      "to_id": "regulus_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_020",
+      "from_id": "walburga_black",
+      "to_id": "regulus_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_021",
+      "from_id": "cygnus_black",
+      "to_id": "bellatrix_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_022",
+      "from_id": "druella_rosier",
+      "to_id": "bellatrix_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_023",
+      "from_id": "cygnus_black",
+      "to_id": "andromeda_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_024",
+      "from_id": "druella_rosier",
+      "to_id": "andromeda_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_025",
+      "from_id": "cygnus_black",
+      "to_id": "narcissa_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_026",
+      "from_id": "druella_rosier",
+      "to_id": "narcissa_black",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_027",
+      "from_id": "andromeda_black",
+      "to_id": "nymphadora_tonks",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_028",
+      "from_id": "ted_tonks",
+      "to_id": "nymphadora_tonks",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_029",
+      "from_id": "lucius_malfoy",
+      "to_id": "draco_malfoy",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_030",
+      "from_id": "narcissa_black",
+      "to_id": "draco_malfoy",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_031",
+      "from_id": "nymphadora_tonks",
+      "to_id": "teddy_lupin",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_032",
+      "from_id": "remus_lupin",
+      "to_id": "teddy_lupin",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_033",
+      "from_id": "marvolo_gaunt",
+      "to_id": "morfin_gaunt",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_034",
+      "from_id": "marvolo_gaunt",
+      "to_id": "merope_gaunt",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_035",
+      "from_id": "merope_gaunt",
+      "to_id": "tom_riddle_jr",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_036",
+      "from_id": "tom_riddle_sr",
+      "to_id": "tom_riddle_jr",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_037",
+      "from_id": "percival_dumbledore",
+      "to_id": "albus_dumbledore",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_038",
+      "from_id": "kendra_dumbledore",
+      "to_id": "albus_dumbledore",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_039",
+      "from_id": "percival_dumbledore",
+      "to_id": "aberforth_dumbledore",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_040",
+      "from_id": "kendra_dumbledore",
+      "to_id": "aberforth_dumbledore",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_041",
+      "from_id": "percival_dumbledore",
+      "to_id": "ariana_dumbledore",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_042",
+      "from_id": "kendra_dumbledore",
+      "to_id": "ariana_dumbledore",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_043",
+      "from_id": "frank_longbottom",
+      "to_id": "neville_longbottom",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_044",
+      "from_id": "alice_longbottom",
+      "to_id": "neville_longbottom",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_045",
+      "from_id": "petunia_evans",
+      "to_id": "dudley_dursley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_046",
+      "from_id": "vernon_dursley",
+      "to_id": "dudley_dursley",
+      "type": "parent",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_047",
+      "from_id": "james_potter",
+      "to_id": "lily_evans",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_048",
+      "from_id": "harry_potter",
+      "to_id": "ginny_weasley",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_049",
+      "from_id": "arthur_weasley",
+      "to_id": "molly_prewett",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_050",
+      "from_id": "bill_weasley",
+      "to_id": "fleur_delacour",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_051",
+      "from_id": "ron_weasley",
+      "to_id": "hermione_granger",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_052",
+      "from_id": "orion_black",
+      "to_id": "walburga_black",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_053",
+      "from_id": "cygnus_black",
+      "to_id": "druella_rosier",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_054",
+      "from_id": "andromeda_black",
+      "to_id": "ted_tonks",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_055",
+      "from_id": "narcissa_black",
+      "to_id": "lucius_malfoy",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_056",
+      "from_id": "nymphadora_tonks",
+      "to_id": "remus_lupin",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_057",
+      "from_id": "merope_gaunt",
+      "to_id": "tom_riddle_sr",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_058",
+      "from_id": "petunia_evans",
+      "to_id": "vernon_dursley",
+      "type": "spouse",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_059",
+      "from_id": "sirius_black",
+      "to_id": "regulus_black",
+      "type": "sibling",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_060",
+      "from_id": "bellatrix_black",
+      "to_id": "andromeda_black",
+      "type": "sibling",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_061",
+      "from_id": "andromeda_black",
+      "to_id": "narcissa_black",
+      "type": "sibling",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_062",
+      "from_id": "albus_dumbledore",
+      "to_id": "aberforth_dumbledore",
+      "type": "sibling",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_063",
+      "from_id": "albus_dumbledore",
+      "to_id": "ariana_dumbledore",
+      "type": "sibling",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_064",
+      "from_id": "lily_evans",
+      "to_id": "petunia_evans",
+      "type": "sibling",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_065",
+      "from_id": "molly_prewett",
+      "to_id": "fabian_prewett",
+      "type": "sibling",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_066",
+      "from_id": "molly_prewett",
+      "to_id": "gideon_prewett",
+      "type": "sibling",
+      "source_tier": "book_canon",
+      "source_key": "novels",
+      "note": ""
+    },
+    {
+      "id": "rel_067",
+      "from_id": "iolanthe_peverell",
+      "to_id": "hardwin_potter",
+      "type": "spouse",
+      "source_tier": "author_supplement",
+      "source_key": "peverell",
+      "note": ""
+    },
+    {
+      "id": "rel_068",
+      "from_id": "cedrella_black",
+      "to_id": "septimus_weasley",
+      "type": "spouse",
+      "source_tier": "author_supplement",
+      "source_key": "black_tree",
+      "note": ""
+    },
+    {
+      "id": "rel_069",
+      "from_id": "fleamont_potter",
+      "to_id": "james_potter",
+      "type": "parent",
+      "source_tier": "author_supplement",
+      "source_key": "peverell",
+      "note": ""
+    },
+    {
+      "id": "rel_070",
+      "from_id": "euphemia_potter",
+      "to_id": "james_potter",
+      "type": "parent",
+      "source_tier": "author_supplement",
+      "source_key": "peverell",
+      "note": ""
+    },
+    {
+      "id": "rel_071",
+      "from_id": "septimus_weasley",
+      "to_id": "arthur_weasley",
+      "type": "parent",
+      "source_tier": "author_supplement",
+      "source_key": "black_tree",
+      "note": ""
+    },
+    {
+      "id": "rel_072",
+      "from_id": "cedrella_black",
+      "to_id": "arthur_weasley",
+      "type": "parent",
+      "source_tier": "author_supplement",
+      "source_key": "black_tree",
+      "note": ""
+    }
+  ]
+}

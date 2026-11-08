@@ -1,0 +1,378 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "startYear": 1900,
+    "endYear": 2021,
+    "note": "魔法技能不是在整个时间段内均有明确教学记录；年代与学校适用性须由事件条件控制。"
+  },
+  "sourcePolicy": {
+    "priority": [
+      "original_novels",
+      "rowling_official",
+      "expanded_screenplays",
+      "reference_wikis",
+      "game_original"
+    ],
+    "note": "原著事实与原创游戏数值分离；章节为检索线索，未逐章核验的记录标记needs_review。"
+  },
+  "dataset": "magical_abilities",
+  "count": 10,
+  "abilities": [
+    {
+      "id": "animagus",
+      "name": "阿尼马格斯",
+      "type": "transfiguration",
+      "canon": {
+        "layer": "original_novels",
+        "description": "动物形态不由玩家自由挑选；变形需要长期且危险的训练",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 阿兹卡班的囚徒",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "animal_transformation",
+          "stealth_routes"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": true,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "patronus_corporeal",
+      "name": "实体守护神",
+      "type": "defense",
+      "canon": {
+        "layer": "original_novels",
+        "description": "实体形态与施法者有关；并非人人都能施展",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 阿兹卡班的囚徒",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "strong_dementor_protection",
+          "patronus_message"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": true,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "nonverbal_magic",
+      "name": "无声施法",
+      "type": "general",
+      "canon": {
+        "layer": "original_novels",
+        "description": "六年级有系统的无声施法训练",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "stealth_cast",
+          "reduced_telegraph"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": true,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "apparition",
+      "name": "幻影显形",
+      "type": "general",
+      "canon": {
+        "layer": "original_novels",
+        "description": "需符合年龄与考试规定；失败可能分体",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "fast_travel"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": true,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "legilimency",
+      "name": "摄神取念",
+      "type": "mind_magic",
+      "canon": {
+        "layer": "original_novels",
+        "description": "需要专门学习，可能遭到大脑封闭术抵御",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 凤凰社",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "mind_reading_scenes"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": true,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "occlumency",
+      "name": "大脑封闭术",
+      "type": "mind_magic",
+      "canon": {
+        "layer": "original_novels",
+        "description": "抵御精神入侵",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 凤凰社",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "resist_mind_intrusion"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": true,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "metamorphmagus",
+      "name": "易容马格斯",
+      "type": "innate",
+      "canon": {
+        "layer": "original_novels",
+        "description": "先天能力，不能仅通过上课解锁",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 凤凰社",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "change_appearance"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": false,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "parseltongue",
+      "name": "蛇佬腔",
+      "type": "innate",
+      "canon": {
+        "layer": "original_novels",
+        "description": "罕见能力，不是常规魔咒课程",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 密室",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "speak_to_snakes"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": false,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "potion_brewing",
+      "name": "魔药制作",
+      "type": "potions",
+      "canon": {
+        "layer": "original_novels",
+        "description": "魔药有配方、材料、时间与操作要求",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "brew_potion",
+          "rescue_ally"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": true,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    },
+    {
+      "id": "antidote_knowledge",
+      "name": "解毒知识",
+      "type": "potions",
+      "canon": {
+        "layer": "original_novels",
+        "description": "具体解毒方案因毒物而异；粪石对部分毒物有效",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "unlockFlags": [
+          "identify_poison",
+          "apply_antidote"
+        ],
+        "trainingStages": [
+          "discovered",
+          "studying",
+          "practicing",
+          "competent",
+          "expert"
+        ],
+        "canBeLearned": true,
+        "riskTags": [
+          "failure",
+          "exhaustion"
+        ]
+      }
+    }
+  ]
+}

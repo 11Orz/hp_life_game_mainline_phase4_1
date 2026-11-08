@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_underground_networks",
+  "records": [
+    {
+      "id": "order_support",
+      "name": "凤凰社外围协助网络",
+      "parent_faction": "order",
+      "available_from": "1995-01-01",
+      "roles": [
+        "trusted_contact",
+        "courier",
+        "civilian_aid",
+        "medical_support"
+      ],
+      "recruitment": "invitation_only",
+      "membership_not_automatic": true,
+      "canon_level": "game_original"
+    },
+    {
+      "id": "school_defense",
+      "name": "校园防御联络",
+      "parent_faction": "dumbledores_army",
+      "available_from": "1995-09-01",
+      "roles": [
+        "student_helper",
+        "first_aid",
+        "witness"
+      ],
+      "recruitment": "story_gated",
+      "membership_not_automatic": true,
+      "canon_level": "game_mechanics"
+    }
+  ]
+}

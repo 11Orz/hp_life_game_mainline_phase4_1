@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_recovery_rules",
+  "description": "康复、复发、休养与长期影响",
+  "items": [
+    {
+      "id": "daily_tick",
+      "name": "按日恢复",
+      "description": "只在游戏日期推进时计算一次",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "severity_modifier",
+      "name": "严重程度",
+      "description": "伤势越严重恢复越慢",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "treatment_modifier",
+      "name": "治疗质量",
+      "description": "适配治疗改变恢复速度",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "rest_modifier",
+      "name": "休养",
+      "description": "休养影响精力和恢复",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "reinjury",
+      "name": "再次受伤",
+      "description": "重复受伤可能延长恢复",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "persistent_damage",
+      "name": "永久后果",
+      "description": "只有明确规则支持时才写入永久损伤",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "attendance",
+      "name": "缺课影响",
+      "description": "严重伤病可能影响课程出席",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "sports_limit",
+      "name": "运动限制",
+      "description": "伤病可能暂停魁地奇",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "long_term_followup",
+      "name": "复诊",
+      "description": "长期病况需复诊",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "save_idempotency",
+      "name": "存档幂等",
+      "description": "同一日期不得重复发薪式结算",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "no_auto_cure",
+      "name": "不可自动治愈",
+      "description": "严重诅咒不因时间流逝自动清零",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    },
+    {
+      "id": "mental_support",
+      "name": "心理支持",
+      "description": "创伤恢复不等于单一数值清零",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "trigger": "game_day_change",
+      "effectType": "recovery_policy"
+    }
+  ]
+}

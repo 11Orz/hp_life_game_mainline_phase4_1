@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "regional_magic_traditions",
+  "records": [
+    {
+      "id": "wand",
+      "name": "魔杖施法",
+      "summary": "魔杖在欧洲魔法教育中广泛使用",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools"
+      ],
+      "region": "Europe",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "wandless",
+      "name": "手势与无杖施法",
+      "summary": "瓦加度传统更强调不用魔杖施法，但并非地域独占",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/uagadou"
+      ],
+      "region": "Africa / Uagadou",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "dream_messenger",
+      "name": "梦境入学通知",
+      "summary": "瓦加度的入学通知通过梦中信使传达",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/uagadou"
+      ],
+      "region": "Uagadou",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "self_transfiguration",
+      "name": "自我变形研究",
+      "summary": "该校学生在自我变形方面有突出传统",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/uagadou"
+      ],
+      "region": "Uagadou",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "enchanted_robes",
+      "name": "成长袍服",
+      "summary": "学校袍服随学习水平变化",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/mahoutokoro"
+      ],
+      "region": "Japan / Mahoutokoro",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "magizoology",
+      "name": "魔法动物学交流",
+      "summary": "雨林生物和校际交流形成研究特色",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/ja/writing-by-jk-rowling/castelobruxo"
+      ],
+      "region": "Brazil / Castelobruxo",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "herbology",
+      "name": "雨林草药研究",
+      "summary": "草药学传统与当地生态环境相关",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/ja/writing-by-jk-rowling/castelobruxo"
+      ],
+      "region": "Brazil / Castelobruxo",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "ilvermorny_houses",
+      "name": "四种魔法生物学院",
+      "summary": "伊法魔尼学院名称与当地魔法生物相关",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny"
+      ],
+      "region": "North America",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "international_quidditch",
+      "name": "国际魁地奇文化",
+      "summary": "赛事形成跨国交流与竞争",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools"
+      ],
+      "region": "International",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    },
+    {
+      "id": "alchemy",
+      "name": "炼金术学术交流",
+      "summary": "跨学校研究领域，不限制为单一国家",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/uagadou"
+      ],
+      "region": "International",
+      "exclusive_to_region": false,
+      "learning_route": "study_exchange_or_mentor",
+      "skill_bonus": null
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

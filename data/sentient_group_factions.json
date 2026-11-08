@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_factions",
+  "description": "族群内部多元立场；原创派系明确标注",
+  "records": [
+    {
+      "id": "goblin_artisans",
+      "name": "妖精工艺行会（原创）",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "goblins",
+      "focus": "craft",
+      "formal_canon": false
+    },
+    {
+      "id": "goblin_bank_contacts",
+      "name": "古灵阁业务联系",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "goblins",
+      "focus": "commerce",
+      "formal_canon": false
+    },
+    {
+      "id": "centaur_forest_elders",
+      "name": "禁林马人传统派（游戏抽象）",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "centaurs",
+      "focus": "autonomy",
+      "formal_canon": false
+    },
+    {
+      "id": "centaur_bridgebuilders",
+      "name": "马人跨族群合作派（原创）",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "centaurs",
+      "focus": "cooperation",
+      "formal_canon": false
+    },
+    {
+      "id": "lake_merpeople",
+      "name": "黑湖人鱼社群",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "merpeople",
+      "focus": "local",
+      "formal_canon": false
+    },
+    {
+      "id": "elf_independents",
+      "name": "独立生活的小精灵网络（原创）",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "house_elves",
+      "focus": "freedom",
+      "formal_canon": false
+    },
+    {
+      "id": "elf_households",
+      "name": "家族雇佣与束缚关系网络（游戏抽象）",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "house_elves",
+      "focus": "household",
+      "formal_canon": false
+    },
+    {
+      "id": "giant_clans",
+      "name": "巨人社群（游戏抽象）",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "giants",
+      "focus": "local",
+      "formal_canon": false
+    },
+    {
+      "id": "werewolf_support",
+      "name": "狼人互助网络（原创）",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "werewolves",
+      "focus": "support",
+      "formal_canon": false
+    },
+    {
+      "id": "ghost_historians",
+      "name": "幽灵历史交流圈（原创）",
+      "summary": "组织抽象或原创社群；不得据此推断每名成员的观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "ghosts",
+      "focus": "knowledge",
+      "formal_canon": false
+    }
+  ]
+}

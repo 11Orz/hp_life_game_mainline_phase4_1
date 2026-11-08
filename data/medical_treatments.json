@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_treatments",
+  "description": "治疗魔药、咒语、限制和适应情况",
+  "items": [
+    {
+      "id": "skelegro",
+      "name": "生骨灵",
+      "description": "恢复或再生骨骼",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/plants-and-potions/skele-gro"
+      ],
+      "indications": [
+        "fracture",
+        "bone_loss"
+      ],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 1
+    },
+    {
+      "id": "dittany",
+      "name": "白鲜精",
+      "description": "辅助伤口愈合、减轻疤痕",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/harry-potter-101-wizarding-plants"
+      ],
+      "indications": [
+        "splinching",
+        "curse_cut"
+      ],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 1
+    },
+    {
+      "id": "mandrake_restorative",
+      "name": "曼德拉草恢复药剂",
+      "description": "用于恢复石化",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/a-wizards-first-aid-kit"
+      ],
+      "indications": [
+        "petrification"
+      ],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 1
+    },
+    {
+      "id": "boil_cure",
+      "name": "治疖魔药",
+      "description": "用于疖肿",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/a-wizards-first-aid-kit"
+      ],
+      "indications": [
+        "boils"
+      ],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 1
+    },
+    {
+      "id": "bezoar",
+      "name": "牛黄",
+      "description": "可作为部分中毒的解毒手段",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/a-wizards-first-aid-kit"
+      ],
+      "indications": [
+        "poisoning"
+      ],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 1
+    },
+    {
+      "id": "professional_healing",
+      "name": "专业治疗师诊疗",
+      "description": "专业治疗师结合魔药、药草和魔咒处理魔法疾病",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "indications": [],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 3
+    },
+    {
+      "id": "rest_observation",
+      "name": "观察休养",
+      "description": "原创机制：休养及观察病情",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "indications": [],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 1
+    },
+    {
+      "id": "wound_cleaning",
+      "name": "基础伤口处理",
+      "description": "原创游戏基础护理，不代表现实医疗建议",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "indications": [],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 1
+    },
+    {
+      "id": "curse_containment",
+      "name": "诅咒隔离",
+      "description": "原创游戏应急措施，须专业人员介入",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "indications": [],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 3
+    },
+    {
+      "id": "creature_vet_referral",
+      "name": "魔法生物专业转诊",
+      "description": "原创动物救治流程",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "indications": [],
+      "requiresDiagnosis": true,
+      "guaranteedCure": false,
+      "skillLevel": 1
+    }
+  ]
+}

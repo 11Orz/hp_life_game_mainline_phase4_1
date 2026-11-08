@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_story_arcs",
+  "description": "医疗DLC章节、调查与分支结构",
+  "items": [
+    {
+      "id": "dormitory_shadow",
+      "name": "寝室尽头的黑影",
+      "description": "疑似危险魔法爆发；不预设默默然确诊",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "chapters": [
+        {
+          "id": "dormitory_shadow_ch1",
+          "title": "深夜的巨响",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "dormitory_shadow_ch2",
+          "title": "无法解释的症状",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "dormitory_shadow_ch3",
+          "title": "被封存的记录",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "dormitory_shadow_ch4",
+          "title": "流言",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "dormitory_shadow_ch5",
+          "title": "失控之夜",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "dormitory_shadow_ch6",
+          "title": "沉默之后",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        }
+      ],
+      "canonSafety": "never_override_fixed_history",
+      "unlock": {
+        "type": "story_or_relationship",
+        "minYear": 1995
+      },
+      "endings": [
+        "protected",
+        "uncertain",
+        "adverse"
+      ]
+    },
+    {
+      "id": "undelivered_letter",
+      "name": "没有送达的信",
+      "description": "救治猫头鹰并面对信件隐私",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "chapters": [
+        {
+          "id": "undelivered_letter_ch1",
+          "title": "受伤的信使",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "undelivered_letter_ch2",
+          "title": "收件人",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "undelivered_letter_ch3",
+          "title": "治疗与选择",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "undelivered_letter_ch4",
+          "title": "未寄出的秘密",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        }
+      ],
+      "canonSafety": "never_override_fixed_history",
+      "unlock": {
+        "type": "story_or_relationship",
+        "minYear": 1991
+      },
+      "endings": [
+        "protected",
+        "uncertain",
+        "adverse"
+      ]
+    },
+    {
+      "id": "greenhouse_bowtruckle",
+      "name": "温室里的护树罗锅",
+      "description": "误以为生病，实际可能是栖息地问题",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "chapters": [
+        {
+          "id": "greenhouse_bowtruckle_ch1",
+          "title": "异常行为",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "greenhouse_bowtruckle_ch2",
+          "title": "寻找病因",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "greenhouse_bowtruckle_ch3",
+          "title": "温室的秘密",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "greenhouse_bowtruckle_ch4",
+          "title": "修复栖息地",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        }
+      ],
+      "canonSafety": "never_override_fixed_history",
+      "unlock": {
+        "type": "story_or_relationship",
+        "minYear": 1991
+      },
+      "endings": [
+        "protected",
+        "uncertain",
+        "adverse"
+      ]
+    },
+    {
+      "id": "missing_medical_record",
+      "name": "消失的病历",
+      "description": "调查病历差异与实验事故",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "chapters": [
+        {
+          "id": "missing_medical_record_ch1",
+          "title": "异常症状",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "missing_medical_record_ch2",
+          "title": "遗失记录",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "missing_medical_record_ch3",
+          "title": "证人",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "missing_medical_record_ch4",
+          "title": "复核",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        }
+      ],
+      "canonSafety": "never_override_fixed_history",
+      "unlock": {
+        "type": "story_or_relationship",
+        "minYear": 1991
+      },
+      "endings": [
+        "protected",
+        "uncertain",
+        "adverse"
+      ]
+    },
+    {
+      "id": "quidditch_aftercare",
+      "name": "扫帚之后",
+      "description": "魁地奇受伤后的康复与人际关系",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "chapters": [
+        {
+          "id": "quidditch_aftercare_ch1",
+          "title": "坠落",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "quidditch_aftercare_ch2",
+          "title": "病房",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "quidditch_aftercare_ch3",
+          "title": "康复",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "quidditch_aftercare_ch4",
+          "title": "回归",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        }
+      ],
+      "canonSafety": "never_override_fixed_history",
+      "unlock": {
+        "type": "story_or_relationship",
+        "minYear": 1991
+      },
+      "endings": [
+        "protected",
+        "uncertain",
+        "adverse"
+      ]
+    },
+    {
+      "id": "st_mungos_rotation",
+      "name": "圣芒戈实习",
+      "description": "成年治疗师职业支线",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "chapters": [
+        {
+          "id": "st_mungos_rotation_ch1",
+          "title": "第一天",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "st_mungos_rotation_ch2",
+          "title": "疑难病例",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "st_mungos_rotation_ch3",
+          "title": "保密义务",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "st_mungos_rotation_ch4",
+          "title": "职业选择",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        }
+      ],
+      "canonSafety": "never_override_fixed_history",
+      "unlock": {
+        "type": "story_or_relationship",
+        "minYear": 1991
+      },
+      "endings": [
+        "protected",
+        "uncertain",
+        "adverse"
+      ]
+    },
+    {
+      "id": "cursed_heirloom",
+      "name": "被诅咒的家传物",
+      "description": "与家族系统联动的诅咒调查",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "chapters": [
+        {
+          "id": "cursed_heirloom_ch1",
+          "title": "遗物",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "cursed_heirloom_ch2",
+          "title": "症状",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "cursed_heirloom_ch3",
+          "title": "家族档案",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "cursed_heirloom_ch4",
+          "title": "封存",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        }
+      ],
+      "canonSafety": "never_override_fixed_history",
+      "unlock": {
+        "type": "story_or_relationship",
+        "minYear": 1991
+      },
+      "endings": [
+        "protected",
+        "uncertain",
+        "adverse"
+      ]
+    },
+    {
+      "id": "wartime_triage",
+      "name": "战时急诊",
+      "description": "资源不足时的医疗决策",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "chapters": [
+        {
+          "id": "wartime_triage_ch1",
+          "title": "警报",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "wartime_triage_ch2",
+          "title": "分诊",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "wartime_triage_ch3",
+          "title": "支援",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        },
+        {
+          "id": "wartime_triage_ch4",
+          "title": "余波",
+          "description": "原创剧情章节骨架，待扩写具体对白和场景",
+          "choices": [
+            "protect_and_seek_help",
+            "investigate_with_consent"
+          ]
+        }
+      ],
+      "canonSafety": "never_override_fixed_history",
+      "unlock": {
+        "type": "story_or_relationship",
+        "minYear": 1991
+      },
+      "endings": [
+        "protected",
+        "uncertain",
+        "adverse"
+      ]
+    }
+  ]
+}

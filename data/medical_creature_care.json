@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_creature_care",
+  "description": "魔法生物基础救治与第七系统接口",
+  "items": [
+    {
+      "id": "owl",
+      "name": "猫头鹰",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "wing_injury",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "owl",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "bowtruckle",
+      "name": "护树罗锅",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "habitat_stress",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "bowtruckle",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "niffler",
+      "name": "嗅嗅",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "minor_injury",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "niffler",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "kneazle",
+      "name": "猫狸子",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "paw_injury",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "kneazle",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "hippogriff",
+      "name": "鹰头马身有翼兽",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "flight_injury",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "hippogriff",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "thestral",
+      "name": "夜骐",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "hoof_injury",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "thestral",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "mooncalf",
+      "name": "月痴兽",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "exhaustion",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "mooncalf",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "puffskein",
+      "name": "蒲绒绒",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "skin_irritation",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "puffskein",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "crup",
+      "name": "燕尾狗",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "paw_injury",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "crup",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "murtlap",
+      "name": "莫特拉鼠",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "bite_injury",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "murtlap",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "occamy",
+      "name": "鸟蛇",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "stress",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "occamy",
+      "requiresSpeciesKnowledge": true
+    },
+    {
+      "id": "thunderbird",
+      "name": "雷鸟",
+      "description": "原创救助场景，不代表官方物种疾病设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "possibleIssue": "weather_exposure",
+      "careFlow": [
+        "safe_approach",
+        "assess",
+        "refer_specialist"
+      ],
+      "creatureSystemId": "thunderbird",
+      "requiresSpeciesKnowledge": true
+    }
+  ]
+}

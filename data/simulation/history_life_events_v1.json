@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "design": "Original player-facing scenes; canon anchors are reservations, not rewrites of the novels.",
+  "events": [
+    {
+      "id": "first_breakfast",
+      "at": "1991-09-02T08:00",
+      "type": "life",
+      "location": "great_hall",
+      "text": "开学后的第一顿早餐，猫头鹰从高处掠过。你注意到邻桌的学生正争论今天的课程安排。",
+      "choices": [
+        {
+          "id": "listen",
+          "label": "听听他们在讨论什么",
+          "text": "你记住了几门课程的名字，也发现每个人对新学期都有不同期待。",
+          "memory": "curious_about_school"
+        },
+        {
+          "id": "eat",
+          "label": "专心吃早餐",
+          "text": "你吃完早餐，整理好书包，准备迎接第一天。",
+          "memory": "prepared_for_class"
+        }
+      ]
+    },
+    {
+      "id": "corridor_notice",
+      "at": "1991-09-02T15:45",
+      "type": "life",
+      "location": "corridor",
+      "text": "下午的走廊里，有新生抱着一叠书匆忙经过。你听见他们讨论城堡里容易走错的楼梯。",
+      "choices": [
+        {
+          "id": "offer",
+          "label": "主动帮忙指路",
+          "text": "你试着帮他们辨认方向，虽然自己也差点迷路。",
+          "memory": "helped_new_students"
+        },
+        {
+          "id": "observe",
+          "label": "记下楼梯的变化",
+          "text": "你把这条信息记在心里，打算下次探索时留意。",
+          "memory": "observed_stairs"
+        }
+      ]
+    },
+    {
+      "id": "library_rumour",
+      "at": "1991-09-04T16:30",
+      "type": "life",
+      "location": "library",
+      "text": "图书馆的书架间，两个学生正在争论一本旧书是否真的记录了城堡的秘密。",
+      "choices": [
+        {
+          "id": "research",
+          "label": "查找相关资料",
+          "text": "你记下了书名，决定日后继续查证。",
+          "memory": "library_research"
+        },
+        {
+          "id": "leave",
+          "label": "不参与传闻",
+          "text": "你回到自己的作业，决定不轻信未经证实的故事。",
+          "memory": "skeptical_of_rumours"
+        }
+      ]
+    },
+    {
+      "id": "october_whispers",
+      "at": "1991-10-31T16:00",
+      "type": "canon_context",
+      "location": "great_hall",
+      "text": "万圣节将近，礼堂的装饰让新生们兴奋不已。与此同时，学校里似乎有一些不同寻常的传闻。",
+      "choices": [
+        {
+          "id": "notice",
+          "label": "留意周围动静",
+          "text": "你决定保持警觉，但还不知道今晚会发生什么。",
+          "memory": "halloween_alert"
+        },
+        {
+          "id": "friends",
+          "label": "与朋友享受节日",
+          "text": "你与同学谈笑，期待晚上的庆祝活动。",
+          "memory": "halloween_social"
+        }
+      ]
+    }
+  ],
+  "canonReservations": [
+    {
+      "id": "halloween_troll",
+      "date": "1991-10-31",
+      "npcIds": [
+        "harry_potter",
+        "ron_weasley",
+        "hermione_granger"
+      ],
+      "status": "reserved_only",
+      "source": "Philosopher's Stone, chapter 10",
+      "note": "Phase 3.5 only foreshadows this event; actual canon sequence belongs to next main-story chapter."
+    }
+  ]
+}

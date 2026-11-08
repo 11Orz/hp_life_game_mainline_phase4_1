@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "start": "1991-09-01",
+    "end": "1998-06-30"
+  },
+  "sourcePolicy": {
+    "layers": [
+      "novel_canon",
+      "official_supplement",
+      "game_continuity",
+      "original"
+    ],
+    "priority": [
+      "seven_novels",
+      "rowling_official",
+      "supplementary_works",
+      "wiki_crosscheck",
+      "original_game_design"
+    ],
+    "warning": "原著事实与玩家原创经历严格分离；精确章节、月份与个别细节待逐章复核。"
+  },
+  "integration": {
+    "standaloneDataOnly": true,
+    "requiresNewStoryEngine": true,
+    "existingSchedulerDoesNotAutoLoad": true
+  },
+  "dataset": "story_world_rules",
+  "mode": "canon_locked",
+  "rules": {
+    "immutableCanonEvents": [
+      {
+        "arcId": "era_1991_1992",
+        "description": "魔法石失窃企图受挫"
+      },
+      {
+        "arcId": "era_1992_1993",
+        "description": "金妮获救、日记被摧毁"
+      },
+      {
+        "arcId": "era_1993_1994",
+        "description": "小天狼星逃脱、彼得逃走"
+      },
+      {
+        "arcId": "era_1994_1995",
+        "description": "伏地魔于墓地复活、塞德里克死亡"
+      },
+      {
+        "arcId": "era_1995_1996",
+        "description": "神秘事务司战斗后魔法部承认伏地魔归来"
+      },
+      {
+        "arcId": "era_1996_1997",
+        "description": "邓布利多在天文塔身亡"
+      },
+      {
+        "arcId": "era_1997_1998",
+        "description": "伏地魔由哈利击败、战役结束"
+      }
+    ],
+    "playerParticipation": {
+      "default": "peripheral",
+      "mustCheckAgeAndEnrollment": true,
+      "mustCheckBloodStatus": true,
+      "neverForceHarryRole": true,
+      "noGuaranteedCanonCharacterMeetings": true
+    },
+    "progression": {
+      "chapterCompletion": "all_required_events_resolved",
+      "chapterCompletionFlags": true,
+      "storyPriorityOrder": [
+        "canon_anchor",
+        "active_boss",
+        "active_chapter",
+        "school_story_chain",
+        "random_school_event"
+      ],
+      "missedChapterPolicy": "summarize_and_skip_without_false_participation",
+      "chapterDatesAreGameWindows": true
+    },
+    "boss": {
+      "allowEscape": true,
+      "allowNonCombat": true,
+      "cannotKillCanonProtectedCharacters": true,
+      "noDirectVoldemortDuel": true,
+      "difficultyScaling": "school_year_and_known_spells",
+      "resultEffectsAreOriginal": true
+    },
+    "clues": {
+      "persistent": true,
+      "doNotConsumeOnDiscovery": true,
+      "payoffAtBoss": true
+    },
+    "ancientMagic": {
+      "optIn": true,
+      "noUniversalAncientMagicGift": true,
+      "sourceLayer": "original",
+      "canonEventsUnaffected": true
+    },
+    "historicalSafety": {
+      "1992_1993_chamber": "Player cannot destroy diary or replace Harry rescue",
+      "1994_1995_graveyard": "Player cannot prevent canon resurrection in canon mode",
+      "1996_1997_tower": "Player cannot prevent canon Dumbledore death",
+      "1997_1998_battle": "Harry defeats Voldemort; player local actions matter"
+    },
+    "calendar": {
+      "schoolYearStartMonth": 9,
+      "schoolYearEndMonth": 6,
+      "summerNoSchoolEvents": true
+    },
+    "sourceVerification": {
+      "novelReferencesRequireChapterReview": true,
+      "doNotPresentInferredDatesAsExact": true
+    }
+  },
+  "crossReferences": {
+    "spellIdsFrom": "spells.json",
+    "historicalEventsFrom": "historical_events.json",
+    "schoolEventsFrom": "school_life_events.json"
+  },
+  "knownLimitations": [
+    "剧情数据尚未接入现有JS引擎",
+    "章节时间窗为设计参数，并非逐日原著时间线",
+    "部分章节描述为原创外围剧情，非小说情节复述"
+  ]
+}

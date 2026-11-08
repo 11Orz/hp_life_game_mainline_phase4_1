@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "title": "四学院第一晚",
+    "canonLayer": "game_original"
+  },
+  "items": [
+    {
+      "house": "gryffindor",
+      "name": "格兰芬多",
+      "scene": "壁炉旁的谈笑声直到深夜才渐渐平息。室友兴奋地谈论魁地奇。",
+      "roommateId": "roommate_gryffindor"
+    },
+    {
+      "house": "slytherin",
+      "name": "斯莱特林",
+      "scene": "湖底的光影映在墙壁上。室友谨慎地询问你的家庭和抱负。",
+      "roommateId": "roommate_slytherin"
+    },
+    {
+      "house": "ravenclaw",
+      "name": "拉文克劳",
+      "scene": "高塔窗外是星空。室友向你介绍塔楼里的书架和谜题。",
+      "roommateId": "roommate_ravenclaw"
+    },
+    {
+      "house": "hufflepuff",
+      "name": "赫奇帕奇",
+      "scene": "温暖的休息室里飘着烘焙的香气。室友主动帮你整理行李。",
+      "roommateId": "roommate_hufflepuff"
+    }
+  ]
+}

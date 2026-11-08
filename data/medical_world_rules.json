@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_world_rules",
+  "description": "正史保护、隐私、时钟和跨系统规则",
+  "items": [
+    {
+      "id": "single_clock",
+      "name": "统一游戏时钟",
+      "description": "医疗仅响应共享日期",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "idempotent_tick",
+      "name": "每日幂等",
+      "description": "同一存档同一天只结算一次",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "no_future_info",
+      "name": "禁止未来信息泄露",
+      "description": "角色不可提前知道未来事故",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "canonical_outcome",
+      "name": "正史固定事件",
+      "description": "不得改变重要人物的正史结局",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "obscurial_not_easy_cure",
+      "name": "默默然不可简单治愈",
+      "description": "不能使用普通魔药瞬间清除默默然",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "ariana_uncertain",
+      "name": "阿利安娜诊断不确定",
+      "description": "不把阿利安娜默然者身份写为确认事实",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "diagnosis_separation",
+      "name": "症状与诊断分离",
+      "description": "未知病因不可自动确诊",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "injury_ownership",
+      "name": "医疗记录唯一归属",
+      "description": "伤病状态由医疗引擎统一维护",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "medical_privacy",
+      "name": "病历保密",
+      "description": "新闻和舆论系统不得直接读取私密病历",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "patient_consent",
+      "name": "患者同意",
+      "description": "医疗互动需要同意或紧急例外",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "player_age",
+      "name": "年龄限制",
+      "description": "未成年人不能独立执行高风险治疗",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "professional_referral",
+      "name": "专业转诊",
+      "description": "危险事故须转交专业人员",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "economy_link",
+      "name": "经济联动",
+      "description": "医疗费用和职业收入通过经济系统结算",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "social_link",
+      "name": "社会联动",
+      "description": "NPC好感与信任通过统一关系引擎调整",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "creature_link",
+      "name": "动物系统联动",
+      "description": "动物生态由第七大系统管理",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "story_lock",
+      "name": "DLC条件",
+      "description": "章节按条件解锁并持久化",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "nonfatal_default",
+      "name": "默认避免随机致死",
+      "description": "高风险永久后果需明确提示",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    },
+    {
+      "id": "source_layers",
+      "name": "正史分层",
+      "description": "官方摘要与原创机制严格区分",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "ruleType": "invariant",
+      "enforcedBy": "medicalEngine_future"
+    }
+  ]
+}

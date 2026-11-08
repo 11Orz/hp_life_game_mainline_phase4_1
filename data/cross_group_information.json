@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "dataset": "cross_group_information",
+  "records": [
+    {
+      "id": "forest_injury_claim",
+      "topic_id": "forest_accident",
+      "title": "禁林伤人事件传闻",
+      "claim": "有人宣称马人袭击了学生，但尚无确证",
+      "truth_status": "unverified",
+      "available_from": "1995-10-01",
+      "available_to": "1996-06-30",
+      "source_id": "student_ben",
+      "evidence_strength": 18,
+      "framing": "accusation",
+      "sensitivity": "high",
+      "canon_level": "game_original"
+    },
+    {
+      "id": "forest_witness",
+      "topic_id": "forest_accident",
+      "title": "目击者的现场记录",
+      "claim": "事故现场存在尚未辨明的魔法痕迹，不能据此确认袭击者",
+      "truth_status": "evidence",
+      "available_from": "1995-10-03",
+      "available_to": "1996-06-30",
+      "source_id": "centaur_healer",
+      "evidence_strength": 78,
+      "framing": "caution",
+      "sensitivity": "high",
+      "canon_level": "game_original"
+    },
+    {
+      "id": "bank_contract_rumor",
+      "topic_id": "artifact_dispute",
+      "title": "银匠契约纠纷",
+      "claim": "巫师收藏家与妖精工匠对遗物的归属存在分歧",
+      "truth_status": "contested",
+      "available_from": "1994-01-01",
+      "available_to": "2002-12-31",
+      "source_id": "goblin_archivist",
+      "evidence_strength": 55,
+      "framing": "dispute",
+      "sensitivity": "medium",
+      "canon_level": "game_original"
+    },
+    {
+      "id": "elf_working_conditions",
+      "topic_id": "elf_rights",
+      "title": "厨房劳动待遇讨论",
+      "claim": "关于家养小精灵待遇的意见在校园内出现分歧",
+      "truth_status": "opinion",
+      "available_from": "1994-09-01",
+      "available_to": "2002-12-31",
+      "source_id": "elf_visitor",
+      "evidence_strength": 65,
+      "framing": "rights",
+      "sensitivity": "medium",
+      "canon_level": "game_original"
+    },
+    {
+      "id": "lake_cooperation",
+      "topic_id": "lake_cooperation",
+      "title": "黑湖生态协作",
+      "claim": "湖岸活动可能影响人鱼生活区域，双方正在讨论边界",
+      "truth_status": "contested",
+      "available_from": "1995-01-01",
+      "available_to": "2002-12-31",
+      "source_id": "merperson_envoy",
+      "evidence_strength": 60,
+      "framing": "cooperation",
+      "sensitivity": "medium",
+      "canon_level": "game_original"
+    },
+    {
+      "id": "werewolf_privacy",
+      "topic_id": "privacy_discrimination",
+      "title": "身份隐私争议",
+      "claim": "未经证实的身份猜测正在伤害一位学生的社交生活",
+      "truth_status": "unverified",
+      "available_from": "1995-09-01",
+      "available_to": "2002-12-31",
+      "source_id": "werewolf_student_ally",
+      "evidence_strength": 42,
+      "framing": "privacy",
+      "sensitivity": "high",
+      "canon_level": "game_original"
+    }
+  ]
+}

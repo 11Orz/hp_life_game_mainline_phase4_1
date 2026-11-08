@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "great_hall",
+      "name": "礼堂",
+      "open": "06:30",
+      "close": "21:00"
+    },
+    {
+      "id": "classroom",
+      "name": "教室",
+      "open": "08:30",
+      "close": "17:00"
+    },
+    {
+      "id": "library",
+      "name": "图书馆",
+      "open": "08:00",
+      "close": "20:00"
+    },
+    {
+      "id": "corridor",
+      "name": "走廊",
+      "open": "00:00",
+      "close": "23:59"
+    },
+    {
+      "id": "common_gryffindor",
+      "name": "格兰芬多公共休息室",
+      "house": "gryffindor"
+    },
+    {
+      "id": "common_slytherin",
+      "name": "斯莱特林公共休息室",
+      "house": "slytherin"
+    },
+    {
+      "id": "common_ravenclaw",
+      "name": "拉文克劳公共休息室",
+      "house": "ravenclaw"
+    },
+    {
+      "id": "common_hufflepuff",
+      "name": "赫奇帕奇公共休息室",
+      "house": "hufflepuff"
+    }
+  ]
+}

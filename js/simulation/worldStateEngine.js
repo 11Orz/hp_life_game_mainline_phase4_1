@@ -1,0 +1,23 @@
+import {HistoryLifeEngine} from './historyLifeEngine.js';
+import {NPCSocialEngine} from './npcSocialEngine.js';
+import {WorldClockEngine} from './worldClockEngine.js';
+import {decideActivity} from './npcDecisionEngine.js';
+const hhmm=m=>new Date(m*60000).toISOString().slice(11,16);
+const toMinutes=t=>Number(t.slice(0,2))*60+Number(t.slice(3,5));
+export class WorldStateEngine {
+ constructor(db,previous=null){this.db=db;this.clock=new WorldClockEngine(db.clock);this.player={name:previous?.name||'新生',house:previous?.house||'gryffindor',location:'great_hall',relationships:structuredClone(previous?.relationships||{})};this.npcs=Object.fromEntries(db.profiles.items.map(p=>[p.id,{id:p.id,location:p.home,activity:'休息',needs:{energy:80,social:60,preparedness:55},nextDecisionAt:0}]));this.logs=[];this.pending=null;this.social=new NPCSocialEngine(db.social,db.network);this.history=new HistoryLifeEngine(db.history);this.lastSlot='';this.updateNPCs(true);}
+ scheduleAt(minute){const t=toMinutes(hhmm(minute));return this.db.schedule.blocks.find(b=>{const a=toMinutes(b.start),z=toMinutes(b.end);return a<=t&&t<=z;})||this.db.schedule.blocks.at(-1);}
+ updateNPCs(force=false){const slot=this.scheduleAt(this.clock.minute);for(const p of this.db.profiles.items){const n=this.npcs[p.id];if(!force&&n.nextDecisionAt>this.clock.minute&&n.slot===slot.activity)continue;let loc=slot.location,act=slot.activity;if(loc==='common_room'||loc==='dormitory')loc=p.home;if(slot.activity==='free'||slot.activity==='evening'){const chosen=decideActivity(p,n.needs,this.db.activities,this.clock.minute,id=>this.social.activityBias(p.id,id,this.clock.minute));loc=chosen.location==='home'?p.home:chosen.location;act=chosen.label;}
+ n.location=loc;n.activity=act;n.slot=slot.activity;n.nextDecisionAt=this.clock.minute+this.db.clock.decisionIntervalMinutes;n.needs.energy=Math.max(5,Math.min(100,n.needs.energy+(act==='sleep'||act==='休息'?3:-1)));n.needs.social=Math.max(5,Math.min(100,n.needs.social+(act==='和同学聊天'?3:-1)));}
+ }
+ emit(text){this.logs.unshift({time:this.clock.iso,text});this.logs=this.logs.slice(0,120);}
+ advance(minutes){if(this.pending)return;for(let i=0;i<minutes;i++){const old=this.scheduleAt(this.clock.minute);this.clock.advance(1);const slot=this.scheduleAt(this.clock.minute);this.updateNPCs();this.social.tick(this);this.history.tick(this);if(this.pending)break;if(old.activity!==slot.activity){this.emit('学校日程进入：'+({breakfast:'早餐',class:'课程',lunch:'午餐',free:'自由活动',dinner:'晚餐',evening:'晚间活动',sleep:'休息'}[slot.activity]||slot.activity));}if(this.clock.iso.endsWith('T00:00'))this.emit('新的一天开始了。');}}
+ move(id){const place=this.db.locations.items.find(x=>x.id===id);if(!place)throw Error('未知地点');if(place.house&&place.house!==this.player.house)throw Error('你不能进入其他学院的公共休息室');const time=toMinutes(hhmm(this.clock.minute));if(place.open&&!(time>=toMinutes(place.open)&&time<=toMinutes(place.close)))throw Error('地点当前未开放');this.player.location=id;this.emit('你来到'+place.name+'。');this.advance(5);}
+ nearby(){return this.db.profiles.items.filter(p=>this.npcs[p.id].location===this.player.location);}
+ talk(id){const npc=this.nearby().find(p=>p.id===id);if(!npc)throw Error('这位同学现在不在你身边');this.pending={type:'talk',id};this.clock.paused=true;this.emit(npc.name+'停下来与你交谈。');}
+ resolveTalk(choice){if(this.pending?.type!=='talk')throw Error('当前没有对话');const npc=this.db.profiles.items.find(x=>x.id===this.pending.id);const delta=choice==='friendly'?4:choice==='ask'?2:-2;this.player.relationships[npc.id]=(this.player.relationships[npc.id]||0)+delta;this.social.record({id:`player-talk-${this.clock.minute}-${npc.id}-${choice}`,time:this.clock.iso,minute:this.clock.minute,actors:[npc.id,'player'],location:this.player.location,kind:choice==='friendly'?'friendly_talk':choice==='ask'?'asked_for_help':'ended_talk',delta,text:`你与${npc.name}进行了交谈。`});this.emit(choice==='friendly'?`你友好地和${npc.name}聊了几句。`:choice==='ask'?`你向${npc.name}询问课程安排。`:`你结束了与${npc.name}的交谈。`);this.pending=null;this.advance(10);}
+ resolveHistory(choice){this.history.resolve(this,choice)}
+ resolveInvitation(choice){this.social.respond(this,choice)}
+ snapshot(){return {version:5,history:this.history.snapshot(),social:this.social.snapshot(),clock:this.clock.snapshot(),player:this.player,npcs:this.npcs,logs:this.logs,pending:this.pending};}
+ restore(s){if(![1,2,3,4,5].includes(s?.version)||!s.player||!s.npcs)throw Error('模拟存档格式不正确');this.clock.restore(s.clock);this.player=s.player;for(const id of Object.keys(this.npcs))if(s.npcs[id])this.npcs[id]=s.npcs[id];this.logs=Array.isArray(s.logs)?s.logs.slice(0,120):[];this.pending=s.pending||null;this.social.restore(s.social);this.history.restore(s.history);}
+}

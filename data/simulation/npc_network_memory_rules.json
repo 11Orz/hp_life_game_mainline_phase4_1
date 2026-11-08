@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "memoryLimit": 400,
+  "memoryPerNpc": 50,
+  "memoryDecayPerDay": 0.35,
+  "invitationCooldownMinutes": 360,
+  "invitationMinimumRelation": -8,
+  "groupThreshold": 18,
+  "groups": [
+    {
+      "id": "gryffindor_first_year",
+      "name": "格兰芬多新生圈",
+      "members": [
+        "harry_potter",
+        "ron_weasley",
+        "hermione_granger",
+        "neville_longbottom"
+      ]
+    },
+    {
+      "id": "study_circle",
+      "name": "学习伙伴",
+      "members": [
+        "hermione_granger",
+        "lin_chen"
+      ]
+    },
+    {
+      "id": "slytherin_circle",
+      "name": "斯莱特林同级圈",
+      "members": [
+        "draco_malfoy"
+      ]
+    }
+  ],
+  "eventTemplates": [
+    {
+      "id": "study_invite",
+      "label": "一起复习",
+      "minRelation": 5,
+      "traits": [
+        "studious"
+      ],
+      "durationMinutes": 30,
+      "acceptDelta": 5,
+      "declineDelta": -1
+    },
+    {
+      "id": "chat_invite",
+      "label": "课间聊天",
+      "minRelation": -8,
+      "traits": [
+        "social",
+        "curious",
+        "shy",
+        "ambitious",
+        "studious"
+      ],
+      "durationMinutes": 15,
+      "acceptDelta": 3,
+      "declineDelta": -1
+    },
+    {
+      "id": "help_invite",
+      "label": "帮忙找东西",
+      "minRelation": 0,
+      "traits": [
+        "shy",
+        "curious"
+      ],
+      "durationMinutes": 20,
+      "acceptDelta": 6,
+      "declineDelta": -2
+    }
+  ],
+  "memoryDecision": {
+    "halfLifeDays": 21,
+    "maxPairBias": 24,
+    "kindWeights": {
+      "chat": 2,
+      "study": 5,
+      "help": 12,
+      "disagree": -14,
+      "accepted_invitation": 10,
+      "declined_invitation": -4,
+      "friendly_talk": 7,
+      "asked_for_help": 4,
+      "ended_talk": -2
+    },
+    "activityEffects": {
+      "study": {
+        "study": 7
+      },
+      "help": {
+        "chat": 3
+      },
+      "disagree": {
+        "chat": -7,
+        "rest": 5
+      },
+      "friendly_talk": {
+        "chat": 5
+      },
+      "accepted_invitation": {
+        "chat": 6
+      },
+      "declined_invitation": {
+        "rest": 3
+      }
+    }
+  }
+}

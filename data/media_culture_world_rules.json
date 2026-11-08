@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "media_culture_world_rules",
+  "records": [
+    {
+      "id": "fact_vs_claim",
+      "name": "历史事实与报道观点必须分离",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_fact_vs_claim"
+    },
+    {
+      "id": "no_omniscience",
+      "name": "NPC不能自动获知引擎已知的事实",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_no_omniscience"
+    },
+    {
+      "id": "source_provenance",
+      "name": "每条非原创设定记录来源与媒介层级",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_source_provenance"
+    },
+    {
+      "id": "no_canon_rewrite",
+      "name": "玩家舆论行动不能改变固定历史锚点",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_no_canon_rewrite"
+    },
+    {
+      "id": "spoiler_guard",
+      "name": "事件发生前禁止泄露未来新闻",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_spoiler_guard"
+    },
+    {
+      "id": "individual_belief",
+      "name": "NPC观点由证据、信任和经历计算",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_individual_belief"
+    },
+    {
+      "id": "opinion_memory",
+      "name": "NPC保留旧观点和修正记录",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_opinion_memory"
+    },
+    {
+      "id": "correction_possible",
+      "name": "谣言可被核实或纠正",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_correction_possible"
+    },
+    {
+      "id": "culture_not_ethnicity",
+      "name": "文化传统不得当作民族固有属性",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_culture_not_ethnicity"
+    },
+    {
+      "id": "school_unknown",
+      "name": "不虚构未公开的三所著名学校",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_school_unknown"
+    },
+    {
+      "id": "species_region_separation",
+      "name": "原产地与出现地点分别记录",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_species_region_separation"
+    },
+    {
+      "id": "single_clock",
+      "name": "与主游戏共享日期，不单独推进时间",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_single_clock"
+    },
+    {
+      "id": "save_version",
+      "name": "支持存档版本迁移",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_save_version"
+    },
+    {
+      "id": "news_dedup",
+      "name": "同一文章只在阅读日志中登记一次",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_news_dedup"
+    },
+    {
+      "id": "offline_data",
+      "name": "游戏离线从本地JSON加载",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_offline_data"
+    },
+    {
+      "id": "unavailable_sources",
+      "name": "不把无法核实的电影设定集内容标为已验证",
+      "summary": "实现约束",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "severity": "must",
+      "test_case": "assert_unavailable_sources"
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

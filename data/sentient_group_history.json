@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_history",
+  "description": "正史背景事件，年份为游戏开放阈值或约略背景，非全部事件精确日期",
+  "records": [
+    {
+      "id": "goblin_rebellions",
+      "name": "妖精叛乱史",
+      "summary": "妖精与巫师间发生过多次历史冲突",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Goblin"
+      ],
+      "group_id": "goblins",
+      "year": 1700,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "wand_rights",
+      "name": "魔杖权利争议",
+      "summary": "妖精使用魔杖的权利是长期政治争议",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Goblin"
+      ],
+      "group_id": "goblins",
+      "year": 1700,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "sword_griphook",
+      "name": "格兰芬多宝剑争议",
+      "summary": "拉环与哈利围绕宝剑权属产生争议",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Goblin"
+      ],
+      "group_id": "goblins",
+      "year": 1998,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "firenze_teaching",
+      "name": "费伦泽任教",
+      "summary": "费伦泽在霍格沃茨任教引发族群内部冲突",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Centaur"
+      ],
+      "group_id": "centaurs",
+      "year": 1995,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "forest_battle",
+      "name": "霍格沃茨大战中的禁林势力",
+      "summary": "禁林中的部分马人参与霍格沃茨大战",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Centaur"
+      ],
+      "group_id": "centaurs",
+      "year": 1998,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "lake_task",
+      "name": "三强争霸赛黑湖项目",
+      "summary": "黑湖人鱼参与三强争霸赛第二个项目",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Merpeople"
+      ],
+      "group_id": "merpeople",
+      "year": 1995,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "spew",
+      "name": "赫敏发起S.P.E.W.",
+      "summary": "赫敏尝试改善家养小精灵权益",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/House-elf"
+      ],
+      "group_id": "house_elves",
+      "year": 1994,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "dobby_free",
+      "name": "多比获得自由",
+      "summary": "多比的经历体现个体选择与束缚的冲突",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/House-elf"
+      ],
+      "group_id": "house_elves",
+      "year": 1993,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "kreacher",
+      "name": "克利切与布莱克家",
+      "summary": "克利切的忠诚与待遇影响其行为",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/House-elf"
+      ],
+      "group_id": "house_elves",
+      "year": 1996,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "giant_diplomacy",
+      "name": "巨人外交尝试",
+      "summary": "邓布利多阵营曾试图争取巨人支持",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Giant"
+      ],
+      "group_id": "giants",
+      "year": 1995,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "werewolf_stigma",
+      "name": "狼人就业歧视",
+      "summary": "卢平经历显示狼人面临就业与社会歧视",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Werewolf"
+      ],
+      "group_id": "werewolves",
+      "year": 1993,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    },
+    {
+      "id": "ghosts_school",
+      "name": "霍格沃茨幽灵",
+      "summary": "学院幽灵作为学校生活的一部分出现",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/Ghost"
+      ],
+      "group_id": "ghosts",
+      "year": 1991,
+      "canon_fixed": true,
+      "player_may_rewrite": false
+    }
+  ]
+}

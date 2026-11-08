@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "dataset": "cross_group_opinion_rules",
+  "records": [
+    {
+      "id": "simulation",
+      "max_daily_contacts_per_edge": 1,
+      "max_messages_per_contact": 1,
+      "max_daily_history": 160,
+      "max_simulation_catchup_days": 366,
+      "base_share_chance": 0.58,
+      "confidence_learning_rate": 0.22,
+      "evidence_deduplication": true,
+      "one_hop_per_day": true,
+      "canon_reference_simulation": false,
+      "private_information_requires_consent": true,
+      "future_information_guard": true
+    },
+    {
+      "id": "relationship_effects",
+      "respect_trust_bonus": 2,
+      "demand_trust_penalty": 3,
+      "verified_evidence_bonus": 8,
+      "unverified_rumor_bonus": 1,
+      "cooldown_days": 2
+    },
+    {
+      "id": "topic_scoping",
+      "policy": "original cross-group topics do not overwrite canon historical public_opinion_topics"
+    }
+  ]
+}

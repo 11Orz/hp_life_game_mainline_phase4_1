@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "id": "study",
+      "label": "自习",
+      "location": "library",
+      "base": 25
+    },
+    {
+      "id": "chat",
+      "label": "和同学聊天",
+      "location": "corridor",
+      "base": 20
+    },
+    {
+      "id": "wander",
+      "label": "在走廊散步",
+      "location": "corridor",
+      "base": 15
+    },
+    {
+      "id": "rest",
+      "label": "休息",
+      "location": "home",
+      "base": 20
+    }
+  ],
+  "traitBonuses": {
+    "studious": {
+      "study": 35
+    },
+    "social": {
+      "chat": 30
+    },
+    "shy": {
+      "rest": 25
+    },
+    "ambitious": {
+      "study": 15
+    },
+    "curious": {
+      "wander": 25
+    }
+  }
+}

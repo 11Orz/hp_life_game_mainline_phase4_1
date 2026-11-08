@@ -1,0 +1,62 @@
+{
+  "id": "npc_information_channels",
+  "description": "传播渠道的覆盖、可信度和每日接触率；地下广播受时间限制",
+  "records": [
+    {
+      "id": "daily_prophet",
+      "name": "预言家日报",
+      "kind": "press",
+      "reach": 0.65,
+      "credibility": 0.58,
+      "exposure": 0.22
+    },
+    {
+      "id": "quibbler",
+      "name": "唱唱反调",
+      "kind": "press",
+      "reach": 0.22,
+      "credibility": 0.46,
+      "exposure": 0.08
+    },
+    {
+      "id": "wizard_radio",
+      "name": "巫师无线电",
+      "kind": "radio",
+      "reach": 0.38,
+      "credibility": 0.58,
+      "exposure": 0.12
+    },
+    {
+      "id": "school_notice",
+      "name": "校园公告",
+      "kind": "official",
+      "reach": 0.55,
+      "credibility": 0.68,
+      "exposure": 0.13
+    },
+    {
+      "id": "family_letters",
+      "name": "家庭来信",
+      "kind": "private",
+      "reach": 0.3,
+      "credibility": 0.67,
+      "exposure": 0.1
+    },
+    {
+      "id": "peer_talk",
+      "name": "朋友交谈",
+      "kind": "social",
+      "reach": 0.7,
+      "credibility": 0.5,
+      "exposure": 0.0
+    },
+    {
+      "id": "potterwatch",
+      "name": "地下广播",
+      "kind": "resistance",
+      "reach": 0.3,
+      "credibility": 0.7,
+      "exposure": 0.07
+    }
+  ]
+}

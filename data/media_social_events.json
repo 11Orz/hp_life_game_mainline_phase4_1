@@ -1,0 +1,1042 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "media_social_events",
+  "records": [
+    {
+      "id": "social_chamber_discuss",
+      "name": "密室恐慌：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_chamber_fact_check",
+      "name": "密室恐慌：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_chamber_correction"
+    },
+    {
+      "id": "social_chamber_share",
+      "name": "密室恐慌：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_chamber_stay_silent",
+      "name": "密室恐慌：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_sirius_discuss",
+      "name": "小天狼星逃狱：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_sirius_fact_check",
+      "name": "小天狼星逃狱：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_sirius_correction"
+    },
+    {
+      "id": "social_sirius_share",
+      "name": "小天狼星逃狱：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_sirius_stay_silent",
+      "name": "小天狼星逃狱：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_world_cup_discuss",
+      "name": "魁地奇世界杯骚乱：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_world_cup_fact_check",
+      "name": "魁地奇世界杯骚乱：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_world_cup_correction"
+    },
+    {
+      "id": "social_world_cup_share",
+      "name": "魁地奇世界杯骚乱：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_world_cup_stay_silent",
+      "name": "魁地奇世界杯骚乱：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_triwizard_discuss",
+      "name": "三强争霸赛：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_triwizard_fact_check",
+      "name": "三强争霸赛：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_triwizard_correction"
+    },
+    {
+      "id": "social_triwizard_share",
+      "name": "三强争霸赛：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_triwizard_stay_silent",
+      "name": "三强争霸赛：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_voldemort_return_discuss",
+      "name": "伏地魔复活争议：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_voldemort_return_fact_check",
+      "name": "伏地魔复活争议：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_voldemort_return_correction"
+    },
+    {
+      "id": "social_voldemort_return_share",
+      "name": "伏地魔复活争议：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_voldemort_return_stay_silent",
+      "name": "伏地魔复活争议：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_umbridge_discuss",
+      "name": "霍格沃茨教育干预：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_umbridge_fact_check",
+      "name": "霍格沃茨教育干预：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_umbridge_correction"
+    },
+    {
+      "id": "social_umbridge_share",
+      "name": "霍格沃茨教育干预：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_umbridge_stay_silent",
+      "name": "霍格沃茨教育干预：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_azkaban_discuss",
+      "name": "阿兹卡班越狱与安全焦虑：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_azkaban_fact_check",
+      "name": "阿兹卡班越狱与安全焦虑：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_azkaban_correction"
+    },
+    {
+      "id": "social_azkaban_share",
+      "name": "阿兹卡班越狱与安全焦虑：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_azkaban_stay_silent",
+      "name": "阿兹卡班越狱与安全焦虑：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_ministry_admission_discuss",
+      "name": "魔法部承认伏地魔回归：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_ministry_admission_fact_check",
+      "name": "魔法部承认伏地魔回归：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_ministry_admission_correction"
+    },
+    {
+      "id": "social_ministry_admission_share",
+      "name": "魔法部承认伏地魔回归：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_ministry_admission_stay_silent",
+      "name": "魔法部承认伏地魔回归：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_dumbledore_death_discuss",
+      "name": "邓布利多去世：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_dumbledore_death_fact_check",
+      "name": "邓布利多去世：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_dumbledore_death_correction"
+    },
+    {
+      "id": "social_dumbledore_death_share",
+      "name": "邓布利多去世：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_dumbledore_death_stay_silent",
+      "name": "邓布利多去世：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_ministry_takeover_discuss",
+      "name": "魔法部沦陷与宣传控制：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_ministry_takeover_fact_check",
+      "name": "魔法部沦陷与宣传控制：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_ministry_takeover_correction"
+    },
+    {
+      "id": "social_ministry_takeover_share",
+      "name": "魔法部沦陷与宣传控制：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_ministry_takeover_stay_silent",
+      "name": "魔法部沦陷与宣传控制：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_muggleborn_discuss",
+      "name": "麻瓜出身者受迫害：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_muggleborn_fact_check",
+      "name": "麻瓜出身者受迫害：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_muggleborn_correction"
+    },
+    {
+      "id": "social_muggleborn_share",
+      "name": "麻瓜出身者受迫害：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_muggleborn_stay_silent",
+      "name": "麻瓜出身者受迫害：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_potterwatch_discuss",
+      "name": "地下广播抵抗：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_potterwatch_fact_check",
+      "name": "地下广播抵抗：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_potterwatch_correction"
+    },
+    {
+      "id": "social_potterwatch_share",
+      "name": "地下广播抵抗：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_potterwatch_stay_silent",
+      "name": "地下广播抵抗：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_battle_discuss",
+      "name": "霍格沃茨大战：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_battle_fact_check",
+      "name": "霍格沃茨大战：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_battle_correction"
+    },
+    {
+      "id": "social_battle_share",
+      "name": "霍格沃茨大战：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_battle_stay_silent",
+      "name": "霍格沃茨大战：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_rebuilding_discuss",
+      "name": "战后恢复与责任追究：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_rebuilding_fact_check",
+      "name": "战后恢复与责任追究：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_rebuilding_correction"
+    },
+    {
+      "id": "social_rebuilding_share",
+      "name": "战后恢复与责任追究：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_rebuilding_stay_silent",
+      "name": "战后恢复与责任追究：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_quidditch_discuss",
+      "name": "魁地奇体育讨论：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "quidditch",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_quidditch_fact_check",
+      "name": "魁地奇体育讨论：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "quidditch",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_quidditch_correction"
+    },
+    {
+      "id": "social_quidditch_share",
+      "name": "魁地奇体育讨论：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "quidditch",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_quidditch_stay_silent",
+      "name": "魁地奇体育讨论：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "quidditch",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_international_exchange_discuss",
+      "name": "国际魔法学校交流：讨论",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "international_exchange",
+      "action": "discuss",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 2,
+      "may_trigger": null
+    },
+    {
+      "id": "social_international_exchange_fact_check",
+      "name": "国际魔法学校交流：核实",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "international_exchange",
+      "action": "fact_check",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 10,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": "rumor_international_exchange_correction"
+    },
+    {
+      "id": "social_international_exchange_share",
+      "name": "国际魔法学校交流：转发",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "international_exchange",
+      "action": "share",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 5
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    },
+    {
+      "id": "social_international_exchange_stay_silent",
+      "name": "国际魔法学校交流：保持沉默",
+      "summary": "原创互动模板；玩家行动影响NPC观点、关系与公开声望",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "international_exchange",
+      "action": "stay_silent",
+      "required_awareness": 25,
+      "opinion_effect": {
+        "confidence": 3,
+        "social_pressure": 0
+      },
+      "relationship_effect": 0,
+      "may_trigger": null
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

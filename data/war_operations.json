@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_operations",
+  "records": [
+    {
+      "id": "archive",
+      "name": "旧战争档案整理",
+      "available_from": "1991-09-01",
+      "phase": "legacy",
+      "kind": "research",
+      "minimum_trust": 0,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 5
+    },
+    {
+      "id": "watch",
+      "name": "安全观察与核实",
+      "available_from": "1995-01-01",
+      "phase": "revival",
+      "kind": "intelligence",
+      "minimum_trust": 10,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 11
+    },
+    {
+      "id": "message",
+      "name": "递送非敏感消息",
+      "available_from": "1995-09-01",
+      "phase": "denial",
+      "kind": "communication",
+      "minimum_trust": 0,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 17
+    },
+    {
+      "id": "witness",
+      "name": "保护证人",
+      "available_from": "1995-09-01",
+      "phase": "denial",
+      "kind": "protection",
+      "minimum_trust": 25,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 21
+    },
+    {
+      "id": "escort",
+      "name": "护送受威胁家庭",
+      "available_from": "1996-07-01",
+      "phase": "open_war",
+      "kind": "escort",
+      "minimum_trust": 32,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 26
+    },
+    {
+      "id": "clinic",
+      "name": "支援伤员救护",
+      "available_from": "1996-07-01",
+      "phase": "open_war",
+      "kind": "medical",
+      "minimum_trust": 20,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 18
+    },
+    {
+      "id": "shelter",
+      "name": "协调避难物资",
+      "available_from": "1997-08-01",
+      "phase": "occupation",
+      "kind": "relief",
+      "minimum_trust": 22,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 19
+    },
+    {
+      "id": "missing",
+      "name": "调查失联人员",
+      "available_from": "1997-08-01",
+      "phase": "occupation",
+      "kind": "investigation",
+      "minimum_trust": 28,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 23
+    },
+    {
+      "id": "rebuild",
+      "name": "战后家庭重建",
+      "available_from": "1998-05-03",
+      "phase": "aftermath",
+      "kind": "reconstruction",
+      "minimum_trust": 0,
+      "options": [
+        "assist",
+        "verify",
+        "decline"
+      ],
+      "canon_level": "game_original",
+      "risk": 5
+    }
+  ]
+}

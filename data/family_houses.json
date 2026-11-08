@@ -1,0 +1,618 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_houses",
+  "description": "36个家族档案；含神圣二十八族，绝不以血统赋予固定能力。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "abbott",
+      "name": "Abbott",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "avery",
+      "name": "Avery",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [
+        "sirius_black",
+        "regulus_black",
+        "orion_black",
+        "walburga_black",
+        "bellatrix_black",
+        "andromeda_black",
+        "narcissa_black",
+        "cygnus_black",
+        "phineas_nigellus_black",
+        "iola_black",
+        "marius_black",
+        "cedrella_black",
+        "alphard_black"
+      ],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "bulstrode",
+      "name": "Bulstrode",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "burke",
+      "name": "Burke",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "carrow",
+      "name": "Carrow",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "crouch",
+      "name": "Crouch",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "fawley",
+      "name": "Fawley",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "flint",
+      "name": "Flint",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "gaunt",
+      "name": "Gaunt",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [
+        "marvolo_gaunt",
+        "morfin_gaunt",
+        "merope_gaunt"
+      ],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "greengrass",
+      "name": "Greengrass",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "lestrange",
+      "name": "Lestrange",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "longbottom",
+      "name": "Longbottom",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [
+        "neville_longbottom",
+        "frank_longbottom",
+        "alice_longbottom"
+      ],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "macmillan",
+      "name": "Macmillan",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "malfoy",
+      "name": "Malfoy",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [
+        "lucius_malfoy",
+        "draco_malfoy"
+      ],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "nott",
+      "name": "Nott",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "ollivander",
+      "name": "Ollivander",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "parkinson",
+      "name": "Parkinson",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "prewett",
+      "name": "Prewett",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [
+        "molly_prewett",
+        "fabian_prewett",
+        "gideon_prewett"
+      ],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "rosier",
+      "name": "Rosier",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [
+        "druella_rosier"
+      ],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "rowle",
+      "name": "Rowle",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "selwyn",
+      "name": "Selwyn",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "shacklebolt",
+      "name": "Shacklebolt",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "shafiq",
+      "name": "Shafiq",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "slughorn",
+      "name": "Slughorn",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "travers",
+      "name": "Travers",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "weasley",
+      "name": "Weasley",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [
+        "ginny_weasley",
+        "arthur_weasley",
+        "ron_weasley",
+        "bill_weasley",
+        "charlie_weasley",
+        "percy_weasley",
+        "fred_weasley",
+        "george_weasley",
+        "septimus_weasley"
+      ],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "yaxley",
+      "name": "Yaxley",
+      "listed_in_sacred_28": true,
+      "classification_note": "神圣二十八族属于1930年代具有偏见的社会名录，并非客观血统等级",
+      "source_key": "sacred28",
+      "source_tier": "author_supplement",
+      "known_members": [],
+      "gameplay_tags": [
+        "old_family",
+        "social_prejudice"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "potter",
+      "name": "Potter",
+      "listed_in_sacred_28": false,
+      "classification_note": "未列入该名录，不代表没有魔法血缘",
+      "source_key": "novels",
+      "source_tier": "book_canon",
+      "known_members": [
+        "harry_potter",
+        "james_potter",
+        "hardwin_potter",
+        "fleamont_potter",
+        "euphemia_potter"
+      ],
+      "gameplay_tags": [
+        "historical_family"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "peverell",
+      "name": "Peverell",
+      "listed_in_sacred_28": false,
+      "classification_note": "未列入该名录，不代表没有魔法血缘",
+      "source_key": "novels",
+      "source_tier": "book_canon",
+      "known_members": [
+        "ignotus_peverell",
+        "iolanthe_peverell"
+      ],
+      "gameplay_tags": [
+        "historical_family"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "dumbledore",
+      "name": "Dumbledore",
+      "listed_in_sacred_28": false,
+      "classification_note": "未列入该名录，不代表没有魔法血缘",
+      "source_key": "novels",
+      "source_tier": "book_canon",
+      "known_members": [
+        "albus_dumbledore",
+        "aberforth_dumbledore",
+        "ariana_dumbledore",
+        "percival_dumbledore",
+        "kendra_dumbledore"
+      ],
+      "gameplay_tags": [
+        "historical_family"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "tonks",
+      "name": "Tonks",
+      "listed_in_sacred_28": false,
+      "classification_note": "未列入该名录，不代表没有魔法血缘",
+      "source_key": "novels",
+      "source_tier": "book_canon",
+      "known_members": [
+        "ted_tonks",
+        "nymphadora_tonks"
+      ],
+      "gameplay_tags": [
+        "historical_family"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "evans",
+      "name": "Evans",
+      "listed_in_sacred_28": false,
+      "classification_note": "未列入该名录，不代表没有魔法血缘",
+      "source_key": "novels",
+      "source_tier": "book_canon",
+      "known_members": [
+        "lily_evans",
+        "petunia_evans"
+      ],
+      "gameplay_tags": [
+        "historical_family"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "granger",
+      "name": "Granger",
+      "listed_in_sacred_28": false,
+      "classification_note": "未列入该名录，不代表没有魔法血缘",
+      "source_key": "novels",
+      "source_tier": "book_canon",
+      "known_members": [
+        "hermione_granger"
+      ],
+      "gameplay_tags": [
+        "historical_family"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "lupin",
+      "name": "Lupin",
+      "listed_in_sacred_28": false,
+      "classification_note": "未列入该名录，不代表没有魔法血缘",
+      "source_key": "novels",
+      "source_tier": "book_canon",
+      "known_members": [
+        "remus_lupin",
+        "teddy_lupin"
+      ],
+      "gameplay_tags": [
+        "historical_family"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    },
+    {
+      "id": "riddle",
+      "name": "Riddle",
+      "listed_in_sacred_28": false,
+      "classification_note": "未列入该名录，不代表没有魔法血缘",
+      "source_key": "novels",
+      "source_tier": "book_canon",
+      "known_members": [
+        "tom_riddle_sr",
+        "tom_riddle_jr"
+      ],
+      "gameplay_tags": [
+        "historical_family"
+      ],
+      "economic_bonus_automatic": false,
+      "magical_power_bonus_automatic": false
+    }
+  ]
+}

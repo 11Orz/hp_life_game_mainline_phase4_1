@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.0",
+  "dataset": "life_exploration_unlocks",
+  "count": 11,
+  "locations": [
+    {
+      "id": "explore_01",
+      "name": "图书馆深处",
+      "schoolYearMin": 1,
+      "locationId": "hogwarts_library",
+      "requiredRelatedNpcEvents": 3,
+      "requiredSpell": "lumos",
+      "minimumMastery": 30,
+      "clueId": "clue_explore_01",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_02",
+      "name": "禁林外围",
+      "schoolYearMin": 1,
+      "locationId": "hogwarts_forbidden_forest",
+      "requiredRelatedNpcEvents": 4,
+      "requiredSpell": "lumos",
+      "minimumMastery": 65,
+      "clueId": "clue_explore_02",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_03",
+      "name": "魁地奇球场",
+      "schoolYearMin": 1,
+      "locationId": "hogwarts_quidditch_pitch",
+      "requiredRelatedNpcEvents": 3,
+      "requiredSpell": "wingardium_leviosa",
+      "minimumMastery": 40,
+      "clueId": "clue_explore_03",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_04",
+      "name": "黑湖岸边",
+      "schoolYearMin": 2,
+      "locationId": "hogwarts_grounds",
+      "requiredRelatedNpcEvents": 4,
+      "requiredSpell": "lumos",
+      "minimumMastery": 55,
+      "clueId": "clue_explore_04",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_05",
+      "name": "城堡隐蔽走廊",
+      "schoolYearMin": 2,
+      "locationId": "hogwarts_corridor",
+      "requiredRelatedNpcEvents": 5,
+      "requiredSpell": "lumos",
+      "minimumMastery": 65,
+      "clueId": "clue_explore_05",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_06",
+      "name": "公共休息室的旧记录",
+      "schoolYearMin": 3,
+      "locationId": "hogwarts_common_room",
+      "requiredRelatedNpcEvents": 3,
+      "requiredSpell": "lumos",
+      "minimumMastery": 50,
+      "clueId": "clue_explore_06",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_07",
+      "name": "禁书区资料线索",
+      "schoolYearMin": 3,
+      "locationId": "hogwarts_library",
+      "requiredRelatedNpcEvents": 5,
+      "requiredSpell": "lumos",
+      "minimumMastery": 75,
+      "clueId": "clue_explore_07",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_08",
+      "name": "海格小屋外围",
+      "schoolYearMin": 4,
+      "locationId": "hogwarts_grounds",
+      "requiredRelatedNpcEvents": 3,
+      "requiredSpell": "lumos",
+      "minimumMastery": 55,
+      "clueId": "clue_explore_08",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_09",
+      "name": "秘密集会线索",
+      "schoolYearMin": 5,
+      "locationId": "hogwarts_corridor",
+      "requiredRelatedNpcEvents": 4,
+      "requiredSpell": "lumos",
+      "minimumMastery": 65,
+      "clueId": "clue_explore_09",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_10",
+      "name": "战时文献档案",
+      "schoolYearMin": 6,
+      "locationId": "hogwarts_library",
+      "requiredRelatedNpcEvents": 4,
+      "requiredSpell": "lumos",
+      "minimumMastery": 75,
+      "clueId": "clue_explore_10",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    },
+    {
+      "id": "explore_11",
+      "name": "城堡防御观察点",
+      "schoolYearMin": 7,
+      "locationId": "hogwarts_grounds",
+      "requiredRelatedNpcEvents": 5,
+      "requiredSpell": "lumos",
+      "minimumMastery": 80,
+      "clueId": "clue_explore_11",
+      "description": "满足相关NPC互动、线索和魔法能力条件后开放探索。禁区访问还受剧情许可限制。",
+      "sourceLayer": "original"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_facilities",
+  "description": "医疗机构、科室与就医渠道",
+  "items": [
+    {
+      "id": "hogwarts_hospital_wing",
+      "name": "霍格沃茨校医院",
+      "description": "校园内常规医疗与观察",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "location": "Hogwarts",
+      "access": "referral_or_walk_in",
+      "services": [
+        "assessment",
+        "treatment"
+      ]
+    },
+    {
+      "id": "st_mungos",
+      "name": "圣芒戈魔法伤病医院",
+      "description": "伦敦魔法医疗中心",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/de/fact-file/locations/st-mungos-hospital"
+      ],
+      "location": "London",
+      "access": "referral_or_walk_in",
+      "services": [
+        "assessment",
+        "treatment"
+      ]
+    },
+    {
+      "id": "st_mungos_spell_damage",
+      "name": "圣芒戈咒语伤害科",
+      "description": "严重魔法伤害的专业照护",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "location": "London",
+      "access": "referral_or_walk_in",
+      "services": [
+        "assessment",
+        "treatment"
+      ]
+    },
+    {
+      "id": "st_mungos_creature_injuries",
+      "name": "圣芒戈生物伤害接诊",
+      "description": "魔法生物导致的伤害",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/de/fact-file/locations/st-mungos-hospital"
+      ],
+      "location": "London",
+      "access": "referral_or_walk_in",
+      "services": [
+        "assessment",
+        "treatment"
+      ]
+    },
+    {
+      "id": "st_mungos_potion_poisoning",
+      "name": "圣芒戈魔药与植物中毒接诊",
+      "description": "魔药或植物伤害",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/de/fact-file/locations/st-mungos-hospital"
+      ],
+      "location": "London",
+      "access": "referral_or_walk_in",
+      "services": [
+        "assessment",
+        "treatment"
+      ]
+    },
+    {
+      "id": "st_mungos_magical_bugs",
+      "name": "圣芒戈魔法疾病接诊",
+      "description": "魔法疾病相关治疗",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "location": "London",
+      "access": "referral_or_walk_in",
+      "services": [
+        "assessment",
+        "treatment"
+      ]
+    },
+    {
+      "id": "field_clinic",
+      "name": "临时战地医疗站",
+      "description": "原创战时应急场所",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "location": "variable",
+      "access": "referral_or_walk_in",
+      "services": [
+        "assessment",
+        "treatment"
+      ]
+    },
+    {
+      "id": "creature_sanctuary",
+      "name": "魔法生物救助站",
+      "description": "原创保护与救治地点",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "location": "variable",
+      "access": "referral_or_walk_in",
+      "services": [
+        "assessment",
+        "treatment"
+      ]
+    }
+  ]
+}

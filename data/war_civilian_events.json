@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_civilian_events",
+  "records": [
+    {
+      "id": "old_letters",
+      "name": "战争旧信件",
+      "available_from": "1991-09-01",
+      "description": "家人找到一封旧战争时期的信件",
+      "impacts": [
+        "family",
+        "opinion"
+      ],
+      "canon_level": "game_original"
+    },
+    {
+      "id": "worried_parent",
+      "name": "担忧的家长",
+      "available_from": "1995-09-01",
+      "description": "家长对安全形势看法不同",
+      "impacts": [
+        "family",
+        "opinion"
+      ],
+      "canon_level": "game_original"
+    },
+    {
+      "id": "injured_neighbor",
+      "name": "受伤的邻居",
+      "available_from": "1996-07-01",
+      "description": "原创邻居需要治疗和护送",
+      "impacts": [
+        "medical",
+        "family"
+      ],
+      "canon_level": "game_original"
+    },
+    {
+      "id": "shelter_shortage",
+      "name": "避难物资紧缺",
+      "available_from": "1997-08-01",
+      "description": "物资不足造成选择压力",
+      "impacts": [
+        "economy",
+        "family"
+      ],
+      "canon_level": "game_original"
+    },
+    {
+      "id": "aftercare",
+      "name": "战后心理支持",
+      "available_from": "1998-05-03",
+      "description": "幸存者需要长期支持",
+      "impacts": [
+        "medical",
+        "family"
+      ],
+      "canon_level": "game_original"
+    }
+  ]
+}

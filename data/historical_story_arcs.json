@@ -1,0 +1,1895 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "start": "1991-09-01",
+    "end": "1998-06-30"
+  },
+  "sourcePolicy": {
+    "layers": [
+      "novel_canon",
+      "official_supplement",
+      "game_continuity",
+      "original"
+    ],
+    "priority": [
+      "seven_novels",
+      "rowling_official",
+      "supplementary_works",
+      "wiki_crosscheck",
+      "original_game_design"
+    ],
+    "warning": "原著事实与玩家原创经历严格分离；精确章节、月份与个别细节待逐章复核。"
+  },
+  "integration": {
+    "standaloneDataOnly": true,
+    "requiresNewStoryEngine": true,
+    "existingSchedulerDoesNotAutoLoad": true
+  },
+  "dataset": "historical_story_arcs",
+  "count": 7,
+  "arcs": [
+    {
+      "id": "era_1991_1992",
+      "title": "1991–1992学年：魔法石篇",
+      "yearStart": 1991,
+      "yearEnd": 1992,
+      "book": "Harry Potter and the Philosopher’s Stone",
+      "origin": {
+        "layer": "novel_canon_context_plus_original_player_story"
+      },
+      "premise": "魔法石被觊觎",
+      "canonAnchor": {
+        "description": "魔法石失窃企图受挫",
+        "source": {
+          "layer": "novel_canon",
+          "reference": "Harry Potter and the Philosopher’s Stone：结局章节",
+          "verification": "needs_chapter_check"
+        },
+        "immutable": true
+      },
+      "eligibility": {
+        "schoolId": "hogwarts",
+        "enrolledDuringYear": true,
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "notAllPlayersMeetHarry": true
+      },
+      "chapters": [
+        {
+          "id": "era_1991_1992_chapter_01",
+          "index": 1,
+          "title": "第1章：禁区传闻",
+          "phase": "开学异象",
+          "window": {
+            "fromMonth": 9,
+            "toMonth": 10
+          },
+          "eventIds": [
+            "era_1991_1992_event_01_01",
+            "era_1991_1992_event_01_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_01_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_01_02"
+            }
+          ],
+          "completionFlag": "era_1991_1992_chapter_01_complete",
+          "nextChapterId": "era_1991_1992_chapter_02",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1991_1992_chapter_02",
+          "index": 2,
+          "title": "第2章：三头犬的脚步",
+          "phase": "第一次线索",
+          "window": {
+            "fromMonth": 10,
+            "toMonth": 11
+          },
+          "eventIds": [
+            "era_1991_1992_event_02_01",
+            "era_1991_1992_event_02_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_02_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_02_02"
+            }
+          ],
+          "completionFlag": "era_1991_1992_chapter_02_complete",
+          "nextChapterId": "era_1991_1992_chapter_03",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1991_1992_chapter_03",
+          "index": 3,
+          "title": "第3章：尼可·勒梅的名字",
+          "phase": "调查升级",
+          "window": {
+            "fromMonth": 11,
+            "toMonth": 12
+          },
+          "eventIds": [
+            "era_1991_1992_event_03_01",
+            "era_1991_1992_event_03_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_03_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_03_02"
+            }
+          ],
+          "completionFlag": "era_1991_1992_chapter_03_complete",
+          "nextChapterId": "era_1991_1992_chapter_04",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1991_1992_chapter_04",
+          "index": 4,
+          "title": "第4章：镜中的秘密",
+          "phase": "冬季转折",
+          "window": {
+            "fromMonth": 12,
+            "toMonth": 1
+          },
+          "eventIds": [
+            "era_1991_1992_event_04_01",
+            "era_1991_1992_event_04_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_04_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_04_02"
+            }
+          ],
+          "completionFlag": "era_1991_1992_chapter_04_complete",
+          "nextChapterId": "era_1991_1992_chapter_05",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1991_1992_chapter_05",
+          "index": 5,
+          "title": "第5章：走廊巡逻异常",
+          "phase": "能力准备",
+          "window": {
+            "fromMonth": 1,
+            "toMonth": 3
+          },
+          "eventIds": [
+            "era_1991_1992_event_05_01",
+            "era_1991_1992_event_05_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_05_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_05_02"
+            }
+          ],
+          "completionFlag": "era_1991_1992_chapter_05_complete",
+          "nextChapterId": "era_1991_1992_chapter_06",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1991_1992_chapter_06",
+          "index": 6,
+          "title": "第6章：被篡改的借阅记录",
+          "phase": "危险逼近",
+          "window": {
+            "fromMonth": 3,
+            "toMonth": 4
+          },
+          "eventIds": [
+            "era_1991_1992_event_06_01",
+            "era_1991_1992_event_06_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_06_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_06_02"
+            }
+          ],
+          "completionFlag": "era_1991_1992_chapter_06_complete",
+          "nextChapterId": "era_1991_1992_chapter_07",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1991_1992_chapter_07",
+          "index": 7,
+          "title": "第7章：守护关卡的线索",
+          "phase": "最后筹备",
+          "window": {
+            "fromMonth": 4,
+            "toMonth": 5
+          },
+          "eventIds": [
+            "era_1991_1992_event_07_01",
+            "era_1991_1992_event_07_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_07_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_07_02"
+            }
+          ],
+          "completionFlag": "era_1991_1992_chapter_07_complete",
+          "nextChapterId": "era_1991_1992_chapter_08",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1991_1992_chapter_08",
+          "index": 8,
+          "title": "第8章：学年末的魔法石危机",
+          "phase": "期末危机",
+          "window": {
+            "fromMonth": 5,
+            "toMonth": 6
+          },
+          "eventIds": [
+            "era_1991_1992_event_08_01",
+            "era_1991_1992_event_08_02",
+            "era_1991_1992_event_08_03"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_08_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_08_02"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1991_1992_event_08_03"
+            }
+          ],
+          "completionFlag": "era_1991_1992_chapter_08_complete",
+          "nextChapterId": null,
+          "failurePolicy": "advance_with_consequences"
+        }
+      ],
+      "bossId": "era_1991_1992_boss",
+      "clueIds": [
+        "era_1991_1992_clue_01",
+        "era_1991_1992_clue_02",
+        "era_1991_1992_clue_03",
+        "era_1991_1992_clue_04"
+      ],
+      "onComplete": {
+        "setFlags": [
+          "era_1991_1992_complete"
+        ],
+        "journalTag": "era_main"
+      },
+      "note": "时代主线以原著为背景，玩家所经历的外围剧情为原创；不得强制玩家参与原著主角的专属事件。"
+    },
+    {
+      "id": "era_1992_1993",
+      "title": "1992–1993学年：密室篇",
+      "yearStart": 1992,
+      "yearEnd": 1993,
+      "book": "Harry Potter and the Chamber of Secrets",
+      "origin": {
+        "layer": "novel_canon_context_plus_original_player_story"
+      },
+      "premise": "霍格沃茨出现石化袭击",
+      "canonAnchor": {
+        "description": "金妮获救、日记被摧毁",
+        "source": {
+          "layer": "novel_canon",
+          "reference": "Harry Potter and the Chamber of Secrets：结局章节",
+          "verification": "needs_chapter_check"
+        },
+        "immutable": true
+      },
+      "eligibility": {
+        "schoolId": "hogwarts",
+        "enrolledDuringYear": true,
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "notAllPlayersMeetHarry": true
+      },
+      "chapters": [
+        {
+          "id": "era_1992_1993_chapter_01",
+          "index": 1,
+          "title": "第1章：墙上的警告",
+          "phase": "开学异象",
+          "window": {
+            "fromMonth": 9,
+            "toMonth": 10
+          },
+          "eventIds": [
+            "era_1992_1993_event_01_01",
+            "era_1992_1993_event_01_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_01_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_01_02"
+            }
+          ],
+          "completionFlag": "era_1992_1993_chapter_01_complete",
+          "nextChapterId": "era_1992_1993_chapter_02",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1992_1993_chapter_02",
+          "index": 2,
+          "title": "第2章：受害者之间的联系",
+          "phase": "第一次线索",
+          "window": {
+            "fromMonth": 10,
+            "toMonth": 11
+          },
+          "eventIds": [
+            "era_1992_1993_event_02_01",
+            "era_1992_1993_event_02_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_02_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_02_02"
+            }
+          ],
+          "completionFlag": "era_1992_1993_chapter_02_complete",
+          "nextChapterId": "era_1992_1993_chapter_03",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1992_1993_chapter_03",
+          "index": 3,
+          "title": "第3章：古老的血统传闻",
+          "phase": "调查升级",
+          "window": {
+            "fromMonth": 11,
+            "toMonth": 12
+          },
+          "eventIds": [
+            "era_1992_1993_event_03_01",
+            "era_1992_1993_event_03_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_03_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_03_02"
+            }
+          ],
+          "completionFlag": "era_1992_1993_chapter_03_complete",
+          "nextChapterId": "era_1992_1993_chapter_04",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1992_1993_chapter_04",
+          "index": 4,
+          "title": "第4章：水管中的异响",
+          "phase": "冬季转折",
+          "window": {
+            "fromMonth": 12,
+            "toMonth": 1
+          },
+          "eventIds": [
+            "era_1992_1993_event_04_01",
+            "era_1992_1993_event_04_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_04_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_04_02"
+            }
+          ],
+          "completionFlag": "era_1992_1993_chapter_04_complete",
+          "nextChapterId": "era_1992_1993_chapter_05",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1992_1993_chapter_05",
+          "index": 5,
+          "title": "第5章：幽灵与旧校史",
+          "phase": "能力准备",
+          "window": {
+            "fromMonth": 1,
+            "toMonth": 3
+          },
+          "eventIds": [
+            "era_1992_1993_event_05_01",
+            "era_1992_1993_event_05_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_05_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_05_02"
+            }
+          ],
+          "completionFlag": "era_1992_1993_chapter_05_complete",
+          "nextChapterId": "era_1992_1993_chapter_06",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1992_1993_chapter_06",
+          "index": 6,
+          "title": "第6章：可疑的日记传言",
+          "phase": "危险逼近",
+          "window": {
+            "fromMonth": 3,
+            "toMonth": 4
+          },
+          "eventIds": [
+            "era_1992_1993_event_06_01",
+            "era_1992_1993_event_06_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_06_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_06_02"
+            }
+          ],
+          "completionFlag": "era_1992_1993_chapter_06_complete",
+          "nextChapterId": "era_1992_1993_chapter_07",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1992_1993_chapter_07",
+          "index": 7,
+          "title": "第7章：石化危机升级",
+          "phase": "最后筹备",
+          "window": {
+            "fromMonth": 4,
+            "toMonth": 5
+          },
+          "eventIds": [
+            "era_1992_1993_event_07_01",
+            "era_1992_1993_event_07_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_07_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_07_02"
+            }
+          ],
+          "completionFlag": "era_1992_1993_chapter_07_complete",
+          "nextChapterId": "era_1992_1993_chapter_08",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1992_1993_chapter_08",
+          "index": 8,
+          "title": "第8章：密室事件收束",
+          "phase": "期末危机",
+          "window": {
+            "fromMonth": 5,
+            "toMonth": 6
+          },
+          "eventIds": [
+            "era_1992_1993_event_08_01",
+            "era_1992_1993_event_08_02",
+            "era_1992_1993_event_08_03"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_08_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_08_02"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1992_1993_event_08_03"
+            }
+          ],
+          "completionFlag": "era_1992_1993_chapter_08_complete",
+          "nextChapterId": null,
+          "failurePolicy": "advance_with_consequences"
+        }
+      ],
+      "bossId": "era_1992_1993_boss",
+      "clueIds": [
+        "era_1992_1993_clue_01",
+        "era_1992_1993_clue_02",
+        "era_1992_1993_clue_03",
+        "era_1992_1993_clue_04"
+      ],
+      "onComplete": {
+        "setFlags": [
+          "era_1992_1993_complete"
+        ],
+        "journalTag": "era_main"
+      },
+      "note": "时代主线以原著为背景，玩家所经历的外围剧情为原创；不得强制玩家参与原著主角的专属事件。"
+    },
+    {
+      "id": "era_1993_1994",
+      "title": "1993–1994学年：阿兹卡班囚徒篇",
+      "yearStart": 1993,
+      "yearEnd": 1994,
+      "book": "Harry Potter and the Prisoner of Azkaban",
+      "origin": {
+        "layer": "novel_canon_context_plus_original_player_story"
+      },
+      "premise": "摄魂怪驻守学校",
+      "canonAnchor": {
+        "description": "小天狼星逃脱、彼得逃走",
+        "source": {
+          "layer": "novel_canon",
+          "reference": "Harry Potter and the Prisoner of Azkaban：结局章节",
+          "verification": "needs_chapter_check"
+        },
+        "immutable": true
+      },
+      "eligibility": {
+        "schoolId": "hogwarts",
+        "enrolledDuringYear": true,
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "notAllPlayersMeetHarry": true
+      },
+      "chapters": [
+        {
+          "id": "era_1993_1994_chapter_01",
+          "index": 1,
+          "title": "第1章：列车上的寒意",
+          "phase": "开学异象",
+          "window": {
+            "fromMonth": 9,
+            "toMonth": 10
+          },
+          "eventIds": [
+            "era_1993_1994_event_01_01",
+            "era_1993_1994_event_01_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_01_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_01_02"
+            }
+          ],
+          "completionFlag": "era_1993_1994_chapter_01_complete",
+          "nextChapterId": "era_1993_1994_chapter_02",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1993_1994_chapter_02",
+          "index": 2,
+          "title": "第2章：霍格莫德的传言",
+          "phase": "第一次线索",
+          "window": {
+            "fromMonth": 10,
+            "toMonth": 11
+          },
+          "eventIds": [
+            "era_1993_1994_event_02_01",
+            "era_1993_1994_event_02_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_02_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_02_02"
+            }
+          ],
+          "completionFlag": "era_1993_1994_chapter_02_complete",
+          "nextChapterId": "era_1993_1994_chapter_03",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1993_1994_chapter_03",
+          "index": 3,
+          "title": "第3章：尖叫棚屋的故事",
+          "phase": "调查升级",
+          "window": {
+            "fromMonth": 11,
+            "toMonth": 12
+          },
+          "eventIds": [
+            "era_1993_1994_event_03_01",
+            "era_1993_1994_event_03_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_03_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_03_02"
+            }
+          ],
+          "completionFlag": "era_1993_1994_chapter_03_complete",
+          "nextChapterId": "era_1993_1994_chapter_04",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1993_1994_chapter_04",
+          "index": 4,
+          "title": "第4章：月圆前后的踪迹",
+          "phase": "冬季转折",
+          "window": {
+            "fromMonth": 12,
+            "toMonth": 1
+          },
+          "eventIds": [
+            "era_1993_1994_event_04_01",
+            "era_1993_1994_event_04_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_04_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_04_02"
+            }
+          ],
+          "completionFlag": "era_1993_1994_chapter_04_complete",
+          "nextChapterId": "era_1993_1994_chapter_05",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1993_1994_chapter_05",
+          "index": 5,
+          "title": "第5章：禁林边缘的黑影",
+          "phase": "能力准备",
+          "window": {
+            "fromMonth": 1,
+            "toMonth": 3
+          },
+          "eventIds": [
+            "era_1993_1994_event_05_01",
+            "era_1993_1994_event_05_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_05_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_05_02"
+            }
+          ],
+          "completionFlag": "era_1993_1994_chapter_05_complete",
+          "nextChapterId": "era_1993_1994_chapter_06",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1993_1994_chapter_06",
+          "index": 6,
+          "title": "第6章：守护神练习",
+          "phase": "危险逼近",
+          "window": {
+            "fromMonth": 3,
+            "toMonth": 4
+          },
+          "eventIds": [
+            "era_1993_1994_event_06_01",
+            "era_1993_1994_event_06_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_06_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_06_02"
+            }
+          ],
+          "completionFlag": "era_1993_1994_chapter_06_complete",
+          "nextChapterId": "era_1993_1994_chapter_07",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1993_1994_chapter_07",
+          "index": 7,
+          "title": "第7章：湖畔的异常",
+          "phase": "最后筹备",
+          "window": {
+            "fromMonth": 4,
+            "toMonth": 5
+          },
+          "eventIds": [
+            "era_1993_1994_event_07_01",
+            "era_1993_1994_event_07_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_07_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_07_02"
+            }
+          ],
+          "completionFlag": "era_1993_1994_chapter_07_complete",
+          "nextChapterId": "era_1993_1994_chapter_08",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1993_1994_chapter_08",
+          "index": 8,
+          "title": "第8章：真相与撤离",
+          "phase": "期末危机",
+          "window": {
+            "fromMonth": 5,
+            "toMonth": 6
+          },
+          "eventIds": [
+            "era_1993_1994_event_08_01",
+            "era_1993_1994_event_08_02",
+            "era_1993_1994_event_08_03"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_08_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_08_02"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1993_1994_event_08_03"
+            }
+          ],
+          "completionFlag": "era_1993_1994_chapter_08_complete",
+          "nextChapterId": null,
+          "failurePolicy": "advance_with_consequences"
+        }
+      ],
+      "bossId": "era_1993_1994_boss",
+      "clueIds": [
+        "era_1993_1994_clue_01",
+        "era_1993_1994_clue_02",
+        "era_1993_1994_clue_03",
+        "era_1993_1994_clue_04"
+      ],
+      "onComplete": {
+        "setFlags": [
+          "era_1993_1994_complete"
+        ],
+        "journalTag": "era_main"
+      },
+      "note": "时代主线以原著为背景，玩家所经历的外围剧情为原创；不得强制玩家参与原著主角的专属事件。"
+    },
+    {
+      "id": "era_1994_1995",
+      "title": "1994–1995学年：火焰杯篇",
+      "yearStart": 1994,
+      "yearEnd": 1995,
+      "book": "Harry Potter and the Goblet of Fire",
+      "origin": {
+        "layer": "novel_canon_context_plus_original_player_story"
+      },
+      "premise": "三强争霸赛与潜伏阴谋",
+      "canonAnchor": {
+        "description": "伏地魔于墓地复活、塞德里克死亡",
+        "source": {
+          "layer": "novel_canon",
+          "reference": "Harry Potter and the Goblet of Fire：结局章节",
+          "verification": "needs_chapter_check"
+        },
+        "immutable": true
+      },
+      "eligibility": {
+        "schoolId": "hogwarts",
+        "enrolledDuringYear": true,
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "notAllPlayersMeetHarry": true
+      },
+      "chapters": [
+        {
+          "id": "era_1994_1995_chapter_01",
+          "index": 1,
+          "title": "第1章：远方来客",
+          "phase": "开学异象",
+          "window": {
+            "fromMonth": 9,
+            "toMonth": 10
+          },
+          "eventIds": [
+            "era_1994_1995_event_01_01",
+            "era_1994_1995_event_01_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_01_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_01_02"
+            }
+          ],
+          "completionFlag": "era_1994_1995_chapter_01_complete",
+          "nextChapterId": "era_1994_1995_chapter_02",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1994_1995_chapter_02",
+          "index": 2,
+          "title": "第2章：火焰杯异动",
+          "phase": "第一次线索",
+          "window": {
+            "fromMonth": 10,
+            "toMonth": 11
+          },
+          "eventIds": [
+            "era_1994_1995_event_02_01",
+            "era_1994_1995_event_02_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_02_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_02_02"
+            }
+          ],
+          "completionFlag": "era_1994_1995_chapter_02_complete",
+          "nextChapterId": "era_1994_1995_chapter_03",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1994_1995_chapter_03",
+          "index": 3,
+          "title": "第3章：赛场安全检查",
+          "phase": "调查升级",
+          "window": {
+            "fromMonth": 11,
+            "toMonth": 12
+          },
+          "eventIds": [
+            "era_1994_1995_event_03_01",
+            "era_1994_1995_event_03_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_03_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_03_02"
+            }
+          ],
+          "completionFlag": "era_1994_1995_chapter_03_complete",
+          "nextChapterId": "era_1994_1995_chapter_04",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1994_1995_chapter_04",
+          "index": 4,
+          "title": "第4章：龙与任务准备",
+          "phase": "冬季转折",
+          "window": {
+            "fromMonth": 12,
+            "toMonth": 1
+          },
+          "eventIds": [
+            "era_1994_1995_event_04_01",
+            "era_1994_1995_event_04_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_04_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_04_02"
+            }
+          ],
+          "completionFlag": "era_1994_1995_chapter_04_complete",
+          "nextChapterId": "era_1994_1995_chapter_05",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1994_1995_chapter_05",
+          "index": 5,
+          "title": "第5章：水下救援情报",
+          "phase": "能力准备",
+          "window": {
+            "fromMonth": 1,
+            "toMonth": 3
+          },
+          "eventIds": [
+            "era_1994_1995_event_05_01",
+            "era_1994_1995_event_05_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_05_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_05_02"
+            }
+          ],
+          "completionFlag": "era_1994_1995_chapter_05_complete",
+          "nextChapterId": "era_1994_1995_chapter_06",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1994_1995_chapter_06",
+          "index": 6,
+          "title": "第6章：可疑的教授举动",
+          "phase": "危险逼近",
+          "window": {
+            "fromMonth": 3,
+            "toMonth": 4
+          },
+          "eventIds": [
+            "era_1994_1995_event_06_01",
+            "era_1994_1995_event_06_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_06_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_06_02"
+            }
+          ],
+          "completionFlag": "era_1994_1995_chapter_06_complete",
+          "nextChapterId": "era_1994_1995_chapter_07",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1994_1995_chapter_07",
+          "index": 7,
+          "title": "第7章：迷宫布置疑点",
+          "phase": "最后筹备",
+          "window": {
+            "fromMonth": 4,
+            "toMonth": 5
+          },
+          "eventIds": [
+            "era_1994_1995_event_07_01",
+            "era_1994_1995_event_07_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_07_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_07_02"
+            }
+          ],
+          "completionFlag": "era_1994_1995_chapter_07_complete",
+          "nextChapterId": "era_1994_1995_chapter_08",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1994_1995_chapter_08",
+          "index": 8,
+          "title": "第8章：争霸赛悲剧",
+          "phase": "期末危机",
+          "window": {
+            "fromMonth": 5,
+            "toMonth": 6
+          },
+          "eventIds": [
+            "era_1994_1995_event_08_01",
+            "era_1994_1995_event_08_02",
+            "era_1994_1995_event_08_03"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_08_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_08_02"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1994_1995_event_08_03"
+            }
+          ],
+          "completionFlag": "era_1994_1995_chapter_08_complete",
+          "nextChapterId": null,
+          "failurePolicy": "advance_with_consequences"
+        }
+      ],
+      "bossId": "era_1994_1995_boss",
+      "clueIds": [
+        "era_1994_1995_clue_01",
+        "era_1994_1995_clue_02",
+        "era_1994_1995_clue_03",
+        "era_1994_1995_clue_04"
+      ],
+      "onComplete": {
+        "setFlags": [
+          "era_1994_1995_complete"
+        ],
+        "journalTag": "era_main"
+      },
+      "note": "时代主线以原著为背景，玩家所经历的外围剧情为原创；不得强制玩家参与原著主角的专属事件。"
+    },
+    {
+      "id": "era_1995_1996",
+      "title": "1995–1996学年：凤凰社篇",
+      "yearStart": 1995,
+      "yearEnd": 1996,
+      "book": "Harry Potter and the Order of the Phoenix",
+      "origin": {
+        "layer": "novel_canon_context_plus_original_player_story"
+      },
+      "premise": "乌姆里奇干预教学",
+      "canonAnchor": {
+        "description": "神秘事务司战斗后魔法部承认伏地魔归来",
+        "source": {
+          "layer": "novel_canon",
+          "reference": "Harry Potter and the Order of the Phoenix：结局章节",
+          "verification": "needs_chapter_check"
+        },
+        "immutable": true
+      },
+      "eligibility": {
+        "schoolId": "hogwarts",
+        "enrolledDuringYear": true,
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "notAllPlayersMeetHarry": true
+      },
+      "chapters": [
+        {
+          "id": "era_1995_1996_chapter_01",
+          "index": 1,
+          "title": "第1章：新任教师的规则",
+          "phase": "开学异象",
+          "window": {
+            "fromMonth": 9,
+            "toMonth": 10
+          },
+          "eventIds": [
+            "era_1995_1996_event_01_01",
+            "era_1995_1996_event_01_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_01_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_01_02"
+            }
+          ],
+          "completionFlag": "era_1995_1996_chapter_01_complete",
+          "nextChapterId": "era_1995_1996_chapter_02",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1995_1996_chapter_02",
+          "index": 2,
+          "title": "第2章：报纸上的谎言",
+          "phase": "第一次线索",
+          "window": {
+            "fromMonth": 10,
+            "toMonth": 11
+          },
+          "eventIds": [
+            "era_1995_1996_event_02_01",
+            "era_1995_1996_event_02_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_02_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_02_02"
+            }
+          ],
+          "completionFlag": "era_1995_1996_chapter_02_complete",
+          "nextChapterId": "era_1995_1996_chapter_03",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1995_1996_chapter_03",
+          "index": 3,
+          "title": "第3章：课堂禁止实践",
+          "phase": "调查升级",
+          "window": {
+            "fromMonth": 11,
+            "toMonth": 12
+          },
+          "eventIds": [
+            "era_1995_1996_event_03_01",
+            "era_1995_1996_event_03_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_03_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_03_02"
+            }
+          ],
+          "completionFlag": "era_1995_1996_chapter_03_complete",
+          "nextChapterId": "era_1995_1996_chapter_04",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1995_1996_chapter_04",
+          "index": 4,
+          "title": "第4章：秘密学习邀请",
+          "phase": "冬季转折",
+          "window": {
+            "fromMonth": 12,
+            "toMonth": 1
+          },
+          "eventIds": [
+            "era_1995_1996_event_04_01",
+            "era_1995_1996_event_04_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_04_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_04_02"
+            }
+          ],
+          "completionFlag": "era_1995_1996_chapter_04_complete",
+          "nextChapterId": "era_1995_1996_chapter_05",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1995_1996_chapter_05",
+          "index": 5,
+          "title": "第5章：告密者的线索",
+          "phase": "能力准备",
+          "window": {
+            "fromMonth": 1,
+            "toMonth": 3
+          },
+          "eventIds": [
+            "era_1995_1996_event_05_01",
+            "era_1995_1996_event_05_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_05_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_05_02"
+            }
+          ],
+          "completionFlag": "era_1995_1996_chapter_05_complete",
+          "nextChapterId": "era_1995_1996_chapter_06",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1995_1996_chapter_06",
+          "index": 6,
+          "title": "第6章：被没收的信件",
+          "phase": "危险逼近",
+          "window": {
+            "fromMonth": 3,
+            "toMonth": 4
+          },
+          "eventIds": [
+            "era_1995_1996_event_06_01",
+            "era_1995_1996_event_06_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_06_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_06_02"
+            }
+          ],
+          "completionFlag": "era_1995_1996_chapter_06_complete",
+          "nextChapterId": "era_1995_1996_chapter_07",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1995_1996_chapter_07",
+          "index": 7,
+          "title": "第7章：期末考与搜查",
+          "phase": "最后筹备",
+          "window": {
+            "fromMonth": 4,
+            "toMonth": 5
+          },
+          "eventIds": [
+            "era_1995_1996_event_07_01",
+            "era_1995_1996_event_07_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_07_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_07_02"
+            }
+          ],
+          "completionFlag": "era_1995_1996_chapter_07_complete",
+          "nextChapterId": "era_1995_1996_chapter_08",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1995_1996_chapter_08",
+          "index": 8,
+          "title": "第8章：抵抗网络的抉择",
+          "phase": "期末危机",
+          "window": {
+            "fromMonth": 5,
+            "toMonth": 6
+          },
+          "eventIds": [
+            "era_1995_1996_event_08_01",
+            "era_1995_1996_event_08_02",
+            "era_1995_1996_event_08_03"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_08_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_08_02"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1995_1996_event_08_03"
+            }
+          ],
+          "completionFlag": "era_1995_1996_chapter_08_complete",
+          "nextChapterId": null,
+          "failurePolicy": "advance_with_consequences"
+        }
+      ],
+      "bossId": "era_1995_1996_boss",
+      "clueIds": [
+        "era_1995_1996_clue_01",
+        "era_1995_1996_clue_02",
+        "era_1995_1996_clue_03",
+        "era_1995_1996_clue_04"
+      ],
+      "onComplete": {
+        "setFlags": [
+          "era_1995_1996_complete"
+        ],
+        "journalTag": "era_main"
+      },
+      "note": "时代主线以原著为背景，玩家所经历的外围剧情为原创；不得强制玩家参与原著主角的专属事件。"
+    },
+    {
+      "id": "era_1996_1997",
+      "title": "1996–1997学年：混血王子篇",
+      "yearStart": 1996,
+      "yearEnd": 1997,
+      "book": "Harry Potter and the Half-Blood Prince",
+      "origin": {
+        "layer": "novel_canon_context_plus_original_player_story"
+      },
+      "premise": "霍格沃茨暗藏入侵通道",
+      "canonAnchor": {
+        "description": "邓布利多在天文塔身亡",
+        "source": {
+          "layer": "novel_canon",
+          "reference": "Harry Potter and the Half-Blood Prince：结局章节",
+          "verification": "needs_chapter_check"
+        },
+        "immutable": true
+      },
+      "eligibility": {
+        "schoolId": "hogwarts",
+        "enrolledDuringYear": true,
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "notAllPlayersMeetHarry": true
+      },
+      "chapters": [
+        {
+          "id": "era_1996_1997_chapter_01",
+          "index": 1,
+          "title": "第1章：被封锁的房间",
+          "phase": "开学异象",
+          "window": {
+            "fromMonth": 9,
+            "toMonth": 10
+          },
+          "eventIds": [
+            "era_1996_1997_event_01_01",
+            "era_1996_1997_event_01_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_01_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_01_02"
+            }
+          ],
+          "completionFlag": "era_1996_1997_chapter_01_complete",
+          "nextChapterId": "era_1996_1997_chapter_02",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1996_1997_chapter_02",
+          "index": 2,
+          "title": "第2章：危险的礼物",
+          "phase": "第一次线索",
+          "window": {
+            "fromMonth": 10,
+            "toMonth": 11
+          },
+          "eventIds": [
+            "era_1996_1997_event_02_01",
+            "era_1996_1997_event_02_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_02_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_02_02"
+            }
+          ],
+          "completionFlag": "era_1996_1997_chapter_02_complete",
+          "nextChapterId": "era_1996_1997_chapter_03",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1996_1997_chapter_03",
+          "index": 3,
+          "title": "第3章：消失柜的传闻",
+          "phase": "调查升级",
+          "window": {
+            "fromMonth": 11,
+            "toMonth": 12
+          },
+          "eventIds": [
+            "era_1996_1997_event_03_01",
+            "era_1996_1997_event_03_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_03_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_03_02"
+            }
+          ],
+          "completionFlag": "era_1996_1997_chapter_03_complete",
+          "nextChapterId": "era_1996_1997_chapter_04",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1996_1997_chapter_04",
+          "index": 4,
+          "title": "第4章：魔药课的旧笔记",
+          "phase": "冬季转折",
+          "window": {
+            "fromMonth": 12,
+            "toMonth": 1
+          },
+          "eventIds": [
+            "era_1996_1997_event_04_01",
+            "era_1996_1997_event_04_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_04_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_04_02"
+            }
+          ],
+          "completionFlag": "era_1996_1997_chapter_04_complete",
+          "nextChapterId": "era_1996_1997_chapter_05",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1996_1997_chapter_05",
+          "index": 5,
+          "title": "第5章：受伤同学的证词",
+          "phase": "能力准备",
+          "window": {
+            "fromMonth": 1,
+            "toMonth": 3
+          },
+          "eventIds": [
+            "era_1996_1997_event_05_01",
+            "era_1996_1997_event_05_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_05_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_05_02"
+            }
+          ],
+          "completionFlag": "era_1996_1997_chapter_05_complete",
+          "nextChapterId": "era_1996_1997_chapter_06",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1996_1997_chapter_06",
+          "index": 6,
+          "title": "第6章：深夜修复的声响",
+          "phase": "危险逼近",
+          "window": {
+            "fromMonth": 3,
+            "toMonth": 4
+          },
+          "eventIds": [
+            "era_1996_1997_event_06_01",
+            "era_1996_1997_event_06_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_06_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_06_02"
+            }
+          ],
+          "completionFlag": "era_1996_1997_chapter_06_complete",
+          "nextChapterId": "era_1996_1997_chapter_07",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1996_1997_chapter_07",
+          "index": 7,
+          "title": "第7章：塔楼守夜",
+          "phase": "最后筹备",
+          "window": {
+            "fromMonth": 4,
+            "toMonth": 5
+          },
+          "eventIds": [
+            "era_1996_1997_event_07_01",
+            "era_1996_1997_event_07_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_07_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_07_02"
+            }
+          ],
+          "completionFlag": "era_1996_1997_chapter_07_complete",
+          "nextChapterId": "era_1996_1997_chapter_08",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1996_1997_chapter_08",
+          "index": 8,
+          "title": "第8章：天文塔之夜",
+          "phase": "期末危机",
+          "window": {
+            "fromMonth": 5,
+            "toMonth": 6
+          },
+          "eventIds": [
+            "era_1996_1997_event_08_01",
+            "era_1996_1997_event_08_02",
+            "era_1996_1997_event_08_03"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_08_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_08_02"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1996_1997_event_08_03"
+            }
+          ],
+          "completionFlag": "era_1996_1997_chapter_08_complete",
+          "nextChapterId": null,
+          "failurePolicy": "advance_with_consequences"
+        }
+      ],
+      "bossId": "era_1996_1997_boss",
+      "clueIds": [
+        "era_1996_1997_clue_01",
+        "era_1996_1997_clue_02",
+        "era_1996_1997_clue_03",
+        "era_1996_1997_clue_04"
+      ],
+      "onComplete": {
+        "setFlags": [
+          "era_1996_1997_complete"
+        ],
+        "journalTag": "era_main"
+      },
+      "note": "时代主线以原著为背景，玩家所经历的外围剧情为原创；不得强制玩家参与原著主角的专属事件。"
+    },
+    {
+      "id": "era_1997_1998",
+      "title": "1997–1998学年：死亡圣器篇",
+      "yearStart": 1997,
+      "yearEnd": 1998,
+      "book": "Harry Potter and the Deathly Hallows",
+      "origin": {
+        "layer": "novel_canon_context_plus_original_player_story"
+      },
+      "premise": "卡罗兄妹统治下的校园",
+      "canonAnchor": {
+        "description": "伏地魔由哈利击败、战役结束",
+        "source": {
+          "layer": "novel_canon",
+          "reference": "Harry Potter and the Deathly Hallows：结局章节",
+          "verification": "needs_chapter_check"
+        },
+        "immutable": true
+      },
+      "eligibility": {
+        "schoolId": "hogwarts",
+        "enrolledDuringYear": true,
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "notAllPlayersMeetHarry": true
+      },
+      "chapters": [
+        {
+          "id": "era_1997_1998_chapter_01",
+          "index": 1,
+          "title": "第1章：新校规与缺席名单",
+          "phase": "开学异象",
+          "window": {
+            "fromMonth": 9,
+            "toMonth": 10
+          },
+          "eventIds": [
+            "era_1997_1998_event_01_01",
+            "era_1997_1998_event_01_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_01_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_01_02"
+            }
+          ],
+          "completionFlag": "era_1997_1998_chapter_01_complete",
+          "nextChapterId": "era_1997_1998_chapter_02",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1997_1998_chapter_02",
+          "index": 2,
+          "title": "第2章：惩罚中的反抗",
+          "phase": "第一次线索",
+          "window": {
+            "fromMonth": 10,
+            "toMonth": 11
+          },
+          "eventIds": [
+            "era_1997_1998_event_02_01",
+            "era_1997_1998_event_02_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_02_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_02_02"
+            }
+          ],
+          "completionFlag": "era_1997_1998_chapter_02_complete",
+          "nextChapterId": "era_1997_1998_chapter_03",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1997_1998_chapter_03",
+          "index": 3,
+          "title": "第3章：禁书区被清空",
+          "phase": "调查升级",
+          "window": {
+            "fromMonth": 11,
+            "toMonth": 12
+          },
+          "eventIds": [
+            "era_1997_1998_event_03_01",
+            "era_1997_1998_event_03_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_03_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_03_02"
+            }
+          ],
+          "completionFlag": "era_1997_1998_chapter_03_complete",
+          "nextChapterId": "era_1997_1998_chapter_04",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1997_1998_chapter_04",
+          "index": 4,
+          "title": "第4章：密室联络点",
+          "phase": "冬季转折",
+          "window": {
+            "fromMonth": 12,
+            "toMonth": 1
+          },
+          "eventIds": [
+            "era_1997_1998_event_04_01",
+            "era_1997_1998_event_04_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_04_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_04_02"
+            }
+          ],
+          "completionFlag": "era_1997_1998_chapter_04_complete",
+          "nextChapterId": "era_1997_1998_chapter_05",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1997_1998_chapter_05",
+          "index": 5,
+          "title": "第5章：失踪学生的家书",
+          "phase": "能力准备",
+          "window": {
+            "fromMonth": 1,
+            "toMonth": 3
+          },
+          "eventIds": [
+            "era_1997_1998_event_05_01",
+            "era_1997_1998_event_05_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_05_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_05_02"
+            }
+          ],
+          "completionFlag": "era_1997_1998_chapter_05_complete",
+          "nextChapterId": "era_1997_1998_chapter_06",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1997_1998_chapter_06",
+          "index": 6,
+          "title": "第6章：秘密通道的补给",
+          "phase": "危险逼近",
+          "window": {
+            "fromMonth": 3,
+            "toMonth": 4
+          },
+          "eventIds": [
+            "era_1997_1998_event_06_01",
+            "era_1997_1998_event_06_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_06_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_06_02"
+            }
+          ],
+          "completionFlag": "era_1997_1998_chapter_06_complete",
+          "nextChapterId": "era_1997_1998_chapter_07",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1997_1998_chapter_07",
+          "index": 7,
+          "title": "第7章：战前撤离计划",
+          "phase": "最后筹备",
+          "window": {
+            "fromMonth": 4,
+            "toMonth": 5
+          },
+          "eventIds": [
+            "era_1997_1998_event_07_01",
+            "era_1997_1998_event_07_02"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_07_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_07_02"
+            }
+          ],
+          "completionFlag": "era_1997_1998_chapter_07_complete",
+          "nextChapterId": "era_1997_1998_chapter_08",
+          "failurePolicy": "advance_with_consequences"
+        },
+        {
+          "id": "era_1997_1998_chapter_08",
+          "index": 8,
+          "title": "第8章：霍格沃茨大战",
+          "phase": "期末危机",
+          "window": {
+            "fromMonth": 5,
+            "toMonth": 6
+          },
+          "eventIds": [
+            "era_1997_1998_event_08_01",
+            "era_1997_1998_event_08_02",
+            "era_1997_1998_event_08_03"
+          ],
+          "objectives": [
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_08_01"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_08_02"
+            },
+            {
+              "type": "complete_event",
+              "eventId": "era_1997_1998_event_08_03"
+            }
+          ],
+          "completionFlag": "era_1997_1998_chapter_08_complete",
+          "nextChapterId": null,
+          "failurePolicy": "advance_with_consequences"
+        }
+      ],
+      "bossId": "era_1997_1998_boss",
+      "clueIds": [
+        "era_1997_1998_clue_01",
+        "era_1997_1998_clue_02",
+        "era_1997_1998_clue_03",
+        "era_1997_1998_clue_04"
+      ],
+      "onComplete": {
+        "setFlags": [
+          "era_1997_1998_complete"
+        ],
+        "journalTag": "era_main"
+      },
+      "note": "时代主线以原著为背景，玩家所经历的外围剧情为原创；不得强制玩家参与原著主角的专属事件。"
+    }
+  ]
+}

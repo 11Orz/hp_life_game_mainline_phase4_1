@@ -1,0 +1,306 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "npc_belief_profiles",
+  "records": [
+    {
+      "id": "ministry_loyalist",
+      "name": "官方机构信任者",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 80,
+      "evidence_threshold": 25,
+      "public_speech_willingness": 15,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "skeptical_student",
+      "name": "审慎学生",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 40,
+      "evidence_threshold": 70,
+      "public_speech_willingness": 30,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "order_supporter",
+      "name": "抵抗组织支持者",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 15,
+      "evidence_threshold": 75,
+      "public_speech_willingness": 75,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "risk_averse_parent",
+      "name": "谨慎家长",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 55,
+      "evidence_threshold": 40,
+      "public_speech_willingness": 20,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "tabloid_follower",
+      "name": "八卦追随者",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 45,
+      "evidence_threshold": 25,
+      "public_speech_willingness": 50,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "academic",
+      "name": "学术研究者",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 30,
+      "evidence_threshold": 90,
+      "public_speech_willingness": 30,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "independent_reporter",
+      "name": "独立记者",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 25,
+      "evidence_threshold": 85,
+      "public_speech_willingness": 75,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "pureblood_elitist",
+      "name": "血统精英主义者",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 65,
+      "evidence_threshold": 20,
+      "public_speech_willingness": 50,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "muggleborn_student",
+      "name": "麻瓜出身学生",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 30,
+      "evidence_threshold": 55,
+      "public_speech_willingness": 45,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "healer",
+      "name": "治疗师",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 40,
+      "evidence_threshold": 70,
+      "public_speech_willingness": 65,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "international_student",
+      "name": "国际交换学生",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 30,
+      "evidence_threshold": 65,
+      "public_speech_willingness": 40,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    },
+    {
+      "id": "underground_member",
+      "name": "地下组织成员",
+      "summary": "NPC认知倾向模板；不能根据学院或血统自动赋予",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "institutional_trust": 5,
+      "evidence_threshold": 75,
+      "public_speech_willingness": 95,
+      "belief_dimensions": [
+        "awareness",
+        "confidence",
+        "fear",
+        "social_pressure",
+        "action_intent"
+      ],
+      "update_rule": {
+        "direct_evidence_weight": 0.5,
+        "trusted_source_weight": 0.25,
+        "repetition_weight": 0.05,
+        "social_cost_weight": 0.2
+      },
+      "memory_required": true
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

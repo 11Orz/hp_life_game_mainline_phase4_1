@@ -1,0 +1,198 @@
+{
+  "id": "npc_opinion_characters",
+  "description": "原创NPC身份、个性与初始关系；不把学院等同观点",
+  "records": [
+    {
+      "id": "student_ada",
+      "name": "艾达·梅森",
+      "group": "ravenclaw",
+      "profile_id": "skeptical_student",
+      "baseline_trust": 72,
+      "baseline_affection": 58,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 30,
+        "fear_sensitivity": 25,
+        "openness": 30
+      }
+    },
+    {
+      "id": "student_ben",
+      "name": "本·哈珀",
+      "group": "gryffindor",
+      "profile_id": "order_supporter",
+      "baseline_trust": 68,
+      "baseline_affection": 61,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 43,
+        "fear_sensitivity": 42,
+        "openness": 49
+      }
+    },
+    {
+      "id": "student_cora",
+      "name": "科拉·芬奇",
+      "group": "slytherin",
+      "profile_id": "ministry_loyalist",
+      "baseline_trust": 55,
+      "baseline_affection": 43,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 56,
+        "fear_sensitivity": 59,
+        "openness": 68
+      }
+    },
+    {
+      "id": "student_dina",
+      "name": "迪娜·伍德",
+      "group": "hufflepuff",
+      "profile_id": "risk_averse_parent",
+      "baseline_trust": 65,
+      "baseline_affection": 60,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 34,
+        "fear_sensitivity": 31,
+        "openness": 37
+      }
+    },
+    {
+      "id": "student_eli",
+      "name": "伊莱·布鲁克",
+      "group": "ravenclaw",
+      "profile_id": "tabloid_follower",
+      "baseline_trust": 57,
+      "baseline_affection": 66,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 47,
+        "fear_sensitivity": 48,
+        "openness": 56
+      }
+    },
+    {
+      "id": "student_faye",
+      "name": "菲伊·沃德",
+      "group": "slytherin",
+      "profile_id": "academic",
+      "baseline_trust": 51,
+      "baseline_affection": 49,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 60,
+        "fear_sensitivity": 65,
+        "openness": 75
+      }
+    },
+    {
+      "id": "student_glen",
+      "name": "格伦·里德",
+      "group": "gryffindor",
+      "profile_id": "independent_reporter",
+      "baseline_trust": 69,
+      "baseline_affection": 64,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 38,
+        "fear_sensitivity": 37,
+        "openness": 44
+      }
+    },
+    {
+      "id": "student_hana",
+      "name": "汉娜·贝尔",
+      "group": "hufflepuff",
+      "profile_id": "pureblood_elitist",
+      "baseline_trust": 63,
+      "baseline_affection": 57,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 51,
+        "fear_sensitivity": 54,
+        "openness": 63
+      }
+    },
+    {
+      "id": "teacher_mira",
+      "name": "米拉教授（原创）",
+      "group": "staff",
+      "profile_id": "muggleborn_student",
+      "baseline_trust": 74,
+      "baseline_affection": 75,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 64,
+        "fear_sensitivity": 26,
+        "openness": 32
+      }
+    },
+    {
+      "id": "reporter_owen",
+      "name": "欧文·派克（原创记者）",
+      "group": "public",
+      "profile_id": "healer",
+      "baseline_trust": 56,
+      "baseline_affection": 47,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 42,
+        "fear_sensitivity": 43,
+        "openness": 51
+      }
+    },
+    {
+      "id": "parent_iris",
+      "name": "艾瑞丝·摩尔（原创家长）",
+      "group": "public",
+      "profile_id": "international_student",
+      "baseline_trust": 67,
+      "baseline_affection": 56,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 55,
+        "fear_sensitivity": 60,
+        "openness": 70
+      }
+    },
+    {
+      "id": "student_jules",
+      "name": "朱尔斯·格林",
+      "group": "ravenclaw",
+      "profile_id": "underground_member",
+      "baseline_trust": 62,
+      "baseline_affection": 55,
+      "canon_level": "game_original",
+      "active_from": "1991-01-01",
+      "active_to": "2021-12-31",
+      "personality": {
+        "skepticism": 33,
+        "fear_sensitivity": 32,
+        "openness": 39
+      }
+    }
+  ]
+}

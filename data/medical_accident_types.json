@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_accident_types",
+  "description": "魔法事故类型、触发条件和危害",
+  "items": [
+    {
+      "id": "duel_backfire",
+      "name": "决斗反噬",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "spell",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "potion_overflow",
+      "name": "魔药溢出",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "potion",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "cauldron_explosion",
+      "name": "坩埚爆炸",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "potion",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "partial_transfiguration",
+      "name": "不完全变形",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "transfiguration",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "cursed_jewelry",
+      "name": "诅咒饰品",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "artifact",
+      "investigationRequired": true,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "creature_escape",
+      "name": "生物逃脱",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "creature",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "creature_bite",
+      "name": "魔法生物咬伤",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "creature",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "broom_crash",
+      "name": "扫帚撞击",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "transport",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "floo_misroute",
+      "name": "飞路网错路",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "transport",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "apparition_splinch",
+      "name": "幻影显形分体",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "transport",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "greenhouse_plant",
+      "name": "温室植物事故",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "herbology",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "mandrake_exposure",
+      "name": "曼德拉草尖叫暴露",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "herbology",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "obscurial_outburst",
+      "name": "疑似默默然爆发",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "high_magic",
+      "investigationRequired": true,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "spell_contamination",
+      "name": "魔咒污染",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "spell",
+      "investigationRequired": false,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "enchanted_object",
+      "name": "附魔物品失控",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "artifact",
+      "investigationRequired": true,
+      "severityRange": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "lab_experiment",
+      "name": "实验室意外",
+      "description": "事故类别模板；具体发生率和伤情为原创机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "category": "research",
+      "investigationRequired": true,
+      "severityRange": [
+        1,
+        5
+      ]
+    }
+  ]
+}

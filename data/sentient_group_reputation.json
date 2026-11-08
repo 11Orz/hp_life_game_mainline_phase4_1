@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_reputation",
+  "description": "个人信任、族群声望、文化知识、外交地位分开记录",
+  "records": [
+    {
+      "id": "listen",
+      "name": "倾听对方",
+      "summary": "原创数值；须按具体NPC与事件上下文调整",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "effects": {
+        "trust": 3,
+        "reputation": 1,
+        "knowledge": 2,
+        "diplomacy": 0
+      },
+      "cooldown_days": 2
+    },
+    {
+      "id": "respect",
+      "name": "尊重边界",
+      "summary": "原创数值；须按具体NPC与事件上下文调整",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "effects": {
+        "trust": 4,
+        "reputation": 2,
+        "knowledge": 1,
+        "diplomacy": 1
+      },
+      "cooldown_days": 2
+    },
+    {
+      "id": "help",
+      "name": "提供合适协助",
+      "summary": "原创数值；须按具体NPC与事件上下文调整",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "effects": {
+        "trust": 5,
+        "reputation": 2,
+        "knowledge": 0,
+        "diplomacy": 1
+      },
+      "cooldown_days": 2
+    },
+    {
+      "id": "negotiate",
+      "name": "谨慎协商",
+      "summary": "原创数值；须按具体NPC与事件上下文调整",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "effects": {
+        "trust": 2,
+        "reputation": 1,
+        "knowledge": 2,
+        "diplomacy": 3
+      },
+      "cooldown_days": 2
+    },
+    {
+      "id": "demand",
+      "name": "强制要求",
+      "summary": "原创数值；须按具体NPC与事件上下文调整",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "effects": {
+        "trust": -8,
+        "reputation": -5,
+        "knowledge": 0,
+        "diplomacy": -4
+      },
+      "cooldown_days": 2
+    },
+    {
+      "id": "expose",
+      "name": "未经许可公开秘密",
+      "summary": "原创数值；须按具体NPC与事件上下文调整",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "effects": {
+        "trust": -12,
+        "reputation": -8,
+        "knowledge": 0,
+        "diplomacy": -6
+      },
+      "cooldown_days": 2
+    },
+    {
+      "id": "promise",
+      "name": "作出承诺",
+      "summary": "原创数值；须按具体NPC与事件上下文调整",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "effects": {
+        "trust": 1,
+        "reputation": 0,
+        "knowledge": 0,
+        "diplomacy": 1
+      },
+      "cooldown_days": 2
+    }
+  ]
+}

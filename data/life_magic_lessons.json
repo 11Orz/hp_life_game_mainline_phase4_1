@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0",
+  "dataset": "life_magic_lessons",
+  "count": 14,
+  "lessons": [
+    {
+      "id": "lesson_1",
+      "spellId": "lumos",
+      "title": "荧光闪烁",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 1,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_2",
+      "spellId": "wingardium_leviosa",
+      "title": "漂浮咒",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 1,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_3",
+      "spellId": "lumos",
+      "title": "黑暗环境中的照明",
+      "locationId": "hogwarts_library",
+      "schoolYearMin": 2,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_4",
+      "spellId": "wingardium_leviosa",
+      "title": "精细控制练习",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 2,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_5",
+      "spellId": "lumos",
+      "title": "3年级魔法实操",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 3,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_6",
+      "spellId": "wingardium_leviosa",
+      "title": "3年级魔咒复习",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 3,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_7",
+      "spellId": "lumos",
+      "title": "4年级魔法实操",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 4,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_8",
+      "spellId": "wingardium_leviosa",
+      "title": "4年级魔咒复习",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 4,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_9",
+      "spellId": "lumos",
+      "title": "5年级魔法实操",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 5,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_10",
+      "spellId": "wingardium_leviosa",
+      "title": "5年级魔咒复习",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 5,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_11",
+      "spellId": "lumos",
+      "title": "6年级魔法实操",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 6,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_12",
+      "spellId": "wingardium_leviosa",
+      "title": "6年级魔咒复习",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 6,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_13",
+      "spellId": "lumos",
+      "title": "7年级魔法实操",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 7,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "lesson_14",
+      "spellId": "wingardium_leviosa",
+      "title": "7年级魔咒复习",
+      "locationId": "hogwarts_classroom",
+      "schoolYearMin": 7,
+      "masteryGain": 5,
+      "stressDelta": 2,
+      "sourceLayer": "original_gameplay"
+    }
+  ]
+}

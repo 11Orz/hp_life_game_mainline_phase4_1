@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "dataset": "life_school_years",
+  "count": 7,
+  "years": [
+    {
+      "id": "school_year_1",
+      "schoolYear": 1,
+      "start": "1991-09-01",
+      "end": "1992-08-31",
+      "title": "魔法石与初识魔法",
+      "canonAnchor": "魔法石",
+      "historicalArcId": "era_1991_1992",
+      "sourceLayer": "canon_context_with_original_gameplay"
+    },
+    {
+      "id": "school_year_2",
+      "schoolYear": 2,
+      "start": "1992-09-01",
+      "end": "1993-08-31",
+      "title": "密室与校园恐慌",
+      "canonAnchor": "密室",
+      "historicalArcId": "era_1992_1993",
+      "sourceLayer": "canon_context_with_original_gameplay"
+    },
+    {
+      "id": "school_year_3",
+      "schoolYear": 3,
+      "start": "1993-09-01",
+      "end": "1994-08-31",
+      "title": "阿兹卡班囚徒与守护神",
+      "canonAnchor": "小天狼星",
+      "historicalArcId": "era_1993_1994",
+      "sourceLayer": "canon_context_with_original_gameplay"
+    },
+    {
+      "id": "school_year_4",
+      "schoolYear": 4,
+      "start": "1994-09-01",
+      "end": "1995-08-31",
+      "title": "三强争霸与黑暗回归",
+      "canonAnchor": "三强争霸",
+      "historicalArcId": "era_1994_1995",
+      "sourceLayer": "canon_context_with_original_gameplay"
+    },
+    {
+      "id": "school_year_5",
+      "schoolYear": 5,
+      "start": "1995-09-01",
+      "end": "1996-08-31",
+      "title": "凤凰社与校园审查",
+      "canonAnchor": "邓布利多军",
+      "historicalArcId": "era_1995_1996",
+      "sourceLayer": "canon_context_with_original_gameplay"
+    },
+    {
+      "id": "school_year_6",
+      "schoolYear": 6,
+      "start": "1996-09-01",
+      "end": "1997-08-31",
+      "title": "混血王子与战时阴影",
+      "canonAnchor": "魂器",
+      "historicalArcId": "era_1996_1997",
+      "sourceLayer": "canon_context_with_original_gameplay"
+    },
+    {
+      "id": "school_year_7",
+      "schoolYear": 7,
+      "start": "1997-09-01",
+      "end": "1998-08-31",
+      "title": "死亡圣器与霍格沃茨大战",
+      "canonAnchor": "霍格沃茨大战",
+      "historicalArcId": "era_1997_1998",
+      "sourceLayer": "canon_context_with_original_gameplay"
+    }
+  ]
+}

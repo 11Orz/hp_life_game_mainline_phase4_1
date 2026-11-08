@@ -1,0 +1,1333 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "startYear": 1900,
+    "endYear": 2021,
+    "note": "魔法技能不是在整个时间段内均有明确教学记录；年代与学校适用性须由事件条件控制。"
+  },
+  "sourcePolicy": {
+    "priority": [
+      "original_novels",
+      "rowling_official",
+      "expanded_screenplays",
+      "reference_wikis",
+      "game_original"
+    ],
+    "note": "原著事实与原创游戏数值分离；章节为检索线索，未逐章核验的记录标记needs_review。"
+  },
+  "dataset": "spells",
+  "count": 33,
+  "spells": [
+    {
+      "id": "lumos",
+      "name": "荧光闪烁",
+      "incantation": "Lumos",
+      "subjectId": "charms",
+      "tags": [
+        "light",
+        "exploration"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "魔杖照明",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 密室",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 20,
+        "baseCost": 5,
+        "effects": [
+          "illuminate_darkness"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "nox",
+      "name": "诺克斯",
+      "incantation": "Nox",
+      "subjectId": "charms",
+      "tags": [
+        "utility"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "熄灭魔杖光亮",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 阿兹卡班的囚徒",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 22,
+        "baseCost": 8,
+        "effects": [
+          "extinguish_wand_light"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "wingardium_leviosa",
+      "name": "羽加迪姆 勒维奥萨",
+      "incantation": "Wingardium Leviosa",
+      "subjectId": "charms",
+      "tags": [
+        "utility",
+        "puzzle"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "悬浮物体",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 魔法石",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 24,
+        "baseCost": 11,
+        "effects": [
+          "levitate_object"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "alohomora",
+      "name": "阿拉霍洞开",
+      "incantation": "Alohomora",
+      "subjectId": "charms",
+      "tags": [
+        "exploration"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "开启部分锁",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 魔法石",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 26,
+        "baseCost": 14,
+        "effects": [
+          "unlock_simple_lock"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "reparo",
+      "name": "恢复如初",
+      "incantation": "Reparo",
+      "subjectId": "charms",
+      "tags": [
+        "utility"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "修复损坏物品",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 密室",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 28,
+        "baseCost": 17,
+        "effects": [
+          "repair_object"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "accio",
+      "name": "飞来咒",
+      "incantation": "Accio",
+      "subjectId": "charms",
+      "tags": [
+        "utility",
+        "combat"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "召唤物品",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 30,
+        "baseCost": 20,
+        "effects": [
+          "summon_object"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "expelliarmus",
+      "name": "除你武器",
+      "incantation": "Expelliarmus",
+      "subjectId": "defense",
+      "tags": [
+        "duel",
+        "control"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "缴械",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 密室",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 32,
+        "baseCost": 5,
+        "effects": [
+          "disarm_target"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "protego",
+      "name": "盔甲护身",
+      "incantation": "Protego",
+      "subjectId": "defense",
+      "tags": [
+        "duel",
+        "defense"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "抵挡部分魔咒",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 凤凰社",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 34,
+        "baseCost": 8,
+        "effects": [
+          "block_spell"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "stupefy",
+      "name": "昏昏倒地",
+      "incantation": "Stupefy",
+      "subjectId": "defense",
+      "tags": [
+        "duel",
+        "control"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "击昏目标",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 36,
+        "baseCost": 11,
+        "effects": [
+          "stun_target"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "petrificus_totalus",
+      "name": "统统石化",
+      "incantation": "Petrificus Totalus",
+      "subjectId": "defense",
+      "tags": [
+        "duel",
+        "control"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "全身束缚",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 魔法石",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 38,
+        "baseCost": 14,
+        "effects": [
+          "paralyze_target"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "expecto_patronum",
+      "name": "呼神护卫",
+      "incantation": "Expecto Patronum",
+      "subjectId": "defense",
+      "tags": [
+        "dementor",
+        "protection"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "抵御摄魂怪；实体守护神可承担通讯用途",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 阿兹卡班的囚徒",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 40,
+        "baseCost": 17,
+        "effects": [
+          "repel_dementor",
+          "patronus_messaging_if_corporeal"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "riddikulus",
+      "name": "滑稽滑稽",
+      "incantation": "Riddikulus",
+      "subjectId": "defense",
+      "tags": [
+        "creature"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "对付博格特",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 阿兹卡班的囚徒",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 42,
+        "baseCost": 20,
+        "effects": [
+          "counter_boggart"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "incendio",
+      "name": "火焰熊熊",
+      "incantation": "Incendio",
+      "subjectId": "charms",
+      "tags": [
+        "fire",
+        "exploration"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "点燃火焰",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 44,
+        "baseCost": 5,
+        "effects": [
+          "ignite_fire"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "aguamenti",
+      "name": "清水如泉",
+      "incantation": "Aguamenti",
+      "subjectId": "charms",
+      "tags": [
+        "water",
+        "utility"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "从魔杖释放水",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 46,
+        "baseCost": 8,
+        "effects": [
+          "conjure_water"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "diffindo",
+      "name": "四分五裂",
+      "incantation": "Diffindo",
+      "subjectId": "charms",
+      "tags": [
+        "cutting",
+        "exploration"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "切割材料",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 48,
+        "baseCost": 11,
+        "effects": [
+          "cut_material"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "silencio",
+      "name": "无声无息",
+      "incantation": "Silencio",
+      "subjectId": "charms",
+      "tags": [
+        "control"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "使目标暂时失声",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 凤凰社",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 50,
+        "baseCost": 14,
+        "effects": [
+          "silence_target"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "impedimenta",
+      "name": "障碍重重",
+      "incantation": "Impedimenta",
+      "subjectId": "defense",
+      "tags": [
+        "duel",
+        "control"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "阻碍目标行动",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 52,
+        "baseCost": 17,
+        "effects": [
+          "slow_target"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "finite_incantatem",
+      "name": "咒立停",
+      "incantation": "Finite Incantatem",
+      "subjectId": "charms",
+      "tags": [
+        "counterspell"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "解除部分魔法效果",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 密室",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 54,
+        "baseCost": 20,
+        "effects": [
+          "end_some_spell_effects"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "episkey",
+      "name": "愈合如初",
+      "incantation": "Episkey",
+      "subjectId": "healing",
+      "tags": [
+        "healing"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "处理部分轻伤",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 56,
+        "baseCost": 5,
+        "effects": [
+          "heal_minor_injury"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "obliviate",
+      "name": "一忘皆空",
+      "incantation": "Obliviate",
+      "subjectId": "charms",
+      "tags": [
+        "memory",
+        "restricted"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "修改或抹去记忆，具有重大伦理风险",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 密室",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 58,
+        "baseCost": 8,
+        "effects": [
+          "modify_memory"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "disillusionment",
+      "name": "幻身咒",
+      "incantation": null,
+      "subjectId": "charms",
+      "tags": [
+        "stealth",
+        "exploration"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "使施术对象与周围环境融合",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 凤凰社",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 60,
+        "baseCost": 11,
+        "effects": [
+          "camouflage_person"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "reducto",
+      "name": "粉身碎骨",
+      "incantation": "Reducto",
+      "subjectId": "defense",
+      "tags": [
+        "duel",
+        "destruction"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "破坏物体",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 62,
+        "baseCost": 14,
+        "effects": [
+          "blast_object"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "confringo",
+      "name": "霹雳爆炸",
+      "incantation": "Confringo",
+      "subjectId": "defense",
+      "tags": [
+        "duel",
+        "destruction"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "爆炸性攻击",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 死亡圣器",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 64,
+        "baseCost": 17,
+        "effects": [
+          "explode_target"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "sectumsempra",
+      "name": "神锋无影",
+      "incantation": "Sectumsempra",
+      "subjectId": "dark_magic",
+      "tags": [
+        "dangerous",
+        "restricted"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "造成严重切割伤",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 66,
+        "baseCost": 20,
+        "effects": [
+          "deep_slashing_wounds"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "levicorpus",
+      "name": "倒挂金钟",
+      "incantation": "Levicorpus",
+      "subjectId": "charms",
+      "tags": [
+        "control",
+        "duel"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "倒挂目标",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 68,
+        "baseCost": 5,
+        "effects": [
+          "suspend_target_ankle"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "liberacorpus",
+      "name": "金钟落地",
+      "incantation": "Liberacorpus",
+      "subjectId": "charms",
+      "tags": [
+        "counterspell"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "解除倒挂",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 70,
+        "baseCost": 8,
+        "effects": [
+          "release_levicorpus"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "imperio",
+      "name": "魂魄出窍",
+      "incantation": "Imperio",
+      "subjectId": "dark_magic",
+      "tags": [
+        "unforgivable",
+        "restricted"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "不可饶恕咒，控制他人意志",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 72,
+        "baseCost": 11,
+        "effects": [
+          "control_will"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "crucio",
+      "name": "钻心剜骨",
+      "incantation": "Crucio",
+      "subjectId": "dark_magic",
+      "tags": [
+        "unforgivable",
+        "restricted"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "不可饶恕咒，造成剧痛",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 74,
+        "baseCost": 14,
+        "effects": [
+          "inflict_extreme_pain"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "avada_kedavra",
+      "name": "阿瓦达索命",
+      "incantation": "Avada Kedavra",
+      "subjectId": "dark_magic",
+      "tags": [
+        "unforgivable",
+        "restricted"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "不可饶恕咒，致命",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 火焰杯",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 76,
+        "baseCost": 17,
+        "effects": [
+          "kill_target"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "muffliato",
+      "name": "闭耳塞听",
+      "incantation": "Muffliato",
+      "subjectId": "charms",
+      "tags": [
+        "stealth",
+        "utility"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "以嗡鸣声遮蔽谈话",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 混血王子",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 78,
+        "baseCost": 20,
+        "effects": [
+          "mask_conversation"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "homenum_revelio",
+      "name": "人形显身",
+      "incantation": "Homenum Revelio",
+      "subjectId": "charms",
+      "tags": [
+        "detection"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "侦测人类存在",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 死亡圣器",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 80,
+        "baseCost": 5,
+        "effects": [
+          "detect_human_presence"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "salvio_hexia",
+      "name": "统统加护",
+      "incantation": "Salvio Hexia",
+      "subjectId": "defense",
+      "tags": [
+        "protection"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "保护区域的防御咒之一",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 死亡圣器",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 82,
+        "baseCost": 8,
+        "effects": [
+          "protect_area"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    },
+    {
+      "id": "expulso",
+      "name": "爆爆炸",
+      "incantation": "Expulso",
+      "subjectId": "defense",
+      "tags": [
+        "destruction"
+      ],
+      "canon": {
+        "layer": "original_novels",
+        "description": "爆炸咒",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 死亡圣器",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ]
+      },
+      "gameplay": {
+        "isOriginal": true,
+        "masteryRange": [
+          0,
+          100
+        ],
+        "learnedFlagRequired": true,
+        "suggestedDifficulty": 84,
+        "baseCost": 11,
+        "effects": [
+          "explode_object"
+        ],
+        "failureRisks": [
+          "fatigue"
+        ],
+        "yearRequirement": null,
+        "note": "难度、消耗与学习年级均为游戏设计；不能作为原著事实。"
+      }
+    }
+  ]
+}

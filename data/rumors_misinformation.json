@@ -1,0 +1,466 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "rumors_misinformation",
+  "records": [
+    {
+      "id": "rumor_chamber_misleading",
+      "name": "密室恐慌／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_chamber_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_chamber_correction",
+      "name": "密室恐慌／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_sirius_misleading",
+      "name": "小天狼星逃狱／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_sirius_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_sirius_correction",
+      "name": "小天狼星逃狱／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_world_cup_misleading",
+      "name": "魁地奇世界杯骚乱／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_world_cup_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_world_cup_correction",
+      "name": "魁地奇世界杯骚乱／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_triwizard_misleading",
+      "name": "三强争霸赛／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_triwizard_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_triwizard_correction",
+      "name": "三强争霸赛／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_voldemort_return_misleading",
+      "name": "伏地魔复活争议／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_voldemort_return_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_voldemort_return_correction",
+      "name": "伏地魔复活争议／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_umbridge_misleading",
+      "name": "霍格沃茨教育干预／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_umbridge_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_umbridge_correction",
+      "name": "霍格沃茨教育干预／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_azkaban_misleading",
+      "name": "阿兹卡班越狱与安全焦虑／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_azkaban_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_azkaban_correction",
+      "name": "阿兹卡班越狱与安全焦虑／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_ministry_admission_misleading",
+      "name": "魔法部承认伏地魔回归／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_ministry_admission_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_ministry_admission_correction",
+      "name": "魔法部承认伏地魔回归／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_dumbledore_death_misleading",
+      "name": "邓布利多去世／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_dumbledore_death_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_dumbledore_death_correction",
+      "name": "邓布利多去世／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_ministry_takeover_misleading",
+      "name": "魔法部沦陷与宣传控制／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_ministry_takeover_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_ministry_takeover_correction",
+      "name": "魔法部沦陷与宣传控制／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_muggleborn_misleading",
+      "name": "麻瓜出身者受迫害／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_muggleborn_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_muggleborn_correction",
+      "name": "麻瓜出身者受迫害／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_potterwatch_misleading",
+      "name": "地下广播抵抗／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_potterwatch_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_potterwatch_correction",
+      "name": "地下广播抵抗／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_battle_misleading",
+      "name": "霍格沃茨大战／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_battle_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_battle_correction",
+      "name": "霍格沃茨大战／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_rebuilding_misleading",
+      "name": "战后恢复与责任追究／夸张传闻",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "kind": "misleading",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": "rumor_rebuilding_correction",
+      "requires_evidence": true
+    },
+    {
+      "id": "rumor_rebuilding_correction",
+      "name": "战后恢复与责任追究／核实澄清",
+      "summary": "作为原创玩法的传闻条目，不等于原著出现过此具体说法",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "kind": "correction",
+      "spread_channels": [
+        "owl_letters",
+        "school_bulletin"
+      ],
+      "debunkable": true,
+      "correction_event_id": null,
+      "requires_evidence": true
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

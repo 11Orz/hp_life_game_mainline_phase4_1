@@ -1,0 +1,623 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataset": "hogwarts_seven_year_progression",
+  "language": "zh-CN",
+  "coverage": {
+    "startYear": 1900,
+    "endYear": 2021,
+    "note": "课程制度依据小说时期可证信息建模，不代表已证明1900至2021每年完全相同"
+  },
+  "sourcePriority": [
+    "七部小说及章节",
+    "罗琳亲笔补充设定",
+    "扩展剧本",
+    "Lexicon/Wiki交叉核查",
+    "原创机制"
+  ],
+  "sourceCatalog": [
+    {
+      "id": "ROWLING_SUBJECTS",
+      "title": "罗琳亲笔：Hogwarts School Subjects",
+      "url": "https://www.harrypotter.com/es/writing-by-jk-rowling/hogwarts-school-subjects",
+      "priority": 2
+    },
+    {
+      "id": "OFFICIAL_SUBJECTS",
+      "title": "官方课程与考试指南",
+      "url": "https://www.harrypotter.com/features/harry-potter-101-the-subjects",
+      "priority": 2
+    },
+    {
+      "id": "OFFICIAL_NEWTS",
+      "title": "官方百科：N.E.W.T.s",
+      "url": "https://www.harrypotter.com/fact-file/magical-miscellany/n-e-w-t-s",
+      "priority": 2
+    },
+    {
+      "id": "LEX_CLASSES",
+      "title": "Harry Potter Lexicon课程及学年整理",
+      "url": "https://www.hp-lexicon.org/thing/hogwarts-classes/",
+      "priority": 4
+    },
+    {
+      "id": "OFFICIAL_SORT",
+      "title": "官方新生分院介绍",
+      "url": "https://www.harrypotter.com/features/guide-to-surviving-your-first-year-of-hogwarts",
+      "priority": 2
+    },
+    {
+      "id": "OFFICIAL_EXAMS",
+      "title": "官方考试说明",
+      "url": "https://www.harrypotter.com/features/how-important-are-wizarding-exams-in-the-wizarding-world",
+      "priority": 2
+    },
+    {
+      "id": "OFFICIAL_UNKNOWN",
+      "title": "官方：霍格沃茨未明确的课程问题",
+      "url": "https://www.harrypotter.com/features/8-burning-questions-we-still-have-about-hogwarts",
+      "priority": 2
+    }
+  ],
+  "subjects": [
+    {
+      "id": "transfiguration",
+      "nameZh": "变形术",
+      "firstYear": 1,
+      "kind": "core",
+      "skillKey": "transfiguration",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "charms",
+      "nameZh": "魔咒学",
+      "firstYear": 1,
+      "kind": "core",
+      "skillKey": "charms",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "potions",
+      "nameZh": "魔药学",
+      "firstYear": 1,
+      "kind": "core",
+      "skillKey": "potions",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "history_of_magic",
+      "nameZh": "魔法史",
+      "firstYear": 1,
+      "kind": "core",
+      "skillKey": "history",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "defence_against_dark_arts",
+      "nameZh": "黑魔法防御术",
+      "firstYear": 1,
+      "kind": "core",
+      "skillKey": "defence",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "astronomy",
+      "nameZh": "天文学",
+      "firstYear": 1,
+      "kind": "core",
+      "skillKey": "astronomy",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "herbology",
+      "nameZh": "草药学",
+      "firstYear": 1,
+      "kind": "core",
+      "skillKey": "herbology",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "flying",
+      "nameZh": "飞行课",
+      "firstYear": 1,
+      "kind": "first_year",
+      "skillKey": "flying",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": "一年级必修；后续是否持续不作假定"
+    },
+    {
+      "id": "arithmancy",
+      "nameZh": "算术占卜",
+      "firstYear": 3,
+      "kind": "elective",
+      "skillKey": "arithmancy",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "muggle_studies",
+      "nameZh": "麻瓜研究",
+      "firstYear": 3,
+      "kind": "elective",
+      "skillKey": "muggle_studies",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "divination",
+      "nameZh": "占卜学",
+      "firstYear": 3,
+      "kind": "elective",
+      "skillKey": "divination",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ancient_runes",
+      "nameZh": "古代魔文",
+      "firstYear": 3,
+      "kind": "elective",
+      "skillKey": "runes",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "care_of_magical_creatures",
+      "nameZh": "保护神奇动物",
+      "firstYear": 3,
+      "kind": "elective",
+      "skillKey": "creatures",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "alchemy",
+      "nameZh": "炼金术",
+      "firstYear": 6,
+      "kind": "conditional",
+      "skillKey": "alchemy",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "OFFICIAL_SUBJECTS"
+      ],
+      "notes": "仅需求足够时在高年级开设"
+    }
+  ],
+  "schoolYears": [
+    {
+      "year": 1,
+      "typicalAge": 11,
+      "focus": "入学、分院、基础施法、飞行",
+      "coreSubjectIds": [
+        "transfiguration",
+        "charms",
+        "potions",
+        "history_of_magic",
+        "defence_against_dark_arts",
+        "astronomy",
+        "herbology"
+      ],
+      "electiveSelection": null,
+      "exam": "school_final",
+      "notes": "",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "LEX_CLASSES",
+        "OFFICIAL_SUBJECTS"
+      ]
+    },
+    {
+      "year": 2,
+      "typicalAge": 12,
+      "focus": "巩固基础、二年级末选修",
+      "coreSubjectIds": [
+        "transfiguration",
+        "charms",
+        "potions",
+        "history_of_magic",
+        "defence_against_dark_arts",
+        "astronomy",
+        "herbology"
+      ],
+      "electiveSelection": {
+        "minimum": 2,
+        "choices": [
+          "arithmancy",
+          "muggle_studies",
+          "divination",
+          "ancient_runes",
+          "care_of_magical_creatures"
+        ]
+      },
+      "exam": "school_final",
+      "notes": "",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "LEX_CLASSES",
+        "OFFICIAL_SUBJECTS"
+      ]
+    },
+    {
+      "year": 3,
+      "typicalAge": 13,
+      "focus": "首次选修课、提高施法难度",
+      "coreSubjectIds": [
+        "transfiguration",
+        "charms",
+        "potions",
+        "history_of_magic",
+        "defence_against_dark_arts",
+        "astronomy",
+        "herbology"
+      ],
+      "electiveSelection": null,
+      "exam": "school_final",
+      "notes": "",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "LEX_CLASSES",
+        "OFFICIAL_SUBJECTS"
+      ]
+    },
+    {
+      "year": 4,
+      "typicalAge": 14,
+      "focus": "综合实践与职业兴趣",
+      "coreSubjectIds": [
+        "transfiguration",
+        "charms",
+        "potions",
+        "history_of_magic",
+        "defence_against_dark_arts",
+        "astronomy",
+        "herbology"
+      ],
+      "electiveSelection": null,
+      "exam": "school_final",
+      "notes": "",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "LEX_CLASSES",
+        "OFFICIAL_SUBJECTS"
+      ]
+    },
+    {
+      "year": 5,
+      "typicalAge": 15,
+      "focus": "职业咨询、O.W.L.标准考试",
+      "coreSubjectIds": [
+        "transfiguration",
+        "charms",
+        "potions",
+        "history_of_magic",
+        "defence_against_dark_arts",
+        "astronomy",
+        "herbology"
+      ],
+      "electiveSelection": null,
+      "exam": "OWL",
+      "notes": "",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "LEX_CLASSES",
+        "OFFICIAL_SUBJECTS"
+      ]
+    },
+    {
+      "year": 6,
+      "typicalAge": 16,
+      "focus": "依据O.W.L.成绩选择N.E.W.T.课程",
+      "coreSubjectIds": [],
+      "electiveSelection": null,
+      "exam": "school_final",
+      "notes": "六七年级课程取决于O.W.L.和教师准入标准",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "LEX_CLASSES",
+        "OFFICIAL_SUBJECTS"
+      ]
+    },
+    {
+      "year": 7,
+      "typicalAge": 17,
+      "focus": "N.E.W.T.毕业考试与职业去向",
+      "coreSubjectIds": [],
+      "electiveSelection": null,
+      "exam": "NEWT",
+      "notes": "六七年级课程取决于O.W.L.和教师准入标准",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "ROWLING_SUBJECTS",
+        "LEX_CLASSES",
+        "OFFICIAL_SUBJECTS"
+      ]
+    }
+  ],
+  "academicCalendar": [
+    {
+      "id": "term_autumn",
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "description": "秋季学期，9月1日开学列车",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "OFFICIAL_SUBJECTS"
+      ]
+    },
+    {
+      "id": "term_spring",
+      "months": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "春季学期；具体放假日期不固定",
+      "canonLayer": "original",
+      "sourceIds": []
+    },
+    {
+      "id": "term_summer",
+      "months": [
+        5,
+        6
+      ],
+      "description": "夏季学期和考试季",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "OFFICIAL_EXAMS"
+      ]
+    }
+  ],
+  "examSystem": {
+    "owl": {
+      "year": 5,
+      "grades": [
+        "O",
+        "E",
+        "A",
+        "P",
+        "D",
+        "T"
+      ],
+      "passGrades": [
+        "O",
+        "E",
+        "A"
+      ],
+      "sourceIds": [
+        "OFFICIAL_SUBJECTS",
+        "LEX_CLASSES"
+      ]
+    },
+    "newt": {
+      "year": 7,
+      "grades": [
+        "O",
+        "E",
+        "A",
+        "P",
+        "D",
+        "T"
+      ],
+      "aurorRequirement": {
+        "minimumCount": 5,
+        "acceptedGrades": [
+          "O",
+          "E"
+        ]
+      },
+      "sourceIds": [
+        "OFFICIAL_NEWTS"
+      ]
+    },
+    "advancedAdmission": {
+      "rule": "具体教师可能要求高于及格的O.W.L.成绩；不可全科统一",
+      "canonLayer": "primary",
+      "sourceIds": [
+        "LEX_CLASSES"
+      ]
+    }
+  },
+  "simulationRules": {
+    "mode": "original_game_design",
+    "statRange": [
+      0,
+      100
+    ],
+    "skillRange": [
+      0,
+      100
+    ],
+    "gradeThresholds": {
+      "O": 90,
+      "E": 75,
+      "A": 60,
+      "P": 45,
+      "D": 25,
+      "T": 0
+    },
+    "scoreFormula": "clamp(round(subjectSkill*0.55 + examReadiness*0.25 + knowledge*0.15 + random(-10,10) - stress*0.05),0,100)",
+    "warning": "所有数值、分数线和随机机制均为游戏原创，绝非官方设定",
+    "progressionEvents": [
+      {
+        "id": "lesson_practice",
+        "title": "课堂练习",
+        "trigger": "每学期每科",
+        "description": "学习投入提高学科熟练度，疲劳影响效率",
+        "effects": {
+          "subjectXp": "formula: round(5 + studyEffort*0.6 + teacherQuality*0.15 - fatigue*0.2)"
+        },
+        "canonLayer": "original",
+        "sourceIds": []
+      },
+      {
+        "id": "homework",
+        "title": "作业与复习",
+        "trigger": "每学期",
+        "description": "自主选择复习或社交，改变成绩与关系",
+        "effects": {
+          "knowledge": 3,
+          "stress": 2
+        },
+        "canonLayer": "original",
+        "sourceIds": []
+      },
+      {
+        "id": "club",
+        "title": "社团与课外活动",
+        "trigger": "每学年",
+        "description": "根据学院、年龄和能力选择参与机会",
+        "effects": {
+          "friendship": 4,
+          "skillXp": 2
+        },
+        "canonLayer": "original",
+        "sourceIds": []
+      },
+      {
+        "id": "exam_prep",
+        "title": "考试准备",
+        "trigger": "学年末",
+        "description": "备考投入与能力共同决定考试表现",
+        "effects": {
+          "examReadiness": 8,
+          "stress": 5
+        },
+        "canonLayer": "original",
+        "sourceIds": []
+      },
+      {
+        "id": "teacher_conflict",
+        "title": "师生关系事件",
+        "trigger": "条件随机",
+        "description": "因课堂表现、纪律或教师偏好发生事件",
+        "effects": {
+          "reputation": -2
+        },
+        "canonLayer": "original",
+        "sourceIds": []
+      }
+    ]
+  },
+  "historicalOverlays": [
+    {
+      "id": "1992_chamber",
+      "yearStart": 1992,
+      "yearEnd": 1993,
+      "impact": "安全风险增加，学年末考试可能取消",
+      "sourceIds": [
+        "OFFICIAL_EXAMS"
+      ],
+      "canonLayer": "primary"
+    },
+    {
+      "id": "1994_tournament",
+      "yearStart": 1994,
+      "yearEnd": 1995,
+      "impact": "三强争霸赛影响校园活动",
+      "sourceIds": [],
+      "canonLayer": "primary",
+      "reviewStatus": "needs_chapter_review"
+    },
+    {
+      "id": "1995_umbridge",
+      "yearStart": 1995,
+      "yearEnd": 1996,
+      "impact": "防御术实践教学受限、社团管制",
+      "sourceIds": [],
+      "canonLayer": "primary",
+      "reviewStatus": "needs_chapter_review"
+    },
+    {
+      "id": "1997_carrow",
+      "yearStart": 1997,
+      "yearEnd": 1998,
+      "impact": "校园纪律和安全受到食死徒控制影响",
+      "sourceIds": [],
+      "canonLayer": "primary",
+      "reviewStatus": "needs_chapter_review"
+    }
+  ],
+  "unknowns": [
+    "1900–2021所有年代的统一课表未获证实",
+    "普通年级的严格留级政策未获证实，不应当作正史",
+    "O.W.L.的百分制分数线未获证实",
+    "六七年级各科统一入学门槛未获证实",
+    "普通学生每周准确课时未获证实"
+  ],
+  "integration": {
+    "educationHistoryFile": "../data/education_history.json",
+    "historicalEventsFile": "../data/historical_events.json",
+    "join": "historicalOverlays.id需在后续建立映射表，不应假定与旧文件ID一致"
+  }
+}

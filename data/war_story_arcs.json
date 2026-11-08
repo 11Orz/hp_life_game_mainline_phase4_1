@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_story_arcs",
+  "records": [
+    {
+      "id": "legacy_letters",
+      "name": "旧日凤凰",
+      "available_from": "1991-09-01",
+      "chapters": [
+        {
+          "id": "legacy_letters_1",
+          "title": "收到线索"
+        },
+        {
+          "id": "legacy_letters_2",
+          "title": "核实与选择"
+        },
+        {
+          "id": "legacy_letters_3",
+          "title": "后果与回访"
+        }
+      ],
+      "canon_level": "game_original",
+      "can_change_canon": false
+    },
+    {
+      "id": "hidden_guard",
+      "name": "沉默的守望",
+      "available_from": "1995-09-01",
+      "chapters": [
+        {
+          "id": "hidden_guard_1",
+          "title": "收到线索"
+        },
+        {
+          "id": "hidden_guard_2",
+          "title": "核实与选择"
+        },
+        {
+          "id": "hidden_guard_3",
+          "title": "后果与回访"
+        }
+      ],
+      "canon_level": "game_original",
+      "can_change_canon": false
+    },
+    {
+      "id": "civilian_path",
+      "name": "归途与庇护",
+      "available_from": "1996-07-01",
+      "chapters": [
+        {
+          "id": "civilian_path_1",
+          "title": "收到线索"
+        },
+        {
+          "id": "civilian_path_2",
+          "title": "核实与选择"
+        },
+        {
+          "id": "civilian_path_3",
+          "title": "后果与回访"
+        }
+      ],
+      "canon_level": "game_original",
+      "can_change_canon": false
+    },
+    {
+      "id": "quiet_shelter",
+      "name": "无声避难所",
+      "available_from": "1997-08-01",
+      "chapters": [
+        {
+          "id": "quiet_shelter_1",
+          "title": "收到线索"
+        },
+        {
+          "id": "quiet_shelter_2",
+          "title": "核实与选择"
+        },
+        {
+          "id": "quiet_shelter_3",
+          "title": "后果与回访"
+        }
+      ],
+      "canon_level": "game_original",
+      "can_change_canon": false
+    },
+    {
+      "id": "after_flame",
+      "name": "火焰之后",
+      "available_from": "1998-05-03",
+      "chapters": [
+        {
+          "id": "after_flame_1",
+          "title": "收到线索"
+        },
+        {
+          "id": "after_flame_2",
+          "title": "核实与选择"
+        },
+        {
+          "id": "after_flame_3",
+          "title": "后果与回访"
+        }
+      ],
+      "canon_level": "game_original",
+      "can_change_canon": false
+    }
+  ]
+}

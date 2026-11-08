@@ -1,0 +1,559 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "startYear": 1900,
+    "endYear": 2021,
+    "note": "魔法技能不是在整个时间段内均有明确教学记录；年代与学校适用性须由事件条件控制。"
+  },
+  "sourcePolicy": {
+    "priority": [
+      "original_novels",
+      "rowling_official",
+      "expanded_screenplays",
+      "reference_wikis",
+      "game_original"
+    ],
+    "note": "原著事实与原创游戏数值分离；章节为检索线索，未逐章核验的记录标记needs_review。"
+  },
+  "dataset": "magical_encounters",
+  "count": 8,
+  "encounters": [
+    {
+      "id": "duelling_club_1992",
+      "title": "决斗俱乐部练习",
+      "type": "duel",
+      "yearRange": [
+        1992,
+        1993
+      ],
+      "locationId": "Hogwarts Great Hall",
+      "canon": {
+        "layer": "original_novels",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 密室",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ],
+        "note": "校内决斗俱乐部仅在有历史依据的学年触发"
+      },
+      "conditions": {
+        "requiredLocation": "Hogwarts Great Hall",
+        "ageRange": [
+          11,
+          120
+        ],
+        "schoolEnrollmentRequired": true,
+        "allConditionsMustMatch": true
+      },
+      "availableSpellIds": [
+        "expelliarmus",
+        "protego",
+        "stupefy"
+      ],
+      "choices": [
+        {
+          "id": "disarm",
+          "label": "disarm",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "defend",
+          "label": "defend",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "yield",
+          "label": "yield",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        }
+      ],
+      "outcomes": {
+        "useWeightedResolution": true,
+        "allowFailure": true,
+        "allowNonMagicSolution": true,
+        "effects": [
+          "health",
+          "reputation",
+          "relationships",
+          "discipline",
+          "story_flags"
+        ]
+      },
+      "historicalEventId": null,
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "defense_class_practice",
+      "title": "黑魔法防御术课堂练习",
+      "type": "duel",
+      "yearRange": [
+        1900,
+        2021
+      ],
+      "locationId": "Hogwarts",
+      "canon": {
+        "layer": "game_original",
+        "sources": [],
+        "note": "不是所有年份都必然有同样的实践课程"
+      },
+      "conditions": {
+        "requiredLocation": "Hogwarts",
+        "ageRange": [
+          11,
+          120
+        ],
+        "schoolEnrollmentRequired": true,
+        "allConditionsMustMatch": true
+      },
+      "availableSpellIds": [
+        "expelliarmus",
+        "protego",
+        "stupefy"
+      ],
+      "choices": [
+        {
+          "id": "practice",
+          "label": "practice",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "ask_teacher",
+          "label": "ask_teacher",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "observe",
+          "label": "observe",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        }
+      ],
+      "outcomes": {
+        "useWeightedResolution": true,
+        "allowFailure": true,
+        "allowNonMagicSolution": true,
+        "effects": [
+          "health",
+          "reputation",
+          "relationships",
+          "discipline",
+          "story_flags"
+        ]
+      },
+      "historicalEventId": null,
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "night_corridor",
+      "title": "夜间走廊探索",
+      "type": "exploration",
+      "yearRange": [
+        1900,
+        2021
+      ],
+      "locationId": "Hogwarts Corridor",
+      "canon": {
+        "layer": "game_original",
+        "sources": [],
+        "note": "可能被费尔奇或其他管理员发现，需按年代选择NPC"
+      },
+      "conditions": {
+        "requiredLocation": "Hogwarts Corridor",
+        "ageRange": [
+          11,
+          120
+        ],
+        "schoolEnrollmentRequired": true,
+        "allConditionsMustMatch": true
+      },
+      "availableSpellIds": [
+        "lumos",
+        "nox",
+        "alohomora",
+        "disillusionment"
+      ],
+      "choices": [
+        {
+          "id": "sneak",
+          "label": "sneak",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "unlock",
+          "label": "unlock",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "retreat",
+          "label": "retreat",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        }
+      ],
+      "outcomes": {
+        "useWeightedResolution": true,
+        "allowFailure": true,
+        "allowNonMagicSolution": true,
+        "effects": [
+          "health",
+          "reputation",
+          "relationships",
+          "discipline",
+          "story_flags"
+        ]
+      },
+      "historicalEventId": null,
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "forbidden_forest",
+      "title": "禁林遇险",
+      "type": "survival",
+      "yearRange": [
+        1900,
+        2021
+      ],
+      "locationId": "Forbidden Forest",
+      "canon": {
+        "layer": "game_original",
+        "sources": [],
+        "note": "不同生物有不同的克制机制"
+      },
+      "conditions": {
+        "requiredLocation": "Forbidden Forest",
+        "ageRange": [
+          11,
+          120
+        ],
+        "schoolEnrollmentRequired": true,
+        "allConditionsMustMatch": true
+      },
+      "availableSpellIds": [
+        "lumos",
+        "protego",
+        "stupefy",
+        "riddikulus"
+      ],
+      "choices": [
+        {
+          "id": "hide",
+          "label": "hide",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "retreat",
+          "label": "retreat",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "defend",
+          "label": "defend",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "negotiate",
+          "label": "negotiate",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        }
+      ],
+      "outcomes": {
+        "useWeightedResolution": true,
+        "allowFailure": true,
+        "allowNonMagicSolution": true,
+        "effects": [
+          "health",
+          "reputation",
+          "relationships",
+          "discipline",
+          "story_flags"
+        ]
+      },
+      "historicalEventId": null,
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "dementor_1993",
+      "title": "摄魂怪靠近学校",
+      "type": "defense",
+      "yearRange": [
+        1993,
+        1994
+      ],
+      "locationId": "Hogwarts Grounds",
+      "canon": {
+        "layer": "original_novels",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 阿兹卡班的囚徒",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ],
+        "note": "历史限定事件；未掌握守护神时也应允许求助或撤离"
+      },
+      "conditions": {
+        "requiredLocation": "Hogwarts Grounds",
+        "ageRange": [
+          11,
+          120
+        ],
+        "schoolEnrollmentRequired": true,
+        "allConditionsMustMatch": true
+      },
+      "availableSpellIds": [
+        "expecto_patronum"
+      ],
+      "choices": [
+        {
+          "id": "cast_patronus",
+          "label": "cast_patronus",
+          "requiredSpellIds": [
+            "patronus"
+          ],
+          "gameOriginal": true
+        },
+        {
+          "id": "escape",
+          "label": "escape",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "seek_help",
+          "label": "seek_help",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        }
+      ],
+      "outcomes": {
+        "useWeightedResolution": true,
+        "allowFailure": true,
+        "allowNonMagicSolution": true,
+        "effects": [
+          "health",
+          "reputation",
+          "relationships",
+          "discipline",
+          "story_flags"
+        ]
+      },
+      "historicalEventId": null,
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "poisoned_classmate",
+      "title": "同学中毒",
+      "type": "rescue",
+      "yearRange": [
+        1900,
+        2021
+      ],
+      "locationId": "Hogwarts",
+      "canon": {
+        "layer": "game_original",
+        "sources": [],
+        "note": "不能将一般治疗咒当成万能解毒咒"
+      },
+      "conditions": {
+        "requiredLocation": "Hogwarts",
+        "ageRange": [
+          11,
+          120
+        ],
+        "schoolEnrollmentRequired": true,
+        "allConditionsMustMatch": true
+      },
+      "availableSpellIds": [
+        "episkey"
+      ],
+      "choices": [
+        {
+          "id": "use_bezoar_if_available",
+          "label": "use_bezoar_if_available",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "identify_poison",
+          "label": "identify_poison",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "seek_healer",
+          "label": "seek_healer",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        }
+      ],
+      "outcomes": {
+        "useWeightedResolution": true,
+        "allowFailure": true,
+        "allowNonMagicSolution": true,
+        "effects": [
+          "health",
+          "reputation",
+          "relationships",
+          "discipline",
+          "story_flags"
+        ]
+      },
+      "historicalEventId": null,
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "hogwarts_battle_1998",
+      "title": "霍格沃茨大战",
+      "type": "war",
+      "yearRange": [
+        1998,
+        1998
+      ],
+      "locationId": "Hogwarts",
+      "canon": {
+        "layer": "original_novels",
+        "sources": [
+          {
+            "layer": "original_novels",
+            "work": "Harry Potter and the 死亡圣器",
+            "locator": "",
+            "reviewStatus": "needs_review"
+          }
+        ],
+        "note": "与固定历史事件关联，参与需要年龄与地点条件"
+      },
+      "conditions": {
+        "requiredLocation": "Hogwarts",
+        "ageRange": [
+          11,
+          120
+        ],
+        "schoolEnrollmentRequired": false,
+        "allConditionsMustMatch": true
+      },
+      "availableSpellIds": [
+        "protego",
+        "expelliarmus",
+        "stupefy",
+        "expecto_patronum"
+      ],
+      "choices": [
+        {
+          "id": "defend",
+          "label": "defend",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "evacuate",
+          "label": "evacuate",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "heal",
+          "label": "heal",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "flee",
+          "label": "flee",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        }
+      ],
+      "outcomes": {
+        "useWeightedResolution": true,
+        "allowFailure": true,
+        "allowNonMagicSolution": true,
+        "effects": [
+          "health",
+          "reputation",
+          "relationships",
+          "discipline",
+          "story_flags"
+        ]
+      },
+      "historicalEventId": null,
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "animagus_secret_route",
+      "title": "阿尼马格斯秘密路线",
+      "type": "exploration",
+      "yearRange": [
+        1900,
+        2021
+      ],
+      "locationId": "Hogwarts",
+      "canon": {
+        "layer": "game_original",
+        "sources": [],
+        "note": "动物形态只允许已完成阿尼马格斯能力的玩家使用"
+      },
+      "conditions": {
+        "requiredLocation": "Hogwarts",
+        "ageRange": [
+          11,
+          120
+        ],
+        "schoolEnrollmentRequired": true,
+        "allConditionsMustMatch": true
+      },
+      "availableSpellIds": [
+        "disillusionment"
+      ],
+      "choices": [
+        {
+          "id": "transform_if_animagus",
+          "label": "transform_if_animagus",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "sneak",
+          "label": "sneak",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        },
+        {
+          "id": "leave",
+          "label": "leave",
+          "requiredSpellIds": [],
+          "gameOriginal": true
+        }
+      ],
+      "outcomes": {
+        "useWeightedResolution": true,
+        "allowFailure": true,
+        "allowNonMagicSolution": true,
+        "effects": [
+          "health",
+          "reputation",
+          "relationships",
+          "discipline",
+          "story_flags"
+        ]
+      },
+      "historicalEventId": null,
+      "reviewStatus": "needs_review"
+    }
+  ]
+}

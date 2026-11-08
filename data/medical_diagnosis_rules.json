@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_diagnosis_rules",
+  "description": "症状、检查、误诊与证据规则",
+  "items": [
+    {
+      "id": "symptom_vs_cause",
+      "name": "症状不等于病因",
+      "description": "相似症状可能由多种事故导致",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "evidence_chain",
+      "name": "证据链",
+      "description": "诊断需结合检查、证人和事故痕迹",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "unknown_condition",
+      "name": "未知病况",
+      "description": "未确诊时保留unknown状态",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "qualified_referral",
+      "name": "专业转诊",
+      "description": "危险伤害必须转诊",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "consent",
+      "name": "知情与同意",
+      "description": "尊重患者的自主决定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "privacy",
+      "name": "病历隐私",
+      "description": "未授权角色不能直接读取病历",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "differential",
+      "name": "鉴别诊断",
+      "description": "逐项排除魔药、咒语、魔法生物等原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "diagnostic_error",
+      "name": "误诊风险",
+      "description": "错误诊断可触发复核但不得随机强制死亡",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "risk_notice",
+      "name": "高风险预警",
+      "description": "不可逆后果前明确告知",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "source_conflict",
+      "name": "证词冲突",
+      "description": "证据冲突时降低确信程度",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "pediatric_safeguard",
+      "name": "未成年保护",
+      "description": "学生高危事件优先联系成年人",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    },
+    {
+      "id": "obscurus_uncertainty",
+      "name": "默默然谨慎诊断",
+      "description": "不得仅凭魔力失控诊断默然者",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "logic": "requires_evidence",
+      "isGameplayRule": true
+    }
+  ]
+}

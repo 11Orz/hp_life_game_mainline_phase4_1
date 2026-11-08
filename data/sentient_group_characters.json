@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_characters",
+  "description": "正史人物与原创NPC分离；不预设群体性格",
+  "records": [
+    {
+      "id": "griphook",
+      "name": "拉环",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/griphook"
+      ],
+      "group_id": "goblins",
+      "available_from": "1991-01-01",
+      "identity_type": "canon_character",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "firenze",
+      "name": "费伦泽",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/firenze"
+      ],
+      "group_id": "centaurs",
+      "available_from": "1991-01-01",
+      "identity_type": "canon_character",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "bane",
+      "name": "贝恩",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/bane"
+      ],
+      "group_id": "centaurs",
+      "available_from": "1991-01-01",
+      "identity_type": "canon_character",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "dobby",
+      "name": "多比",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/dobby"
+      ],
+      "group_id": "house_elves",
+      "available_from": "1992-01-01",
+      "identity_type": "canon_character",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "winky",
+      "name": "闪闪",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/winky"
+      ],
+      "group_id": "house_elves",
+      "available_from": "1994-01-01",
+      "identity_type": "canon_character",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "kreacher",
+      "name": "克利切",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/kreacher"
+      ],
+      "group_id": "house_elves",
+      "available_from": "1995-01-01",
+      "identity_type": "canon_character",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "hagrid",
+      "name": "海格",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/hagrid"
+      ],
+      "group_id": "giants",
+      "available_from": "1991-01-01",
+      "identity_type": "mixed_heritage",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "remus_lupin",
+      "name": "莱姆斯·卢平",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/remus_lupin"
+      ],
+      "group_id": "werewolves",
+      "available_from": "1993-01-01",
+      "identity_type": "condition_identity",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "nearly_headless_nick",
+      "name": "差点没头的尼克",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/nearly_headless_nick"
+      ],
+      "group_id": "ghosts",
+      "available_from": "1991-01-01",
+      "identity_type": "canon_character",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "moaning_myrtle",
+      "name": "哭泣的桃金娘",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/moaning_myrtle"
+      ],
+      "group_id": "ghosts",
+      "available_from": "1992-01-01",
+      "identity_type": "canon_character",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "madame_maxime",
+      "name": "马克西姆夫人",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "canon_summary",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/madame_maxime"
+      ],
+      "group_id": "giants",
+      "available_from": "1994-01-01",
+      "identity_type": "mixed_heritage",
+      "canon_guard": true,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "merperson_envoy",
+      "name": "黑湖人鱼使者（原创）",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "merpeople",
+      "available_from": "1991-01-01",
+      "identity_type": "game_original",
+      "canon_guard": false,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "goblin_archivist",
+      "name": "妖精档案员（原创）",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "goblins",
+      "available_from": "1991-01-01",
+      "identity_type": "game_original",
+      "canon_guard": false,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "centaur_healer",
+      "name": "马人草药师（原创）",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "centaurs",
+      "available_from": "1991-01-01",
+      "identity_type": "game_original",
+      "canon_guard": false,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "elf_visitor",
+      "name": "小精灵访客（原创）",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "house_elves",
+      "available_from": "1991-01-01",
+      "identity_type": "game_original",
+      "canon_guard": false,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    },
+    {
+      "id": "werewolf_student_ally",
+      "name": "狼人权益支持者（原创）",
+      "summary": "人物仅作为交流对象；正史人物行为不受玩家声望自动改写",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "werewolves",
+      "available_from": "1991-01-01",
+      "identity_type": "game_original",
+      "canon_guard": false,
+      "baseline_trust": 50,
+      "baseline_affection": 50
+    }
+  ]
+}

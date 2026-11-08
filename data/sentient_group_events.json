@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_events",
+  "description": "日期与地点门槛；事件不会自行改写正史",
+  "records": [
+    {
+      "id": "encounter_goblins",
+      "name": "妖精的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "goblins",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_centaurs",
+      "name": "马人的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "centaurs",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_merpeople",
+      "name": "人鱼的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "merpeople",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_house_elves",
+      "name": "家养小精灵的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "house_elves",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_giants",
+      "name": "巨人的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "giants",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_werewolves",
+      "name": "狼人的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "werewolves",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_vampires",
+      "name": "吸血鬼的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "vampires",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_veela",
+      "name": "媚娃的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "veela",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_ghosts",
+      "name": "幽灵的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "ghosts",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_hags",
+      "name": "女巫婆的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "hags",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_trolls",
+      "name": "巨怪的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "trolls",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "encounter_sphinxes",
+      "name": "斯芬克斯的交流请求",
+      "summary": "非强制、非战斗的初次交往",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "sphinxes",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "listen",
+        "respect",
+        "demand"
+      ],
+      "location": "contextual",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "goblin_contract",
+      "name": "银器契约争议",
+      "summary": "原创妖精工艺物品所有权协商",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "goblins",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "negotiate",
+        "listen",
+        "demand"
+      ],
+      "location": "diagon_alley",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "centaur_boundary",
+      "name": "禁林边界协商",
+      "summary": "原创领地尊重事件",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "centaurs",
+      "available_from": "1991-01-01",
+      "action_ids": [
+        "respect",
+        "listen",
+        "demand"
+      ],
+      "location": "hogwarts_forbidden_forest",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    },
+    {
+      "id": "elf_welfare",
+      "name": "小精灵待遇争议",
+      "summary": "原创劳动与个人选择事件",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "house_elves",
+      "available_from": "1994-01-01",
+      "action_ids": [
+        "listen",
+        "help",
+        "expose"
+      ],
+      "location": "hogwarts_kitchen",
+      "canon_fixed": false,
+      "opinion_topic_id": "spew"
+    },
+    {
+      "id": "werewolf_rumor",
+      "name": "狼人身份传闻",
+      "summary": "原创反歧视与隐私保护事件",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "werewolves",
+      "available_from": "1993-01-01",
+      "action_ids": [
+        "respect",
+        "listen",
+        "expose"
+      ],
+      "location": "hogwarts_corridor",
+      "canon_fixed": false,
+      "opinion_topic_id": null
+    }
+  ]
+}

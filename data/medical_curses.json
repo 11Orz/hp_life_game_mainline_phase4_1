@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_curses",
+  "description": "黑魔法损伤、诅咒及长期后果",
+  "items": [
+    {
+      "id": "unforgivable_cruciatus",
+      "name": "钻心咒后遗症",
+      "description": "长期严重伤害可能需要持续照护",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "reversibility": "unknown_or_limited",
+      "specialistRequired": true
+    },
+    {
+      "id": "cursed_ring",
+      "name": "受诅咒戒指伤害",
+      "description": "邓布利多曾受到受诅咒戒指影响",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/the-mysterious-life-and-death-of-ariana-dumbledore"
+      ],
+      "reversibility": "unknown_or_limited",
+      "specialistRequired": true
+    },
+    {
+      "id": "sectumsempra",
+      "name": "神锋无影造成的伤害",
+      "description": "危险的切割类黑魔法损伤",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "reversibility": "unknown_or_limited",
+      "specialistRequired": true
+    },
+    {
+      "id": "dark_magic_tissue_loss",
+      "name": "黑魔法导致组织缺损",
+      "description": "黑魔法伤害不保证可以简单再生",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "reversibility": "unknown_or_limited",
+      "specialistRequired": true
+    },
+    {
+      "id": "persistent_hex",
+      "name": "持续性恶咒",
+      "description": "原创持续性恶咒机制",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "reversibility": "unknown_or_limited",
+      "specialistRequired": true
+    },
+    {
+      "id": "memory_damage",
+      "name": "记忆魔法损伤",
+      "description": "原创记忆魔法事故模型",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "reversibility": "unknown_or_limited",
+      "specialistRequired": true
+    },
+    {
+      "id": "cursed_artifact",
+      "name": "受诅咒物品接触",
+      "description": "原创可调查的诅咒物品伤害",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "reversibility": "unknown_or_limited",
+      "specialistRequired": true
+    },
+    {
+      "id": "magical_suppression",
+      "name": "魔法压抑相关危险",
+      "description": "长期压抑魔法与默默然风险相关",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/obscurial"
+      ],
+      "reversibility": "unknown_or_limited",
+      "specialistRequired": true
+    }
+  ]
+}

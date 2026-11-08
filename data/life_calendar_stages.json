@@ -1,0 +1,1057 @@
+{
+  "schemaVersion": "1.0",
+  "dataset": "life_calendar_stages",
+  "count": 70,
+  "stages": [
+    {
+      "id": "y1_stage_1",
+      "schoolYear": 1,
+      "start": "1991-09-01",
+      "end": "1991-09-30",
+      "title": "开学与适应",
+      "kind": "enrollment",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_2",
+      "schoolYear": 1,
+      "start": "1991-10-01",
+      "end": "1991-10-31",
+      "title": "课堂与万圣节",
+      "kind": "classes",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_3",
+      "schoolYear": 1,
+      "start": "1991-11-01",
+      "end": "1991-11-30",
+      "title": "魁地奇与校园人际",
+      "kind": "quidditch",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_4",
+      "schoolYear": 1,
+      "start": "1991-12-01",
+      "end": "1991-12-31",
+      "title": "圣诞与冬季活动",
+      "kind": "winter",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_5",
+      "schoolYear": 1,
+      "start": "1992-01-01",
+      "end": "1992-01-31",
+      "title": "新学期与魔法练习",
+      "kind": "practice",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_6",
+      "schoolYear": 1,
+      "start": "1992-02-01",
+      "end": "1992-02-28",
+      "title": "同伴与校园秘密",
+      "kind": "npc",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_7",
+      "schoolYear": 1,
+      "start": "1992-03-01",
+      "end": "1992-03-31",
+      "title": "春季调查与探索",
+      "kind": "exploration",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_8",
+      "schoolYear": 1,
+      "start": "1992-04-01",
+      "end": "1992-04-30",
+      "title": "复活节与复习",
+      "kind": "spring",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_9",
+      "schoolYear": 1,
+      "start": "1992-05-01",
+      "end": "1992-06-30",
+      "title": "期末考试与历史高潮",
+      "kind": "exams",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y1_stage_10",
+      "schoolYear": 1,
+      "start": "1992-07-01",
+      "end": "1992-08-31",
+      "title": "暑假与家庭生活",
+      "kind": "summer",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魔法石",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_1",
+      "schoolYear": 2,
+      "start": "1992-09-01",
+      "end": "1992-09-30",
+      "title": "开学与适应",
+      "kind": "enrollment",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_2",
+      "schoolYear": 2,
+      "start": "1992-10-01",
+      "end": "1992-10-31",
+      "title": "课堂与万圣节",
+      "kind": "classes",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_3",
+      "schoolYear": 2,
+      "start": "1992-11-01",
+      "end": "1992-11-30",
+      "title": "魁地奇与校园人际",
+      "kind": "quidditch",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_4",
+      "schoolYear": 2,
+      "start": "1992-12-01",
+      "end": "1992-12-31",
+      "title": "圣诞与冬季活动",
+      "kind": "winter",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_5",
+      "schoolYear": 2,
+      "start": "1993-01-01",
+      "end": "1993-01-31",
+      "title": "新学期与魔法练习",
+      "kind": "practice",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_6",
+      "schoolYear": 2,
+      "start": "1993-02-01",
+      "end": "1993-02-28",
+      "title": "同伴与校园秘密",
+      "kind": "npc",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_7",
+      "schoolYear": 2,
+      "start": "1993-03-01",
+      "end": "1993-03-31",
+      "title": "春季调查与探索",
+      "kind": "exploration",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_8",
+      "schoolYear": 2,
+      "start": "1993-04-01",
+      "end": "1993-04-30",
+      "title": "复活节与复习",
+      "kind": "spring",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_9",
+      "schoolYear": 2,
+      "start": "1993-05-01",
+      "end": "1993-06-30",
+      "title": "期末考试与历史高潮",
+      "kind": "exams",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y2_stage_10",
+      "schoolYear": 2,
+      "start": "1993-07-01",
+      "end": "1993-08-31",
+      "title": "暑假与家庭生活",
+      "kind": "summer",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "密室",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_1",
+      "schoolYear": 3,
+      "start": "1993-09-01",
+      "end": "1993-09-30",
+      "title": "开学与适应",
+      "kind": "enrollment",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_2",
+      "schoolYear": 3,
+      "start": "1993-10-01",
+      "end": "1993-10-31",
+      "title": "课堂与万圣节",
+      "kind": "classes",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_3",
+      "schoolYear": 3,
+      "start": "1993-11-01",
+      "end": "1993-11-30",
+      "title": "魁地奇与校园人际",
+      "kind": "quidditch",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_4",
+      "schoolYear": 3,
+      "start": "1993-12-01",
+      "end": "1993-12-31",
+      "title": "圣诞与冬季活动",
+      "kind": "winter",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_5",
+      "schoolYear": 3,
+      "start": "1994-01-01",
+      "end": "1994-01-31",
+      "title": "新学期与魔法练习",
+      "kind": "practice",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_6",
+      "schoolYear": 3,
+      "start": "1994-02-01",
+      "end": "1994-02-28",
+      "title": "同伴与校园秘密",
+      "kind": "npc",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_7",
+      "schoolYear": 3,
+      "start": "1994-03-01",
+      "end": "1994-03-31",
+      "title": "春季调查与探索",
+      "kind": "exploration",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_8",
+      "schoolYear": 3,
+      "start": "1994-04-01",
+      "end": "1994-04-30",
+      "title": "复活节与复习",
+      "kind": "spring",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_9",
+      "schoolYear": 3,
+      "start": "1994-05-01",
+      "end": "1994-06-30",
+      "title": "期末考试与历史高潮",
+      "kind": "exams",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y3_stage_10",
+      "schoolYear": 3,
+      "start": "1994-07-01",
+      "end": "1994-08-31",
+      "title": "暑假与家庭生活",
+      "kind": "summer",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "小天狼星",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_1",
+      "schoolYear": 4,
+      "start": "1994-09-01",
+      "end": "1994-09-30",
+      "title": "开学与适应",
+      "kind": "enrollment",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_2",
+      "schoolYear": 4,
+      "start": "1994-10-01",
+      "end": "1994-10-31",
+      "title": "课堂与万圣节",
+      "kind": "classes",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_3",
+      "schoolYear": 4,
+      "start": "1994-11-01",
+      "end": "1994-11-30",
+      "title": "魁地奇与校园人际",
+      "kind": "quidditch",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_4",
+      "schoolYear": 4,
+      "start": "1994-12-01",
+      "end": "1994-12-31",
+      "title": "圣诞与冬季活动",
+      "kind": "winter",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_5",
+      "schoolYear": 4,
+      "start": "1995-01-01",
+      "end": "1995-01-31",
+      "title": "新学期与魔法练习",
+      "kind": "practice",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_6",
+      "schoolYear": 4,
+      "start": "1995-02-01",
+      "end": "1995-02-28",
+      "title": "同伴与校园秘密",
+      "kind": "npc",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_7",
+      "schoolYear": 4,
+      "start": "1995-03-01",
+      "end": "1995-03-31",
+      "title": "春季调查与探索",
+      "kind": "exploration",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_8",
+      "schoolYear": 4,
+      "start": "1995-04-01",
+      "end": "1995-04-30",
+      "title": "复活节与复习",
+      "kind": "spring",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_9",
+      "schoolYear": 4,
+      "start": "1995-05-01",
+      "end": "1995-06-30",
+      "title": "期末考试与历史高潮",
+      "kind": "exams",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y4_stage_10",
+      "schoolYear": 4,
+      "start": "1995-07-01",
+      "end": "1995-08-31",
+      "title": "暑假与家庭生活",
+      "kind": "summer",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "三强争霸",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_1",
+      "schoolYear": 5,
+      "start": "1995-09-01",
+      "end": "1995-09-30",
+      "title": "开学与适应",
+      "kind": "enrollment",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_2",
+      "schoolYear": 5,
+      "start": "1995-10-01",
+      "end": "1995-10-31",
+      "title": "课堂与万圣节",
+      "kind": "classes",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_3",
+      "schoolYear": 5,
+      "start": "1995-11-01",
+      "end": "1995-11-30",
+      "title": "魁地奇与校园人际",
+      "kind": "quidditch",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_4",
+      "schoolYear": 5,
+      "start": "1995-12-01",
+      "end": "1995-12-31",
+      "title": "圣诞与冬季活动",
+      "kind": "winter",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_5",
+      "schoolYear": 5,
+      "start": "1996-01-01",
+      "end": "1996-01-31",
+      "title": "新学期与魔法练习",
+      "kind": "practice",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_6",
+      "schoolYear": 5,
+      "start": "1996-02-01",
+      "end": "1996-02-28",
+      "title": "同伴与校园秘密",
+      "kind": "npc",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_7",
+      "schoolYear": 5,
+      "start": "1996-03-01",
+      "end": "1996-03-31",
+      "title": "春季调查与探索",
+      "kind": "exploration",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_8",
+      "schoolYear": 5,
+      "start": "1996-04-01",
+      "end": "1996-04-30",
+      "title": "复活节与复习",
+      "kind": "spring",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_9",
+      "schoolYear": 5,
+      "start": "1996-05-01",
+      "end": "1996-06-30",
+      "title": "期末考试与历史高潮",
+      "kind": "exams",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y5_stage_10",
+      "schoolYear": 5,
+      "start": "1996-07-01",
+      "end": "1996-08-31",
+      "title": "暑假与家庭生活",
+      "kind": "summer",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "邓布利多军",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_1",
+      "schoolYear": 6,
+      "start": "1996-09-01",
+      "end": "1996-09-30",
+      "title": "开学与适应",
+      "kind": "enrollment",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_2",
+      "schoolYear": 6,
+      "start": "1996-10-01",
+      "end": "1996-10-31",
+      "title": "课堂与万圣节",
+      "kind": "classes",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_3",
+      "schoolYear": 6,
+      "start": "1996-11-01",
+      "end": "1996-11-30",
+      "title": "魁地奇与校园人际",
+      "kind": "quidditch",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_4",
+      "schoolYear": 6,
+      "start": "1996-12-01",
+      "end": "1996-12-31",
+      "title": "圣诞与冬季活动",
+      "kind": "winter",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_5",
+      "schoolYear": 6,
+      "start": "1997-01-01",
+      "end": "1997-01-31",
+      "title": "新学期与魔法练习",
+      "kind": "practice",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_6",
+      "schoolYear": 6,
+      "start": "1997-02-01",
+      "end": "1997-02-28",
+      "title": "同伴与校园秘密",
+      "kind": "npc",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_7",
+      "schoolYear": 6,
+      "start": "1997-03-01",
+      "end": "1997-03-31",
+      "title": "春季调查与探索",
+      "kind": "exploration",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_8",
+      "schoolYear": 6,
+      "start": "1997-04-01",
+      "end": "1997-04-30",
+      "title": "复活节与复习",
+      "kind": "spring",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_9",
+      "schoolYear": 6,
+      "start": "1997-05-01",
+      "end": "1997-06-30",
+      "title": "期末考试与历史高潮",
+      "kind": "exams",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y6_stage_10",
+      "schoolYear": 6,
+      "start": "1997-07-01",
+      "end": "1997-08-31",
+      "title": "暑假与家庭生活",
+      "kind": "summer",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "魂器",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_1",
+      "schoolYear": 7,
+      "start": "1997-09-01",
+      "end": "1997-09-30",
+      "title": "开学与适应",
+      "kind": "enrollment",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_2",
+      "schoolYear": 7,
+      "start": "1997-10-01",
+      "end": "1997-10-31",
+      "title": "课堂与万圣节",
+      "kind": "classes",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_3",
+      "schoolYear": 7,
+      "start": "1997-11-01",
+      "end": "1997-11-30",
+      "title": "魁地奇与校园人际",
+      "kind": "quidditch",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_4",
+      "schoolYear": 7,
+      "start": "1997-12-01",
+      "end": "1997-12-31",
+      "title": "圣诞与冬季活动",
+      "kind": "winter",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_5",
+      "schoolYear": 7,
+      "start": "1998-01-01",
+      "end": "1998-01-31",
+      "title": "新学期与魔法练习",
+      "kind": "practice",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_6",
+      "schoolYear": 7,
+      "start": "1998-02-01",
+      "end": "1998-02-28",
+      "title": "同伴与校园秘密",
+      "kind": "npc",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_7",
+      "schoolYear": 7,
+      "start": "1998-03-01",
+      "end": "1998-03-31",
+      "title": "春季调查与探索",
+      "kind": "exploration",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_8",
+      "schoolYear": 7,
+      "start": "1998-04-01",
+      "end": "1998-04-30",
+      "title": "复活节与复习",
+      "kind": "spring",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_9",
+      "schoolYear": 7,
+      "start": "1998-05-01",
+      "end": "1998-06-30",
+      "title": "期末考试与历史高潮",
+      "kind": "exams",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    },
+    {
+      "id": "y7_stage_10",
+      "schoolYear": 7,
+      "start": "1998-07-01",
+      "end": "1998-08-31",
+      "title": "暑假与家庭生活",
+      "kind": "summer",
+      "lifeGoals": [
+        "参加课程或活动",
+        "与NPC互动",
+        "提升魔法能力"
+      ],
+      "historicalBackdrop": "霍格沃茨大战",
+      "sourceLayer": "original_gameplay"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_security_levels",
+  "records": [
+    {
+      "id": "quiet",
+      "name": "表面和平",
+      "threat_range": [
+        0,
+        20
+      ],
+      "travel_risk": 5,
+      "school_pressure": 0,
+      "summary": "日常风险较低"
+    },
+    {
+      "id": "uncertain",
+      "name": "隐秘威胁",
+      "threat_range": [
+        21,
+        50
+      ],
+      "travel_risk": 20,
+      "school_pressure": 15,
+      "summary": "谣言和政治否认增加"
+    },
+    {
+      "id": "alert",
+      "name": "公开戒备",
+      "threat_range": [
+        51,
+        80
+      ],
+      "travel_risk": 45,
+      "school_pressure": 30,
+      "summary": "检查与保护需求上升"
+    },
+    {
+      "id": "crisis",
+      "name": "战争危机",
+      "threat_range": [
+        81,
+        100
+      ],
+      "travel_risk": 75,
+      "school_pressure": 55,
+      "summary": "避难、救援和通行困难"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_story_arcs",
+  "description": "七条原创DLC框架；不宣称已经实装剧情",
+  "records": [
+    {
+      "id": "silver_contract",
+      "name": "银匠的契约",
+      "summary": "原创多章族群故事框架，未编写完整逐场景对白",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "goblins",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "遗物来历",
+          "implemented": false
+        },
+        {
+          "index": 2,
+          "title": "契约证据",
+          "implemented": false
+        },
+        {
+          "index": 3,
+          "title": "双方陈述",
+          "implemented": false
+        },
+        {
+          "index": 4,
+          "title": "协商结果",
+          "implemented": false
+        }
+      ],
+      "canon_fixed": false
+    },
+    {
+      "id": "forest_stars",
+      "name": "星空下的边界",
+      "summary": "原创多章族群故事框架，未编写完整逐场景对白",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "centaurs",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "失踪者",
+          "implemented": false
+        },
+        {
+          "index": 2,
+          "title": "领地争议",
+          "implemented": false
+        },
+        {
+          "index": 3,
+          "title": "星象与证词",
+          "implemented": false
+        },
+        {
+          "index": 4,
+          "title": "尊重选择",
+          "implemented": false
+        }
+      ],
+      "canon_fixed": false
+    },
+    {
+      "id": "unnamed_servant",
+      "name": "没有名字的仆人",
+      "summary": "原创多章族群故事框架，未编写完整逐场景对白",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "house_elves",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "旧主遗嘱",
+          "implemented": false
+        },
+        {
+          "index": 2,
+          "title": "契约限制",
+          "implemented": false
+        },
+        {
+          "index": 3,
+          "title": "当事人意愿",
+          "implemented": false
+        },
+        {
+          "index": 4,
+          "title": "新生活",
+          "implemented": false
+        }
+      ],
+      "canon_fixed": false
+    },
+    {
+      "id": "lake_voice",
+      "name": "黑湖之声",
+      "summary": "原创多章族群故事框架，未编写完整逐场景对白",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "merpeople",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "水下线索",
+          "implemented": false
+        },
+        {
+          "index": 2,
+          "title": "语言障碍",
+          "implemented": false
+        },
+        {
+          "index": 3,
+          "title": "共同危机",
+          "implemented": false
+        },
+        {
+          "index": 4,
+          "title": "协议",
+          "implemented": false
+        }
+      ],
+      "canon_fixed": false
+    },
+    {
+      "id": "giant_letters",
+      "name": "远方来信",
+      "summary": "原创多章族群故事框架，未编写完整逐场景对白",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "giants",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "陌生信使",
+          "implemented": false
+        },
+        {
+          "index": 2,
+          "title": "偏见",
+          "implemented": false
+        },
+        {
+          "index": 3,
+          "title": "外交",
+          "implemented": false
+        },
+        {
+          "index": 4,
+          "title": "分歧",
+          "implemented": false
+        }
+      ],
+      "canon_fixed": false
+    },
+    {
+      "id": "wolf_moon",
+      "name": "月光与秘密",
+      "summary": "原创多章族群故事框架，未编写完整逐场景对白",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "werewolves",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "匿名求助",
+          "implemented": false
+        },
+        {
+          "index": 2,
+          "title": "社会流言",
+          "implemented": false
+        },
+        {
+          "index": 3,
+          "title": "安全计划",
+          "implemented": false
+        },
+        {
+          "index": 4,
+          "title": "保护隐私",
+          "implemented": false
+        }
+      ],
+      "canon_fixed": false
+    },
+    {
+      "id": "ghost_archive",
+      "name": "幽灵的证词",
+      "summary": "原创多章族群故事框架，未编写完整逐场景对白",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "ghosts",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "旧案",
+          "implemented": false
+        },
+        {
+          "index": 2,
+          "title": "记忆",
+          "implemented": false
+        },
+        {
+          "index": 3,
+          "title": "证据矛盾",
+          "implemented": false
+        },
+        {
+          "index": 4,
+          "title": "澄清",
+          "implemented": false
+        }
+      ],
+      "canon_fixed": false
+    }
+  ]
+}

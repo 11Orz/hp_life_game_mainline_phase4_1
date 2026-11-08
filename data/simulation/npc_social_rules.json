@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "intervalMinutes": 15,
+  "pairCooldownMinutes": 90,
+  "interactionChancePercent": 48,
+  "invitationChancePercent": 22,
+  "allowedActivities": [
+    "free",
+    "evening",
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "offscreenSummary": false,
+  "description": "每15游戏分钟检测同地NPC；关系双向；离屏互动保存在记忆而非全部展示；邀请暂停时钟。"
+}

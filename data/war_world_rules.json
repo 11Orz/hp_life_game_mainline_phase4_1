@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_world_rules",
+  "records": [
+    {
+      "id": "canon_fixed",
+      "rule": "fixed_major_events",
+      "detail": "重大正史事件不可由玩家改写"
+    },
+    {
+      "id": "age",
+      "rule": "age_gated",
+      "detail": "在校学生不得自动获得凤凰社正式成员身份"
+    },
+    {
+      "id": "no_spoilers",
+      "rule": "date_visibility",
+      "detail": "不得在事件发生前泄露未来情报"
+    },
+    {
+      "id": "independent_da",
+      "rule": "separate_groups",
+      "detail": "邓布利多军不是凤凰社的直属分部"
+    },
+    {
+      "id": "original_only",
+      "rule": "npc_outcomes",
+      "detail": "只允许改变原创人物结局"
+    },
+    {
+      "id": "medical",
+      "rule": "medical_bridge",
+      "detail": "救援可产生医疗记录，但不自动捏造伤势"
+    },
+    {
+      "id": "social",
+      "rule": "opinion_bridge",
+      "detail": "仅通过明确的话题及公开消息同步舆论"
+    },
+    {
+      "id": "no_combat",
+      "rule": "non_tactical",
+      "detail": "不提供现实世界暴力或秘密行动操作指南"
+    }
+  ]
+}

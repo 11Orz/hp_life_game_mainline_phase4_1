@@ -1,0 +1,390 @@
+{
+  "id": "npc_opinion_reactions",
+  "description": "按历史话题与信念立场提供原创NPC台词和行动意图",
+  "records": [
+    {
+      "id": "chamber_believes",
+      "topic_id": "chamber",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "chamber_uncertain",
+      "topic_id": "chamber",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "chamber_doubts",
+      "topic_id": "chamber",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "sirius_believes",
+      "topic_id": "sirius",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "sirius_uncertain",
+      "topic_id": "sirius",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "sirius_doubts",
+      "topic_id": "sirius",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "world_cup_believes",
+      "topic_id": "world_cup",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "world_cup_uncertain",
+      "topic_id": "world_cup",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "world_cup_doubts",
+      "topic_id": "world_cup",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "triwizard_believes",
+      "topic_id": "triwizard",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "triwizard_uncertain",
+      "topic_id": "triwizard",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "triwizard_doubts",
+      "topic_id": "triwizard",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "voldemort_return_believes",
+      "topic_id": "voldemort_return",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "voldemort_return_uncertain",
+      "topic_id": "voldemort_return",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "voldemort_return_doubts",
+      "topic_id": "voldemort_return",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "umbridge_believes",
+      "topic_id": "umbridge",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "umbridge_uncertain",
+      "topic_id": "umbridge",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "umbridge_doubts",
+      "topic_id": "umbridge",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "azkaban_believes",
+      "topic_id": "azkaban",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "azkaban_uncertain",
+      "topic_id": "azkaban",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "azkaban_doubts",
+      "topic_id": "azkaban",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "ministry_admission_believes",
+      "topic_id": "ministry_admission",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "ministry_admission_uncertain",
+      "topic_id": "ministry_admission",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "ministry_admission_doubts",
+      "topic_id": "ministry_admission",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "dumbledore_death_believes",
+      "topic_id": "dumbledore_death",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "dumbledore_death_uncertain",
+      "topic_id": "dumbledore_death",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "dumbledore_death_doubts",
+      "topic_id": "dumbledore_death",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "ministry_takeover_believes",
+      "topic_id": "ministry_takeover",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "ministry_takeover_uncertain",
+      "topic_id": "ministry_takeover",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "ministry_takeover_doubts",
+      "topic_id": "ministry_takeover",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "muggleborn_believes",
+      "topic_id": "muggleborn",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "muggleborn_uncertain",
+      "topic_id": "muggleborn",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "muggleborn_doubts",
+      "topic_id": "muggleborn",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "potterwatch_believes",
+      "topic_id": "potterwatch",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "potterwatch_uncertain",
+      "topic_id": "potterwatch",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "potterwatch_doubts",
+      "topic_id": "potterwatch",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "battle_believes",
+      "topic_id": "battle",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "battle_uncertain",
+      "topic_id": "battle",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "battle_doubts",
+      "topic_id": "battle",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "rebuilding_believes",
+      "topic_id": "rebuilding",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "rebuilding_uncertain",
+      "topic_id": "rebuilding",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "rebuilding_doubts",
+      "topic_id": "rebuilding",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "quidditch_believes",
+      "topic_id": "quidditch",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "quidditch_uncertain",
+      "topic_id": "quidditch",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "quidditch_doubts",
+      "topic_id": "quidditch",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    },
+    {
+      "id": "international_exchange_believes",
+      "topic_id": "international_exchange",
+      "stance": "believes",
+      "public_line": "我觉得这件事值得认真对待。",
+      "private_line": "我听到了一些可信的说法。",
+      "action": "seek_evidence"
+    },
+    {
+      "id": "international_exchange_uncertain",
+      "topic_id": "international_exchange",
+      "stance": "uncertain",
+      "public_line": "现在的信息还不够清楚。",
+      "private_line": "我想再核对几个来源。",
+      "action": "investigate"
+    },
+    {
+      "id": "international_exchange_doubts",
+      "topic_id": "international_exchange",
+      "stance": "doubts",
+      "public_line": "我还不能接受这种说法。",
+      "private_line": "我不确定传闻是否可靠。",
+      "action": "wait"
+    }
+  ]
+}

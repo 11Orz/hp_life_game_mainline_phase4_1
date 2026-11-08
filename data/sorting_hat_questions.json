@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "title": "原创八题分院帽测试",
+    "canonLayer": "game_original",
+    "note": "题目原创，不复制官方测验"
+  },
+  "items": [
+    {
+      "id": "sort_1",
+      "prompt": "发现无人知晓的通道，你会？",
+      "options": [
+        {
+          "id": "0_0",
+          "label": "立即探索",
+          "house": "gryffindor"
+        },
+        {
+          "id": "0_1",
+          "label": "评估机会与风险",
+          "house": "slytherin"
+        },
+        {
+          "id": "0_2",
+          "label": "研究历史与结构",
+          "house": "ravenclaw"
+        },
+        {
+          "id": "0_3",
+          "label": "邀请朋友同行",
+          "house": "hufflepuff"
+        }
+      ]
+    },
+    {
+      "id": "sort_2",
+      "prompt": "四件物品中最吸引你的是？",
+      "options": [
+        {
+          "id": "1_0",
+          "label": "旧冒险家的剑",
+          "house": "gryffindor"
+        },
+        {
+          "id": "1_1",
+          "label": "银色密室钥匙",
+          "house": "slytherin"
+        },
+        {
+          "id": "1_2",
+          "label": "失传咒语手稿",
+          "house": "ravenclaw"
+        },
+        {
+          "id": "1_3",
+          "label": "联络朋友的徽章",
+          "house": "hufflepuff"
+        }
+      ]
+    },
+    {
+      "id": "sort_3",
+      "prompt": "朋友遭到错误指责时？",
+      "options": [
+        {
+          "id": "2_0",
+          "label": "当场反驳",
+          "house": "gryffindor"
+        },
+        {
+          "id": "2_1",
+          "label": "寻找有力谈判筹码",
+          "house": "slytherin"
+        },
+        {
+          "id": "2_2",
+          "label": "收集证据",
+          "house": "ravenclaw"
+        },
+        {
+          "id": "2_3",
+          "label": "陪伴并帮助朋友",
+          "house": "hufflepuff"
+        }
+      ]
+    },
+    {
+      "id": "sort_4",
+      "prompt": "希望教授最认可你？",
+      "options": [
+        {
+          "id": "3_0",
+          "label": "勇气",
+          "house": "gryffindor"
+        },
+        {
+          "id": "3_1",
+          "label": "抱负",
+          "house": "slytherin"
+        },
+        {
+          "id": "3_2",
+          "label": "求知",
+          "house": "ravenclaw"
+        },
+        {
+          "id": "3_3",
+          "label": "可靠",
+          "house": "hufflepuff"
+        }
+      ]
+    },
+    {
+      "id": "sort_5",
+      "prompt": "发现一本禁借的珍贵书？",
+      "options": [
+        {
+          "id": "4_0",
+          "label": "为保护他人冒险使用",
+          "house": "gryffindor"
+        },
+        {
+          "id": "4_1",
+          "label": "申请特殊许可",
+          "house": "slytherin"
+        },
+        {
+          "id": "4_2",
+          "label": "研究其学术价值",
+          "house": "ravenclaw"
+        },
+        {
+          "id": "4_3",
+          "label": "先遵守规定",
+          "house": "hufflepuff"
+        }
+      ]
+    },
+    {
+      "id": "sort_6",
+      "prompt": "面对艰难挑战依靠？",
+      "options": [
+        {
+          "id": "5_0",
+          "label": "行动",
+          "house": "gryffindor"
+        },
+        {
+          "id": "5_1",
+          "label": "策略",
+          "house": "slytherin"
+        },
+        {
+          "id": "5_2",
+          "label": "推理",
+          "house": "ravenclaw"
+        },
+        {
+          "id": "5_3",
+          "label": "合作",
+          "house": "hufflepuff"
+        }
+      ]
+    },
+    {
+      "id": "sort_7",
+      "prompt": "希望留下什么？",
+      "options": [
+        {
+          "id": "6_0",
+          "label": "传奇",
+          "house": "gryffindor"
+        },
+        {
+          "id": "6_1",
+          "label": "成就",
+          "house": "slytherin"
+        },
+        {
+          "id": "6_2",
+          "label": "发现",
+          "house": "ravenclaw"
+        },
+        {
+          "id": "6_3",
+          "label": "友谊",
+          "house": "hufflepuff"
+        }
+      ]
+    },
+    {
+      "id": "sort_8",
+      "prompt": "两个学院都适合你时？",
+      "options": [
+        {
+          "id": "7_0",
+          "label": "让我勇敢成长的地方",
+          "house": "gryffindor"
+        },
+        {
+          "id": "7_1",
+          "label": "助我实现理想的地方",
+          "house": "slytherin"
+        },
+        {
+          "id": "7_2",
+          "label": "鼓励独立思考的地方",
+          "house": "ravenclaw"
+        },
+        {
+          "id": "7_3",
+          "label": "让我有归属感的地方",
+          "house": "hufflepuff"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_laws",
+  "description": "权利与制度争议；避免伪造法规条号",
+  "records": [
+    {
+      "id": "goblin_wands",
+      "name": "妖精魔杖使用争议",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/goblins"
+      ],
+      "group_id": "goblins",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "goblin_ownership",
+      "name": "妖精工艺权属争议",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/goblins"
+      ],
+      "group_id": "goblins",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "centaur_autonomy",
+      "name": "马人自治",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/centaurs"
+      ],
+      "group_id": "centaurs",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "merpeople_classification",
+      "name": "人鱼与魔法部分类",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/merpeople"
+      ],
+      "group_id": "merpeople",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "elf_bond",
+      "name": "家养小精灵束缚与劳动",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/House-elf"
+      ],
+      "group_id": "house_elves",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "giant_rights",
+      "name": "巨人社会地位",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/giants"
+      ],
+      "group_id": "giants",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "werewolf_registry",
+      "name": "狼人登记与偏见",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/werewolves"
+      ],
+      "group_id": "werewolves",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "werewolf_employment",
+      "name": "狼人就业限制与歧视",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/werewolves"
+      ],
+      "group_id": "werewolves",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "vampire_classification",
+      "name": "吸血鬼社会身份",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/vampires"
+      ],
+      "group_id": "vampires",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    },
+    {
+      "id": "ghost_classification",
+      "name": "幽灵身份",
+      "summary": "记录法律地位与权利争议；具体法律条文未核实则不编造",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://harrypotter.fandom.com/wiki/ghosts"
+      ],
+      "group_id": "ghosts",
+      "law_text_verified": false,
+      "policy_effect": "contextual"
+    }
+  ]
+}

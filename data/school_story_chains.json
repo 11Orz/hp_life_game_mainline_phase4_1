@@ -1,0 +1,2283 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "startYear": 1900,
+    "endYear": 2021,
+    "school": "Hogwarts"
+  },
+  "sourcePolicy": {
+    "gameOriginal": "所有剧情、概率和数值为原创；借用霍格沃茨、学院、课程等世界观设定不等于该事件在正史发生。",
+    "historicalSafety": "正史事件必须另行绑定 historical_events.json 的明确年份；不能将原创事件描述成原著事实。"
+  },
+  "integration": {
+    "spellIdsFrom": "spells.json",
+    "growthRulesFrom": "magical_growth_rules.json",
+    "schoolRulesFrom": "hogwarts_progression.json",
+    "historyFrom": "historical_events.json"
+  },
+  "dataset": "school_story_chains",
+  "count": 20,
+  "chains": [
+    {
+      "id": "slc_001",
+      "title": "消失的学生",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“消失的学生”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_001_stage_1",
+          "eventId": "sle_social_001",
+          "chapter": 1,
+          "title": "新室友的秘密",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_001_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_001_stage_2",
+          "eventId": "sle_exploration_005",
+          "chapter": 2,
+          "title": "走廊里传来哭声",
+          "unlock": {
+            "requiredFlags": [
+              "slc_001_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_001_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_001_stage_3",
+          "eventId": "sle_accident_002",
+          "chapter": 3,
+          "title": "同学遭到轻微诅咒",
+          "unlock": {
+            "requiredFlags": [
+              "slc_001_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_001_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_001"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_002",
+      "title": "禁书区的匿名纸条",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“禁书区的匿名纸条”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          3,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_002_stage_1",
+          "eventId": "sle_exploration_006",
+          "chapter": 1,
+          "title": "禁书区的模糊书名",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_002_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_002_stage_2",
+          "eventId": "sle_growth_014",
+          "chapter": 2,
+          "title": "申请图书馆研究许可",
+          "unlock": {
+            "requiredFlags": [
+              "slc_002_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_002_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_002_stage_3",
+          "eventId": "sle_personal_009",
+          "chapter": 3,
+          "title": "决定是否说出真相",
+          "unlock": {
+            "requiredFlags": [
+              "slc_002_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_002_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_002"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_003",
+      "title": "魁地奇替补的机会",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“魁地奇替补的机会”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          2,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_003_stage_1",
+          "eventId": "sle_clubs_001",
+          "chapter": 1,
+          "title": "魁地奇球队选拔",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_003_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_003_stage_2",
+          "eventId": "sle_clubs_004",
+          "chapter": 2,
+          "title": "临时替补登场",
+          "unlock": {
+            "requiredFlags": [
+              "slc_003_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_003_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_003_stage_3",
+          "eventId": "sle_clubs_015",
+          "chapter": 3,
+          "title": "一场难忘的比赛失利",
+          "unlock": {
+            "requiredFlags": [
+              "slc_003_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_003_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_003"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_004",
+      "title": "魔药课堂的救援",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“魔药课堂的救援”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_004_stage_1",
+          "eventId": "sle_classroom_003",
+          "chapter": 1,
+          "title": "魔药坩埚冒出紫烟",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_004_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_004_stage_2",
+          "eventId": "sle_accident_001",
+          "chapter": 2,
+          "title": "魔药材料误混",
+          "unlock": {
+            "requiredFlags": [
+              "slc_004_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_004_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_004_stage_3",
+          "eventId": "sle_social_011",
+          "chapter": 3,
+          "title": "匿名的善意帮助",
+          "unlock": {
+            "requiredFlags": [
+              "slc_004_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_004_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_004"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_005",
+      "title": "宿舍里的不速之客",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“宿舍里的不速之客”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_005_stage_1",
+          "eventId": "sle_house_007",
+          "chapter": 1,
+          "title": "宿舍里出现奇怪气味",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_005_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_005_stage_2",
+          "eventId": "sle_exploration_014",
+          "chapter": 2,
+          "title": "画像后面的纸条",
+          "unlock": {
+            "requiredFlags": [
+              "slc_005_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_005_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_005_stage_3",
+          "eventId": "sle_house_013",
+          "chapter": 3,
+          "title": "同院同学的求助",
+          "unlock": {
+            "requiredFlags": [
+              "slc_005_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_005_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_005"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_006",
+      "title": "被误解的朋友",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“被误解的朋友”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_006_stage_1",
+          "eventId": "sle_social_002",
+          "chapter": 1,
+          "title": "被误解的一封信",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_006_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_006_stage_2",
+          "eventId": "sle_social_008",
+          "chapter": 2,
+          "title": "被泄露的私人秘密",
+          "unlock": {
+            "requiredFlags": [
+              "slc_006_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_006_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_006_stage_3",
+          "eventId": "sle_personal_003",
+          "chapter": 3,
+          "title": "面对同学的道歉",
+          "unlock": {
+            "requiredFlags": [
+              "slc_006_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_006_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_006"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_007",
+      "title": "教授的研究邀请",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“教授的研究邀请”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_007_stage_1",
+          "eventId": "sle_growth_014",
+          "chapter": 1,
+          "title": "申请图书馆研究许可",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_007_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_007_stage_2",
+          "eventId": "sle_classroom_014",
+          "chapter": 2,
+          "title": "图书馆中的超前课题",
+          "unlock": {
+            "requiredFlags": [
+              "slc_007_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_007_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_007_stage_3",
+          "eventId": "sle_growth_015",
+          "chapter": 3,
+          "title": "教授推荐的暑期实践",
+          "unlock": {
+            "requiredFlags": [
+              "slc_007_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_007_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_007"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_008",
+      "title": "禁林边缘的足迹",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“禁林边缘的足迹”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          3,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_008_stage_1",
+          "eventId": "sle_exploration_012",
+          "chapter": 1,
+          "title": "禁林边缘的微光",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_008_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_008_stage_2",
+          "eventId": "sle_classroom_011",
+          "chapter": 2,
+          "title": "保护神奇动物课的惊慌",
+          "unlock": {
+            "requiredFlags": [
+              "slc_008_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_008_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_008_stage_3",
+          "eventId": "sle_accident_011",
+          "chapter": 3,
+          "title": "宠物误食魔法材料",
+          "unlock": {
+            "requiredFlags": [
+              "slc_008_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_008_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_008"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_009",
+      "title": "走廊画像的秘密",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“走廊画像的秘密”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_009_stage_1",
+          "eventId": "sle_exploration_002",
+          "chapter": 1,
+          "title": "画像提供的线索",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_009_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_009_stage_2",
+          "eventId": "sle_exploration_010",
+          "chapter": 2,
+          "title": "通向旧仓库的密道",
+          "unlock": {
+            "requiredFlags": [
+              "slc_009_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_009_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_009_stage_3",
+          "eventId": "sle_exploration_014",
+          "chapter": 3,
+          "title": "画像后面的纸条",
+          "unlock": {
+            "requiredFlags": [
+              "slc_009_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_009_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_009"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_010",
+      "title": "学院杯的最后冲刺",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“学院杯的最后冲刺”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_010_stage_1",
+          "eventId": "sle_house_005",
+          "chapter": 1,
+          "title": "学院杯前的关键一天",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_010_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_010_stage_2",
+          "eventId": "sle_clubs_011",
+          "chapter": 2,
+          "title": "跨学院友谊赛",
+          "unlock": {
+            "requiredFlags": [
+              "slc_010_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_010_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_010_stage_3",
+          "eventId": "sle_house_012",
+          "chapter": 3,
+          "title": "学院内部选举",
+          "unlock": {
+            "requiredFlags": [
+              "slc_010_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_010_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_010"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_011",
+      "title": "决斗练习的对手",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“决斗练习的对手”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_011_stage_1",
+          "eventId": "sle_clubs_006",
+          "chapter": 1,
+          "title": "决斗练习中的缴械",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_011_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_011_stage_2",
+          "eventId": "sle_social_012",
+          "chapter": 2,
+          "title": "社团中的竞争者",
+          "unlock": {
+            "requiredFlags": [
+              "slc_011_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_011_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_011_stage_3",
+          "eventId": "sle_personal_007",
+          "chapter": 3,
+          "title": "与竞争者达成合作",
+          "unlock": {
+            "requiredFlags": [
+              "slc_011_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_011_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_011"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_012",
+      "title": "考试前的秘密笔记",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“考试前的秘密笔记”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_012_stage_1",
+          "eventId": "sle_growth_003",
+          "chapter": 1,
+          "title": "考试复习小组",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_012_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_012_stage_2",
+          "eventId": "sle_social_007",
+          "chapter": 2,
+          "title": "朋友借走珍贵课本",
+          "unlock": {
+            "requiredFlags": [
+              "slc_012_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_012_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_012_stage_3",
+          "eventId": "sle_growth_008",
+          "chapter": 3,
+          "title": "考试中遇到陌生题型",
+          "unlock": {
+            "requiredFlags": [
+              "slc_012_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_012_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_012"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_013",
+      "title": "一封来自家乡的信",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“一封来自家乡的信”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_013_stage_1",
+          "eventId": "sle_personal_001",
+          "chapter": 1,
+          "title": "收到远方亲人的消息",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_013_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_013_stage_2",
+          "eventId": "sle_social_014",
+          "chapter": 2,
+          "title": "家庭来信引发的忧虑",
+          "unlock": {
+            "requiredFlags": [
+              "slc_013_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_013_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_013_stage_3",
+          "eventId": "sle_personal_008",
+          "chapter": 3,
+          "title": "一封难以回复的信",
+          "unlock": {
+            "requiredFlags": [
+              "slc_013_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_013_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_013"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_014",
+      "title": "失控的魔法植物",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“失控的魔法植物”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_014_stage_1",
+          "eventId": "sle_classroom_004",
+          "chapter": 1,
+          "title": "草药课的咬人植物",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_014_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_014_stage_2",
+          "eventId": "sle_accident_005",
+          "chapter": 2,
+          "title": "植物刺伤了手臂",
+          "unlock": {
+            "requiredFlags": [
+              "slc_014_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_014_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_014_stage_3",
+          "eventId": "sle_classroom_014",
+          "chapter": 3,
+          "title": "图书馆中的超前课题",
+          "unlock": {
+            "requiredFlags": [
+              "slc_014_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_014_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_014"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_015",
+      "title": "钟楼遗失的纪念品",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“钟楼遗失的纪念品”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_015_stage_1",
+          "eventId": "sle_exploration_008",
+          "chapter": 1,
+          "title": "钟楼上的遗失物",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_015_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_015_stage_2",
+          "eventId": "sle_social_011",
+          "chapter": 2,
+          "title": "匿名的善意帮助",
+          "unlock": {
+            "requiredFlags": [
+              "slc_015_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_015_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_015_stage_3",
+          "eventId": "sle_personal_012",
+          "chapter": 3,
+          "title": "在众人面前承认错误",
+          "unlock": {
+            "requiredFlags": [
+              "slc_015_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_015_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_015"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_016",
+      "title": "社团之间的争端",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“社团之间的争端”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_016_stage_1",
+          "eventId": "sle_clubs_013",
+          "chapter": 1,
+          "title": "俱乐部活动场地争夺",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_016_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_016_stage_2",
+          "eventId": "sle_house_008",
+          "chapter": 2,
+          "title": "学院传统活动的分歧",
+          "unlock": {
+            "requiredFlags": [
+              "slc_016_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_016_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_016_stage_3",
+          "eventId": "sle_personal_002",
+          "chapter": 3,
+          "title": "第一次公开表达立场",
+          "unlock": {
+            "requiredFlags": [
+              "slc_016_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_016_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_016"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_017",
+      "title": "午夜巡逻与失踪宠物",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“午夜巡逻与失踪宠物”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_017_stage_1",
+          "eventId": "sle_house_006",
+          "chapter": 1,
+          "title": "室友违反宵禁",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_017_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_017_stage_2",
+          "eventId": "sle_exploration_004",
+          "chapter": 2,
+          "title": "午夜的巡逻灯光",
+          "unlock": {
+            "requiredFlags": [
+              "slc_017_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_017_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_017_stage_3",
+          "eventId": "sle_accident_011",
+          "chapter": 3,
+          "title": "宠物误食魔法材料",
+          "unlock": {
+            "requiredFlags": [
+              "slc_017_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_017_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_017"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_018",
+      "title": "级长的信任",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“级长的信任”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_018_stage_1",
+          "eventId": "sle_house_004",
+          "chapter": 1,
+          "title": "级长巡查的争执",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_018_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_018_stage_2",
+          "eventId": "sle_social_004",
+          "chapter": 2,
+          "title": "为受欺负的学生出头",
+          "unlock": {
+            "requiredFlags": [
+              "slc_018_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_018_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_018_stage_3",
+          "eventId": "sle_house_010",
+          "chapter": 3,
+          "title": "为新生讲解校规",
+          "unlock": {
+            "requiredFlags": [
+              "slc_018_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_018_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_018"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_019",
+      "title": "魔法史里的旧谜团",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“魔法史里的旧谜团”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          1,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_019_stage_1",
+          "eventId": "sle_classroom_006",
+          "chapter": 1,
+          "title": "魔法史课堂的争论",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_019_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_019_stage_2",
+          "eventId": "sle_classroom_013",
+          "chapter": 2,
+          "title": "古代魔文的残缺译文",
+          "unlock": {
+            "requiredFlags": [
+              "slc_019_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_019_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_019_stage_3",
+          "eventId": "sle_exploration_009",
+          "chapter": 3,
+          "title": "温室后的脚印",
+          "unlock": {
+            "requiredFlags": [
+              "slc_019_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_019_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_019"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    },
+    {
+      "id": "slc_020",
+      "title": "毕业前的最后选择",
+      "origin": {
+        "layer": "game_original",
+        "canonClaim": false
+      },
+      "summary": "围绕“毕业前的最后选择”展开的三章校园支线，前一章的选择会影响后续关系和结局。",
+      "availability": {
+        "schoolId": "hogwarts",
+        "yearRange": [
+          1900,
+          2021
+        ],
+        "schoolYearRange": [
+          6,
+          7
+        ],
+        "historicalExclusions": []
+      },
+      "start": {
+        "type": "weighted_random",
+        "baseWeight": 3,
+        "requiresFlags": []
+      },
+      "stages": [
+        {
+          "id": "slc_020_stage_1",
+          "eventId": "sle_growth_010",
+          "chapter": 1,
+          "title": "毕业后的去向争论",
+          "unlock": {
+            "requiredFlags": [],
+            "minimumDaysSincePrevious": 0
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_020_stage_1_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_020_stage_2",
+          "eventId": "sle_personal_015",
+          "chapter": 2,
+          "title": "对未来生活的迷茫",
+          "unlock": {
+            "requiredFlags": [
+              "slc_020_stage_1_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_020_stage_2_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        },
+        {
+          "id": "slc_020_stage_3",
+          "eventId": "sle_personal_013",
+          "chapter": 3,
+          "title": "离校前的告别",
+          "unlock": {
+            "requiredFlags": [
+              "slc_020_stage_2_completed"
+            ],
+            "minimumDaysSincePrevious": 7
+          },
+          "onResolve": {
+            "setFlags": [
+              "slc_020_stage_3_completed"
+            ],
+            "persistChoiceId": true
+          },
+          "failurePolicy": "continue_with_consequences"
+        }
+      ],
+      "endings": [
+        {
+          "id": "positive",
+          "requirements": {
+            "relationshipAtLeast": {
+              "targetNpc": 30
+            }
+          },
+          "effects": {
+            "schoolReputation": 5,
+            "relationshipDelta": {
+              "targetNpc": 10
+            }
+          }
+        },
+        {
+          "id": "mixed",
+          "requirements": {},
+          "effects": {
+            "skillXp": {
+              "reflection": 5
+            }
+          }
+        }
+      ],
+      "state": {
+        "scope": "per_player",
+        "keyPrefix": "slc_020"
+      },
+      "designNotes": "阶段事件引用基础事件库；引擎需要通过chain context覆盖基础事件冷却，并保存章节选择。"
+    }
+  ]
+}

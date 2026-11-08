@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "canonReservations": [
+    {
+      "date": "1991-10-31",
+      "npcIds": [
+        "harry_potter",
+        "ron_weasley",
+        "hermione_granger"
+      ],
+      "note": "万圣节巨怪事件：保留关键人物参与；后续接历史引擎"
+    }
+  ],
+  "logNearbyOnly": true
+}

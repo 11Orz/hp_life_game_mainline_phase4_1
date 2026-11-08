@@ -1,0 +1,2154 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0.0",
+    "project": "魔法人生模拟器 / Harry Potter historical timeline",
+    "language": "zh-CN",
+    "coverage": {
+      "startYear": 1900,
+      "endYear": 2021,
+      "note": "2021为游戏出生范围上界，不表示被诅咒的孩子明确在2021年结局；剧本年代存在推算与争议。"
+    },
+    "birthDistribution": [
+      {
+        "startYear": 1970,
+        "endYear": 1985,
+        "probability": 0.7
+      },
+      {
+        "startYear": 1900,
+        "endYear": 1969,
+        "probability": 0.15
+      },
+      {
+        "startYear": 1986,
+        "endYear": 2021,
+        "probability": 0.15
+      }
+    ],
+    "sourceHierarchy": [
+      {
+        "tier": "novels",
+        "rank": 1,
+        "description": "七部原著小说，优先定位章节"
+      },
+      {
+        "tier": "official",
+        "rank": 2,
+        "description": "罗琳补充设定、Pottermore/Wizarding World、访谈、设定集"
+      },
+      {
+        "tier": "screenplays",
+        "rank": 3,
+        "description": "神奇动物电影剧本"
+      },
+      {
+        "tier": "cursed_child",
+        "rank": 3,
+        "description": "被诅咒的孩子剧本，独立连续性标记"
+      },
+      {
+        "tier": "secondary",
+        "rank": 4,
+        "description": "Lexicon、MuggleNet、Wiki，仅用于交叉核对"
+      },
+      {
+        "tier": "original",
+        "rank": 5,
+        "description": "游戏原创设定，不作为原著事实"
+      }
+    ],
+    "certaintyValues": {
+      "confirmed": "原始作品中明确日期或年份",
+      "approximate": "时间范围推算",
+      "inferred": "根据故事学年或资料推断",
+      "disputed": "存在资料冲突"
+    },
+    "reviewStatusValues": {
+      "cross_checked": "已进行基本交叉核对（仍可细化出处）",
+      "needs_primary_check": "尚待逐章/逐条原始来源复核"
+    },
+    "gameImpactScale": "-100至100的相对变化，纯游戏设计，不代表原著数值",
+    "editorialNote": "这是可扩充的初版种子数据库，不宣称穷尽所有事件；来源条目为定位线索，verification=pending者不得宣称已完成原始来源验证。"
+  },
+  "events": [
+    {
+      "id": "hp_1907_001",
+      "title": "纽特·斯卡曼德出生",
+      "description": "",
+      "date": {
+        "start": "1907",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国",
+      "characters": [
+        "纽特·斯卡曼德"
+      ],
+      "category": "birth",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "official",
+          "reference": "Wizarding World / Fantastic Beasts人物资料",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "出生年代与神奇动物研究者交叠",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1908_002",
+      "title": "纽特进入霍格沃茨",
+      "description": "",
+      "date": {
+        "start": "1908",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "纽特·斯卡曼德"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "screenplays",
+          "reference": "神奇动物系列背景资料",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "disputed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "同校时代背景",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1926_003",
+      "title": "纽特在纽约卷入默然者事件",
+      "description": "",
+      "date": {
+        "start": "1926",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "纽约",
+      "characters": [
+        "纽特·斯卡曼德",
+        "蒂娜·戈德斯坦",
+        "雅各布·科瓦尔斯基",
+        "格林德沃",
+        "克雷登斯"
+      ],
+      "category": "magical_incident",
+      "continuity": "fantastic_beasts",
+      "sources": [
+        {
+          "tier": "screenplays",
+          "reference": "《神奇动物在哪里》电影剧本",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 15,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 12
+      },
+      "playerHooks": [
+        {
+          "description": "美国魔法社会警戒上升",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1926_004",
+      "title": "汤姆·马沃罗·里德尔出生",
+      "description": "",
+      "date": {
+        "start": "1926-12-31",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "伦敦",
+      "characters": [
+        "汤姆·里德尔",
+        "梅洛普·冈特"
+      ],
+      "category": "birth",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》里德尔家族与孤儿院回忆",
+          "verification": "cross_checked"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1927_005",
+      "title": "格林德沃在巴黎集结追随者",
+      "description": "",
+      "date": {
+        "start": "1927",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "巴黎",
+      "characters": [
+        "格林德沃",
+        "纽特·斯卡曼德",
+        "邓布利多"
+      ],
+      "category": "politics",
+      "continuity": "fantastic_beasts",
+      "sources": [
+        {
+          "tier": "screenplays",
+          "reference": "《神奇动物：格林德沃之罪》剧本",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 20,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 20
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1927_006",
+      "title": "《神奇动物在哪里》教科书出版",
+      "description": "",
+      "date": {
+        "start": "1927",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国",
+      "characters": [
+        "纽特·斯卡曼德"
+      ],
+      "category": "publication",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "official",
+          "reference": "Wizarding World纽特著作介绍",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1932_007",
+      "title": "国际巫师联合会选举与格林德沃阴谋",
+      "description": "",
+      "date": {
+        "start": "1932",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "不丹及欧洲",
+      "characters": [
+        "邓布利多",
+        "格林德沃",
+        "纽特·斯卡曼德"
+      ],
+      "category": "politics",
+      "continuity": "fantastic_beasts",
+      "sources": [
+        {
+          "tier": "screenplays",
+          "reference": "《神奇动物：邓布利多之谜》剧本",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 12,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 25
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1938_008",
+      "title": "邓布利多探访孤儿院中的汤姆·里德尔",
+      "description": "",
+      "date": {
+        "start": "1938",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "伦敦",
+      "characters": [
+        "邓布利多",
+        "汤姆·里德尔"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》第13章：秘密的里德尔",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "霍格沃茨招生事件",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1938_009",
+      "title": "汤姆·里德尔进入霍格沃茨",
+      "description": "",
+      "date": {
+        "start": "1938",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "汤姆·里德尔"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》回忆章节",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "可能与里德尔同校",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1942_010",
+      "title": "汤姆·里德尔杀害父亲与祖父母",
+      "description": "",
+      "date": {
+        "start": "1942",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "小汉格顿",
+      "characters": [
+        "汤姆·里德尔",
+        "汤姆·里德尔老",
+        "莫芬·冈特"
+      ],
+      "category": "crime",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》第17章：被篡改的记忆",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 8,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1943_011",
+      "title": "密室开启与桃金娘死亡",
+      "description": "",
+      "date": {
+        "start": "1943",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "汤姆·里德尔",
+        "桃金娘",
+        "海格"
+      ],
+      "category": "school_crisis",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《密室》第13章：绝密日记；第17章：斯莱特林的继承人",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 20,
+        "schoolDisruption": 30,
+        "politicalTensionDelta": 5
+      },
+      "playerHooks": [
+        {
+          "description": "在校学生遭遇密室危机",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1943_012",
+      "title": "海格被错误指控并遭开除",
+      "description": "",
+      "date": {
+        "start": "1943",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "海格",
+        "汤姆·里德尔",
+        "阿拉戈克"
+      ],
+      "category": "school_crisis",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《密室》第13章：绝密日记",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 2,
+        "schoolDisruption": 10,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1945_013",
+      "title": "邓布利多击败格林德沃",
+      "description": "",
+      "date": {
+        "start": "1945",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "欧洲",
+      "characters": [
+        "邓布利多",
+        "格林德沃"
+      ],
+      "category": "war",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《死亡圣器》关于老魔杖与格林德沃的叙述",
+          "verification": "cross_checked"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "gameImpact": {
+        "worldDangerDelta": -35,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": -20
+      },
+      "playerHooks": [
+        {
+          "description": "战争结束后的社会变化",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1945_014",
+      "title": "汤姆·里德尔从霍格沃茨毕业",
+      "description": "",
+      "date": {
+        "start": "1945",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "汤姆·里德尔"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》回忆章节",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1950_015",
+      "title": "里德尔探索黑魔法与魂器",
+      "description": "",
+      "date": {
+        "start": "1950",
+        "end": "1959",
+        "precision": "decade"
+      },
+      "location": "英国及海外",
+      "characters": [
+        "汤姆·里德尔"
+      ],
+      "category": "dark_magic",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》里德尔相关回忆",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 5,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 3
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1960_016",
+      "title": "伏地魔逐步建立追随者网络",
+      "description": "",
+      "date": {
+        "start": "1960",
+        "end": "1969",
+        "precision": "decade"
+      },
+      "location": "英国",
+      "characters": [
+        "伏地魔",
+        "早期食死徒"
+      ],
+      "category": "politics",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》《凤凰社》背景叙述",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 8,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 10
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1965_017",
+      "title": "卢平童年遭狼人袭击",
+      "description": "",
+      "date": {
+        "start": "1965",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国",
+      "characters": [
+        "莱姆斯·卢平",
+        "芬里尔·格雷伯克"
+      ],
+      "category": "personal",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《阿兹卡班的囚徒》卢平经历；官方补充人物资料",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1970_018",
+      "title": "第一次巫师战争逐渐爆发",
+      "description": "",
+      "date": {
+        "start": "1970",
+        "end": null,
+        "precision": "approximate_year"
+      },
+      "location": "英国",
+      "characters": [
+        "伏地魔",
+        "食死徒",
+        "凤凰社"
+      ],
+      "category": "war",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "secondary",
+          "reference": "Harry Potter Lexicon第一次巫师战争时间线；原著背景",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 35,
+        "schoolDisruption": 10,
+        "politicalTensionDelta": 30
+      },
+      "playerHooks": [
+        {
+          "description": "家庭安全与阵营压力",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1971_019",
+      "title": "掠夺者一代进入霍格沃茨",
+      "description": "",
+      "date": {
+        "start": "1971",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "詹姆·波特",
+        "莉莉·伊万斯",
+        "西里斯·布莱克",
+        "卢平",
+        "彼得·佩迪鲁",
+        "斯内普"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《凤凰社》第28章：斯内普最痛苦的记忆；《死亡圣器》回忆",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "与掠夺者同校",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1975_020",
+      "title": "斯内普与詹姆之间的校园冲突",
+      "description": "",
+      "date": {
+        "start": "1975",
+        "end": null,
+        "precision": "approximate_year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "詹姆·波特",
+        "西里斯·布莱克",
+        "斯内普",
+        "莉莉·伊万斯"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《凤凰社》第28章：斯内普最痛苦的记忆",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "校园人际冲突",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1979_021",
+      "title": "雷古勒斯试图摧毁伏地魔的魂器",
+      "description": "",
+      "date": {
+        "start": "1979",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "海边洞穴",
+      "characters": [
+        "雷古勒斯·布莱克",
+        "克利切"
+      ],
+      "category": "dark_magic",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《死亡圣器》第10章：克利切的故事",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1980_022",
+      "title": "特里劳妮作出预言",
+      "description": "",
+      "date": {
+        "start": "1980",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "猪头酒吧",
+      "characters": [
+        "西比尔·特里劳妮",
+        "邓布利多",
+        "斯内普"
+      ],
+      "category": "prophecy",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《凤凰社》第37章：失落的预言",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 8,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 4
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1980_023",
+      "title": "纳威·隆巴顿出生",
+      "description": "",
+      "date": {
+        "start": "1980-07-30",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "英国",
+      "characters": [
+        "纳威·隆巴顿"
+      ],
+      "category": "birth",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《凤凰社》预言相关情节；官方人物资料",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1980_024",
+      "title": "哈利·波特出生",
+      "description": "",
+      "date": {
+        "start": "1980-07-31",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "英国",
+      "characters": [
+        "哈利·波特",
+        "詹姆·波特",
+        "莉莉·波特"
+      ],
+      "category": "birth",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《魔法石》人物生日及后续设定",
+          "verification": "cross_checked"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1981_026",
+      "title": "西里斯被关入阿兹卡班",
+      "description": "",
+      "date": {
+        "start": "1981",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国",
+      "characters": [
+        "西里斯·布莱克",
+        "彼得·佩迪鲁"
+      ],
+      "category": "justice",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《阿兹卡班的囚徒》相关章节",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1981_027",
+      "title": "隆巴顿夫妇遭酷刑折磨",
+      "description": "",
+      "date": {
+        "start": "1981",
+        "end": null,
+        "precision": "approximate_year"
+      },
+      "location": "英国",
+      "characters": [
+        "弗兰克·隆巴顿",
+        "艾丽斯·隆巴顿",
+        "贝拉特里克斯·莱斯特兰奇"
+      ],
+      "category": "crime",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《火焰杯》冥想盆审判回忆；《凤凰社》圣芒戈章节",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1981_025",
+      "title": "伏地魔袭击戈德里克山谷",
+      "description": "",
+      "date": {
+        "start": "1981-10-31",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "戈德里克山谷",
+      "characters": [
+        "伏地魔",
+        "哈利·波特",
+        "詹姆·波特",
+        "莉莉·波特"
+      ],
+      "category": "war",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《魔法石》第1章；《死亡圣器》第17章",
+          "verification": "cross_checked"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "gameImpact": {
+        "worldDangerDelta": -45,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": -30
+      },
+      "playerHooks": [
+        {
+          "description": "战争结束，家庭可能遭受损失",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1982_028",
+      "title": "战后食死徒审判与清算",
+      "description": "",
+      "date": {
+        "start": "1982",
+        "end": "1985",
+        "precision": "period"
+      },
+      "location": "英国魔法部",
+      "characters": [
+        "巴蒂·克劳奇",
+        "被捕食死徒"
+      ],
+      "category": "justice",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《火焰杯》第30章：冥想盆",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": -8,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 8
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1991_029",
+      "title": "哈利收到霍格沃茨录取通知",
+      "description": "",
+      "date": {
+        "start": "1991",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国",
+      "characters": [
+        "哈利·波特",
+        "海格"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《魔法石》第3–5章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "同届招生",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1991_030",
+      "title": "哈利进入霍格沃茨并分入格兰芬多",
+      "description": "",
+      "date": {
+        "start": "1991-09-01",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "哈利·波特",
+        "罗恩·韦斯莱",
+        "赫敏·格兰杰"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《魔法石》第6–7章",
+          "verification": "cross_checked"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "同届分院",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1991_031",
+      "title": "万圣节巨怪进入霍格沃茨",
+      "description": "",
+      "date": {
+        "start": "1991-10-31",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "哈利·波特",
+        "罗恩·韦斯莱",
+        "赫敏·格兰杰",
+        "奇洛"
+      ],
+      "category": "school_crisis",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《魔法石》第10章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 5,
+        "schoolDisruption": 8,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1992_032",
+      "title": "魔法石争夺与奇洛死亡",
+      "description": "",
+      "date": {
+        "start": "1992",
+        "end": null,
+        "precision": "approximate_year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "哈利·波特",
+        "奇洛",
+        "伏地魔"
+      ],
+      "category": "school_crisis",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《魔法石》第16–17章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": -5,
+        "schoolDisruption": 8,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1992_033",
+      "title": "密室再度开启，学生接连石化",
+      "description": "",
+      "date": {
+        "start": "1992",
+        "end": "1993",
+        "precision": "period"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "哈利·波特",
+        "金妮·韦斯莱",
+        "汤姆·里德尔日记"
+      ],
+      "category": "school_crisis",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《密室》全书",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 12,
+        "schoolDisruption": 30,
+        "politicalTensionDelta": 15
+      },
+      "playerHooks": [
+        {
+          "description": "在校学生可能受到袭击或调查",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1993_034",
+      "title": "哈利杀死蛇怪并摧毁日记",
+      "description": "",
+      "date": {
+        "start": "1993",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨密室",
+      "characters": [
+        "哈利·波特",
+        "金妮·韦斯莱",
+        "福克斯",
+        "汤姆·里德尔日记"
+      ],
+      "category": "school_crisis",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《密室》第17章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": -10,
+        "schoolDisruption": -25,
+        "politicalTensionDelta": -5
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1993_035",
+      "title": "西里斯逃离阿兹卡班",
+      "description": "",
+      "date": {
+        "start": "1993",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "阿兹卡班及英国",
+      "characters": [
+        "西里斯·布莱克"
+      ],
+      "category": "justice",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《阿兹卡班的囚徒》第1–3章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 7,
+        "schoolDisruption": 5,
+        "politicalTensionDelta": 8
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1993_036",
+      "title": "摄魂怪进驻霍格沃茨周边",
+      "description": "",
+      "date": {
+        "start": "1993",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "摄魂怪",
+        "邓布利多"
+      ],
+      "category": "school_crisis",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《阿兹卡班的囚徒》",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 9,
+        "schoolDisruption": 20,
+        "politicalTensionDelta": 10
+      },
+      "playerHooks": [
+        {
+          "description": "学生精神健康与出行风险",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1994_037",
+      "title": "彼得·佩迪鲁身份被揭露并逃走",
+      "description": "",
+      "date": {
+        "start": "1994",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "尖叫棚屋",
+      "characters": [
+        "哈利·波特",
+        "西里斯·布莱克",
+        "卢平",
+        "彼得·佩迪鲁"
+      ],
+      "category": "crime",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《阿兹卡班的囚徒》第17–21章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1994_038",
+      "title": "三强争霸赛在霍格沃茨举办",
+      "description": "",
+      "date": {
+        "start": "1994",
+        "end": "1995",
+        "precision": "period"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "哈利·波特",
+        "塞德里克·迪戈里",
+        "芙蓉·德拉库尔",
+        "威克多尔·克鲁姆"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《火焰杯》",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 5,
+        "schoolDisruption": 15,
+        "politicalTensionDelta": 5
+      },
+      "playerHooks": [
+        {
+          "description": "观赛、学校交流与赛事活动",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1994_039",
+      "title": "魁地奇世界杯与食死徒骚乱",
+      "description": "",
+      "date": {
+        "start": "1994",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国世界杯营地",
+      "characters": [
+        "哈利·波特",
+        "韦斯莱一家",
+        "食死徒"
+      ],
+      "category": "sports",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《火焰杯》第7–9章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 12,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 12
+      },
+      "playerHooks": [
+        {
+          "description": "观众安全事件",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1995_041",
+      "title": "乌姆里奇任霍格沃茨黑魔法防御术教授",
+      "description": "",
+      "date": {
+        "start": "1995",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "多洛雷斯·乌姆里奇",
+        "哈利·波特"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《凤凰社》",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 2,
+        "schoolDisruption": 25,
+        "politicalTensionDelta": 20
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1995_042",
+      "title": "邓布利多军成立",
+      "description": "",
+      "date": {
+        "start": "1995",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨有求必应屋",
+      "characters": [
+        "哈利·波特",
+        "赫敏·格兰杰",
+        "罗恩·韦斯莱"
+      ],
+      "category": "resistance",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《凤凰社》第18章：邓布利多军",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "学生可能加入秘密防御训练",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1995_040",
+      "title": "塞德里克遇害与伏地魔复活",
+      "description": "",
+      "date": {
+        "start": "1995-06-24",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "小汉格顿墓地",
+      "characters": [
+        "哈利·波特",
+        "塞德里克·迪戈里",
+        "伏地魔",
+        "彼得·佩迪鲁"
+      ],
+      "category": "war",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《火焰杯》第32–36章；具体日历日需二次核对",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "inferred",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 45,
+        "schoolDisruption": 10,
+        "politicalTensionDelta": 25
+      },
+      "playerHooks": [
+        {
+          "description": "第二次战争风险上升",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1996_043",
+      "title": "神秘事务司之战，西里斯死亡",
+      "description": "",
+      "date": {
+        "start": "1996",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国魔法部神秘事务司",
+      "characters": [
+        "哈利·波特",
+        "西里斯·布莱克",
+        "贝拉特里克斯",
+        "邓布利多",
+        "伏地魔"
+      ],
+      "category": "war",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《凤凰社》第34–36章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 25,
+        "schoolDisruption": 10,
+        "politicalTensionDelta": 35
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1996_044",
+      "title": "魔法部公开承认伏地魔归来",
+      "description": "",
+      "date": {
+        "start": "1996",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国魔法部",
+      "characters": [
+        "康奈利·福吉",
+        "伏地魔"
+      ],
+      "category": "politics",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《凤凰社》结尾",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 10,
+        "schoolDisruption": 5,
+        "politicalTensionDelta": 25
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1996_045",
+      "title": "斯拉格霍恩回归霍格沃茨",
+      "description": "",
+      "date": {
+        "start": "1996",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "霍拉斯·斯拉格霍恩",
+        "邓布利多",
+        "哈利·波特"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》第4章及后续",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1997_046",
+      "title": "邓布利多在天文塔死亡",
+      "description": "",
+      "date": {
+        "start": "1997",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨天文塔",
+      "characters": [
+        "邓布利多",
+        "斯内普",
+        "德拉科·马尔福"
+      ],
+      "category": "war",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《混血王子》第27章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 25,
+        "schoolDisruption": 40,
+        "politicalTensionDelta": 25
+      },
+      "playerHooks": [
+        {
+          "description": "学校治理与安全骤变",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1997_047",
+      "title": "魔法部被伏地魔势力控制",
+      "description": "",
+      "date": {
+        "start": "1997",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国魔法部",
+      "characters": [
+        "伏地魔",
+        "皮尔斯·辛克尼斯",
+        "食死徒"
+      ],
+      "category": "politics",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《死亡圣器》第8–13章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 35,
+        "schoolDisruption": 25,
+        "politicalTensionDelta": 45
+      },
+      "playerHooks": [
+        {
+          "description": "麻瓜出身者与反抗者受到迫害",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1997_048",
+      "title": "麻瓜出身登记委员会迫害巫师",
+      "description": "",
+      "date": {
+        "start": "1997",
+        "end": "1998",
+        "precision": "period"
+      },
+      "location": "英国魔法部",
+      "characters": [
+        "乌姆里奇",
+        "麻瓜出身巫师"
+      ],
+      "category": "persecution",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《死亡圣器》第13章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 30,
+        "schoolDisruption": 25,
+        "politicalTensionDelta": 35
+      },
+      "playerHooks": [
+        {
+          "description": "血统影响生存与迁徙",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1997_049",
+      "title": "斯内普担任霍格沃茨校长",
+      "description": "",
+      "date": {
+        "start": "1997",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "斯内普",
+        "卡罗兄妹"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《死亡圣器》霍格沃茨相关章节",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 20,
+        "schoolDisruption": 45,
+        "politicalTensionDelta": 25
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1998_050",
+      "title": "古灵阁金库闯入与赫奇帕奇金杯被夺取",
+      "description": "",
+      "date": {
+        "start": "1998",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "古灵阁",
+      "characters": [
+        "哈利·波特",
+        "罗恩·韦斯莱",
+        "赫敏·格兰杰",
+        "拉环"
+      ],
+      "category": "dark_magic",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《死亡圣器》第26章",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1998_052",
+      "title": "金斯莱领导战后魔法部",
+      "description": "",
+      "date": {
+        "start": "1998",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "英国魔法部",
+      "characters": [
+        "金斯莱·沙克尔"
+      ],
+      "category": "politics",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "official",
+          "reference": "Wizarding World战后人物资料；原著尾声相关背景",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": -10,
+        "schoolDisruption": -5,
+        "politicalTensionDelta": -20
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_1998_053",
+      "title": "霍格沃茨战后重建",
+      "description": "",
+      "date": {
+        "start": "1998",
+        "end": "2000",
+        "precision": "period"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "麦格",
+        "学校教职员工"
+      ],
+      "category": "recovery",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "secondary",
+          "reference": "Wizarding World战后资料与Lexicon；具体起止时间待核",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": -5,
+        "schoolDisruption": -25,
+        "politicalTensionDelta": -5
+      },
+      "playerHooks": [
+        {
+          "description": "参与学校修复或恢复教学",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_1998_051",
+      "title": "霍格沃茨大战与伏地魔最终死亡",
+      "description": "",
+      "date": {
+        "start": "1998-05-02",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "霍格沃茨",
+      "characters": [
+        "哈利·波特",
+        "伏地魔",
+        "麦格",
+        "纳威·隆巴顿",
+        "斯内普"
+      ],
+      "category": "war",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《死亡圣器》第31–36章；Wizarding World大战时间线",
+          "verification": "cross_checked"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "gameImpact": {
+        "worldDangerDelta": -60,
+        "schoolDisruption": 70,
+        "politicalTensionDelta": -40
+      },
+      "playerHooks": [
+        {
+          "description": "按年龄和阵营选择疏散、抵抗或其他行动",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_2017_055",
+      "title": "阿不思与斯科皮成为朋友",
+      "description": "",
+      "date": {
+        "start": "2017",
+        "end": null,
+        "precision": "year"
+      },
+      "location": "霍格沃茨特快列车及霍格沃茨",
+      "characters": [
+        "阿不思·西弗勒斯·波特",
+        "斯科皮·马尔福"
+      ],
+      "category": "personal",
+      "continuity": "cursed_child",
+      "sources": [
+        {
+          "tier": "cursed_child",
+          "reference": "《被诅咒的孩子》第一幕",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    },
+    {
+      "id": "hp_2017_054",
+      "title": "下一代登上霍格沃茨特快列车",
+      "description": "",
+      "date": {
+        "start": "2017-09-01",
+        "end": null,
+        "precision": "day"
+      },
+      "location": "国王十字车站九又四分之三站台",
+      "characters": [
+        "哈利·波特",
+        "金妮·波特",
+        "阿不思·西弗勒斯·波特",
+        "罗丝·格兰杰-韦斯莱"
+      ],
+      "category": "school",
+      "continuity": "core",
+      "sources": [
+        {
+          "tier": "novels",
+          "reference": "《死亡圣器》尾声：十九年后",
+          "verification": "cross_checked"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [
+        {
+          "description": "下一代学生入学",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_2020_056",
+      "title": "阿不思与斯科皮的时间转换器冒险",
+      "description": "",
+      "date": {
+        "start": "2020",
+        "end": null,
+        "precision": "approximate_year"
+      },
+      "location": "霍格沃茨及多个历史时点",
+      "characters": [
+        "阿不思·西弗勒斯·波特",
+        "斯科皮·马尔福",
+        "德尔菲"
+      ],
+      "category": "time_travel",
+      "continuity": "cursed_child",
+      "sources": [
+        {
+          "tier": "cursed_child",
+          "reference": "《被诅咒的孩子》剧本",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "inferred",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 15,
+        "schoolDisruption": 10,
+        "politicalTensionDelta": 5
+      },
+      "playerHooks": [
+        {
+          "description": "时间线异常只在特殊剧情分支出现",
+          "requirements": "由游戏引擎根据年龄、地点、身份判定",
+          "isOriginalGameDesign": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hp_2020_057",
+      "title": "德尔菲的阴谋被阻止",
+      "description": "",
+      "date": {
+        "start": "2020",
+        "end": null,
+        "precision": "approximate_year"
+      },
+      "location": "戈德里克山谷及霍格沃茨相关地点",
+      "characters": [
+        "哈利·波特",
+        "阿不思·西弗勒斯·波特",
+        "斯科皮·马尔福",
+        "德尔菲"
+      ],
+      "category": "time_travel",
+      "continuity": "cursed_child",
+      "sources": [
+        {
+          "tier": "cursed_child",
+          "reference": "《被诅咒的孩子》后半部",
+          "verification": "pending"
+        }
+      ],
+      "certainty": "inferred",
+      "reviewStatus": "needs_primary_check",
+      "gameImpact": {
+        "worldDangerDelta": 0,
+        "schoolDisruption": 0,
+        "politicalTensionDelta": 0
+      },
+      "playerHooks": [],
+      "notes": []
+    }
+  ]
+}

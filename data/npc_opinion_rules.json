@@ -1,0 +1,63 @@
+{
+  "id": "npc_opinion_rules",
+  "description": "传播、冷却、日期、正史与重复结算约束",
+  "records": [
+    {
+      "id": "daily_idempotency",
+      "value": true
+    },
+    {
+      "id": "no_future_topics",
+      "value": true
+    },
+    {
+      "id": "no_future_articles",
+      "value": true
+    },
+    {
+      "id": "max_daily_contact_attempts",
+      "value": 3
+    },
+    {
+      "id": "daily_exposure_cap",
+      "value": 2
+    },
+    {
+      "id": "interaction_cooldown_days",
+      "value": 2
+    },
+    {
+      "id": "belief_bounds",
+      "value": [
+        0,
+        100
+      ]
+    },
+    {
+      "id": "fear_bounds",
+      "value": [
+        0,
+        100
+      ]
+    },
+    {
+      "id": "stance_thresholds",
+      "value": {
+        "believes": 65,
+        "doubts": 35
+      }
+    },
+    {
+      "id": "deterministic_daily_seed",
+      "value": true
+    },
+    {
+      "id": "catchup_max_days_per_call",
+      "value": 366
+    },
+    {
+      "id": "no_canon_rewrite",
+      "value": true
+    }
+  ]
+}

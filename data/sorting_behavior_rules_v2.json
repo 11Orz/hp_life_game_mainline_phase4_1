@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "分院行为证据",
+    "canonLayer": "game_original",
+    "note": "仅根据可观察的行为计分，家庭血统与资金不直接影响学院"
+  },
+  "choiceWeights": {
+    "ask": {
+      "ravenclaw": 1
+    },
+    "greet": {
+      "gryffindor": 1,
+      "hufflepuff": 1
+    },
+    "observe": {
+      "ravenclaw": 1
+    },
+    "quiet": {
+      "hufflepuff": 1
+    },
+    "newcomers": {
+      "hufflepuff": 2
+    },
+    "read": {
+      "ravenclaw": 2
+    },
+    "help": {
+      "hufflepuff": 2,
+      "gryffindor": 1
+    },
+    "encourage": {
+      "hufflepuff": 2
+    },
+    "talk": {
+      "ravenclaw": 1,
+      "hufflepuff": 1
+    },
+    "pass": {},
+    "unpack": {
+      "ravenclaw": 1
+    },
+    "rest": {}
+  },
+  "weights": {
+    "quiz": 0.7,
+    "behavior": 0.2,
+    "preference": 0.1
+  }
+}

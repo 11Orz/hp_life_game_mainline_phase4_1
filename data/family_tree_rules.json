@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_tree_rules",
+  "description": "家谱生成、显示、关系、时间和正史一致性规则。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "tree_01",
+      "rule": "每个人物ID唯一且不可在存档后改变",
+      "level": "error"
+    },
+    {
+      "id": "tree_02",
+      "rule": "parent有向无环，禁止本人作为祖先",
+      "level": "error"
+    },
+    {
+      "id": "tree_03",
+      "rule": "双亲与子女出生时间必须合理；未知日期不强制推断",
+      "level": "error"
+    },
+    {
+      "id": "tree_04",
+      "rule": "死亡后不得生成亲生子女出生，允许特殊情形标记待核",
+      "level": "warning"
+    },
+    {
+      "id": "tree_05",
+      "rule": "spouse/sibling无方向并去重",
+      "level": "error"
+    },
+    {
+      "id": "tree_06",
+      "rule": "blood/adoptive/step/guardian/rumor边必须分开",
+      "level": "error"
+    },
+    {
+      "id": "tree_07",
+      "rule": "原著明确无子女人物不得新增亲生子女",
+      "level": "error"
+    },
+    {
+      "id": "tree_08",
+      "rule": "正史已知关系不能被原创覆盖",
+      "level": "error"
+    },
+    {
+      "id": "tree_09",
+      "rule": "未知世代只可用原创占位且标记来源",
+      "level": "error"
+    },
+    {
+      "id": "tree_10",
+      "rule": "家谱节点按玩家知识等级显示锁定",
+      "level": "info"
+    },
+    {
+      "id": "tree_11",
+      "rule": "玩家祖先在开局确定并写入存档",
+      "level": "error"
+    },
+    {
+      "id": "tree_12",
+      "rule": "历史日期与故事世界时间线一致",
+      "level": "error"
+    },
+    {
+      "id": "tree_13",
+      "rule": "继承财产不等于继承魔法能力",
+      "level": "error"
+    },
+    {
+      "id": "tree_14",
+      "rule": "同性伴侣、收养、监护均应可表示",
+      "level": "info"
+    },
+    {
+      "id": "tree_15",
+      "rule": "被除名不抹除生物学亲缘",
+      "level": "error"
+    },
+    {
+      "id": "tree_16",
+      "rule": "每个解锁线索需记录来源与可信度",
+      "level": "error"
+    },
+    {
+      "id": "tree_17",
+      "rule": "DLC可跳过且不阻塞主线",
+      "level": "error"
+    },
+    {
+      "id": "tree_18",
+      "rule": "同一人物不同名称以aliases索引",
+      "level": "info"
+    }
+  ]
+}

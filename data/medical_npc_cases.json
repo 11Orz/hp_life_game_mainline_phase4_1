@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_npc_cases",
+  "description": "NPC病历、隐私和长期照护",
+  "items": [
+    {
+      "id": "harry_bone_loss",
+      "name": "哈利手臂骨骼消失",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/plants-and-potions/skele-gro"
+      ],
+      "conditionOrInjuryId": "bone_loss",
+      "treatmentId": "skelegro",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": true
+    },
+    {
+      "id": "neville_parents",
+      "name": "隆巴顿夫妇长期住院",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "conditionOrInjuryId": "unforgivable_cruciatus",
+      "treatmentId": "professional_healing",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": true
+    },
+    {
+      "id": "ariana_history",
+      "name": "阿利安娜魔力失控历史",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/the-mysterious-life-and-death-of-ariana-dumbledore"
+      ],
+      "conditionOrInjuryId": "magical_suppression",
+      "treatmentId": null,
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": true
+    },
+    {
+      "id": "credence_obscurial",
+      "name": "克雷登斯默然者",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/obscurial"
+      ],
+      "conditionOrInjuryId": "obscurial",
+      "treatmentId": null,
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": true
+    },
+    {
+      "id": "student_potion",
+      "name": "原创学生魔药灼伤",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "conditionOrInjuryId": "potion_burn",
+      "treatmentId": "wound_cleaning",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": false
+    },
+    {
+      "id": "student_quidditch",
+      "name": "原创学生魁地奇骨折",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "conditionOrInjuryId": "fracture",
+      "treatmentId": "skelegro",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": false
+    },
+    {
+      "id": "student_curse",
+      "name": "原创学生不明诅咒",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "conditionOrInjuryId": "curse_cut",
+      "treatmentId": "curse_containment",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": false
+    },
+    {
+      "id": "owl_case",
+      "name": "受伤猫头鹰",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "conditionOrInjuryId": "creature_bite",
+      "treatmentId": "creature_vet_referral",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": false
+    },
+    {
+      "id": "greenhouse_case",
+      "name": "温室植物事故",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "conditionOrInjuryId": "plant_strangle",
+      "treatmentId": "professional_healing",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": false
+    },
+    {
+      "id": "war_wounded",
+      "name": "战时伤员",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "conditionOrInjuryId": "curse_cut",
+      "treatmentId": "professional_healing",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": false
+    },
+    {
+      "id": "secret_patient",
+      "name": "匿名校园病患",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "conditionOrInjuryId": "magical_fatigue",
+      "treatmentId": "rest_observation",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": false
+    },
+    {
+      "id": "healer_case",
+      "name": "成年治疗师病例",
+      "description": "病例概要，原著案例仅作简要索引；原创病例为剧情模板",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "conditionOrInjuryId": "unknown_toxin",
+      "treatmentId": "professional_healing",
+      "privacy": "restricted",
+      "playerAccess": "authorized_or_story_unlocked",
+      "historicalFixed": false
+    }
+  ]
+}

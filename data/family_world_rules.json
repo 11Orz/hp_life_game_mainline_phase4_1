@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_world_rules",
+  "description": "跨模块游戏规则与正史保护。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "canon_priority",
+      "rule": "novel > author_supplement > wiki_secondary > game_original > rumor",
+      "severity": "required"
+    },
+    {
+      "id": "historical_guard",
+      "rule": "已知正史人物的生死、婚姻与已知子女不可被原创改写",
+      "severity": "required"
+    },
+    {
+      "id": "ancestor_generation",
+      "rule": "玩家开局锁定完整真实谱系，探索仅改变可见度",
+      "severity": "required"
+    },
+    {
+      "id": "unverified_link",
+      "rule": "未知世代不能被猜测自动补成正史",
+      "severity": "required"
+    },
+    {
+      "id": "evidence_threshold",
+      "rule": "三条线索不等于三份独立可靠证据；核对独立性",
+      "severity": "required"
+    },
+    {
+      "id": "no_power_from_blood",
+      "rule": "血统不自动决定天赋、能力、道德或职业",
+      "severity": "required"
+    },
+    {
+      "id": "social_independence",
+      "rule": "关系数值独立于亲缘类型与血统",
+      "severity": "required"
+    },
+    {
+      "id": "family_privacy",
+      "rule": "未知家族资料按角色知识等级隐藏",
+      "severity": "required"
+    },
+    {
+      "id": "dlc_optional",
+      "rule": "DLC不阻塞主线和毕业",
+      "severity": "required"
+    },
+    {
+      "id": "save_atomic",
+      "rule": "关系、线索、选择与家谱更新原子提交",
+      "severity": "required"
+    },
+    {
+      "id": "time_validity",
+      "rule": "事件人物须在当年存活或以文献/回忆形式出现",
+      "severity": "required"
+    },
+    {
+      "id": "legal_economy_hooks",
+      "rule": "遗产、婚姻、收养和家族偏见经政治/经济系统裁定",
+      "severity": "required"
+    },
+    {
+      "id": "branch_uniqueness",
+      "rule": "原创旁支ID使用存档作用域，避免撞名",
+      "severity": "required"
+    },
+    {
+      "id": "no_direct_canon_children",
+      "rule": "不得给已知正史人物凭空增加亲生子女",
+      "severity": "required"
+    },
+    {
+      "id": "rumor_outcome",
+      "rule": "传闻调查可以证伪，不保证著名祖先",
+      "severity": "required"
+    },
+    {
+      "id": "relationships_consent",
+      "rule": "亲密关系须符合年龄、同意与边界",
+      "severity": "required"
+    },
+    {
+      "id": "source_attribution",
+      "rule": "所有正史关系保留来源链接和可信等级",
+      "severity": "required"
+    },
+    {
+      "id": "versioning",
+      "rule": "所有存档保留schema版本与迁移策略",
+      "severity": "required"
+    }
+  ]
+}

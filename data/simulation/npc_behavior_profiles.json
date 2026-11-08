@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "harry_potter",
+      "name": "哈利·波特",
+      "house": "gryffindor",
+      "trait": "curious",
+      "home": "common_gryffindor",
+      "canonProtected": true
+    },
+    {
+      "id": "ron_weasley",
+      "name": "罗恩·韦斯莱",
+      "house": "gryffindor",
+      "trait": "social",
+      "home": "common_gryffindor",
+      "canonProtected": true
+    },
+    {
+      "id": "hermione_granger",
+      "name": "赫敏·格兰杰",
+      "house": "gryffindor",
+      "trait": "studious",
+      "home": "common_gryffindor",
+      "canonProtected": true
+    },
+    {
+      "id": "neville_longbottom",
+      "name": "纳威·隆巴顿",
+      "house": "gryffindor",
+      "trait": "shy",
+      "home": "common_gryffindor",
+      "canonProtected": true
+    },
+    {
+      "id": "draco_malfoy",
+      "name": "德拉科·马尔福",
+      "house": "slytherin",
+      "trait": "ambitious",
+      "home": "common_slytherin",
+      "canonProtected": true
+    },
+    {
+      "id": "lin_chen",
+      "name": "林晨",
+      "house": "ravenclaw",
+      "trait": "studious",
+      "home": "common_ravenclaw",
+      "canonProtected": false
+    },
+    {
+      "id": "ella_morgan",
+      "name": "艾拉·摩根",
+      "house": "hufflepuff",
+      "trait": "social",
+      "home": "common_hufflepuff",
+      "canonProtected": false
+    }
+  ]
+}

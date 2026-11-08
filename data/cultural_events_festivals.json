@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "cultural_events_festivals",
+  "records": [
+    {
+      "id": "halloween",
+      "name": "万圣节校园庆典",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "annual",
+      "date_hint": "10-31",
+      "culture_id": "hogwarts",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "christmas",
+      "name": "圣诞节庆祝",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "annual",
+      "date_hint": "12-25",
+      "culture_id": "hogwarts",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "hogwarts_feast",
+      "name": "霍格沃茨开学宴会",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "annual",
+      "date_hint": "09-01",
+      "culture_id": "hogwarts",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "quidditch_season",
+      "name": "魁地奇学年赛季",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "annual",
+      "date_hint": null,
+      "culture_id": "hogwarts",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "yule_ball",
+      "name": "圣诞舞会",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "historical",
+      "date_hint": "1994-12-25",
+      "culture_id": "hogwarts",
+      "repeatable": false,
+      "historical_window": null
+    },
+    {
+      "id": "triwizard_tournament",
+      "name": "三强争霸赛",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "historical",
+      "date_hint": "1994-09-01",
+      "culture_id": "international",
+      "repeatable": false,
+      "historical_window": "1994-1995"
+    },
+    {
+      "id": "quidditch_world_cup_1994",
+      "name": "1994年魁地奇世界杯",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "historical",
+      "date_hint": "1994-08-01",
+      "culture_id": "international",
+      "repeatable": false,
+      "historical_window": null
+    },
+    {
+      "id": "school_exchange",
+      "name": "校际交换访问",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "repeatable",
+      "date_hint": null,
+      "culture_id": "international",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "music_evening",
+      "name": "巫师音乐之夜",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "repeatable",
+      "date_hint": null,
+      "culture_id": "britain",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "wizard_market",
+      "name": "魔法市集",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "repeatable",
+      "date_hint": null,
+      "culture_id": "britain",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "book_club",
+      "name": "巫师读书会",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "repeatable",
+      "date_hint": null,
+      "culture_id": "hogwarts",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "beast_lecture",
+      "name": "魔法生物文化讲座",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "repeatable",
+      "date_hint": null,
+      "culture_id": "international",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "international_research",
+      "name": "国际研究交流会",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "repeatable",
+      "date_hint": null,
+      "culture_id": "international",
+      "repeatable": true,
+      "historical_window": null
+    },
+    {
+      "id": "memorial",
+      "name": "战争纪念活动",
+      "summary": "文化活动与游戏调度窗口；非固定日期的活动不得当作正史日程",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "event_type": "postwar",
+      "date_hint": "1998-05-03",
+      "culture_id": "britain",
+      "repeatable": false,
+      "historical_window": null
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

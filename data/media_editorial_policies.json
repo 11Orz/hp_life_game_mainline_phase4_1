@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "media_editorial_policies",
+  "records": [
+    {
+      "id": "policy_daily_prophet",
+      "name": "预言家日报编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/the-daily-prophet"
+      ],
+      "publication_id": "daily_prophet",
+      "stance": "official_sensitive",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.85,
+      "editorial_changes": [
+        {
+          "from": "1995-06-01",
+          "to": "1996-06-30",
+          "topic": "voldemort_return",
+          "framing": "deny_or_discredit"
+        }
+      ]
+    },
+    {
+      "id": "policy_evening_prophet",
+      "name": "预言家晚报编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/the-daily-prophet"
+      ],
+      "publication_id": "evening_prophet",
+      "stance": "official_sensitive",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.85,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_quibbler",
+      "name": "唱唱反调编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://www.harrypotter.com/fact-file/objects/the-quibbler"
+      ],
+      "publication_id": "quibbler",
+      "stance": "alternative_unverified",
+      "verification_weight": 0.45,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_witch_weekly",
+      "name": "女巫周刊编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "witch_weekly",
+      "stance": "general",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_which_broomstick",
+      "name": "哪款扫帚？编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "which_broomstick",
+      "stance": "general",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_transfiguration_today",
+      "name": "今日变形术编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "transfiguration_today",
+      "stance": "specialist",
+      "verification_weight": 0.85,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_challenges_in_charming",
+      "name": "魔咒创新编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "challenges_in_charming",
+      "stance": "specialist",
+      "verification_weight": 0.85,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_practical_potioneer",
+      "name": "实用魔药大师编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "practical_potioneer",
+      "stance": "specialist",
+      "verification_weight": 0.85,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_wizarding_wireless",
+      "name": "巫师无线电网络编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "wizarding_wireless",
+      "stance": "general",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_potterwatch",
+      "name": "波特瞭望编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [
+        "https://www.harrypotter.com/features/unsung-heroes-of-harry-potter-stories-lee-jordan"
+      ],
+      "publication_id": "potterwatch",
+      "stance": "resistance",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.1,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_school_bulletin",
+      "name": "霍格沃茨公告板编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "school_bulletin",
+      "stance": "general",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_owl_letters",
+      "name": "私人猫头鹰通信编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "owl_letters",
+      "stance": "general",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_quidditch_commentary",
+      "name": "魁地奇现场解说编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "quidditch_commentary",
+      "stance": "general",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    },
+    {
+      "id": "policy_international_bulletin",
+      "name": "国际魔法交流简报编辑机制",
+      "summary": "不同消息源采用不同审核与报道机制；数值为原创模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "international_bulletin",
+      "stance": "general",
+      "verification_weight": 0.65,
+      "government_pressure_sensitivity": 0.3,
+      "editorial_changes": []
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

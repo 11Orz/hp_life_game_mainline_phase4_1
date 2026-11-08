@@ -1,0 +1,385 @@
+{
+  "schemaVersion": "1.0",
+  "dataset": "life_milestones",
+  "count": 42,
+  "milestones": [
+    {
+      "id": "milestone_1_enrollment",
+      "date": "1991-09-01",
+      "schoolYear": 1,
+      "type": "enrollment",
+      "title": "开学",
+      "precision": "canon_day",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_1_halloween",
+      "date": "1991-10-31",
+      "schoolYear": 1,
+      "type": "halloween",
+      "title": "万圣节",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_1_winter",
+      "date": "1991-12-20",
+      "schoolYear": 1,
+      "type": "winter",
+      "title": "冬季假期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_1_spring",
+      "date": "1992-03-20",
+      "schoolYear": 1,
+      "type": "spring",
+      "title": "春季学期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_1_exams",
+      "date": "1992-06-15",
+      "schoolYear": 1,
+      "type": "exams",
+      "title": "期末考试",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_1_summer",
+      "date": "1992-07-01",
+      "schoolYear": 1,
+      "type": "summer",
+      "title": "暑假",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_2_enrollment",
+      "date": "1992-09-01",
+      "schoolYear": 2,
+      "type": "enrollment",
+      "title": "开学",
+      "precision": "canon_day",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_2_halloween",
+      "date": "1992-10-31",
+      "schoolYear": 2,
+      "type": "halloween",
+      "title": "万圣节",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_2_winter",
+      "date": "1992-12-20",
+      "schoolYear": 2,
+      "type": "winter",
+      "title": "冬季假期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_2_spring",
+      "date": "1993-03-20",
+      "schoolYear": 2,
+      "type": "spring",
+      "title": "春季学期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_2_exams",
+      "date": "1993-06-15",
+      "schoolYear": 2,
+      "type": "exams",
+      "title": "期末考试",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_2_summer",
+      "date": "1993-07-01",
+      "schoolYear": 2,
+      "type": "summer",
+      "title": "暑假",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_3_enrollment",
+      "date": "1993-09-01",
+      "schoolYear": 3,
+      "type": "enrollment",
+      "title": "开学",
+      "precision": "canon_day",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_3_halloween",
+      "date": "1993-10-31",
+      "schoolYear": 3,
+      "type": "halloween",
+      "title": "万圣节",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_3_winter",
+      "date": "1993-12-20",
+      "schoolYear": 3,
+      "type": "winter",
+      "title": "冬季假期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_3_spring",
+      "date": "1994-03-20",
+      "schoolYear": 3,
+      "type": "spring",
+      "title": "春季学期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_3_exams",
+      "date": "1994-06-15",
+      "schoolYear": 3,
+      "type": "exams",
+      "title": "期末考试",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_3_summer",
+      "date": "1994-07-01",
+      "schoolYear": 3,
+      "type": "summer",
+      "title": "暑假",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_4_enrollment",
+      "date": "1994-09-01",
+      "schoolYear": 4,
+      "type": "enrollment",
+      "title": "开学",
+      "precision": "canon_day",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_4_halloween",
+      "date": "1994-10-31",
+      "schoolYear": 4,
+      "type": "halloween",
+      "title": "万圣节",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_4_winter",
+      "date": "1994-12-20",
+      "schoolYear": 4,
+      "type": "winter",
+      "title": "冬季假期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_4_spring",
+      "date": "1995-03-20",
+      "schoolYear": 4,
+      "type": "spring",
+      "title": "春季学期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_4_exams",
+      "date": "1995-06-15",
+      "schoolYear": 4,
+      "type": "exams",
+      "title": "期末考试",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_4_summer",
+      "date": "1995-07-01",
+      "schoolYear": 4,
+      "type": "summer",
+      "title": "暑假",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_5_enrollment",
+      "date": "1995-09-01",
+      "schoolYear": 5,
+      "type": "enrollment",
+      "title": "开学",
+      "precision": "canon_day",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_5_halloween",
+      "date": "1995-10-31",
+      "schoolYear": 5,
+      "type": "halloween",
+      "title": "万圣节",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_5_winter",
+      "date": "1995-12-20",
+      "schoolYear": 5,
+      "type": "winter",
+      "title": "冬季假期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_5_spring",
+      "date": "1996-03-20",
+      "schoolYear": 5,
+      "type": "spring",
+      "title": "春季学期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_5_exams",
+      "date": "1996-06-15",
+      "schoolYear": 5,
+      "type": "exams",
+      "title": "期末考试",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_5_summer",
+      "date": "1996-07-01",
+      "schoolYear": 5,
+      "type": "summer",
+      "title": "暑假",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_6_enrollment",
+      "date": "1996-09-01",
+      "schoolYear": 6,
+      "type": "enrollment",
+      "title": "开学",
+      "precision": "canon_day",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_6_halloween",
+      "date": "1996-10-31",
+      "schoolYear": 6,
+      "type": "halloween",
+      "title": "万圣节",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_6_winter",
+      "date": "1996-12-20",
+      "schoolYear": 6,
+      "type": "winter",
+      "title": "冬季假期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_6_spring",
+      "date": "1997-03-20",
+      "schoolYear": 6,
+      "type": "spring",
+      "title": "春季学期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_6_exams",
+      "date": "1997-06-15",
+      "schoolYear": 6,
+      "type": "exams",
+      "title": "期末考试",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_6_summer",
+      "date": "1997-07-01",
+      "schoolYear": 6,
+      "type": "summer",
+      "title": "暑假",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_7_enrollment",
+      "date": "1997-09-01",
+      "schoolYear": 7,
+      "type": "enrollment",
+      "title": "开学",
+      "precision": "canon_day",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_7_halloween",
+      "date": "1997-10-31",
+      "schoolYear": 7,
+      "type": "halloween",
+      "title": "万圣节",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_7_winter",
+      "date": "1997-12-20",
+      "schoolYear": 7,
+      "type": "winter",
+      "title": "冬季假期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_7_spring",
+      "date": "1998-03-20",
+      "schoolYear": 7,
+      "type": "spring",
+      "title": "春季学期",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_7_exams",
+      "date": "1998-06-15",
+      "schoolYear": 7,
+      "type": "exams",
+      "title": "期末考试",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    },
+    {
+      "id": "milestone_7_summer",
+      "date": "1998-07-01",
+      "schoolYear": 7,
+      "type": "summer",
+      "title": "暑假",
+      "precision": "game_schedule",
+      "note": "除9月1日外为游戏排程日期，不代表原著明确日期"
+    }
+  ]
+}

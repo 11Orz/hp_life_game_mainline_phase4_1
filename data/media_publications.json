@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "media_publications",
+  "records": [
+    {
+      "id": "daily_prophet",
+      "name": "预言家日报",
+      "summary": "英国主要巫师报纸，兼有常规报道、体育、商业和受政府影响的报道",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/the-daily-prophet"
+      ],
+      "medium_type": "newspaper",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_daily_prophet"
+    },
+    {
+      "id": "evening_prophet",
+      "name": "预言家晚报",
+      "summary": "重大突发消息时的特别晚报",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/the-daily-prophet"
+      ],
+      "medium_type": "newspaper",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_evening_prophet"
+    },
+    {
+      "id": "quibbler",
+      "name": "唱唱反调",
+      "summary": "谢诺菲留斯编辑的另类刊物；既有离奇猜想，也曾刊登哈利关于伏地魔回归的证词",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/fact-file/objects/the-quibbler"
+      ],
+      "medium_type": "magazine",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_quibbler"
+    },
+    {
+      "id": "witch_weekly",
+      "name": "女巫周刊",
+      "summary": "面向巫师读者的娱乐、名人和生活杂志",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/features/which-is-better-the-quibbler-vs-the-daily-prophet"
+      ],
+      "medium_type": "magazine",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_witch_weekly"
+    },
+    {
+      "id": "which_broomstick",
+      "name": "哪款扫帚？",
+      "summary": "与飞行扫帚和消费选择相关的刊物",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/features/which-is-better-the-quibbler-vs-the-daily-prophet"
+      ],
+      "medium_type": "magazine",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_which_broomstick"
+    },
+    {
+      "id": "transfiguration_today",
+      "name": "今日变形术",
+      "summary": "专业变形术研究与学术交流刊物",
+      "canon_level": "official_reference",
+      "source_urls": [],
+      "medium_type": "academic",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_transfiguration_today"
+    },
+    {
+      "id": "challenges_in_charming",
+      "name": "魔咒创新",
+      "summary": "魔咒研究领域刊物，中文名为意译",
+      "canon_level": "official_reference",
+      "source_urls": [],
+      "medium_type": "academic",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_challenges_in_charming"
+    },
+    {
+      "id": "practical_potioneer",
+      "name": "实用魔药大师",
+      "summary": "魔药领域专业刊物，中文名为意译",
+      "canon_level": "official_reference",
+      "source_urls": [],
+      "medium_type": "academic",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_practical_potioneer"
+    },
+    {
+      "id": "wizarding_wireless",
+      "name": "巫师无线电网络",
+      "summary": "音乐、节目和广播消息传播渠道",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/features/journalism-in-the-wizarding-world"
+      ],
+      "medium_type": "radio",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_wizarding_wireless"
+    },
+    {
+      "id": "potterwatch",
+      "name": "波特瞭望",
+      "summary": "伏地魔掌权期间由李·乔丹主持的秘密抵抗广播",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/features/unsung-heroes-of-harry-potter-stories-lee-jordan"
+      ],
+      "medium_type": "underground_radio",
+      "active_from": 1997,
+      "active_to": 1998,
+      "region": "UK",
+      "editorial_profile_id": "policy_potterwatch"
+    },
+    {
+      "id": "school_bulletin",
+      "name": "霍格沃茨公告板",
+      "summary": "游戏原创的校园公告与社团消息聚合渠道",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "medium_type": "school",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_school_bulletin"
+    },
+    {
+      "id": "owl_letters",
+      "name": "私人猫头鹰通信",
+      "summary": "信件作为非公开消息传播渠道",
+      "canon_level": "official_reference",
+      "source_urls": [],
+      "medium_type": "private",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_owl_letters"
+    },
+    {
+      "id": "quidditch_commentary",
+      "name": "魁地奇现场解说",
+      "summary": "赛事解说和赛后传播",
+      "canon_level": "official_reference",
+      "source_urls": [],
+      "medium_type": "sports",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "UK",
+      "editorial_profile_id": "policy_quidditch_commentary"
+    },
+    {
+      "id": "international_bulletin",
+      "name": "国际魔法交流简报",
+      "summary": "原创的跨国教育和研究资讯聚合栏目",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "medium_type": "game_original",
+      "active_from": 1991,
+      "active_to": 2100,
+      "region": "international",
+      "editorial_profile_id": "policy_international_bulletin"
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

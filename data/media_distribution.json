@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "media_distribution",
+  "records": [
+    {
+      "id": "distribution_daily_prophet",
+      "name": "预言家日报传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "daily_prophet",
+      "delivery": [
+        "owl",
+        "shop"
+      ],
+      "cadence_days": 1,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 3,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_evening_prophet",
+      "name": "预言家晚报传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "evening_prophet",
+      "delivery": [
+        "owl",
+        "shop"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_quibbler",
+      "name": "唱唱反调传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "quibbler",
+      "delivery": [
+        "owl",
+        "shop"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_witch_weekly",
+      "name": "女巫周刊传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "witch_weekly",
+      "delivery": [
+        "owl",
+        "shop"
+      ],
+      "cadence_days": 7,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_which_broomstick",
+      "name": "哪款扫帚？传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "which_broomstick",
+      "delivery": [
+        "owl",
+        "shop"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_transfiguration_today",
+      "name": "今日变形术传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "transfiguration_today",
+      "delivery": [
+        "library",
+        "subscription"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_challenges_in_charming",
+      "name": "魔咒创新传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "challenges_in_charming",
+      "delivery": [
+        "library",
+        "subscription"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_practical_potioneer",
+      "name": "实用魔药大师传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "practical_potioneer",
+      "delivery": [
+        "library",
+        "subscription"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_wizarding_wireless",
+      "name": "巫师无线电网络传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "wizarding_wireless",
+      "delivery": [
+        "radio"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_potterwatch",
+      "name": "波特瞭望传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "potterwatch",
+      "delivery": [
+        "radio"
+      ],
+      "cadence_days": 7,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1997,
+      "max_year": 1998,
+      "cost_knuts": 0,
+      "access_rules": [
+        "password"
+      ]
+    },
+    {
+      "id": "distribution_school_bulletin",
+      "name": "霍格沃茨公告板传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "school_bulletin",
+      "delivery": [
+        "library",
+        "subscription"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_owl_letters",
+      "name": "私人猫头鹰通信传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "owl_letters",
+      "delivery": [
+        "library",
+        "subscription"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_quidditch_commentary",
+      "name": "魁地奇现场解说传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "quidditch_commentary",
+      "delivery": [
+        "library",
+        "subscription"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    },
+    {
+      "id": "distribution_international_bulletin",
+      "name": "国际魔法交流简报传播渠道",
+      "summary": "发行频率、订阅可得性和地域范围为模拟参数",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "publication_id": "international_bulletin",
+      "delivery": [
+        "library",
+        "subscription"
+      ],
+      "cadence_days": 30,
+      "availability_regions": [
+        "UK"
+      ],
+      "min_year": 1991,
+      "max_year": 2100,
+      "cost_knuts": 0,
+      "access_rules": []
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

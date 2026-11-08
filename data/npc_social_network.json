@@ -1,0 +1,132 @@
+{
+  "id": "npc_social_network",
+  "description": "NPC双向社交边与每日接触概率",
+  "records": [
+    {
+      "id": "edge_0_4",
+      "from_id": "student_ada",
+      "to_id": "student_eli",
+      "closeness": 47,
+      "contact_chance": 0.55,
+      "trust": 54,
+      "relationship": "classmate"
+    },
+    {
+      "id": "edge_0_7",
+      "from_id": "student_ada",
+      "to_id": "student_hana",
+      "closeness": 56,
+      "contact_chance": 0.35,
+      "trust": 63,
+      "relationship": "classmate"
+    },
+    {
+      "id": "edge_0_11",
+      "from_id": "student_ada",
+      "to_id": "student_jules",
+      "closeness": 68,
+      "contact_chance": 0.25,
+      "trust": 75,
+      "relationship": "acquaintance"
+    },
+    {
+      "id": "edge_1_6",
+      "from_id": "student_ben",
+      "to_id": "student_glen",
+      "closeness": 60,
+      "contact_chance": 0.35,
+      "trust": 71,
+      "relationship": "classmate"
+    },
+    {
+      "id": "edge_2_5",
+      "from_id": "student_cora",
+      "to_id": "student_faye",
+      "closeness": 64,
+      "contact_chance": 0.35,
+      "trust": 79,
+      "relationship": "classmate"
+    },
+    {
+      "id": "edge_3_4",
+      "from_id": "student_dina",
+      "to_id": "student_eli",
+      "closeness": 68,
+      "contact_chance": 0.35,
+      "trust": 42,
+      "relationship": "classmate"
+    },
+    {
+      "id": "edge_3_7",
+      "from_id": "student_dina",
+      "to_id": "student_hana",
+      "closeness": 77,
+      "contact_chance": 0.15,
+      "trust": 51,
+      "relationship": "classmate"
+    },
+    {
+      "id": "edge_3_11",
+      "from_id": "student_dina",
+      "to_id": "student_jules",
+      "closeness": 39,
+      "contact_chance": 0.55,
+      "trust": 63,
+      "relationship": "acquaintance"
+    },
+    {
+      "id": "edge_4_10",
+      "from_id": "student_eli",
+      "to_id": "parent_iris",
+      "closeness": 43,
+      "contact_chance": 0.55,
+      "trust": 71,
+      "relationship": "acquaintance"
+    },
+    {
+      "id": "edge_4_11",
+      "from_id": "student_eli",
+      "to_id": "student_jules",
+      "closeness": 46,
+      "contact_chance": 0.15,
+      "trust": 74,
+      "relationship": "acquaintance"
+    },
+    {
+      "id": "edge_5_9",
+      "from_id": "student_faye",
+      "to_id": "reporter_owen",
+      "closeness": 47,
+      "contact_chance": 0.55,
+      "trust": 79,
+      "relationship": "acquaintance"
+    },
+    {
+      "id": "edge_6_8",
+      "from_id": "student_glen",
+      "to_id": "teacher_mira",
+      "closeness": 51,
+      "contact_chance": 0.55,
+      "trust": 42,
+      "relationship": "acquaintance"
+    },
+    {
+      "id": "edge_9_10",
+      "from_id": "reporter_owen",
+      "to_id": "parent_iris",
+      "closeness": 78,
+      "contact_chance": 0.55,
+      "trust": 81,
+      "relationship": "acquaintance"
+    },
+    {
+      "id": "edge_10_11",
+      "from_id": "parent_iris",
+      "to_id": "student_jules",
+      "closeness": 38,
+      "contact_chance": 0.25,
+      "trust": 50,
+      "relationship": "acquaintance"
+    }
+  ]
+}

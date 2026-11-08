@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "startYear": 1900,
+    "endYear": 2021,
+    "note": "魔法技能不是在整个时间段内均有明确教学记录；年代与学校适用性须由事件条件控制。"
+  },
+  "sourcePolicy": {
+    "priority": [
+      "original_novels",
+      "rowling_official",
+      "expanded_screenplays",
+      "reference_wikis",
+      "game_original"
+    ],
+    "note": "原著事实与原创游戏数值分离；章节为检索线索，未逐章核验的记录标记needs_review。"
+  },
+  "dataset": "magical_growth_rules",
+  "attributeDefinitions": {
+    "magicControl": {
+      "min": 0,
+      "max": 100
+    },
+    "knowledge": {
+      "min": 0,
+      "max": 100
+    },
+    "focus": {
+      "min": 0,
+      "max": 100
+    },
+    "fatigue": {
+      "min": 0,
+      "max": 100
+    },
+    "stress": {
+      "min": 0,
+      "max": 100
+    }
+  },
+  "masteryStages": [
+    {
+      "min": 0,
+      "max": 0,
+      "name": "未学习"
+    },
+    {
+      "min": 1,
+      "max": 24,
+      "name": "初学"
+    },
+    {
+      "min": 25,
+      "max": 49,
+      "name": "基础掌握"
+    },
+    {
+      "min": 50,
+      "max": 79,
+      "name": "熟练"
+    },
+    {
+      "min": 80,
+      "max": 100,
+      "name": "精通"
+    }
+  ],
+  "castingFormula": {
+    "isOriginal": true,
+    "description": "成功率基于熟练度、控制力、专注、难度和疲劳，随后限制到5%–95%。",
+    "expression": "clamp(0.05,0.95,0.35 + mastery*0.004 + magicControl*0.002 + focus*0.001 - difficulty*0.005 - fatigue*0.002)",
+    "inputScale": "all attributes 0..100",
+    "note": "示例公式，需要试玩平衡；不可用作原著事实"
+  },
+  "training": {
+    "isOriginal": true,
+    "actions": [
+      {
+        "id": "attend_class",
+        "masteryGain": [
+          1,
+          3
+        ],
+        "fatigueGain": 3
+      },
+      {
+        "id": "practice",
+        "masteryGain": [
+          1,
+          5
+        ],
+        "fatigueGain": 6
+      },
+      {
+        "id": "private_tutoring",
+        "masteryGain": [
+          2,
+          6
+        ],
+        "fatigueGain": 4
+      },
+      {
+        "id": "self_study",
+        "masteryGain": [
+          1,
+          4
+        ],
+        "fatigueGain": 4
+      }
+    ],
+    "requireSpellDiscoveryBeforeTraining": true,
+    "cap": 100
+  },
+  "resourceModel": {
+    "isOriginal": true,
+    "manaOptional": true,
+    "defaultMana": 100,
+    "note": "原著没有统一MP数值；如追求小说风格，可用疲劳、专注、施法限制代替魔力条。"
+  },
+  "duelRules": {
+    "isOriginal": true,
+    "turnBased": true,
+    "statuses": [
+      "disarmed",
+      "stunned",
+      "shielded",
+      "restrained",
+      "injured"
+    ],
+    "nonLethalSchoolMode": true,
+    "warModeHasPermanentConsequences": true,
+    "spellsAreNotAllDamage": true
+  },
+  "explorationRules": {
+    "isOriginal": true,
+    "conditions": [
+      "time_of_day",
+      "location",
+      "known_spells",
+      "mastery",
+      "npc_presence",
+      "historical_period"
+    ],
+    "stealthRiskDependsOn": [
+      "visibility",
+      "noise",
+      "character_form",
+      "staff_patrol",
+      "fatigue"
+    ]
+  },
+  "validationRules": [
+    "Spell id references must exist in spells.json",
+    "ability flags must exist in magical_abilities.json",
+    "historical events should link by verified id only"
+  ]
+}

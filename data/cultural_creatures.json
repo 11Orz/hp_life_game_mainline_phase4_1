@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "cultural_creatures",
+  "records": [
+    {
+      "id": "thunderbird",
+      "name": "雷鸟",
+      "summary": "北美原生，能引发风暴",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/fact-file/creatures/thunderbird"
+      ],
+      "region": "North America / Arizona",
+      "region_type": "native_or_habitat",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "occamy",
+      "name": "鸟蛇",
+      "summary": "东亚与印度分布，能随空间伸缩身体",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/fact-file/creatures/occamy"
+      ],
+      "region": "East Asia and India",
+      "region_type": "native_or_habitat",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "zouwu",
+      "name": "驺吾",
+      "summary": "中国魔法生物，能高速远距离移动",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/fact-file/creatures/zouwu"
+      ],
+      "region": "China",
+      "region_type": "native_or_habitat",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "niffler",
+      "name": "嗅嗅",
+      "summary": "偏好闪亮物品，不能据出现地点推断原产地",
+      "canon_level": "unverified",
+      "source_urls": [],
+      "region": "unknown",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "bowtruckle",
+      "name": "护树罗锅",
+      "summary": "与树木和魔杖木材相关的生物",
+      "canon_level": "unverified",
+      "source_urls": [],
+      "region": "unknown",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "demiguise",
+      "name": "隐形兽",
+      "summary": "常被描述与远东地区相关，精确地理信息待核实",
+      "canon_level": "unverified",
+      "source_urls": [],
+      "region": "Far East",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "graphorn",
+      "name": "角驼兽",
+      "summary": "欧洲山地相关资料，具体分布待核实",
+      "canon_level": "unverified",
+      "source_urls": [],
+      "region": "Europe",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "pukwudgie",
+      "name": "普克奇",
+      "summary": "北美魔法生物，与伊法魔尼学院有关",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny"
+      ],
+      "region": "North America",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "wampus",
+      "name": "猫豹",
+      "summary": "北美魔法生物，与伊法魔尼学院有关",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny"
+      ],
+      "region": "North America",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "horned_serpent",
+      "name": "长角水蛇",
+      "summary": "北美魔法生物，与伊法魔尼学院有关",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny"
+      ],
+      "region": "North America",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "caipora",
+      "name": "卡伊波拉",
+      "summary": "守护卡斯特罗布舍校地的灵性生物",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/ja/writing-by-jk-rowling/castelobruxo"
+      ],
+      "region": "Brazil",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "chinese_fireball",
+      "name": "中国火球龙",
+      "summary": "名称与中国有关；详细生态留待第七系统",
+      "canon_level": "unverified",
+      "source_urls": [],
+      "region": "China",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "hungarian_horntail",
+      "name": "匈牙利树蜂",
+      "summary": "名称与匈牙利有关；不能等同完整分布",
+      "canon_level": "unverified",
+      "source_urls": [],
+      "region": "Hungary",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "norwegian_ridgeback",
+      "name": "挪威脊背龙",
+      "summary": "名称与挪威有关；不能等同完整分布",
+      "canon_level": "unverified",
+      "source_urls": [],
+      "region": "Norway",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    },
+    {
+      "id": "ukrainian_ironbelly",
+      "name": "乌克兰铁肚皮",
+      "summary": "名称与乌克兰有关；不能等同完整分布",
+      "canon_level": "unverified",
+      "source_urls": [],
+      "region": "Ukraine",
+      "region_type": "association_not_proven",
+      "ecology_owned_by": "creature_system_7",
+      "culture_hooks": [
+        "research",
+        "travel",
+        "news"
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

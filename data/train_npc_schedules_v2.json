@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "canonLayer": "mixed",
+    "note": "原著角色固定关键经历，原创角色可扩展；时间为叙事时段非精确钟点"
+  },
+  "items": [
+    {
+      "id": "harry_potter",
+      "name": "哈利·波特",
+      "schedule": [
+        {
+          "slot": "station",
+          "location": "platform_9_3_4",
+          "activity": "寻找站台入口",
+          "visibility": "conditional"
+        },
+        {
+          "slot": "train_morning",
+          "location": "compartment_harry_ron",
+          "activity": "与罗恩结识",
+          "visibility": "background"
+        },
+        {
+          "slot": "train_afternoon",
+          "location": "compartment_harry_ron",
+          "activity": "与罗恩交谈",
+          "visibility": "background"
+        },
+        {
+          "slot": "feast",
+          "location": "great_hall",
+          "activity": "参加分院",
+          "visibility": "background"
+        }
+      ]
+    },
+    {
+      "id": "ron_weasley",
+      "name": "罗恩·韦斯莱",
+      "schedule": [
+        {
+          "slot": "station",
+          "location": "platform_9_3_4",
+          "activity": "与家人告别",
+          "visibility": "background"
+        },
+        {
+          "slot": "train_morning",
+          "location": "compartment_harry_ron",
+          "activity": "与哈利相识",
+          "visibility": "background"
+        },
+        {
+          "slot": "train_afternoon",
+          "location": "compartment_harry_ron",
+          "activity": "与哈利交谈",
+          "visibility": "background"
+        }
+      ]
+    },
+    {
+      "id": "neville_longbottom",
+      "name": "纳威·隆巴顿",
+      "schedule": [
+        {
+          "slot": "train_morning",
+          "location": "train_corridor",
+          "activity": "寻找莱福",
+          "visibility": "encounter"
+        },
+        {
+          "slot": "train_afternoon",
+          "location": "train_corridor",
+          "activity": "继续寻找莱福",
+          "visibility": "background"
+        },
+        {
+          "slot": "feast",
+          "location": "great_hall",
+          "activity": "等待分院",
+          "visibility": "background"
+        }
+      ]
+    },
+    {
+      "id": "hermione_granger",
+      "name": "赫敏·格兰杰",
+      "schedule": [
+        {
+          "slot": "train_morning",
+          "location": "train_corridor",
+          "activity": "帮助寻找莱福",
+          "visibility": "background"
+        },
+        {
+          "slot": "train_afternoon",
+          "location": "train_corridor",
+          "activity": "询问其他新生",
+          "visibility": "encounter"
+        },
+        {
+          "slot": "feast",
+          "location": "great_hall",
+          "activity": "等待分院",
+          "visibility": "background"
+        }
+      ]
+    },
+    {
+      "id": "draco_malfoy",
+      "name": "德拉科·马尔福",
+      "schedule": [
+        {
+          "slot": "train_morning",
+          "location": "train_corridor",
+          "activity": "寻找熟悉的同学",
+          "visibility": "background"
+        },
+        {
+          "slot": "train_afternoon",
+          "location": "compartment_harry_ron",
+          "activity": "短暂拜访哈利的车厢",
+          "visibility": "background"
+        },
+        {
+          "slot": "feast",
+          "location": "great_hall",
+          "activity": "参加分院",
+          "visibility": "background"
+        }
+      ]
+    },
+    {
+      "id": "train_classmate_1991",
+      "name": "原创同级新生",
+      "schedule": [
+        {
+          "slot": "train_morning",
+          "location": "newcomer_compartment",
+          "activity": "整理行李",
+          "visibility": "encounter"
+        },
+        {
+          "slot": "train_afternoon",
+          "location": "newcomer_compartment",
+          "activity": "和同学聊天",
+          "visibility": "encounter"
+        }
+      ]
+    }
+  ]
+}

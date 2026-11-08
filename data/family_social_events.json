@@ -1,0 +1,1336 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_social_events",
+  "description": "30个可复用社会事件模板；选择结果需经引擎校验后结算。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "family_event_001",
+      "event_type": "family_reunion",
+      "title": "久别重逢",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_001_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_002",
+      "event_type": "forgotten_letter",
+      "title": "被遗忘的来信",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_002_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_003",
+      "event_type": "inheritance_claim",
+      "title": "遗产争议",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_003_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_004",
+      "event_type": "school_friendship",
+      "title": "School Friendship",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_004_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_005",
+      "event_type": "mentor_offer",
+      "title": "Mentor Offer",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_005_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_006",
+      "event_type": "sibling_dispute",
+      "title": "Sibling Dispute",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_006_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_007",
+      "event_type": "reconciliation",
+      "title": "Reconciliation",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_007_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_008",
+      "event_type": "rumor_spread",
+      "title": "Rumor Spread",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_008_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_009",
+      "event_type": "marriage_invitation",
+      "title": "Marriage Invitation",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_009_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_010",
+      "event_type": "adoption_record",
+      "title": "Adoption Record",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_010_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_011",
+      "event_type": "archive_visit",
+      "title": "Archive Visit",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_011_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_012",
+      "event_type": "old_photo",
+      "title": "Old Photo",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_012_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_013",
+      "event_type": "household_crisis",
+      "title": "Household Crisis",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_013_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_014",
+      "event_type": "family_business",
+      "title": "Family Business",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_014_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_015",
+      "event_type": "political_disagreement",
+      "title": "Political Disagreement",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_015_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_016",
+      "event_type": "wartime_separation",
+      "title": "Wartime Separation",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_016_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_017",
+      "event_type": "memorial_visit",
+      "title": "Memorial Visit",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_017_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_018",
+      "event_type": "family_recipe",
+      "title": "Family Recipe",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_018_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_019",
+      "event_type": "holiday_visit",
+      "title": "Holiday Visit",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_019_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_020",
+      "event_type": "friend_conflict",
+      "title": "Friend Conflict",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_020_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_021",
+      "event_type": "guardian_support",
+      "title": "Guardian Support",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_021_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_022",
+      "event_type": "family_debt",
+      "title": "Family Debt",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_022_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_023",
+      "event_type": "missing_record",
+      "title": "Missing Record",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_023_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_024",
+      "event_type": "heirloom_repair",
+      "title": "Heirloom Repair",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_024_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_025",
+      "event_type": "class_prejudice",
+      "title": "Class Prejudice",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_025_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_026",
+      "event_type": "reputation_recovery",
+      "title": "Reputation Recovery",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_026_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_027",
+      "event_type": "genealogy_forum",
+      "title": "Genealogy Forum",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_027_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_028",
+      "event_type": "relative_emigration",
+      "title": "Relative Emigration",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_028_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_029",
+      "event_type": "secret_reveal",
+      "title": "Secret Reveal",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 11,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_029_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    },
+    {
+      "id": "family_event_030",
+      "event_type": "false_ancestor_claim",
+      "title": "错误的祖先传闻",
+      "canon_status": "game_original",
+      "trigger": {
+        "min_age": 17,
+        "probability_per_eligible_month": 0.05,
+        "requires_flags": [],
+        "excludes_flags": [
+          "family_event_030_resolved"
+        ]
+      },
+      "choices": [
+        {
+          "id": "investigate",
+          "label": "调查",
+          "effects": {
+            "knowledge": 1,
+            "stress": 1
+          }
+        },
+        {
+          "id": "discuss",
+          "label": "与相关人物沟通",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "decline",
+          "label": "暂不介入",
+          "effects": {
+            "stress": -1
+          }
+        }
+      ],
+      "cooldown_days": 180,
+      "repeatable": false,
+      "story_hooks": [
+        "family_tree",
+        "family_secrets"
+      ]
+    }
+  ]
+}

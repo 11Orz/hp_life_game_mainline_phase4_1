@@ -1,0 +1,351 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "start": "1991-09-01",
+    "end": "1998-06-30"
+  },
+  "sourcePolicy": {
+    "layers": [
+      "novel_canon",
+      "official_supplement",
+      "game_continuity",
+      "original"
+    ],
+    "priority": [
+      "seven_novels",
+      "rowling_official",
+      "supplementary_works",
+      "wiki_crosscheck",
+      "original_game_design"
+    ],
+    "warning": "原著事实与玩家原创经历严格分离；精确章节、月份与个别细节待逐章复核。"
+  },
+  "integration": {
+    "standaloneDataOnly": true,
+    "requiresNewStoryEngine": true,
+    "existingSchedulerDoesNotAutoLoad": true
+  },
+  "dataset": "ancient_magic_quests",
+  "count": 1,
+  "quests": [
+    {
+      "id": "ancient_thirteenth_door",
+      "title": "第十三扇门",
+      "origin": {
+        "layer": "original",
+        "inspiredBy": "Hogwarts Legacy exploration loop; not a claim of its ancient-magic continuity",
+        "canonClaim": false
+      },
+      "availability": {
+        "schoolId": "hogwarts",
+        "startYear": 1991,
+        "endYear": 1998,
+        "optional": true,
+        "joinAtAnyStage": true
+      },
+      "premise": "城堡深处的旧防护阵与一组失传的符号有关。玩家通过多年的观察、课程和朋友协助解开谜题。",
+      "stages": [
+        {
+          "id": "ancient_door_stage_1",
+          "title": "被遗忘的铭文",
+          "description": "你在古旧课桌下发现重复出现的星形符号。",
+          "suggestedYear": 1991,
+          "skillHint": "observation",
+          "requirements": {
+            "previousStageCompleted": false,
+            "canJoinLate": true
+          },
+          "choices": [
+            {
+              "id": "research",
+              "label": "继续研究",
+              "effects": {
+                "cluePoints": 2,
+                "skillXp": {
+                  "observation": 4
+                }
+              }
+            },
+            {
+              "id": "consult",
+              "label": "寻求教授指导",
+              "effects": {
+                "teacherTrust": 2,
+                "cluePoints": 1
+              }
+            },
+            {
+              "id": "leave",
+              "label": "暂时放下",
+              "effects": {
+                "stress": -2
+              }
+            }
+          ],
+          "setFlag": "ancient_door_stage_1_done"
+        },
+        {
+          "id": "ancient_door_stage_2",
+          "title": "藏书馆的缺页",
+          "description": "一份校史目录提到被移走的石刻。",
+          "suggestedYear": 1992,
+          "skillHint": "history_of_magic",
+          "requirements": {
+            "previousStageCompleted": true,
+            "canJoinLate": true
+          },
+          "choices": [
+            {
+              "id": "research",
+              "label": "继续研究",
+              "effects": {
+                "cluePoints": 2,
+                "skillXp": {
+                  "history_of_magic": 4
+                }
+              }
+            },
+            {
+              "id": "consult",
+              "label": "寻求教授指导",
+              "effects": {
+                "teacherTrust": 2,
+                "cluePoints": 1
+              }
+            },
+            {
+              "id": "leave",
+              "label": "暂时放下",
+              "effects": {
+                "stress": -2
+              }
+            }
+          ],
+          "setFlag": "ancient_door_stage_2_done"
+        },
+        {
+          "id": "ancient_door_stage_3",
+          "title": "门框上的回声",
+          "description": "一段空置走廊会在特定月相发出微弱声响。",
+          "suggestedYear": 1993,
+          "skillHint": "charms",
+          "requirements": {
+            "previousStageCompleted": true,
+            "canJoinLate": true
+          },
+          "choices": [
+            {
+              "id": "research",
+              "label": "继续研究",
+              "effects": {
+                "cluePoints": 2,
+                "skillXp": {
+                  "charms": 4
+                }
+              }
+            },
+            {
+              "id": "consult",
+              "label": "寻求教授指导",
+              "effects": {
+                "teacherTrust": 2,
+                "cluePoints": 1
+              }
+            },
+            {
+              "id": "leave",
+              "label": "暂时放下",
+              "effects": {
+                "stress": -2
+              }
+            }
+          ],
+          "setFlag": "ancient_door_stage_3_done"
+        },
+        {
+          "id": "ancient_door_stage_4",
+          "title": "旧塔的观测笔记",
+          "description": "废弃天文记录暗示星形符号并非装饰。",
+          "suggestedYear": 1994,
+          "skillHint": "astronomy",
+          "requirements": {
+            "previousStageCompleted": true,
+            "canJoinLate": true
+          },
+          "choices": [
+            {
+              "id": "research",
+              "label": "继续研究",
+              "effects": {
+                "cluePoints": 2,
+                "skillXp": {
+                  "astronomy": 4
+                }
+              }
+            },
+            {
+              "id": "consult",
+              "label": "寻求教授指导",
+              "effects": {
+                "teacherTrust": 2,
+                "cluePoints": 1
+              }
+            },
+            {
+              "id": "leave",
+              "label": "暂时放下",
+              "effects": {
+                "stress": -2
+              }
+            }
+          ],
+          "setFlag": "ancient_door_stage_4_done"
+        },
+        {
+          "id": "ancient_door_stage_5",
+          "title": "被封存的研究",
+          "description": "教授保存的一封旧信揭示符号属于防护仪式。",
+          "suggestedYear": 1995,
+          "skillHint": "ancient_runes",
+          "requirements": {
+            "previousStageCompleted": true,
+            "canJoinLate": true
+          },
+          "choices": [
+            {
+              "id": "research",
+              "label": "继续研究",
+              "effects": {
+                "cluePoints": 2,
+                "skillXp": {
+                  "ancient_runes": 4
+                }
+              }
+            },
+            {
+              "id": "consult",
+              "label": "寻求教授指导",
+              "effects": {
+                "teacherTrust": 2,
+                "cluePoints": 1
+              }
+            },
+            {
+              "id": "leave",
+              "label": "暂时放下",
+              "effects": {
+                "stress": -2
+              }
+            }
+          ],
+          "setFlag": "ancient_door_stage_5_done"
+        },
+        {
+          "id": "ancient_door_stage_6",
+          "title": "断裂的保护阵",
+          "description": "战争阴影下，旧防护阵开始失效。",
+          "suggestedYear": 1996,
+          "skillHint": "defense",
+          "requirements": {
+            "previousStageCompleted": true,
+            "canJoinLate": true
+          },
+          "choices": [
+            {
+              "id": "research",
+              "label": "继续研究",
+              "effects": {
+                "cluePoints": 2,
+                "skillXp": {
+                  "defense": 4
+                }
+              }
+            },
+            {
+              "id": "consult",
+              "label": "寻求教授指导",
+              "effects": {
+                "teacherTrust": 2,
+                "cluePoints": 1
+              }
+            },
+            {
+              "id": "leave",
+              "label": "暂时放下",
+              "effects": {
+                "stress": -2
+              }
+            }
+          ],
+          "setFlag": "ancient_door_stage_6_done"
+        },
+        {
+          "id": "ancient_door_stage_7",
+          "title": "第十三扇门",
+          "description": "玩家可选择修复、封存或向教授报告遗迹。",
+          "suggestedYear": 1997,
+          "skillHint": "ancient_runes",
+          "requirements": {
+            "previousStageCompleted": true,
+            "canJoinLate": true
+          },
+          "choices": [
+            {
+              "id": "research",
+              "label": "继续研究",
+              "effects": {
+                "cluePoints": 2,
+                "skillXp": {
+                  "ancient_runes": 4
+                }
+              }
+            },
+            {
+              "id": "consult",
+              "label": "寻求教授指导",
+              "effects": {
+                "teacherTrust": 2,
+                "cluePoints": 1
+              }
+            },
+            {
+              "id": "leave",
+              "label": "暂时放下",
+              "effects": {
+                "stress": -2
+              }
+            }
+          ],
+          "setFlag": "ancient_door_stage_7_done"
+        }
+      ],
+      "endings": [
+        {
+          "id": "restore",
+          "title": "修复旧防护阵",
+          "requires": {
+            "cluePointsAtLeast": 9,
+            "skillCheck": "ancient_runes"
+          }
+        },
+        {
+          "id": "seal",
+          "title": "封存危险遗迹",
+          "requires": {
+            "cluePointsAtLeast": 4
+          }
+        },
+        {
+          "id": "report",
+          "title": "交由教授处理",
+          "requires": {}
+        }
+      ],
+      "worldImpact": {
+        "neverChangesNovelCanon": true,
+        "localSchoolEffectsOnly": true
+      }
+    }
+  ]
+}

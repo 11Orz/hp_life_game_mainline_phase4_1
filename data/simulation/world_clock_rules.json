@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "start": "1991-09-02T07:30",
+  "realMsPerGameMinuteAt1x": 1000,
+  "speedOptions": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "decisionIntervalMinutes": 15,
+  "offlineProgress": false
+}

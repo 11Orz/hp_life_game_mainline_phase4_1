@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_generated_branches",
+  "description": "开局一次性生成家族图，隐藏只影响可见性；绝不重新随机祖先。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "branch_01",
+      "name": "普通巫师家庭",
+      "archetype": "ordinary",
+      "weight": 12,
+      "requires_player_consent": false,
+      "allowed_house_links": [],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_02",
+      "name": "麻瓜出身家庭",
+      "archetype": "muggleborn",
+      "weight": 12,
+      "requires_player_consent": false,
+      "allowed_house_links": [],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_03",
+      "name": "混血家庭",
+      "archetype": "mixed",
+      "weight": 12,
+      "requires_player_consent": false,
+      "allowed_house_links": [],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_04",
+      "name": "移民巫师家庭",
+      "archetype": "immigrant",
+      "weight": 12,
+      "requires_player_consent": false,
+      "allowed_house_links": [],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_05",
+      "name": "旧家族远支",
+      "archetype": "distant_branch",
+      "weight": 5,
+      "requires_player_consent": true,
+      "allowed_house_links": [
+        "black",
+        "weasley",
+        "potter",
+        "malfoy",
+        "longbottom"
+      ],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0.08,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_06",
+      "name": "被除名旁支",
+      "archetype": "disowned_branch",
+      "weight": 5,
+      "requires_player_consent": true,
+      "allowed_house_links": [
+        "black",
+        "weasley",
+        "potter",
+        "malfoy",
+        "longbottom"
+      ],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0.08,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_07",
+      "name": "收养家庭",
+      "archetype": "adopted",
+      "weight": 5,
+      "requires_player_consent": false,
+      "allowed_house_links": [
+        "black",
+        "weasley",
+        "potter",
+        "malfoy",
+        "longbottom"
+      ],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_08",
+      "name": "未知监护家庭",
+      "archetype": "guardianship",
+      "weight": 5,
+      "requires_player_consent": false,
+      "allowed_house_links": [
+        "black",
+        "weasley",
+        "potter",
+        "malfoy",
+        "longbottom"
+      ],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_09",
+      "name": "非著名家族的古老谱系",
+      "archetype": "old_unknown",
+      "weight": 5,
+      "requires_player_consent": false,
+      "allowed_house_links": [
+        "black",
+        "weasley",
+        "potter",
+        "malfoy",
+        "longbottom"
+      ],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    },
+    {
+      "id": "branch_10",
+      "name": "战争流亡家庭",
+      "archetype": "war_displaced",
+      "weight": 5,
+      "requires_player_consent": false,
+      "allowed_house_links": [
+        "black",
+        "weasley",
+        "potter",
+        "malfoy",
+        "longbottom"
+      ],
+      "max_generation_depth": 6,
+      "canonical_person_as_parent_allowed": false,
+      "canon_connection_policy": "original_gap_only_with_evidence",
+      "secret_ancestor_chance": 0,
+      "locked_at_character_creation": true,
+      "generated_person_prefix": "gen_",
+      "note": "原创新人物与正史人物不可直接建立未经证实的亲子关系"
+    }
+  ]
+}

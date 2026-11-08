@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_emergency_responses",
+  "description": "紧急救援、现场保护与求助机制",
+  "items": [
+    {
+      "id": "scene_safety",
+      "name": "保护现场",
+      "description": "先确保周围人员安全",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 1,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "call_professor",
+      "name": "通知教授",
+      "description": "未成年学生优先通知可信成年人",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "call_healer",
+      "name": "联系治疗师",
+      "description": "高危魔法伤害联系专业医疗",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 1,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "avoid_amateur_cure",
+      "name": "禁止冒险治疗",
+      "description": "未经评估不尝试高危魔法",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "protect_patient",
+      "name": "保护患者隐私",
+      "description": "不要将病例向无关人员传播",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "evacuation",
+      "name": "疏散",
+      "description": "必要时撤离危险区域",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "curse_isolation",
+      "name": "隔离诅咒源",
+      "description": "由专业人员封存危险物品",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "creature_safety",
+      "name": "动物安全",
+      "description": "先隔离威胁再联系保护专家",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "report_incident",
+      "name": "事故报告",
+      "description": "记录事实、时间、证人",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "evidence_preservation",
+      "name": "保留证据",
+      "description": "保留事故痕迹但不得妨碍救援",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "triage",
+      "name": "紧急分诊",
+      "description": "优先处理危及生命者",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 1,
+      "actionType": "emergency_response"
+    },
+    {
+      "id": "follow_up",
+      "name": "后续跟踪",
+      "description": "医疗和心理支持不能在剧情结束后消失",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "priority": 2,
+      "actionType": "emergency_response"
+    }
+  ]
+}

@@ -1,0 +1,5782 @@
+{
+  "schemaVersion": "1.0",
+  "dataset": "life_npc_events",
+  "count": 175,
+  "events": [
+    {
+      "id": "npc_life_y1_1",
+      "schoolYear": 1,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第1学年邀约",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_2",
+      "schoolYear": 1,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第1学年邀约",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_3",
+      "schoolYear": 1,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第1学年邀约",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_4",
+      "schoolYear": 1,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第1学年邀约",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_5",
+      "schoolYear": 1,
+      "npcId": "study_partner",
+      "title": "复习搭档的第1学年邀约",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_1",
+      "schoolYear": 2,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第2学年邀约",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_2",
+      "schoolYear": 2,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第2学年邀约",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_3",
+      "schoolYear": 2,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第2学年邀约",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_4",
+      "schoolYear": 2,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第2学年邀约",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_5",
+      "schoolYear": 2,
+      "npcId": "study_partner",
+      "title": "复习搭档的第2学年邀约",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_1",
+      "schoolYear": 3,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第3学年邀约",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_2",
+      "schoolYear": 3,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第3学年邀约",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_3",
+      "schoolYear": 3,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第3学年邀约",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_4",
+      "schoolYear": 3,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第3学年邀约",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_5",
+      "schoolYear": 3,
+      "npcId": "study_partner",
+      "title": "复习搭档的第3学年邀约",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_1",
+      "schoolYear": 4,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第4学年邀约",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_2",
+      "schoolYear": 4,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第4学年邀约",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_3",
+      "schoolYear": 4,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第4学年邀约",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_4",
+      "schoolYear": 4,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第4学年邀约",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_5",
+      "schoolYear": 4,
+      "npcId": "study_partner",
+      "title": "复习搭档的第4学年邀约",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_1",
+      "schoolYear": 5,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第5学年邀约",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_2",
+      "schoolYear": 5,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第5学年邀约",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_3",
+      "schoolYear": 5,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第5学年邀约",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_4",
+      "schoolYear": 5,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第5学年邀约",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_5",
+      "schoolYear": 5,
+      "npcId": "study_partner",
+      "title": "复习搭档的第5学年邀约",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_1",
+      "schoolYear": 6,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第6学年邀约",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_2",
+      "schoolYear": 6,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第6学年邀约",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_3",
+      "schoolYear": 6,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第6学年邀约",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_4",
+      "schoolYear": 6,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第6学年邀约",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_5",
+      "schoolYear": 6,
+      "npcId": "study_partner",
+      "title": "复习搭档的第6学年邀约",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_1",
+      "schoolYear": 7,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第7学年邀约",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_2",
+      "schoolYear": 7,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第7学年邀约",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_3",
+      "schoolYear": 7,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第7学年邀约",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_4",
+      "schoolYear": 7,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第7学年邀约",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_5",
+      "schoolYear": 7,
+      "npcId": "study_partner",
+      "title": "复习搭档的第7学年邀约",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_1_followup_2",
+      "schoolYear": 1,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第1学年邀约 · 第2次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_1_followup_3",
+      "schoolYear": 1,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第1学年邀约 · 第3次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_1_followup_4",
+      "schoolYear": 1,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第1学年邀约 · 第4次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_1_followup_5",
+      "schoolYear": 1,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第1学年邀约 · 第5次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_2_followup_2",
+      "schoolYear": 1,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第1学年邀约 · 第2次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_2_followup_3",
+      "schoolYear": 1,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第1学年邀约 · 第3次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_2_followup_4",
+      "schoolYear": 1,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第1学年邀约 · 第4次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_2_followup_5",
+      "schoolYear": 1,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第1学年邀约 · 第5次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_3_followup_2",
+      "schoolYear": 1,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第1学年邀约 · 第2次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_3_followup_3",
+      "schoolYear": 1,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第1学年邀约 · 第3次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_3_followup_4",
+      "schoolYear": 1,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第1学年邀约 · 第4次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_3_followup_5",
+      "schoolYear": 1,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第1学年邀约 · 第5次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_4_followup_2",
+      "schoolYear": 1,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第1学年邀约 · 第2次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_4_followup_3",
+      "schoolYear": 1,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第1学年邀约 · 第3次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_4_followup_4",
+      "schoolYear": 1,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第1学年邀约 · 第4次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_4_followup_5",
+      "schoolYear": 1,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第1学年邀约 · 第5次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_5_followup_2",
+      "schoolYear": 1,
+      "npcId": "study_partner",
+      "title": "复习搭档的第1学年邀约 · 第2次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_5_followup_3",
+      "schoolYear": 1,
+      "npcId": "study_partner",
+      "title": "复习搭档的第1学年邀约 · 第3次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_5_followup_4",
+      "schoolYear": 1,
+      "npcId": "study_partner",
+      "title": "复习搭档的第1学年邀约 · 第4次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y1_5_followup_5",
+      "schoolYear": 1,
+      "npcId": "study_partner",
+      "title": "复习搭档的第1学年邀约 · 第5次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_1_followup_2",
+      "schoolYear": 2,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第2学年邀约 · 第2次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_1_followup_3",
+      "schoolYear": 2,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第2学年邀约 · 第3次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_1_followup_4",
+      "schoolYear": 2,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第2学年邀约 · 第4次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_1_followup_5",
+      "schoolYear": 2,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第2学年邀约 · 第5次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_2_followup_2",
+      "schoolYear": 2,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第2学年邀约 · 第2次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_2_followup_3",
+      "schoolYear": 2,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第2学年邀约 · 第3次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_2_followup_4",
+      "schoolYear": 2,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第2学年邀约 · 第4次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_2_followup_5",
+      "schoolYear": 2,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第2学年邀约 · 第5次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_3_followup_2",
+      "schoolYear": 2,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第2学年邀约 · 第2次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_3_followup_3",
+      "schoolYear": 2,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第2学年邀约 · 第3次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_3_followup_4",
+      "schoolYear": 2,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第2学年邀约 · 第4次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_3_followup_5",
+      "schoolYear": 2,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第2学年邀约 · 第5次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_4_followup_2",
+      "schoolYear": 2,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第2学年邀约 · 第2次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_4_followup_3",
+      "schoolYear": 2,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第2学年邀约 · 第3次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_4_followup_4",
+      "schoolYear": 2,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第2学年邀约 · 第4次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_4_followup_5",
+      "schoolYear": 2,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第2学年邀约 · 第5次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_5_followup_2",
+      "schoolYear": 2,
+      "npcId": "study_partner",
+      "title": "复习搭档的第2学年邀约 · 第2次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_5_followup_3",
+      "schoolYear": 2,
+      "npcId": "study_partner",
+      "title": "复习搭档的第2学年邀约 · 第3次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_5_followup_4",
+      "schoolYear": 2,
+      "npcId": "study_partner",
+      "title": "复习搭档的第2学年邀约 · 第4次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y2_5_followup_5",
+      "schoolYear": 2,
+      "npcId": "study_partner",
+      "title": "复习搭档的第2学年邀约 · 第5次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_1_followup_2",
+      "schoolYear": 3,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第3学年邀约 · 第2次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_1_followup_3",
+      "schoolYear": 3,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第3学年邀约 · 第3次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_1_followup_4",
+      "schoolYear": 3,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第3学年邀约 · 第4次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_1_followup_5",
+      "schoolYear": 3,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第3学年邀约 · 第5次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_2_followup_2",
+      "schoolYear": 3,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第3学年邀约 · 第2次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_2_followup_3",
+      "schoolYear": 3,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第3学年邀约 · 第3次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_2_followup_4",
+      "schoolYear": 3,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第3学年邀约 · 第4次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_2_followup_5",
+      "schoolYear": 3,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第3学年邀约 · 第5次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_3_followup_2",
+      "schoolYear": 3,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第3学年邀约 · 第2次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_3_followup_3",
+      "schoolYear": 3,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第3学年邀约 · 第3次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_3_followup_4",
+      "schoolYear": 3,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第3学年邀约 · 第4次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_3_followup_5",
+      "schoolYear": 3,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第3学年邀约 · 第5次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_4_followup_2",
+      "schoolYear": 3,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第3学年邀约 · 第2次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_4_followup_3",
+      "schoolYear": 3,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第3学年邀约 · 第3次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_4_followup_4",
+      "schoolYear": 3,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第3学年邀约 · 第4次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_4_followup_5",
+      "schoolYear": 3,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第3学年邀约 · 第5次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_5_followup_2",
+      "schoolYear": 3,
+      "npcId": "study_partner",
+      "title": "复习搭档的第3学年邀约 · 第2次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_5_followup_3",
+      "schoolYear": 3,
+      "npcId": "study_partner",
+      "title": "复习搭档的第3学年邀约 · 第3次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_5_followup_4",
+      "schoolYear": 3,
+      "npcId": "study_partner",
+      "title": "复习搭档的第3学年邀约 · 第4次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y3_5_followup_5",
+      "schoolYear": 3,
+      "npcId": "study_partner",
+      "title": "复习搭档的第3学年邀约 · 第5次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_1_followup_2",
+      "schoolYear": 4,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第4学年邀约 · 第2次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_1_followup_3",
+      "schoolYear": 4,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第4学年邀约 · 第3次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_1_followup_4",
+      "schoolYear": 4,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第4学年邀约 · 第4次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_1_followup_5",
+      "schoolYear": 4,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第4学年邀约 · 第5次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_2_followup_2",
+      "schoolYear": 4,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第4学年邀约 · 第2次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_2_followup_3",
+      "schoolYear": 4,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第4学年邀约 · 第3次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_2_followup_4",
+      "schoolYear": 4,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第4学年邀约 · 第4次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_2_followup_5",
+      "schoolYear": 4,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第4学年邀约 · 第5次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_3_followup_2",
+      "schoolYear": 4,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第4学年邀约 · 第2次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_3_followup_3",
+      "schoolYear": 4,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第4学年邀约 · 第3次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_3_followup_4",
+      "schoolYear": 4,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第4学年邀约 · 第4次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_3_followup_5",
+      "schoolYear": 4,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第4学年邀约 · 第5次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_4_followup_2",
+      "schoolYear": 4,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第4学年邀约 · 第2次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_4_followup_3",
+      "schoolYear": 4,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第4学年邀约 · 第3次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_4_followup_4",
+      "schoolYear": 4,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第4学年邀约 · 第4次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_4_followup_5",
+      "schoolYear": 4,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第4学年邀约 · 第5次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_5_followup_2",
+      "schoolYear": 4,
+      "npcId": "study_partner",
+      "title": "复习搭档的第4学年邀约 · 第2次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_5_followup_3",
+      "schoolYear": 4,
+      "npcId": "study_partner",
+      "title": "复习搭档的第4学年邀约 · 第3次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_5_followup_4",
+      "schoolYear": 4,
+      "npcId": "study_partner",
+      "title": "复习搭档的第4学年邀约 · 第4次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y4_5_followup_5",
+      "schoolYear": 4,
+      "npcId": "study_partner",
+      "title": "复习搭档的第4学年邀约 · 第5次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_1_followup_2",
+      "schoolYear": 5,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第5学年邀约 · 第2次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_1_followup_3",
+      "schoolYear": 5,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第5学年邀约 · 第3次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_1_followup_4",
+      "schoolYear": 5,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第5学年邀约 · 第4次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_1_followup_5",
+      "schoolYear": 5,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第5学年邀约 · 第5次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_2_followup_2",
+      "schoolYear": 5,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第5学年邀约 · 第2次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_2_followup_3",
+      "schoolYear": 5,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第5学年邀约 · 第3次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_2_followup_4",
+      "schoolYear": 5,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第5学年邀约 · 第4次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_2_followup_5",
+      "schoolYear": 5,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第5学年邀约 · 第5次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_3_followup_2",
+      "schoolYear": 5,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第5学年邀约 · 第2次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_3_followup_3",
+      "schoolYear": 5,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第5学年邀约 · 第3次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_3_followup_4",
+      "schoolYear": 5,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第5学年邀约 · 第4次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_3_followup_5",
+      "schoolYear": 5,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第5学年邀约 · 第5次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_4_followup_2",
+      "schoolYear": 5,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第5学年邀约 · 第2次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_4_followup_3",
+      "schoolYear": 5,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第5学年邀约 · 第3次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_4_followup_4",
+      "schoolYear": 5,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第5学年邀约 · 第4次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_4_followup_5",
+      "schoolYear": 5,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第5学年邀约 · 第5次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_5_followup_2",
+      "schoolYear": 5,
+      "npcId": "study_partner",
+      "title": "复习搭档的第5学年邀约 · 第2次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_5_followup_3",
+      "schoolYear": 5,
+      "npcId": "study_partner",
+      "title": "复习搭档的第5学年邀约 · 第3次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_5_followup_4",
+      "schoolYear": 5,
+      "npcId": "study_partner",
+      "title": "复习搭档的第5学年邀约 · 第4次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y5_5_followup_5",
+      "schoolYear": 5,
+      "npcId": "study_partner",
+      "title": "复习搭档的第5学年邀约 · 第5次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_1_followup_2",
+      "schoolYear": 6,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第6学年邀约 · 第2次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_1_followup_3",
+      "schoolYear": 6,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第6学年邀约 · 第3次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_1_followup_4",
+      "schoolYear": 6,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第6学年邀约 · 第4次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_1_followup_5",
+      "schoolYear": 6,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第6学年邀约 · 第5次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_2_followup_2",
+      "schoolYear": 6,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第6学年邀约 · 第2次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_2_followup_3",
+      "schoolYear": 6,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第6学年邀约 · 第3次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_2_followup_4",
+      "schoolYear": 6,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第6学年邀约 · 第4次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_2_followup_5",
+      "schoolYear": 6,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第6学年邀约 · 第5次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_3_followup_2",
+      "schoolYear": 6,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第6学年邀约 · 第2次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_3_followup_3",
+      "schoolYear": 6,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第6学年邀约 · 第3次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_3_followup_4",
+      "schoolYear": 6,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第6学年邀约 · 第4次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_3_followup_5",
+      "schoolYear": 6,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第6学年邀约 · 第5次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_4_followup_2",
+      "schoolYear": 6,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第6学年邀约 · 第2次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_4_followup_3",
+      "schoolYear": 6,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第6学年邀约 · 第3次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_4_followup_4",
+      "schoolYear": 6,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第6学年邀约 · 第4次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_4_followup_5",
+      "schoolYear": 6,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第6学年邀约 · 第5次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_5_followup_2",
+      "schoolYear": 6,
+      "npcId": "study_partner",
+      "title": "复习搭档的第6学年邀约 · 第2次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_5_followup_3",
+      "schoolYear": 6,
+      "npcId": "study_partner",
+      "title": "复习搭档的第6学年邀约 · 第3次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_5_followup_4",
+      "schoolYear": 6,
+      "npcId": "study_partner",
+      "title": "复习搭档的第6学年邀约 · 第4次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y6_5_followup_5",
+      "schoolYear": 6,
+      "npcId": "study_partner",
+      "title": "复习搭档的第6学年邀约 · 第5次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_1_followup_2",
+      "schoolYear": 7,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第7学年邀约 · 第2次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_1_followup_3",
+      "schoolYear": 7,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第7学年邀约 · 第3次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_1_followup_4",
+      "schoolYear": 7,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第7学年邀约 · 第4次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_1_followup_5",
+      "schoolYear": 7,
+      "npcId": "library_friend",
+      "title": "图书馆同伴的第7学年邀约 · 第5次交流",
+      "locationId": "hogwarts_library",
+      "category": "study",
+      "dialogue": "图书馆同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_2_followup_2",
+      "schoolYear": 7,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第7学年邀约 · 第2次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_2_followup_3",
+      "schoolYear": 7,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第7学年邀约 · 第3次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_2_followup_4",
+      "schoolYear": 7,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第7学年邀约 · 第4次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_2_followup_5",
+      "schoolYear": 7,
+      "npcId": "quidditch_friend",
+      "title": "魁地奇同伴的第7学年邀约 · 第5次交流",
+      "locationId": "hogwarts_quidditch_pitch",
+      "category": "friendship",
+      "dialogue": "魁地奇同伴邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_3_followup_2",
+      "schoolYear": 7,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第7学年邀约 · 第2次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_3_followup_3",
+      "schoolYear": 7,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第7学年邀约 · 第3次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_3_followup_4",
+      "schoolYear": 7,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第7学年邀约 · 第4次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_3_followup_5",
+      "schoolYear": 7,
+      "npcId": "corridor_friend",
+      "title": "走廊里的同学的第7学年邀约 · 第5次交流",
+      "locationId": "hogwarts_corridor",
+      "category": "rumor",
+      "dialogue": "走廊里的同学邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_4_followup_2",
+      "schoolYear": 7,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第7学年邀约 · 第2次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_4_followup_3",
+      "schoolYear": 7,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第7学年邀约 · 第3次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_4_followup_4",
+      "schoolYear": 7,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第7学年邀约 · 第4次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_4_followup_5",
+      "schoolYear": 7,
+      "npcId": "forest_friend",
+      "title": "神奇动物爱好者的第7学年邀约 · 第5次交流",
+      "locationId": "hogwarts_grounds",
+      "category": "creatures",
+      "dialogue": "神奇动物爱好者邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_5_followup_2",
+      "schoolYear": 7,
+      "npcId": "study_partner",
+      "title": "复习搭档的第7学年邀约 · 第2次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_5_followup_3",
+      "schoolYear": 7,
+      "npcId": "study_partner",
+      "title": "复习搭档的第7学年邀约 · 第3次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_5_followup_4",
+      "schoolYear": 7,
+      "npcId": "study_partner",
+      "title": "复习搭档的第7学年邀约 · 第4次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    },
+    {
+      "id": "npc_life_y7_5_followup_5",
+      "schoolYear": 7,
+      "npcId": "study_partner",
+      "title": "复习搭档的第7学年邀约 · 第5次交流",
+      "locationId": "hogwarts_classroom",
+      "category": "practice",
+      "dialogue": "复习搭档邀请你一起处理一件校园小事。你可以倾听、协助，或者暂时婉拒。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "花时间协助",
+          "trustDelta": 7,
+          "relatedProgress": 1,
+          "stressDelta": 2
+        },
+        {
+          "id": "listen",
+          "label": "倾听并交换线索",
+          "trustDelta": 4,
+          "relatedProgress": 1,
+          "stressDelta": 0
+        },
+        {
+          "id": "decline",
+          "label": "礼貌拒绝",
+          "trustDelta": -1,
+          "relatedProgress": 0,
+          "stressDelta": -1
+        }
+      ],
+      "sourceLayer": "original"
+    }
+  ]
+}

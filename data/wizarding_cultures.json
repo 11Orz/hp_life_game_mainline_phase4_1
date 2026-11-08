@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "wizarding_cultures",
+  "records": [
+    {
+      "id": "britain",
+      "name": "英国巫师生活",
+      "summary": "报纸、猫头鹰信件、魁地奇、学校学院文化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "UK",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "france",
+      "name": "法国魔法交流",
+      "summary": "布斯巴顿与欧洲校际往来",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "France",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "northern_europe",
+      "name": "欧洲北部魔法交流",
+      "summary": "德姆斯特朗与国际学生",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "Northern Europe",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "uganda",
+      "name": "乌干达及非洲魔法学校交流",
+      "summary": "瓦加度与多种施法教学",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "Uganda/Africa",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "brazil",
+      "name": "巴西雨林魔法教育",
+      "summary": "草药、魔法生物和交换项目",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "Brazil/South America",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "japan",
+      "name": "日本魔法教育",
+      "summary": "魔法所袍服、魁地奇传统",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "Japan",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "north_america",
+      "name": "北美巫师文化",
+      "summary": "伊法魔尼与MACUSA相关社会环境",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "North America",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "international",
+      "name": "跨国巫师文化",
+      "summary": "世界杯、学术交流、保密法协调",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "International",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "hogsmeade",
+      "name": "霍格莫德周末生活",
+      "summary": "购物、饮食与社交",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "UK",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    },
+    {
+      "id": "hogwarts",
+      "name": "霍格沃茨校园文化",
+      "summary": "分院、学院杯、社团与舞会",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "region": "UK",
+      "source_note": "概括性游戏分类；非民族性格定义",
+      "activities": [
+        "social",
+        "study",
+        "travel"
+      ],
+      "avoid_stereotypes": true
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

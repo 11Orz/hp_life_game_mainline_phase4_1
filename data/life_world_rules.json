@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0",
+  "dataset": "life_world_rules",
+  "count": 7,
+  "rules": [
+    {
+      "id": "fixed_canon",
+      "rule": "正史大事件按既有historicalStoryEngine推进，不得由校园事件覆盖结果"
+    },
+    {
+      "id": "mixed_time",
+      "rule": "逐日推进或最多7天快进，遇待处理事件暂停"
+    },
+    {
+      "id": "deep_interweave",
+      "rule": "按日期、能力、关系和地点决定原著外围参与深度，不能替代正史主角"
+    },
+    {
+      "id": "no_future_knowledge",
+      "rule": "未来事件不得提前出现在玩家可见文本中"
+    },
+    {
+      "id": "school_year",
+      "rule": "仅1991年9月入学的一年级角色自动按日期升级年级"
+    },
+    {
+      "id": "npc_explore",
+      "rule": "3—5次相关NPC事件、获得线索、掌握魔法后才可探索；禁区需合法机会"
+    },
+    {
+      "id": "holidays",
+      "rule": "暑假仍可推进家庭和社会系统，不能默认人在霍格沃茨"
+    }
+  ]
+}

@@ -1,0 +1,1314 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "public_opinion_timeline",
+  "records": [
+    {
+      "id": "opinion_chamber_early",
+      "name": "密室恐慌／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "chamber_opened"
+    },
+    {
+      "id": "opinion_chamber_middle",
+      "name": "密室恐慌／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "chamber_opened"
+    },
+    {
+      "id": "opinion_chamber_late",
+      "name": "密室恐慌／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "chamber",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "chamber_opened"
+    },
+    {
+      "id": "opinion_sirius_early",
+      "name": "小天狼星逃狱／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "sirius_escape"
+    },
+    {
+      "id": "opinion_sirius_middle",
+      "name": "小天狼星逃狱／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "sirius_escape"
+    },
+    {
+      "id": "opinion_sirius_late",
+      "name": "小天狼星逃狱／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "sirius",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "sirius_escape"
+    },
+    {
+      "id": "opinion_world_cup_early",
+      "name": "魁地奇世界杯骚乱／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "quidditch_world_cup_1994"
+    },
+    {
+      "id": "opinion_world_cup_middle",
+      "name": "魁地奇世界杯骚乱／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "quidditch_world_cup_1994"
+    },
+    {
+      "id": "opinion_world_cup_late",
+      "name": "魁地奇世界杯骚乱／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "world_cup",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "quidditch_world_cup_1994"
+    },
+    {
+      "id": "opinion_triwizard_early",
+      "name": "三强争霸赛／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "triwizard_1994"
+    },
+    {
+      "id": "opinion_triwizard_middle",
+      "name": "三强争霸赛／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "triwizard_1994"
+    },
+    {
+      "id": "opinion_triwizard_late",
+      "name": "三强争霸赛／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "triwizard",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "triwizard_1994"
+    },
+    {
+      "id": "opinion_voldemort_return_early",
+      "name": "伏地魔复活争议／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "voldemort_return_1995"
+    },
+    {
+      "id": "opinion_voldemort_return_middle",
+      "name": "伏地魔复活争议／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "voldemort_return_1995"
+    },
+    {
+      "id": "opinion_voldemort_return_late",
+      "name": "伏地魔复活争议／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "voldemort_return",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "voldemort_return_1995"
+    },
+    {
+      "id": "opinion_umbridge_early",
+      "name": "霍格沃茨教育干预／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "umbridge_hogwarts"
+    },
+    {
+      "id": "opinion_umbridge_middle",
+      "name": "霍格沃茨教育干预／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "umbridge_hogwarts"
+    },
+    {
+      "id": "opinion_umbridge_late",
+      "name": "霍格沃茨教育干预／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "umbridge",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "umbridge_hogwarts"
+    },
+    {
+      "id": "opinion_azkaban_early",
+      "name": "阿兹卡班越狱与安全焦虑／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "azkaban_escape"
+    },
+    {
+      "id": "opinion_azkaban_middle",
+      "name": "阿兹卡班越狱与安全焦虑／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "azkaban_escape"
+    },
+    {
+      "id": "opinion_azkaban_late",
+      "name": "阿兹卡班越狱与安全焦虑／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "azkaban",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "azkaban_escape"
+    },
+    {
+      "id": "opinion_ministry_admission_early",
+      "name": "魔法部承认伏地魔回归／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "ministry_acknowledges_return"
+    },
+    {
+      "id": "opinion_ministry_admission_middle",
+      "name": "魔法部承认伏地魔回归／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "ministry_acknowledges_return"
+    },
+    {
+      "id": "opinion_ministry_admission_late",
+      "name": "魔法部承认伏地魔回归／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_admission",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "ministry_acknowledges_return"
+    },
+    {
+      "id": "opinion_dumbledore_death_early",
+      "name": "邓布利多去世／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "dumbledore_death_1997"
+    },
+    {
+      "id": "opinion_dumbledore_death_middle",
+      "name": "邓布利多去世／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "dumbledore_death_1997"
+    },
+    {
+      "id": "opinion_dumbledore_death_late",
+      "name": "邓布利多去世／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "dumbledore_death",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "dumbledore_death_1997"
+    },
+    {
+      "id": "opinion_ministry_takeover_early",
+      "name": "魔法部沦陷与宣传控制／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "ministry_fall_1997"
+    },
+    {
+      "id": "opinion_ministry_takeover_middle",
+      "name": "魔法部沦陷与宣传控制／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "ministry_fall_1997"
+    },
+    {
+      "id": "opinion_ministry_takeover_late",
+      "name": "魔法部沦陷与宣传控制／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "ministry_takeover",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "ministry_fall_1997"
+    },
+    {
+      "id": "opinion_muggleborn_early",
+      "name": "麻瓜出身者受迫害／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "muggleborn_registration"
+    },
+    {
+      "id": "opinion_muggleborn_middle",
+      "name": "麻瓜出身者受迫害／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "muggleborn_registration"
+    },
+    {
+      "id": "opinion_muggleborn_late",
+      "name": "麻瓜出身者受迫害／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "muggleborn",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "muggleborn_registration"
+    },
+    {
+      "id": "opinion_potterwatch_early",
+      "name": "地下广播抵抗／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "potterwatch_1997"
+    },
+    {
+      "id": "opinion_potterwatch_middle",
+      "name": "地下广播抵抗／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "potterwatch_1997"
+    },
+    {
+      "id": "opinion_potterwatch_late",
+      "name": "地下广播抵抗／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "potterwatch",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "potterwatch_1997"
+    },
+    {
+      "id": "opinion_battle_early",
+      "name": "霍格沃茨大战／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "battle_of_hogwarts_1998"
+    },
+    {
+      "id": "opinion_battle_middle",
+      "name": "霍格沃茨大战／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "battle_of_hogwarts_1998"
+    },
+    {
+      "id": "opinion_battle_late",
+      "name": "霍格沃茨大战／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "battle",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "battle_of_hogwarts_1998"
+    },
+    {
+      "id": "opinion_rebuilding_early",
+      "name": "战后恢复与责任追究／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "postwar_rebuilding"
+    },
+    {
+      "id": "opinion_rebuilding_middle",
+      "name": "战后恢复与责任追究／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "postwar_rebuilding"
+    },
+    {
+      "id": "opinion_rebuilding_late",
+      "name": "战后恢复与责任追究／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "rebuilding",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "postwar_rebuilding"
+    },
+    {
+      "id": "opinion_quidditch_early",
+      "name": "魁地奇体育讨论／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "quidditch",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "quidditch_league"
+    },
+    {
+      "id": "opinion_quidditch_middle",
+      "name": "魁地奇体育讨论／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "quidditch",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "quidditch_league"
+    },
+    {
+      "id": "opinion_quidditch_late",
+      "name": "魁地奇体育讨论／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "quidditch",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "quidditch_league"
+    },
+    {
+      "id": "opinion_international_exchange_early",
+      "name": "国际魔法学校交流／early",
+      "summary": "信息有限，消息渠道分歧",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "international_exchange",
+      "phase": "early",
+      "stage_order": 0,
+      "opinion_baseline": {
+        "believe": 35,
+        "fear": 15,
+        "willing_to_act": 10
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "international_school_exchange"
+    },
+    {
+      "id": "opinion_international_exchange_middle",
+      "name": "国际魔法学校交流／middle",
+      "summary": "更多证词传播，群体立场分化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "international_exchange",
+      "phase": "middle",
+      "stage_order": 1,
+      "opinion_baseline": {
+        "believe": 53,
+        "fear": 30,
+        "willing_to_act": 25
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "international_school_exchange"
+    },
+    {
+      "id": "opinion_international_exchange_late",
+      "name": "国际魔法学校交流／late",
+      "summary": "后续证据或政策变化影响观点",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "topic_id": "international_exchange",
+      "phase": "late",
+      "stage_order": 2,
+      "opinion_baseline": {
+        "believe": 71,
+        "fear": 45,
+        "willing_to_act": 40
+      },
+      "modifier_by_group": {
+        "ministry_loyalist": {
+          "believe": -15
+        },
+        "order_supporter": {
+          "believe": 20
+        },
+        "undecided": {
+          "believe": 0
+        }
+      },
+      "requires_anchor": "international_school_exchange"
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ]
+  }
+}

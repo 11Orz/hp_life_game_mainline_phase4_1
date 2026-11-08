@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_factions",
+  "records": [
+    {
+      "id": "order",
+      "name": "凤凰社",
+      "type": "secret_resistance",
+      "summary": "邓布利多建立的秘密反伏地魔组织",
+      "canon_level": "canon_summary"
+    },
+    {
+      "id": "death_eaters",
+      "name": "食死徒",
+      "type": "violent_extremist",
+      "summary": "伏地魔的追随者及其暴力网络",
+      "canon_level": "canon_summary"
+    },
+    {
+      "id": "ministry",
+      "name": "魔法部",
+      "type": "government",
+      "summary": "政治立场和控制状况随年份改变",
+      "canon_level": "canon_summary"
+    },
+    {
+      "id": "dumbledores_army",
+      "name": "邓布利多军",
+      "type": "student_group",
+      "summary": "由学生组织的防御魔法学习与抵抗团体，独立于凤凰社",
+      "canon_level": "canon_summary"
+    },
+    {
+      "id": "civilians",
+      "name": "平民与家庭",
+      "type": "civilian",
+      "summary": "不应被默认视为任何组织成员",
+      "canon_level": "game_abstraction"
+    },
+    {
+      "id": "healers",
+      "name": "治疗与救援人员",
+      "type": "professional",
+      "summary": "原创可互动救援联系人",
+      "canon_level": "game_abstraction"
+    }
+  ]
+}

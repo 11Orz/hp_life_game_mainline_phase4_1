@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_heirlooms",
+  "description": "20种家族遗物，含证据来源、继承与调查钩子。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "heirloom_001",
+      "name": "旧家谱残页",
+      "kind": "document",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_001_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_002",
+      "name": "烧焦的家族肖像",
+      "kind": "portrait",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_002_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_003",
+      "name": "祖辈的怀表",
+      "kind": "watch",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_003_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_004",
+      "name": "褪色的学院徽章",
+      "kind": "badge",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_004_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_005",
+      "name": "未寄出的信",
+      "kind": "letter",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_005_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_006",
+      "name": "旧报纸剪报",
+      "kind": "newspaper",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_006_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_007",
+      "name": "家庭相册",
+      "kind": "album",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_007_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_008",
+      "name": "婚姻登记副本",
+      "kind": "record",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_008_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_009",
+      "name": "旧钥匙",
+      "kind": "key",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_009_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_010",
+      "name": "古董墨水瓶",
+      "kind": "inkwell",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_010_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_011",
+      "name": "手写食谱",
+      "kind": "recipe",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_011_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_012",
+      "name": "魔法部收据",
+      "kind": "receipt",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_012_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_013",
+      "name": "旧魔杖盒",
+      "kind": "wand_box",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_001_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_014",
+      "name": "破损的日记",
+      "kind": "diary",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_002_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_015",
+      "name": "家族戒指拓片",
+      "kind": "rubbing",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_003_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_016",
+      "name": "战时救援名单",
+      "kind": "list",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_004_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_017",
+      "name": "二手课本题记",
+      "kind": "book",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_005_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_018",
+      "name": "商铺契约副本",
+      "kind": "contract",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_006_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_019",
+      "name": "地图边角",
+      "kind": "map",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_007_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    },
+    {
+      "id": "heirloom_020",
+      "name": "未知家族印章",
+      "kind": "seal",
+      "canon_status": "game_original",
+      "is_unique": false,
+      "can_be_inherited": true,
+      "requires_provenance": true,
+      "magical_effect": null,
+      "investigation_tags": [
+        "family_history"
+      ],
+      "market_value_knuts": null,
+      "unlock_clue_on_inspect": "clue_008_1",
+      "ownership_history": [],
+      "description": "原创调查道具；不默认赋予强大魔法效果"
+    }
+  ]
+}

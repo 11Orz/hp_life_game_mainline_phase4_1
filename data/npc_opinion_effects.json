@@ -1,0 +1,38 @@
+{
+  "id": "npc_opinion_effects",
+  "description": "玩家互动对好感、信任和认知的不同影响",
+  "records": [
+    {
+      "id": "respect",
+      "name": "尊重并提供证据",
+      "affection_delta": 1,
+      "trust_delta": 4,
+      "belief_delta": 9,
+      "cooldown_days": 2
+    },
+    {
+      "id": "argue",
+      "name": "激烈争论",
+      "affection_delta": -6,
+      "trust_delta": -3,
+      "belief_delta": -3,
+      "cooldown_days": 2
+    },
+    {
+      "id": "agree",
+      "name": "迎合对方",
+      "affection_delta": 2,
+      "trust_delta": -2,
+      "belief_delta": 1,
+      "cooldown_days": 2
+    },
+    {
+      "id": "neutral",
+      "name": "倾听观望",
+      "affection_delta": 0,
+      "trust_delta": 1,
+      "belief_delta": 2,
+      "cooldown_days": 2
+    }
+  ]
+}

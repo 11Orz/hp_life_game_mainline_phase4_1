@@ -1,0 +1,368 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_social_relationships",
+  "description": "16种动态社会关系类型，独立于生物学亲缘关系。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "social_01",
+      "name": "亲子",
+      "axes": [
+        "trust",
+        "care",
+        "conflict"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "care": 0,
+        "conflict": 0
+      }
+    },
+    {
+      "id": "social_02",
+      "name": "兄弟姐妹",
+      "axes": [
+        "trust",
+        "rivalry",
+        "shared_history"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "rivalry": 0,
+        "shared_history": 0
+      }
+    },
+    {
+      "id": "social_03",
+      "name": "祖孙",
+      "axes": [
+        "trust",
+        "respect",
+        "knowledge"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "respect": 0,
+        "knowledge": 0
+      }
+    },
+    {
+      "id": "social_04",
+      "name": "配偶",
+      "axes": [
+        "trust",
+        "commitment",
+        "conflict"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": true,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "commitment": 0,
+        "conflict": 0
+      }
+    },
+    {
+      "id": "social_05",
+      "name": "恋人",
+      "axes": [
+        "trust",
+        "affection",
+        "boundaries"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": true,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "affection": 0,
+        "boundaries": 0
+      }
+    },
+    {
+      "id": "social_06",
+      "name": "朋友",
+      "axes": [
+        "trust",
+        "loyalty",
+        "shared_history"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "loyalty": 0,
+        "shared_history": 0
+      }
+    },
+    {
+      "id": "social_07",
+      "name": "同学",
+      "axes": [
+        "familiarity",
+        "respect",
+        "rivalry"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "familiarity": 0,
+        "respect": 0,
+        "rivalry": 0
+      }
+    },
+    {
+      "id": "social_08",
+      "name": "导师",
+      "axes": [
+        "trust",
+        "respect",
+        "learning"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "respect": 0,
+        "learning": 0
+      }
+    },
+    {
+      "id": "social_09",
+      "name": "同事",
+      "axes": [
+        "trust",
+        "respect",
+        "competition"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "respect": 0,
+        "competition": 0
+      }
+    },
+    {
+      "id": "social_10",
+      "name": "上司",
+      "axes": [
+        "trust",
+        "respect",
+        "power_imbalance"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "respect": 0,
+        "power_imbalance": 0
+      }
+    },
+    {
+      "id": "social_11",
+      "name": "政治盟友",
+      "axes": [
+        "trust",
+        "alignment",
+        "obligation"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "alignment": 0,
+        "obligation": 0
+      }
+    },
+    {
+      "id": "social_12",
+      "name": "政治对手",
+      "axes": [
+        "rivalry",
+        "respect",
+        "risk"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "rivalry": 0,
+        "respect": 0,
+        "risk": 0
+      }
+    },
+    {
+      "id": "social_13",
+      "name": "商业伙伴",
+      "axes": [
+        "trust",
+        "debt",
+        "reliability"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "debt": 0,
+        "reliability": 0
+      }
+    },
+    {
+      "id": "social_14",
+      "name": "监护人",
+      "axes": [
+        "trust",
+        "care",
+        "authority"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "care": 0,
+        "authority": 0
+      }
+    },
+    {
+      "id": "social_15",
+      "name": "收养关系",
+      "axes": [
+        "trust",
+        "care",
+        "belonging"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "care": 0,
+        "belonging": 0
+      }
+    },
+    {
+      "id": "social_16",
+      "name": "家族疏远",
+      "axes": [
+        "trust",
+        "conflict",
+        "reconciliation"
+      ],
+      "range": [
+        -100,
+        100
+      ],
+      "relationship_kind": "social",
+      "biological_relation_not_implied": true,
+      "consent_required": false,
+      "can_change_over_time": true,
+      "default_values": {
+        "trust": 0,
+        "conflict": 0,
+        "reconciliation": 0
+      }
+    }
+  ]
+}

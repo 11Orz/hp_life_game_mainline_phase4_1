@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "international_magic_schools",
+  "records": [
+    {
+      "id": "hogwarts",
+      "name": "霍格沃茨",
+      "summary": "英国苏格兰，四学院与OWL/NEWT课程",
+      "canon_level": "novel",
+      "source_urls": [],
+      "region": "UK",
+      "location_precision": "approximate",
+      "canonical_triwizard_participant": true,
+      "gameplay_exchange_eligible": true,
+      "unknown_fields": [
+        "exact_coordinates",
+        "complete_curriculum"
+      ]
+    },
+    {
+      "id": "beauxbatons",
+      "name": "布斯巴顿",
+      "summary": "法国魔法学校，三强争霸赛参赛学校",
+      "canon_level": "novel",
+      "source_urls": [],
+      "region": "France",
+      "location_precision": "approximate",
+      "canonical_triwizard_participant": true,
+      "gameplay_exchange_eligible": true,
+      "unknown_fields": [
+        "exact_coordinates",
+        "complete_curriculum"
+      ]
+    },
+    {
+      "id": "durmstrang",
+      "name": "德姆斯特朗",
+      "summary": "欧洲北部相关的魔法学校，三强争霸赛参赛学校",
+      "canon_level": "novel",
+      "source_urls": [],
+      "region": "Northern Europe",
+      "location_precision": "approximate",
+      "canonical_triwizard_participant": true,
+      "gameplay_exchange_eligible": true,
+      "unknown_fields": [
+        "exact_coordinates",
+        "complete_curriculum"
+      ]
+    },
+    {
+      "id": "uagadou",
+      "name": "瓦加度",
+      "summary": "月亮山地区，重视天文学、炼金术与自我变形，广泛使用手势无杖施法",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/uagadou"
+      ],
+      "region": "Uganda",
+      "location_precision": "approximate",
+      "canonical_triwizard_participant": false,
+      "gameplay_exchange_eligible": true,
+      "unknown_fields": [
+        "exact_coordinates",
+        "complete_curriculum"
+      ]
+    },
+    {
+      "id": "mahoutokoro",
+      "name": "魔法所",
+      "summary": "日本魔法学校，学生袍服随学习进度变化，拥有魁地奇传统",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/mahoutokoro"
+      ],
+      "region": "Japan",
+      "location_precision": "approximate",
+      "canonical_triwizard_participant": false,
+      "gameplay_exchange_eligible": true,
+      "unknown_fields": [
+        "exact_coordinates",
+        "complete_curriculum"
+      ]
+    },
+    {
+      "id": "castelobruxo",
+      "name": "卡斯特罗布舍",
+      "summary": "巴西雨林中的学校，草药学与魔法动物学突出，提供国际交流",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/ja/writing-by-jk-rowling/castelobruxo"
+      ],
+      "region": "Brazil",
+      "location_precision": "approximate",
+      "canonical_triwizard_participant": false,
+      "gameplay_exchange_eligible": true,
+      "unknown_fields": [
+        "exact_coordinates",
+        "complete_curriculum"
+      ]
+    },
+    {
+      "id": "ilvermorny",
+      "name": "伊法魔尼",
+      "summary": "北美魔法学校，四学院以魔法生物命名",
+      "canon_level": "author_supplement",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny"
+      ],
+      "region": "USA",
+      "location_precision": "approximate",
+      "canonical_triwizard_participant": false,
+      "gameplay_exchange_eligible": true,
+      "unknown_fields": [
+        "exact_coordinates",
+        "complete_curriculum"
+      ]
+    },
+    {
+      "id": "koldovstoretz",
+      "name": "科多斯多瑞兹",
+      "summary": "俄罗斯已知魔法学校，详细制度资料有限",
+      "canon_level": "official_reference",
+      "source_urls": [
+        "https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools"
+      ],
+      "region": "Russia",
+      "location_precision": "approximate",
+      "canonical_triwizard_participant": false,
+      "gameplay_exchange_eligible": true,
+      "unknown_fields": [
+        "exact_coordinates",
+        "complete_curriculum"
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "zh-CN",
+    "source_policy": "只保存独立撰写的事实摘要和原创游戏内容；不转载原著、剧本或设定集全文",
+    "canon_levels": [
+      "novel",
+      "author_supplement",
+      "official_reference",
+      "film",
+      "game_original",
+      "unverified"
+    ],
+    "notes": "官方指出共有11所著名学校，但不是11所都公开了名称；因此不捏造其余3所"
+  }
+}

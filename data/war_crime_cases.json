@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_crime_cases",
+  "records": [
+    {
+      "id": "missing_messenger",
+      "title": "失联的信使",
+      "available_from": "1995-09-01",
+      "summary": "寻找一名原创消息传递者，保护隐私并核对线索",
+      "case_type": "missing",
+      "canon_level": "game_original",
+      "evidence_ids": [
+        "missing_messenger_witness",
+        "missing_messenger_document"
+      ]
+    },
+    {
+      "id": "forged_warning",
+      "title": "伪造的警告",
+      "available_from": "1995-10-01",
+      "summary": "调查一份疑似伪造的安全通知",
+      "case_type": "fraud",
+      "canon_level": "game_original",
+      "evidence_ids": [
+        "forged_warning_witness",
+        "forged_warning_document"
+      ]
+    },
+    {
+      "id": "unsafe_route",
+      "title": "危险的归家路线",
+      "available_from": "1996-08-01",
+      "summary": "确认一条平民撤离路线是否安全",
+      "case_type": "safety",
+      "canon_level": "game_original",
+      "evidence_ids": [
+        "unsafe_route_witness",
+        "unsafe_route_document"
+      ]
+    },
+    {
+      "id": "lost_medicine",
+      "title": "失踪的治疗物资",
+      "available_from": "1997-09-01",
+      "summary": "追查救援物资流向，不预设罪犯身份",
+      "case_type": "theft",
+      "canon_level": "game_original",
+      "evidence_ids": [
+        "lost_medicine_witness",
+        "lost_medicine_document"
+      ]
+    },
+    {
+      "id": "shelter_dispute",
+      "title": "避难所争执",
+      "available_from": "1997-09-01",
+      "summary": "调解安全与接纳原则的冲突",
+      "case_type": "civilian",
+      "canon_level": "game_original",
+      "evidence_ids": [
+        "shelter_dispute_witness",
+        "shelter_dispute_document"
+      ]
+    }
+  ]
+}

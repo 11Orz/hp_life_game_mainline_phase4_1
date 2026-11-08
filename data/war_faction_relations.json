@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_faction_relations",
+  "records": [
+    {
+      "id": "order_death_eaters",
+      "from_id": "order",
+      "to_id": "death_eaters",
+      "relation": "opposed",
+      "valid_from": "1995-01-01",
+      "summary": "核心对立"
+    },
+    {
+      "id": "order_ministry",
+      "from_id": "order",
+      "to_id": "ministry",
+      "relation": "strained",
+      "valid_from": "1995-01-01",
+      "summary": "官方否认复活造成政治冲突"
+    },
+    {
+      "id": "order_dumbledores_army",
+      "from_id": "order",
+      "to_id": "dumbledores_army",
+      "relation": "aligned_but_separate",
+      "valid_from": "1995-09-01",
+      "summary": "目标接近但组织并非上下级"
+    },
+    {
+      "id": "order_civilians",
+      "from_id": "order",
+      "to_id": "civilians",
+      "relation": "protective",
+      "valid_from": "1995-01-01",
+      "summary": "强调平民安全"
+    },
+    {
+      "id": "order_healers",
+      "from_id": "order",
+      "to_id": "healers",
+      "relation": "cooperation",
+      "valid_from": "1995-01-01",
+      "summary": "原创救援协作机制"
+    },
+    {
+      "id": "death_eaters_ministry",
+      "from_id": "death_eaters",
+      "to_id": "ministry",
+      "relation": "infiltration_and_control",
+      "valid_from": "1997-08-01",
+      "summary": "政权被食死徒势力控制"
+    }
+  ]
+}

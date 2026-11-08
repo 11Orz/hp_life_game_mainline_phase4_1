@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "title": "列车零食推车",
+    "pricing": "原创游戏平衡价格；加隆，不是原著报价"
+  },
+  "items": [
+    {
+      "id": "chocolate_frog",
+      "name": "巧克力蛙",
+      "price": 2,
+      "category": "snack"
+    },
+    {
+      "id": "every_flavour_beans",
+      "name": "比比多味豆",
+      "price": 1,
+      "category": "snack"
+    },
+    {
+      "id": "cauldron_cake",
+      "name": "坩埚蛋糕",
+      "price": 2,
+      "category": "snack"
+    },
+    {
+      "id": "pumpkin_pasty",
+      "name": "南瓜馅饼",
+      "price": 1,
+      "category": "snack"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "id": "prologue_economy_v1",
+    "note": "原创游戏平衡数值，非原著官方价格；金额单位为加隆"
+  },
+  "startingGalleons": {
+    "mixed": 105,
+    "muggle": 95,
+    "pure": 135,
+    "guardian": 85
+  },
+  "items": [
+    {
+      "id": "school_trunk",
+      "name": "学生行李箱",
+      "price": 12
+    },
+    {
+      "id": "school_robes",
+      "name": "霍格沃茨校袍",
+      "price": 15
+    },
+    {
+      "id": "school_books",
+      "name": "一年级课本套装",
+      "price": 32
+    },
+    {
+      "id": "used_robes",
+      "name": "二手校袍",
+      "price": 8
+    },
+    {
+      "id": "used_books",
+      "name": "二手课本套装",
+      "price": 17
+    },
+    {
+      "id": "wand",
+      "name": "魔杖",
+      "price": 7
+    },
+    {
+      "id": "owl",
+      "name": "猫头鹰",
+      "price": 12
+    },
+    {
+      "id": "cat",
+      "name": "猫",
+      "price": 9
+    },
+    {
+      "id": "toad",
+      "name": "蟾蜍",
+      "price": 5
+    },
+    {
+      "id": "spellbook",
+      "name": "入门魔咒参考书",
+      "price": 9
+    },
+    {
+      "id": "stationery",
+      "name": "羽毛笔与羊皮纸",
+      "price": 4
+    }
+  ],
+  "wandProfiles": [
+    {
+      "id": "oak_unicorn",
+      "wood": "橡木",
+      "core": "独角兽毛",
+      "length": "十一英寸",
+      "trait": "稳定、耐心",
+      "focus": "charms"
+    },
+    {
+      "id": "willow_phoenix",
+      "wood": "柳木",
+      "core": "凤凰羽毛",
+      "length": "十又四分之一英寸",
+      "trait": "灵敏、适应力强",
+      "focus": "defense"
+    },
+    {
+      "id": "maple_dragon",
+      "wood": "枫木",
+      "core": "龙的心弦",
+      "length": "十二英寸",
+      "trait": "果断、富于探索欲",
+      "focus": "transfiguration"
+    }
+  ]
+}

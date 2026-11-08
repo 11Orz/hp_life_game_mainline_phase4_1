@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_professions",
+  "description": "医疗职业与成长路径",
+  "items": [
+    {
+      "id": "healer",
+      "name": "治疗师",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "healer",
+      "minimumTraining": 2
+    },
+    {
+      "id": "hospital_assistant",
+      "name": "医疗助理",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "hospital_assistant",
+      "minimumTraining": 2
+    },
+    {
+      "id": "school_matron",
+      "name": "学校医疗负责人",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "school_matron",
+      "minimumTraining": 2
+    },
+    {
+      "id": "potion_researcher",
+      "name": "医疗魔药研究员",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "potion_researcher",
+      "minimumTraining": 2
+    },
+    {
+      "id": "curse_specialist",
+      "name": "诅咒伤害专家",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "curse_specialist",
+      "minimumTraining": 2
+    },
+    {
+      "id": "magical_epidemiologist",
+      "name": "魔法疾病研究员",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "magical_epidemiologist",
+      "minimumTraining": 2
+    },
+    {
+      "id": "creature_care_healer",
+      "name": "魔法生物救治员",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "creature_care_healer",
+      "minimumTraining": 2
+    },
+    {
+      "id": "accident_investigator",
+      "name": "魔法事故调查员",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "accident_investigator",
+      "minimumTraining": 2
+    },
+    {
+      "id": "emergency_responder",
+      "name": "紧急救援人员",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "emergency_responder",
+      "minimumTraining": 2
+    },
+    {
+      "id": "hospital_administrator",
+      "name": "医院管理人员",
+      "description": "职业成长模板，具体工资与等级为原创平衡设定",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "entrySkills": [
+        "healing_knowledge",
+        "ethics"
+      ],
+      "careerLevels": [
+        "trainee",
+        "junior",
+        "qualified",
+        "senior"
+      ],
+      "economyCareerLink": "hospital_administrator",
+      "minimumTraining": 2
+    }
+  ]
+}

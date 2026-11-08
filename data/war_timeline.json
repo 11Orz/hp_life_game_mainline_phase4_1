@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_timeline",
+  "records": [
+    {
+      "id": "legacy",
+      "start_date": "1991-01-01",
+      "end_date": "1995-01-01",
+      "name": "第一次战争的遗产",
+      "summary": "凤凰社已不再作为活跃组织运作；玩家可调查历史、家族档案和战争创伤",
+      "threat": 0,
+      "canon_level": "canon_context",
+      "source_url": "https://www.harrypotter.com/fact-file/magical-miscellany/order-of-the-phoenix"
+    },
+    {
+      "id": "revival",
+      "start_date": "1995-01-01",
+      "end_date": "1995-09-01",
+      "name": "凤凰社重新集结",
+      "summary": "在伏地魔归来后秘密重建，公众及魔法部尚未普遍接受事实",
+      "threat": 30,
+      "canon_level": "canon_context",
+      "source_url": "https://www.harrypotter.com/fact-file/magical-miscellany/order-of-the-phoenix"
+    },
+    {
+      "id": "denial",
+      "start_date": "1995-09-01",
+      "end_date": "1996-07-01",
+      "name": "隐秘抵抗与政治否认",
+      "summary": "守卫、观察、保护证人；与魔法部官方叙事存在冲突",
+      "threat": 45,
+      "canon_level": "canon_context",
+      "source_url": "https://www.harrypotter.com/fact-file/magical-miscellany/order-of-the-phoenix"
+    },
+    {
+      "id": "open_war",
+      "start_date": "1996-07-01",
+      "end_date": "1997-08-01",
+      "name": "公开战争",
+      "summary": "保护平民、传递情报、护送和救援",
+      "threat": 72,
+      "canon_level": "canon_context",
+      "source_url": "https://www.harrypotter.com/fact-file/magical-miscellany/order-of-the-phoenix"
+    },
+    {
+      "id": "occupation",
+      "start_date": "1997-08-01",
+      "end_date": "1998-05-03",
+      "name": "魔法部沦陷与地下抵抗",
+      "summary": "秘密联系、避难、保护弱势群体及战时救援",
+      "threat": 95,
+      "canon_level": "canon_context",
+      "source_url": "https://www.harrypotter.com/fact-file/magical-miscellany/order-of-the-phoenix"
+    },
+    {
+      "id": "aftermath",
+      "start_date": "1998-05-03",
+      "end_date": "2000-01-01",
+      "name": "战后余波",
+      "summary": "纪念、失踪者调查、社会重建和幸存者支持",
+      "threat": 20,
+      "canon_level": "canon_context",
+      "source_url": "https://www.harrypotter.com/fact-file/magical-miscellany/order-of-the-phoenix"
+    }
+  ]
+}

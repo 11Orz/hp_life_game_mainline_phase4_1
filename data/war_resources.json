@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_resources",
+  "records": [
+    {
+      "id": "supplies",
+      "name": "救援物资",
+      "starting_amount": 25,
+      "max_amount": 100,
+      "summary": "用于医疗与避难"
+    },
+    {
+      "id": "intel",
+      "name": "已核实情报",
+      "starting_amount": 10,
+      "max_amount": 100,
+      "summary": "用于调查和判断"
+    },
+    {
+      "id": "safe_contacts",
+      "name": "可信联系人",
+      "starting_amount": 5,
+      "max_amount": 100,
+      "summary": "用于救援协调"
+    },
+    {
+      "id": "morale",
+      "name": "成员士气",
+      "starting_amount": 60,
+      "max_amount": 100,
+      "summary": "随行动结果变化"
+    }
+  ]
+}

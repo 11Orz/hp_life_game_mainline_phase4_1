@@ -1,0 +1,754 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "coverage": {
+    "start": "1991-09-01",
+    "end": "1998-06-30"
+  },
+  "sourcePolicy": {
+    "layers": [
+      "novel_canon",
+      "official_supplement",
+      "game_continuity",
+      "original"
+    ],
+    "priority": [
+      "seven_novels",
+      "rowling_official",
+      "supplementary_works",
+      "wiki_crosscheck",
+      "original_game_design"
+    ],
+    "warning": "原著事实与玩家原创经历严格分离；精确章节、月份与个别细节待逐章复核。"
+  },
+  "integration": {
+    "standaloneDataOnly": true,
+    "requiresNewStoryEngine": true,
+    "existingSchedulerDoesNotAutoLoad": true
+  },
+  "dataset": "boss_encounters",
+  "count": 7,
+  "bosses": [
+    {
+      "id": "era_1991_1992_boss",
+      "arcId": "era_1991_1992",
+      "title": "奇洛与魔法石守护关卡",
+      "type": "multi_stage_crisis",
+      "origin": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "historicalContext": {
+        "layer": "novel_canon",
+        "reference": "Harry Potter and the Philosopher’s Stone：魔法石失窃企图受挫",
+        "verification": "needs_chapter_check"
+      },
+      "trigger": {
+        "afterChapterId": "era_1991_1992_chapter_08",
+        "window": {
+          "start": "1992-05-01",
+          "end": "1992-06-30"
+        },
+        "requiresEnrollment": true
+      },
+      "canonicalOutcome": "魔法石失窃企图受挫",
+      "playerRole": "外围救援、撤离、情报与防御；不可替代原著核心人物",
+      "phases": [
+        {
+          "id": "preparation",
+          "title": "情报与准备",
+          "actions": [
+            "study_clues",
+            "prepare_potions",
+            "seek_allies"
+          ],
+          "checks": [
+            "cluePoints",
+            "potions",
+            "relationships"
+          ]
+        },
+        {
+          "id": "confrontation",
+          "title": "危机应对",
+          "actions": [
+            "cast_defense",
+            "protect_friend",
+            "evacuate",
+            "call_for_help"
+          ],
+          "checks": [
+            "knownSpells",
+            "defense",
+            "courage"
+          ]
+        },
+        {
+          "id": "aftermath",
+          "title": "善后与记录",
+          "actions": [
+            "aid_injured",
+            "report_evidence",
+            "rest"
+          ],
+          "checks": [
+            "healing",
+            "teacherTrust"
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "heroic",
+          "condition": {
+            "preparedAtLeast": 5,
+            "successfulChecksAtLeast": 2
+          },
+          "effects": {
+            "schoolReputation": 10,
+            "stress": 8,
+            "relationshipDelta": {
+              "targetNpc": 8
+            }
+          }
+        },
+        {
+          "id": "survivor",
+          "condition": {},
+          "effects": {
+            "stress": 5,
+            "skillXp": {
+              "defense": 3
+            }
+          }
+        }
+      ],
+      "noDirectVoldemortDuel": true,
+      "defeatDoesNotChangeCanon": true,
+      "difficulty": {
+        "base": 20,
+        "scaleBySchoolYear": true,
+        "allowNoncombatVictory": true,
+        "isOriginalGameBalance": true
+      }
+    },
+    {
+      "id": "era_1992_1993_boss",
+      "arcId": "era_1992_1993",
+      "title": "蛇怪与日记的影响",
+      "type": "multi_stage_crisis",
+      "origin": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "historicalContext": {
+        "layer": "novel_canon",
+        "reference": "Harry Potter and the Chamber of Secrets：金妮获救、日记被摧毁",
+        "verification": "needs_chapter_check"
+      },
+      "trigger": {
+        "afterChapterId": "era_1992_1993_chapter_08",
+        "window": {
+          "start": "1993-05-01",
+          "end": "1993-06-30"
+        },
+        "requiresEnrollment": true
+      },
+      "canonicalOutcome": "金妮获救、日记被摧毁",
+      "playerRole": "外围救援、撤离、情报与防御；不可替代原著核心人物",
+      "phases": [
+        {
+          "id": "preparation",
+          "title": "情报与准备",
+          "actions": [
+            "study_clues",
+            "prepare_potions",
+            "seek_allies"
+          ],
+          "checks": [
+            "cluePoints",
+            "potions",
+            "relationships"
+          ]
+        },
+        {
+          "id": "confrontation",
+          "title": "危机应对",
+          "actions": [
+            "cast_defense",
+            "protect_friend",
+            "evacuate",
+            "call_for_help"
+          ],
+          "checks": [
+            "knownSpells",
+            "defense",
+            "courage"
+          ]
+        },
+        {
+          "id": "aftermath",
+          "title": "善后与记录",
+          "actions": [
+            "aid_injured",
+            "report_evidence",
+            "rest"
+          ],
+          "checks": [
+            "healing",
+            "teacherTrust"
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "heroic",
+          "condition": {
+            "preparedAtLeast": 5,
+            "successfulChecksAtLeast": 2
+          },
+          "effects": {
+            "schoolReputation": 10,
+            "stress": 8,
+            "relationshipDelta": {
+              "targetNpc": 8
+            }
+          }
+        },
+        {
+          "id": "survivor",
+          "condition": {},
+          "effects": {
+            "stress": 5,
+            "skillXp": {
+              "defense": 3
+            }
+          }
+        }
+      ],
+      "noDirectVoldemortDuel": true,
+      "defeatDoesNotChangeCanon": true,
+      "difficulty": {
+        "base": 28,
+        "scaleBySchoolYear": true,
+        "allowNoncombatVictory": true,
+        "isOriginalGameBalance": true
+      }
+    },
+    {
+      "id": "era_1993_1994_boss",
+      "arcId": "era_1993_1994",
+      "title": "摄魂怪与夜间救援",
+      "type": "multi_stage_crisis",
+      "origin": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "historicalContext": {
+        "layer": "novel_canon",
+        "reference": "Harry Potter and the Prisoner of Azkaban：小天狼星逃脱、彼得逃走",
+        "verification": "needs_chapter_check"
+      },
+      "trigger": {
+        "afterChapterId": "era_1993_1994_chapter_08",
+        "window": {
+          "start": "1994-05-01",
+          "end": "1994-06-30"
+        },
+        "requiresEnrollment": true
+      },
+      "canonicalOutcome": "小天狼星逃脱、彼得逃走",
+      "playerRole": "外围救援、撤离、情报与防御；不可替代原著核心人物",
+      "phases": [
+        {
+          "id": "preparation",
+          "title": "情报与准备",
+          "actions": [
+            "study_clues",
+            "prepare_potions",
+            "seek_allies"
+          ],
+          "checks": [
+            "cluePoints",
+            "potions",
+            "relationships"
+          ]
+        },
+        {
+          "id": "confrontation",
+          "title": "危机应对",
+          "actions": [
+            "cast_defense",
+            "protect_friend",
+            "evacuate",
+            "call_for_help"
+          ],
+          "checks": [
+            "knownSpells",
+            "defense",
+            "courage"
+          ]
+        },
+        {
+          "id": "aftermath",
+          "title": "善后与记录",
+          "actions": [
+            "aid_injured",
+            "report_evidence",
+            "rest"
+          ],
+          "checks": [
+            "healing",
+            "teacherTrust"
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "heroic",
+          "condition": {
+            "preparedAtLeast": 5,
+            "successfulChecksAtLeast": 2
+          },
+          "effects": {
+            "schoolReputation": 10,
+            "stress": 8,
+            "relationshipDelta": {
+              "targetNpc": 8
+            }
+          }
+        },
+        {
+          "id": "survivor",
+          "condition": {},
+          "effects": {
+            "stress": 5,
+            "skillXp": {
+              "defense": 3
+            }
+          }
+        }
+      ],
+      "noDirectVoldemortDuel": true,
+      "defeatDoesNotChangeCanon": true,
+      "difficulty": {
+        "base": 36,
+        "scaleBySchoolYear": true,
+        "allowNoncombatVictory": true,
+        "isOriginalGameBalance": true
+      }
+    },
+    {
+      "id": "era_1994_1995_boss",
+      "arcId": "era_1994_1995",
+      "title": "迷宫外围黑魔法危机",
+      "type": "multi_stage_crisis",
+      "origin": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "historicalContext": {
+        "layer": "novel_canon",
+        "reference": "Harry Potter and the Goblet of Fire：伏地魔于墓地复活、塞德里克死亡",
+        "verification": "needs_chapter_check"
+      },
+      "trigger": {
+        "afterChapterId": "era_1994_1995_chapter_08",
+        "window": {
+          "start": "1995-05-01",
+          "end": "1995-06-30"
+        },
+        "requiresEnrollment": true
+      },
+      "canonicalOutcome": "伏地魔于墓地复活、塞德里克死亡",
+      "playerRole": "外围救援、撤离、情报与防御；不可替代原著核心人物",
+      "phases": [
+        {
+          "id": "preparation",
+          "title": "情报与准备",
+          "actions": [
+            "study_clues",
+            "prepare_potions",
+            "seek_allies"
+          ],
+          "checks": [
+            "cluePoints",
+            "potions",
+            "relationships"
+          ]
+        },
+        {
+          "id": "confrontation",
+          "title": "危机应对",
+          "actions": [
+            "cast_defense",
+            "protect_friend",
+            "evacuate",
+            "call_for_help"
+          ],
+          "checks": [
+            "knownSpells",
+            "defense",
+            "courage"
+          ]
+        },
+        {
+          "id": "aftermath",
+          "title": "善后与记录",
+          "actions": [
+            "aid_injured",
+            "report_evidence",
+            "rest"
+          ],
+          "checks": [
+            "healing",
+            "teacherTrust"
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "heroic",
+          "condition": {
+            "preparedAtLeast": 5,
+            "successfulChecksAtLeast": 2
+          },
+          "effects": {
+            "schoolReputation": 10,
+            "stress": 8,
+            "relationshipDelta": {
+              "targetNpc": 8
+            }
+          }
+        },
+        {
+          "id": "survivor",
+          "condition": {},
+          "effects": {
+            "stress": 5,
+            "skillXp": {
+              "defense": 3
+            }
+          }
+        }
+      ],
+      "noDirectVoldemortDuel": true,
+      "defeatDoesNotChangeCanon": true,
+      "difficulty": {
+        "base": 44,
+        "scaleBySchoolYear": true,
+        "allowNoncombatVictory": true,
+        "isOriginalGameBalance": true
+      }
+    },
+    {
+      "id": "era_1995_1996_boss",
+      "arcId": "era_1995_1996",
+      "title": "调查行动与纪律压迫",
+      "type": "multi_stage_crisis",
+      "origin": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "historicalContext": {
+        "layer": "novel_canon",
+        "reference": "Harry Potter and the Order of the Phoenix：神秘事务司战斗后魔法部承认伏地魔归来",
+        "verification": "needs_chapter_check"
+      },
+      "trigger": {
+        "afterChapterId": "era_1995_1996_chapter_08",
+        "window": {
+          "start": "1996-05-01",
+          "end": "1996-06-30"
+        },
+        "requiresEnrollment": true
+      },
+      "canonicalOutcome": "神秘事务司战斗后魔法部承认伏地魔归来",
+      "playerRole": "外围救援、撤离、情报与防御；不可替代原著核心人物",
+      "phases": [
+        {
+          "id": "preparation",
+          "title": "情报与准备",
+          "actions": [
+            "study_clues",
+            "prepare_potions",
+            "seek_allies"
+          ],
+          "checks": [
+            "cluePoints",
+            "potions",
+            "relationships"
+          ]
+        },
+        {
+          "id": "confrontation",
+          "title": "危机应对",
+          "actions": [
+            "cast_defense",
+            "protect_friend",
+            "evacuate",
+            "call_for_help"
+          ],
+          "checks": [
+            "knownSpells",
+            "defense",
+            "courage"
+          ]
+        },
+        {
+          "id": "aftermath",
+          "title": "善后与记录",
+          "actions": [
+            "aid_injured",
+            "report_evidence",
+            "rest"
+          ],
+          "checks": [
+            "healing",
+            "teacherTrust"
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "heroic",
+          "condition": {
+            "preparedAtLeast": 5,
+            "successfulChecksAtLeast": 2
+          },
+          "effects": {
+            "schoolReputation": 10,
+            "stress": 8,
+            "relationshipDelta": {
+              "targetNpc": 8
+            }
+          }
+        },
+        {
+          "id": "survivor",
+          "condition": {},
+          "effects": {
+            "stress": 5,
+            "skillXp": {
+              "defense": 3
+            }
+          }
+        }
+      ],
+      "noDirectVoldemortDuel": true,
+      "defeatDoesNotChangeCanon": true,
+      "difficulty": {
+        "base": 52,
+        "scaleBySchoolYear": true,
+        "allowNoncombatVictory": true,
+        "isOriginalGameBalance": true
+      }
+    },
+    {
+      "id": "era_1996_1997_boss",
+      "arcId": "era_1996_1997",
+      "title": "食死徒入侵时的守卫与撤离",
+      "type": "multi_stage_crisis",
+      "origin": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "historicalContext": {
+        "layer": "novel_canon",
+        "reference": "Harry Potter and the Half-Blood Prince：邓布利多在天文塔身亡",
+        "verification": "needs_chapter_check"
+      },
+      "trigger": {
+        "afterChapterId": "era_1996_1997_chapter_08",
+        "window": {
+          "start": "1997-05-01",
+          "end": "1997-06-30"
+        },
+        "requiresEnrollment": true
+      },
+      "canonicalOutcome": "邓布利多在天文塔身亡",
+      "playerRole": "外围救援、撤离、情报与防御；不可替代原著核心人物",
+      "phases": [
+        {
+          "id": "preparation",
+          "title": "情报与准备",
+          "actions": [
+            "study_clues",
+            "prepare_potions",
+            "seek_allies"
+          ],
+          "checks": [
+            "cluePoints",
+            "potions",
+            "relationships"
+          ]
+        },
+        {
+          "id": "confrontation",
+          "title": "危机应对",
+          "actions": [
+            "cast_defense",
+            "protect_friend",
+            "evacuate",
+            "call_for_help"
+          ],
+          "checks": [
+            "knownSpells",
+            "defense",
+            "courage"
+          ]
+        },
+        {
+          "id": "aftermath",
+          "title": "善后与记录",
+          "actions": [
+            "aid_injured",
+            "report_evidence",
+            "rest"
+          ],
+          "checks": [
+            "healing",
+            "teacherTrust"
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "heroic",
+          "condition": {
+            "preparedAtLeast": 5,
+            "successfulChecksAtLeast": 2
+          },
+          "effects": {
+            "schoolReputation": 10,
+            "stress": 8,
+            "relationshipDelta": {
+              "targetNpc": 8
+            }
+          }
+        },
+        {
+          "id": "survivor",
+          "condition": {},
+          "effects": {
+            "stress": 5,
+            "skillXp": {
+              "defense": 3
+            }
+          }
+        }
+      ],
+      "noDirectVoldemortDuel": true,
+      "defeatDoesNotChangeCanon": true,
+      "difficulty": {
+        "base": 60,
+        "scaleBySchoolYear": true,
+        "allowNoncombatVictory": true,
+        "isOriginalGameBalance": true
+      }
+    },
+    {
+      "id": "era_1997_1998_boss",
+      "arcId": "era_1997_1998",
+      "title": "霍格沃茨大战局部防御",
+      "type": "multi_stage_crisis",
+      "origin": {
+        "layer": "original",
+        "canonClaim": false
+      },
+      "historicalContext": {
+        "layer": "novel_canon",
+        "reference": "Harry Potter and the Deathly Hallows：伏地魔由哈利击败、战役结束",
+        "verification": "needs_chapter_check"
+      },
+      "trigger": {
+        "afterChapterId": "era_1997_1998_chapter_08",
+        "window": {
+          "start": "1998-05-01",
+          "end": "1998-06-30"
+        },
+        "requiresEnrollment": true
+      },
+      "canonicalOutcome": "伏地魔由哈利击败、战役结束",
+      "playerRole": "外围救援、撤离、情报与防御；不可替代原著核心人物",
+      "phases": [
+        {
+          "id": "preparation",
+          "title": "情报与准备",
+          "actions": [
+            "study_clues",
+            "prepare_potions",
+            "seek_allies"
+          ],
+          "checks": [
+            "cluePoints",
+            "potions",
+            "relationships"
+          ]
+        },
+        {
+          "id": "confrontation",
+          "title": "危机应对",
+          "actions": [
+            "cast_defense",
+            "protect_friend",
+            "evacuate",
+            "call_for_help"
+          ],
+          "checks": [
+            "knownSpells",
+            "defense",
+            "courage"
+          ]
+        },
+        {
+          "id": "aftermath",
+          "title": "善后与记录",
+          "actions": [
+            "aid_injured",
+            "report_evidence",
+            "rest"
+          ],
+          "checks": [
+            "healing",
+            "teacherTrust"
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "heroic",
+          "condition": {
+            "preparedAtLeast": 5,
+            "successfulChecksAtLeast": 2
+          },
+          "effects": {
+            "schoolReputation": 10,
+            "stress": 8,
+            "relationshipDelta": {
+              "targetNpc": 8
+            }
+          }
+        },
+        {
+          "id": "survivor",
+          "condition": {},
+          "effects": {
+            "stress": 5,
+            "skillXp": {
+              "defense": 3
+            }
+          }
+        }
+      ],
+      "noDirectVoldemortDuel": true,
+      "defeatDoesNotChangeCanon": true,
+      "difficulty": {
+        "base": 68,
+        "scaleBySchoolYear": true,
+        "allowNoncombatVictory": true,
+        "isOriginalGameBalance": true
+      }
+    }
+  ]
+}

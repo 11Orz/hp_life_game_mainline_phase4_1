@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_conditions",
+  "description": "疾病、病程、症状与严重程度",
+  "items": [
+    {
+      "id": "dragon_pox",
+      "name": "龙痘疮",
+      "description": "巫师界已知的魔法疾病",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "category": "disease",
+      "severity": "variable",
+      "gameplayModel": "requires_assessment"
+    },
+    {
+      "id": "spattergroit",
+      "name": "散花痘",
+      "description": "具有传染性的魔法疾病；相关症状在原著被用作掩护",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "category": "disease",
+      "severity": "variable",
+      "gameplayModel": "requires_assessment"
+    },
+    {
+      "id": "vanishing_sickness",
+      "name": "消失病",
+      "description": "官方医疗百科提及的魔法疾病",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "category": "disease",
+      "severity": "variable",
+      "gameplayModel": "requires_assessment"
+    },
+    {
+      "id": "petrification",
+      "name": "石化",
+      "description": "密室事件中出现的石化状态，成熟曼德拉草制成的药剂可用于恢复",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/a-wizards-first-aid-kit"
+      ],
+      "category": "disease",
+      "severity": "variable",
+      "gameplayModel": "requires_assessment"
+    },
+    {
+      "id": "boils",
+      "name": "疖肿",
+      "description": "可以用对应魔药治疗的常见问题",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/a-wizards-first-aid-kit"
+      ],
+      "category": "disease",
+      "severity": "variable",
+      "gameplayModel": "requires_assessment"
+    },
+    {
+      "id": "obscurial",
+      "name": "默然者相关危险状态",
+      "description": "长期压抑魔法可能形成默默然；罕见、危险且不应作为普通可治愈疾病",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/obscurial"
+      ],
+      "category": "disease",
+      "severity": "variable",
+      "gameplayModel": "requires_assessment"
+    },
+    {
+      "id": "long_term_spell_damage",
+      "name": "长期咒语伤害",
+      "description": "严重魔法损伤可能需要长期照护",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/magical-miscellany/healing"
+      ],
+      "category": "disease",
+      "severity": "variable",
+      "gameplayModel": "requires_assessment"
+    },
+    {
+      "id": "magical_fatigue",
+      "name": "魔法过劳",
+      "description": "原创可选病况，必须通过症状、检查与证据区分原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "symptoms": [
+        "fatigue",
+        "discomfort"
+      ],
+      "severity": "mild_to_severe",
+      "gameplayModel": "original"
+    },
+    {
+      "id": "potion_irritation",
+      "name": "魔药刺激反应",
+      "description": "原创可选病况，必须通过症状、检查与证据区分原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "symptoms": [
+        "fatigue",
+        "discomfort"
+      ],
+      "severity": "mild_to_severe",
+      "gameplayModel": "original"
+    },
+    {
+      "id": "post_accident_anxiety",
+      "name": "事故后应激反应",
+      "description": "原创可选病况，必须通过症状、检查与证据区分原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "symptoms": [
+        "fatigue",
+        "discomfort"
+      ],
+      "severity": "mild_to_severe",
+      "gameplayModel": "original"
+    },
+    {
+      "id": "recurrent_hex_sensitivity",
+      "name": "反复恶咒敏感",
+      "description": "原创可选病况，必须通过症状、检查与证据区分原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "symptoms": [
+        "fatigue",
+        "discomfort"
+      ],
+      "severity": "mild_to_severe",
+      "gameplayModel": "original"
+    },
+    {
+      "id": "sleep_disturbance",
+      "name": "事故后睡眠障碍",
+      "description": "原创可选病况，必须通过症状、检查与证据区分原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "symptoms": [
+        "fatigue",
+        "discomfort"
+      ],
+      "severity": "mild_to_severe",
+      "gameplayModel": "original"
+    },
+    {
+      "id": "transfiguration_instability",
+      "name": "变形不稳定",
+      "description": "原创可选病况，必须通过症状、检查与证据区分原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "symptoms": [
+        "fatigue",
+        "discomfort"
+      ],
+      "severity": "mild_to_severe",
+      "gameplayModel": "original"
+    },
+    {
+      "id": "magical_fever",
+      "name": "魔力性发热",
+      "description": "原创可选病况，必须通过症状、检查与证据区分原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "symptoms": [
+        "fatigue",
+        "discomfort"
+      ],
+      "severity": "mild_to_severe",
+      "gameplayModel": "original"
+    },
+    {
+      "id": "unknown_toxin",
+      "name": "未知毒素反应",
+      "description": "原创可选病况，必须通过症状、检查与证据区分原因",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "symptoms": [
+        "fatigue",
+        "discomfort"
+      ],
+      "severity": "mild_to_severe",
+      "gameplayModel": "original"
+    }
+  ]
+}

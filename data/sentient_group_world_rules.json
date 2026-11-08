@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_world_rules",
+  "description": "18条世界一致性和系统联动规则",
+  "records": [
+    {
+      "id": "canon_protection",
+      "name": "正史固定事件不能改写",
+      "summary": "正史固定事件不能改写",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "individuality",
+      "name": "不能根据族群自动确定个人好恶",
+      "summary": "不能根据族群自动确定个人好恶",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "privacy",
+      "name": "私人身份与病历不可随意公开",
+      "summary": "私人身份与病历不可随意公开",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "time_guard",
+      "name": "未发生的历史事件不得提前传播",
+      "summary": "未发生的历史事件不得提前传播",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "no_stereotype",
+      "name": "族群声望不得自动覆盖个人态度",
+      "summary": "族群声望不得自动覆盖个人态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "no_instant_peace",
+      "name": "一次对话不能解决历史结构性冲突",
+      "summary": "一次对话不能解决历史结构性冲突",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "promises",
+      "name": "承诺必须留痕并允许履约或违约",
+      "summary": "承诺必须留痕并允许履约或违约",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "reputation_clamp",
+      "name": "关系数值限制在0至100",
+      "summary": "关系数值限制在0至100",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "date_idempotence",
+      "name": "同一日期每日结算只执行一次",
+      "summary": "同一日期每日结算只执行一次",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "npc_opinion_bridge",
+      "name": "通过共享舆论状态记录曝光与观点变化",
+      "summary": "通过共享舆论状态记录曝光与观点变化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "medical_bridge",
+      "name": "伤病交由医疗引擎处理",
+      "summary": "伤病交由医疗引擎处理",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "law_bridge",
+      "name": "法律结果不得由声望直接覆盖",
+      "summary": "法律结果不得由声望直接覆盖",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "media_bridge",
+      "name": "新闻叙事与事实分别存储",
+      "summary": "新闻叙事与事实分别存储",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "canon_npc_guard",
+      "name": "正史NPC不由原创声望引擎直接改写",
+      "summary": "正史NPC不由原创声望引擎直接改写",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "save_compatibility",
+      "name": "旧存档延迟初始化",
+      "summary": "旧存档延迟初始化",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "cooldown",
+      "name": "同一人物同一事件互动存在冷却",
+      "summary": "同一人物同一事件互动存在冷却",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "locality",
+      "name": "声望按当地社群存储",
+      "summary": "声望按当地社群存储",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    },
+    {
+      "id": "source_labels",
+      "name": "原著摘要与原创规则必须区分",
+      "summary": "原著摘要与原创规则必须区分",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "enabled": true
+    }
+  ]
+}

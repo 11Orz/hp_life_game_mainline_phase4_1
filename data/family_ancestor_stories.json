@@ -1,0 +1,1852 @@
+{
+  "schema_version": "1.0.0",
+  "system": "family_social",
+  "dataset": "family_ancestor_stories",
+  "description": "12套四章节原创祖先故事骨架；非小说原文，含证据不足和证伪结局。",
+  "sources": {
+    "novels": "https://www.hogwarts-universe.info/family-trees/",
+    "black_tree": "https://www.hp-lexicon.org/source/other-canon/bft/",
+    "black_family": "https://www.hp-lexicon.org/character/black-family/",
+    "sacred28": "https://www.hp-lexicon.org/thing/the-sacred-twenty-eight/",
+    "peverell": "https://www.hp-lexicon.org/character/peverell-family/",
+    "gaunt": "https://www.hp-lexicon.org/character/gaunt-family/"
+  },
+  "items": [
+    {
+      "id": "ancestor_story_001",
+      "title": "祖先故事：烧毁的名字",
+      "canon_status": "game_original",
+      "house_id": "black",
+      "secret_id": "secret_001",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_001:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 30,
+      "chapters": [
+        {
+          "id": "story_001_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_001_ch1_a",
+            "story_001_ch1_b"
+          ],
+          "scene": "在图书馆的地方史索引里，你发现一条被墨迹遮去的姓名。边缘批注写着：名字被抹去，不代表此人从未存在。",
+          "choices": [
+            {
+              "id": "story_001_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_001_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_001_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_001_ch2_a",
+            "story_001_ch2_b"
+          ],
+          "scene": "你将残页与旧登记簿比对，发现两处日期互相矛盾。有人刻意误导调查者，也可能只是抄写错误。",
+          "choices": [
+            {
+              "id": "story_001_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_001_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_001_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_001_ch3_a",
+            "story_001_ch3_b"
+          ],
+          "scene": "一封私人信件揭示，当事人曾在家族忠诚与保护友人之间犹豫。记录者并不可靠。",
+          "choices": [
+            {
+              "id": "story_001_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_001_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_001_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_001_ch4_a",
+            "story_001_ch4_b"
+          ],
+          "scene": "你需要决定如何整理证据：公布可核实的事实，还是保留尚无依据的猜想。",
+          "choices": [
+            {
+              "id": "story_001_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_001_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_002",
+      "title": "祖先故事：普威特的旧表",
+      "canon_status": "game_original",
+      "house_id": "prewett",
+      "secret_id": "secret_002",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_002:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 40,
+      "chapters": [
+        {
+          "id": "story_002_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_002_ch1_a",
+            "story_002_ch1_b"
+          ],
+          "scene": "旧怀表停在一个没有特别意义的时刻，表盖里却刻着两个人的姓名缩写。",
+          "choices": [
+            {
+              "id": "story_002_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_002_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_002_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_002_ch2_a",
+            "story_002_ch2_b"
+          ],
+          "scene": "你查阅旧报纸与战争时期的物品登记，发现怀表曾被转交给一名陌生人。",
+          "choices": [
+            {
+              "id": "story_002_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_002_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_002_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_002_ch3_a",
+            "story_002_ch3_b"
+          ],
+          "scene": "留下怀表的人可能是为了纪念失去的同伴，也可能是为了保护他们的身份。",
+          "choices": [
+            {
+              "id": "story_002_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_002_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_002_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_002_ch4_a",
+            "story_002_ch4_b"
+          ],
+          "scene": "怀表的故事可以归档，但它不能单独证明你与普威特家族有血缘联系。",
+          "choices": [
+            {
+              "id": "story_002_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_002_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_003",
+      "title": "祖先故事：隐形衣传承笔记",
+      "canon_status": "game_original",
+      "house_id": "potter",
+      "secret_id": "secret_003",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_003:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 50,
+      "chapters": [
+        {
+          "id": "story_003_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_003_ch1_a",
+            "story_003_ch1_b"
+          ],
+          "scene": "一份旧书目提到一件被世代保存的隐形遗物，文字却没有写明持有人。",
+          "choices": [
+            {
+              "id": "story_003_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_003_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_003_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_003_ch2_a",
+            "story_003_ch2_b"
+          ],
+          "scene": "你将书目与已知的波特家族史核对，发现年代相符不等于物品相同。",
+          "choices": [
+            {
+              "id": "story_003_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_003_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_003_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_003_ch3_a",
+            "story_003_ch3_b"
+          ],
+          "scene": "一位研究者提醒你：家族传承往往夹杂传闻，不能靠一张纸决定继承权。",
+          "choices": [
+            {
+              "id": "story_003_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_003_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_003_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_003_ch4_a",
+            "story_003_ch4_b"
+          ],
+          "scene": "你可以保存研究笔记，或公开指出错误的家谱推断。",
+          "choices": [
+            {
+              "id": "story_003_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_003_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_004",
+      "title": "祖先故事：银色徽章",
+      "canon_status": "game_original",
+      "house_id": "malfoy",
+      "secret_id": "secret_004",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_004:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 20,
+      "chapters": [
+        {
+          "id": "story_004_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_004_ch1_a",
+            "story_004_ch1_b"
+          ],
+          "scene": "一枚银色徽章出现在旧货店的收购记录中，背面刻着无法辨认的家族格言。",
+          "choices": [
+            {
+              "id": "story_004_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_004_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_004_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_004_ch2_a",
+            "story_004_ch2_b"
+          ],
+          "scene": "你发现徽章的制作年代早于登记日期，推测它曾被多次转手。",
+          "choices": [
+            {
+              "id": "story_004_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_004_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_004_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_004_ch3_a",
+            "story_004_ch3_b"
+          ],
+          "scene": "一名收藏家愿意高价购买它，但无法证明徽章真正的主人。",
+          "choices": [
+            {
+              "id": "story_004_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_004_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_004_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_004_ch4_a",
+            "story_004_ch4_b"
+          ],
+          "scene": "你需要决定保留徽章作为证据，还是交给公共档案馆。",
+          "choices": [
+            {
+              "id": "story_004_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_004_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_005",
+      "title": "祖先故事：古老戒指的拓印",
+      "canon_status": "game_original",
+      "house_id": "gaunt",
+      "secret_id": "secret_005",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_005:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 30,
+      "chapters": [
+        {
+          "id": "story_005_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_005_ch1_a",
+            "story_005_ch1_b"
+          ],
+          "scene": "你在旧档案中发现一幅戒指纹样拓印，旁边的名字被故意刮去。",
+          "choices": [
+            {
+              "id": "story_005_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_005_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_005_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_005_ch2_a",
+            "story_005_ch2_b"
+          ],
+          "scene": "你比较数份不同来源的拓印，发现其中一份可能是后世仿制。",
+          "choices": [
+            {
+              "id": "story_005_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_005_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_005_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_005_ch3_a",
+            "story_005_ch3_b"
+          ],
+          "scene": "一名目击者声称戒指带有强大魔法，但没有独立证据支持。",
+          "choices": [
+            {
+              "id": "story_005_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_005_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_005_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_005_ch4_a",
+            "story_005_ch4_b"
+          ],
+          "scene": "研究结束时，你只能对文献真伪作出判断，不能据此获得传奇魔法。",
+          "choices": [
+            {
+              "id": "story_005_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_005_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_006",
+      "title": "祖先故事：失落的校友录",
+      "canon_status": "game_original",
+      "house_id": "dumbledore",
+      "secret_id": "secret_006",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_006:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 40,
+      "chapters": [
+        {
+          "id": "story_006_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_006_ch1_a",
+            "story_006_ch1_b"
+          ],
+          "scene": "校友录缺失了一页，纸张断口上留着旧时修订痕迹。",
+          "choices": [
+            {
+              "id": "story_006_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_006_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_006_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_006_ch2_a",
+            "story_006_ch2_b"
+          ],
+          "scene": "你调查校友录的保存历史，发现缺页可能源于一次普通的搬迁事故。",
+          "choices": [
+            {
+              "id": "story_006_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_006_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_006_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_006_ch3_a",
+            "story_006_ch3_b"
+          ],
+          "scene": "有人坚持认为缺页藏着家族丑闻，但说法并不一致。",
+          "choices": [
+            {
+              "id": "story_006_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_006_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_006_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_006_ch4_a",
+            "story_006_ch4_b"
+          ],
+          "scene": "你将缺页的事实与流传的解释分别记录，避免将猜测写成结论。",
+          "choices": [
+            {
+              "id": "story_006_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_006_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_007",
+      "title": "祖先故事：继承纠纷",
+      "canon_status": "game_original",
+      "house_id": "black",
+      "secret_id": "secret_007",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_007:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 50,
+      "chapters": [
+        {
+          "id": "story_007_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_007_ch1_a",
+            "story_007_ch1_b"
+          ],
+          "scene": "一份旧遗嘱的副本出现了两种相互矛盾的抄本。",
+          "choices": [
+            {
+              "id": "story_007_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_007_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_007_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_007_ch2_a",
+            "story_007_ch2_b"
+          ],
+          "scene": "你查找证人签名和财产登记，发现抄本可能在不同时期被修改。",
+          "choices": [
+            {
+              "id": "story_007_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_007_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_007_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_007_ch3_a",
+            "story_007_ch3_b"
+          ],
+          "scene": "受益者的后人争论不休，争议背后还有未被听见的声音。",
+          "choices": [
+            {
+              "id": "story_007_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_007_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_007_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_007_ch4_a",
+            "story_007_ch4_b"
+          ],
+          "scene": "你可以建议重新核验档案，而不是直接宣布自己拥有继承权。",
+          "choices": [
+            {
+              "id": "story_007_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_007_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_008",
+      "title": "祖先故事：跨国来信",
+      "canon_status": "game_original",
+      "house_id": "weasley",
+      "secret_id": "secret_008",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_008:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 20,
+      "chapters": [
+        {
+          "id": "story_008_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_008_ch1_a",
+            "story_008_ch1_b"
+          ],
+          "scene": "一封跨国来信没有署名，只写着一处模糊的邮寄地点。",
+          "choices": [
+            {
+              "id": "story_008_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_008_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_008_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_008_ch2_a",
+            "story_008_ch2_b"
+          ],
+          "scene": "你通过邮戳和旅行记录缩小了寄信者可能生活的年代。",
+          "choices": [
+            {
+              "id": "story_008_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_008_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_008_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_008_ch3_a",
+            "story_008_ch3_b"
+          ],
+          "scene": "来信提到一次家庭分歧，但没有明确说明任何人的血缘关系。",
+          "choices": [
+            {
+              "id": "story_008_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_008_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_008_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_008_ch4_a",
+            "story_008_ch4_b"
+          ],
+          "scene": "你决定将它作为家族文化史材料保存，而非血缘证明。",
+          "choices": [
+            {
+              "id": "story_008_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_008_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_009",
+      "title": "祖先故事：战时名单",
+      "canon_status": "game_original",
+      "house_id": "longbottom",
+      "secret_id": "secret_009",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_009:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 30,
+      "chapters": [
+        {
+          "id": "story_009_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_009_ch1_a",
+            "story_009_ch1_b"
+          ],
+          "scene": "一张战争时期的名单记录了失踪者，但有些名字旁边的注释被涂掉。",
+          "choices": [
+            {
+              "id": "story_009_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_009_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_009_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_009_ch2_a",
+            "story_009_ch2_b"
+          ],
+          "scene": "你核对不同来源的名单，发现有人在战后被错误登记。",
+          "choices": [
+            {
+              "id": "story_009_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_009_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_009_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_009_ch3_a",
+            "story_009_ch3_b"
+          ],
+          "scene": "名单背后是具体的人和家庭，而不是可供炫耀的家族荣耀。",
+          "choices": [
+            {
+              "id": "story_009_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_009_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_009_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_009_ch4_a",
+            "story_009_ch4_b"
+          ],
+          "scene": "你可以协助补充失踪者资料，并保护仍在世者的隐私。",
+          "choices": [
+            {
+              "id": "story_009_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_009_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_010",
+      "title": "祖先故事：假族谱",
+      "canon_status": "game_original",
+      "house_id": "malfoy",
+      "secret_id": "secret_010",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_010:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 40,
+      "chapters": [
+        {
+          "id": "story_010_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_010_ch1_a",
+            "story_010_ch1_b"
+          ],
+          "scene": "一份声称连接数个古老家族的谱系图突然出现，卖家急于成交。",
+          "choices": [
+            {
+              "id": "story_010_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_010_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_010_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_010_ch2_a",
+            "story_010_ch2_b"
+          ],
+          "scene": "你发现图上两个人的出生年份相差不足以构成声称的亲子关系。",
+          "choices": [
+            {
+              "id": "story_010_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_010_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_010_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_010_ch3_a",
+            "story_010_ch3_b"
+          ],
+          "scene": "售卖者承认部分信息来自未经核实的传闻。",
+          "choices": [
+            {
+              "id": "story_010_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_010_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_010_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_010_ch4_a",
+            "story_010_ch4_b"
+          ],
+          "scene": "你选择揭穿伪造，或将证据交给研究机构存档。",
+          "choices": [
+            {
+              "id": "story_010_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_010_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_011",
+      "title": "祖先故事：收养契约",
+      "canon_status": "game_original",
+      "house_id": "tonks",
+      "secret_id": "secret_011",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_011:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 50,
+      "chapters": [
+        {
+          "id": "story_011_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_011_ch1_a",
+            "story_011_ch1_b"
+          ],
+          "scene": "一份监护契约记录了一个孩子曾被另一户家庭照顾。",
+          "choices": [
+            {
+              "id": "story_011_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_011_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_011_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_011_ch2_a",
+            "story_011_ch2_b"
+          ],
+          "scene": "你查阅契约的签署背景，发现监护关系与生物学亲缘不能混为一谈。",
+          "choices": [
+            {
+              "id": "story_011_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_011_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_011_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_011_ch3_a",
+            "story_011_ch3_b"
+          ],
+          "scene": "档案中的当事人可能希望保留自己的隐私，而不是被陌生人追问。",
+          "choices": [
+            {
+              "id": "story_011_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_011_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_011_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_011_ch4_a",
+            "story_011_ch4_b"
+          ],
+          "scene": "你决定尊重当事人的意愿，只保存必要的历史事实。",
+          "choices": [
+            {
+              "id": "story_011_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_011_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    },
+    {
+      "id": "ancestor_story_012",
+      "title": "祖先故事：旧照片上的陌生人",
+      "canon_status": "game_original",
+      "house_id": "potter",
+      "secret_id": "secret_012",
+      "unlock": {
+        "all": [
+          "secret_investigation_complete",
+          "secret:secret_012:evidence_at_least_3"
+        ]
+      },
+      "estimated_minutes": 20,
+      "chapters": [
+        {
+          "id": "story_012_ch1",
+          "title": "意外的线索",
+          "summary": "玩家得到一条年代模糊的历史线索",
+          "choice_ids": [
+            "story_012_ch1_a",
+            "story_012_ch1_b"
+          ],
+          "scene": "旧照片背面写着一个陌生名字，却没有拍摄日期。",
+          "choices": [
+            {
+              "id": "story_012_ch1_a",
+              "label": "谨慎记录证据",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_012_ch1_b",
+              "label": "大胆追查传闻",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_012_ch2",
+          "title": "交叉核对",
+          "summary": "访问记录与不同证人，识别矛盾",
+          "choice_ids": [
+            "story_012_ch2_a",
+            "story_012_ch2_b"
+          ],
+          "scene": "你从服饰和相纸工艺推断了年代，但人物身份仍未确定。",
+          "choices": [
+            {
+              "id": "story_012_ch2_a",
+              "label": "核对不同来源",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_012_ch2_b",
+              "label": "依赖单一证词",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_012_ch3",
+          "title": "旧日的抉择",
+          "summary": "理解历史人物当年的处境与代价",
+          "choice_ids": [
+            "story_012_ch3_a",
+            "story_012_ch3_b"
+          ],
+          "scene": "两名知情人的记忆互相冲突；其中一人可能把不同事件混在了一起。",
+          "choices": [
+            {
+              "id": "story_012_ch3_a",
+              "label": "听取多方叙述",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_012_ch3_b",
+              "label": "相信未经证实的说法",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        },
+        {
+          "id": "story_012_ch4",
+          "title": "归档与传承",
+          "summary": "确定哪些结论有证据，哪些仍是猜测",
+          "choice_ids": [
+            "story_012_ch4_a",
+            "story_012_ch4_b"
+          ],
+          "scene": "你为照片建立不确定性标记，而不是将陌生人直接添加为祖先。",
+          "choices": [
+            {
+              "id": "story_012_ch4_a",
+              "label": "如实归档",
+              "effects": {
+                "research": 2,
+                "integrity": 1
+              }
+            },
+            {
+              "id": "story_012_ch4_b",
+              "label": "公开推测",
+              "effects": {
+                "research": 1,
+                "integrity": -1
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "documented",
+          "condition": "evidence_verified",
+          "effect": "archive_story"
+        },
+        {
+          "id": "inconclusive",
+          "condition": "evidence_insufficient",
+          "effect": "mark_unresolved"
+        },
+        {
+          "id": "debunked",
+          "condition": "evidence_disproves",
+          "effect": "correct_family_tree"
+        }
+      ],
+      "reward": {
+        "knowledge": 2,
+        "heirloom_item_id": null,
+        "magic_power": 0
+      },
+      "replayable": true,
+      "optional": true,
+      "source_disclaimer": "原创调查剧情；发现与正史家族相关的史料，不代表玩家与该家族存在血缘。"
+    }
+  ]
+}

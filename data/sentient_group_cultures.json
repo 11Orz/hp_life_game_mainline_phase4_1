@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "sentient_group_cultures",
+  "description": "文化知识、礼仪与禁忌；原创交互数值",
+  "records": [
+    {
+      "id": "culture_goblins",
+      "name": "妖精文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "goblins",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_centaurs",
+      "name": "马人文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "centaurs",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_merpeople",
+      "name": "人鱼文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "merpeople",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_house_elves",
+      "name": "家养小精灵文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "house_elves",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_giants",
+      "name": "巨人文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "giants",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_werewolves",
+      "name": "狼人文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "werewolves",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_vampires",
+      "name": "吸血鬼文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "vampires",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_veela",
+      "name": "媚娃文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "veela",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_ghosts",
+      "name": "幽灵文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "ghosts",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_hags",
+      "name": "女巫婆文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "hags",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_trolls",
+      "name": "巨怪文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "trolls",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "culture_sphinxes",
+      "name": "斯芬克斯文化交往",
+      "summary": "与该群体交流时须先了解个人与当地规范；禁止用群体标签决定个体态度",
+      "canon_level": "game_original",
+      "source_urls": [],
+      "group_id": "sphinxes",
+      "customs": [
+        "征询同意",
+        "尊重个人边界"
+      ],
+      "taboos": [
+        "强制命令",
+        "未经许可公开私人信息"
+      ],
+      "knowledge_gain": 8
+    },
+    {
+      "id": "goblin_craft",
+      "name": "妖精工艺权属",
+      "summary": "妖精对制造品所有权与巫师常有不同理解",
+      "canon_level": "canon_summary",
+      "source_urls": [],
+      "group_id": "goblins",
+      "customs": [
+        "明确物品使用权与归还条件"
+      ],
+      "taboos": [
+        "默认购买即永久拥有全部权利"
+      ],
+      "knowledge_gain": 12
+    },
+    {
+      "id": "centaur_territory",
+      "name": "马人领地自治",
+      "summary": "进入禁林马人活动区应尊重领地与自治",
+      "canon_level": "canon_summary",
+      "source_urls": [],
+      "group_id": "centaurs",
+      "customs": [
+        "征求通行许可"
+      ],
+      "taboos": [
+        "命令马人服务巫师"
+      ],
+      "knowledge_gain": 10
+    },
+    {
+      "id": "elf_autonomy",
+      "name": "家养小精灵意愿",
+      "summary": "自由与劳动关系需要倾听个体意愿",
+      "canon_level": "canon_summary",
+      "source_urls": [],
+      "group_id": "house_elves",
+      "customs": [
+        "先询问当事者的选择"
+      ],
+      "taboos": [
+        "擅自代表当事者决定"
+      ],
+      "knowledge_gain": 12
+    },
+    {
+      "id": "merpeople_language",
+      "name": "人鱼语言与沟通",
+      "summary": "人鱼语言的理解依赖环境与学习",
+      "canon_level": "canon_summary",
+      "source_urls": [],
+      "group_id": "merpeople",
+      "customs": [
+        "借助翻译与尊重水域"
+      ],
+      "taboos": [
+        "将语言差异视为敌意"
+      ],
+      "knowledge_gain": 10
+    }
+  ]
+}

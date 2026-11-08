@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "system": "medical_disease_accidents",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "generatedAt": "2026-11-08",
+    "sourcePolicy": "官方来源为事实摘要；数值、任务、机制均原创，不复刻书籍全文"
+  },
+  "id": "medical_injuries",
+  "description": "战斗、校园和日常伤害",
+  "items": [
+    {
+      "id": "broom_fall",
+      "name": "扫帚坠落伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "fall",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "quidditch_blunt",
+      "name": "魁地奇钝伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "impact",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "fracture",
+      "name": "骨折",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "impact",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "bone_loss",
+      "name": "骨骼消失",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/fact-file/plants-and-potions/skele-gro"
+      ],
+      "cause": "spell",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "splinching",
+      "name": "幻影显形分体",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [
+        "https://www.harrypotter.com/features/harry-potter-101-wizarding-plants"
+      ],
+      "cause": "apparition",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "curse_cut",
+      "name": "黑魔法切割伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "curse",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": true
+    },
+    {
+      "id": "creature_bite",
+      "name": "魔法生物咬伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "creature",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "potion_burn",
+      "name": "魔药灼伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "potion",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "cauldron_blast",
+      "name": "坩埚爆炸伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "potion",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "plant_strangle",
+      "name": "魔法植物缠绕伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "plant",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "wand_backfire",
+      "name": "魔杖反噬伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "spell",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "flying_collision",
+      "name": "飞行碰撞伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "transport",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "fall_stairs",
+      "name": "楼梯跌伤",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "fall",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    },
+    {
+      "id": "ear_loss",
+      "name": "诅咒导致的组织缺损",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "canon_summary",
+      "sourceUrls": [],
+      "cause": "curse",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": true
+    },
+    {
+      "id": "poisoning",
+      "name": "中毒",
+      "description": "伤害机制条目；是否可治愈取决于实际原因及治疗手段",
+      "canonLayer": "original",
+      "sourceUrls": [],
+      "cause": "toxin",
+      "bodyParts": [
+        "variable"
+      ],
+      "severityRange": [
+        1,
+        5
+      ],
+      "recoveryRule": "diagnose_then_treat",
+      "persistentRisk": false
+    }
+  ]
+}

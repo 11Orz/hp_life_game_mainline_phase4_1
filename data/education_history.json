@@ -1,0 +1,1755 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataset": "hp_magic_education_1900_2021",
+  "language": "zh-CN",
+  "coverage": {
+    "startYear": 1900,
+    "endYear": 2021
+  },
+  "methodology": {
+    "sourcePriority": {
+      "1": "七部原著小说（章节定位）",
+      "2": "罗琳官方补充设定、官方百科与文章（官方编辑文章并非全部罗琳亲笔）",
+      "3": "神奇动物剧本及被诅咒的孩子（扩展层）",
+      "4": "Lexicon、MuggleNet、Wiki等二手索引",
+      "5": "原创游戏机制（非正史）"
+    },
+    "certaintyValues": [
+      "confirmed",
+      "approximate",
+      "inferred",
+      "invented"
+    ],
+    "canonLayerValues": [
+      "primary",
+      "expanded",
+      "original"
+    ],
+    "reviewStatusValues": [
+      "cross_checked",
+      "needs_primary_review",
+      "game_design"
+    ],
+    "important": "范围记录不是指每年发生一次；未核对原著全文，来源定位与日期标记需进一步复核；gameImpact为原创游戏机制。"
+  },
+  "sourceCatalog": [
+    {
+      "id": "HP_SUBJECTS",
+      "type": "official_article",
+      "title": "霍格沃茨课程与考试官方说明",
+      "url": "https://www.harrypotter.com/features/harry-potter-101-the-subjects",
+      "priority": 2
+    },
+    {
+      "id": "HP_OWL",
+      "type": "official_encyclopedia",
+      "title": "O.W.L.官方百科",
+      "url": "https://www.harrypotter.com/fact-file/magical-miscellany/o-w-l-s",
+      "priority": 2
+    },
+    {
+      "id": "JK_SCHOOLS",
+      "type": "rowling_writing",
+      "title": "罗琳：全球魔法学校",
+      "url": "https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools",
+      "priority": 2
+    },
+    {
+      "id": "JK_ILVER",
+      "type": "rowling_writing",
+      "title": "罗琳：伊法魔尼历史",
+      "url": "https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny",
+      "priority": 2
+    },
+    {
+      "id": "HP_ILVER",
+      "type": "official_encyclopedia",
+      "title": "伊法魔尼官方百科",
+      "url": "https://www.harrypotter.com/fact-file/locations/ilvermorny",
+      "priority": 2
+    },
+    {
+      "id": "HP_EXAMS",
+      "type": "official_article",
+      "title": "考试与职业官方文章",
+      "url": "https://www.harrypotter.com/features/how-important-are-wizarding-exams-in-the-wizarding-world",
+      "priority": 2
+    },
+    {
+      "id": "LEX_STAFF",
+      "type": "secondary_reference",
+      "title": "Lexicon 教职员工索引",
+      "url": "https://www.hp-lexicon.org/thing/hogwarts-staff/",
+      "priority": 4
+    },
+    {
+      "id": "LEX_HEAD",
+      "type": "secondary_reference",
+      "title": "Lexicon 校长索引",
+      "url": "https://www.hp-lexicon.org/thing/headmaster-headmistress/",
+      "priority": 4
+    },
+    {
+      "id": "LEX_EDICT",
+      "type": "secondary_reference",
+      "title": "Lexicon 教育令章节索引",
+      "url": "https://www.hp-lexicon.org/source/the-harry-potter-novels/op/op17/",
+      "priority": 4
+    },
+    {
+      "id": "LEX_TIMELINE",
+      "type": "secondary_reference",
+      "title": "Lexicon 历史时间线",
+      "url": "https://www.hp-lexicon.org/events-and-timelines/",
+      "priority": 4
+    },
+    {
+      "id": "LEX_HISTORY",
+      "type": "secondary_reference",
+      "title": "Lexicon 霍格沃茨历史",
+      "url": "https://www.hp-lexicon.org/thing/history-of-hogwarts/",
+      "priority": 4
+    },
+    {
+      "id": "HP_FOUND",
+      "type": "official_article",
+      "title": "霍格沃茨起源官方文章",
+      "url": "https://www.harrypotter.com/features/origins-of-hogwarts-school-of-witchcraft-and-wizardry",
+      "priority": 2
+    },
+    {
+      "id": "BOOK_PS",
+      "type": "novel",
+      "title": "《哈利·波特与魔法石》",
+      "priority": 1,
+      "note": "章节定位在单条记录中；尚未逐章复核的标为待核实"
+    },
+    {
+      "id": "BOOK_CS",
+      "type": "novel",
+      "title": "《哈利·波特与密室》",
+      "priority": 1,
+      "note": "章节定位在单条记录中；尚未逐章复核的标为待核实"
+    },
+    {
+      "id": "BOOK_PA",
+      "type": "novel",
+      "title": "《哈利·波特与阿兹卡班的囚徒》",
+      "priority": 1,
+      "note": "章节定位在单条记录中；尚未逐章复核的标为待核实"
+    },
+    {
+      "id": "BOOK_GF",
+      "type": "novel",
+      "title": "《哈利·波特与火焰杯》",
+      "priority": 1,
+      "note": "章节定位在单条记录中；尚未逐章复核的标为待核实"
+    },
+    {
+      "id": "BOOK_OP",
+      "type": "novel",
+      "title": "《哈利·波特与凤凰社》",
+      "priority": 1,
+      "note": "章节定位在单条记录中；尚未逐章复核的标为待核实"
+    },
+    {
+      "id": "BOOK_HBP",
+      "type": "novel",
+      "title": "《哈利·波特与混血王子》",
+      "priority": 1,
+      "note": "章节定位在单条记录中；尚未逐章复核的标为待核实"
+    },
+    {
+      "id": "BOOK_DH",
+      "type": "novel",
+      "title": "《哈利·波特与死亡圣器》",
+      "priority": 1,
+      "note": "章节定位在单条记录中；尚未逐章复核的标为待核实"
+    },
+    {
+      "id": "CC",
+      "type": "stage_play",
+      "title": "《哈利·波特与被诅咒的孩子》剧本",
+      "priority": 3
+    },
+    {
+      "id": "FB",
+      "type": "screenplay",
+      "title": "《神奇动物》系列电影/剧本",
+      "priority": 3
+    }
+  ],
+  "events": [
+    {
+      "id": "edu-hogwarts-exists",
+      "title": "霍格沃茨为英国巫师提供魔法教育",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "institution",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "学校在整个游戏时间窗内存在；四学院制是学校基础结构。",
+      "sources": [
+        {
+          "refId": "HP_FOUND",
+          "locator": "建校背景"
+        },
+        {
+          "refId": "BOOK_PS",
+          "locator": "第7章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "school_available",
+          "four_houses"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "eligible_for_hogwarts"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-hogwarts-entry",
+      "title": "霍格沃茨通常于11岁入学",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "rule",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "游戏将入学年龄设为11岁，常规学制为七学年；具体年份的录取与战时限制另行处理。",
+      "sources": [
+        {
+          "refId": "BOOK_PS",
+          "locator": "第3–7章"
+        },
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "学年与课程"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "age_11_admission"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "admission_letter"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-hogwarts-houses",
+      "title": "分院帽分配四学院",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "rule",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "学院分配与个人特质和选择有关，不应直接由血统唯一决定。",
+      "sources": [
+        {
+          "refId": "BOOK_PS",
+          "locator": "第7章"
+        },
+        {
+          "refId": "HP_FOUND",
+          "locator": "四学院介绍"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "house_assignment"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "sorting_ceremony"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-hogwarts-core",
+      "title": "一至五年级必修核心课程",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "curriculum",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "变形术、魔咒学、魔药学、草药学、黑魔法防御术、魔法史、天文学为核心科目。",
+      "sources": [
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "Compulsory subjects"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "core_courses"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "attend_classes",
+        "course_grades"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-flying",
+      "title": "一年级飞行课",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "curriculum",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "飞行课是一年级课程；不把其误设为每个年级的固定必修。",
+      "sources": [
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "First year subjects"
+        },
+        {
+          "refId": "BOOK_PS",
+          "locator": "第9章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "flying_first_year"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "flying_accident",
+        "flying_skill"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-electives",
+      "title": "二年级末选择三年级选修课",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "curriculum",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "至少选择两门选修课，选项包括算术占卜、古代魔文、占卜、保护神奇动物、麻瓜研究。",
+      "sources": [
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "Optional subjects"
+        },
+        {
+          "refId": "BOOK_CS",
+          "locator": "第14章附近，待逐章核实"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "elective_selection"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "choose_electives"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-owl",
+      "title": "五年级O.W.L.考试",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "exam",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "五年级标准化考试；O/E/A及格，P/D/T不及格；影响六七年级进阶课程。",
+      "sources": [
+        {
+          "refId": "HP_OWL",
+          "locator": "成绩等级"
+        },
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "O.W.L. exams"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "owl_exams",
+          "newt_eligibility"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "take_owls"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-newt",
+      "title": "七年级N.E.W.T.考试",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "exam",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "高阶资格考试影响职业选择；部分职业要求特定科目和等级。",
+      "sources": [
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "N.E.W.T. exams"
+        },
+        {
+          "refId": "HP_EXAMS",
+          "locator": "职业影响"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "newt_exams",
+          "career_qualification"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "take_newts"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-apparition",
+      "title": "六年级可参加幻影显形训练",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "curriculum",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "相关课程与17岁考试资格有关，未成年不应自动获得合法独立幻影显形能力。",
+      "sources": [
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "Apparition"
+        },
+        {
+          "refId": "BOOK_HBP",
+          "locator": "第18章附近，待复核"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "apparition_training"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "apparition_test"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-alchemy",
+      "title": "炼金术可按需求开设",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "curriculum",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "高年级的专门课程，在有足够需求时开设，不能默认每年必开。",
+      "sources": [
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "Additional optional subjects"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "conditional_alchemy"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "advanced_elective"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-career-guidance",
+      "title": "五年级职业指导",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "rule",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "职业咨询与后续课程选修有关；具体机制参考哈利第五学年，不推定所有时代流程完全相同。",
+      "sources": [
+        {
+          "refId": "BOOK_OP",
+          "locator": "第29章"
+        }
+      ],
+      "certainty": "inferred",
+      "reviewStatus": "needs_primary_review",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "career_guidance"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "career_counselling"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-global-eleven",
+      "title": "全球有十一所历史悠久且登记的魔法学校",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "institution",
+      "region": "GLOBAL",
+      "location": "Global",
+      "characters": [],
+      "description": "罗琳称全球有11所长期存在的著名学校；也有家庭教育、函授和小型学校，不能把未知学校编造为正史。",
+      "sources": [
+        {
+          "refId": "JK_SCHOOLS",
+          "locator": "全文"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "global_school_network",
+          "homeschool_option"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "school_assignment_by_region"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-homeschool",
+      "title": "家庭教育和函授为合法教育路径",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "institution",
+      "region": "GLOBAL",
+      "location": "Global",
+      "characters": [],
+      "description": "许多国家的魔法人口选择家庭教育或函授，学校不是唯一教育方式。",
+      "sources": [
+        {
+          "refId": "JK_SCHOOLS",
+          "locator": "首段"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "homeschool_option",
+          "correspondence_option"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "home_education"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-ilvermorny",
+      "title": "伊法魔尼是北美主要魔法学校",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "institution",
+      "region": "North America",
+      "location": "Ilvermorny",
+      "characters": [],
+      "description": "位于格雷洛克山，分四学院；创校早于本游戏时间窗。",
+      "sources": [
+        {
+          "refId": "JK_ILVER",
+          "locator": "建校与四学院"
+        },
+        {
+          "refId": "HP_ILVER",
+          "locator": "位置与创始人"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "ilvermorny_available"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "north_america_school"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-beauxbatons",
+      "title": "布斯巴顿为欧洲魔法学校",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "institution",
+      "region": "Europe",
+      "location": "Beauxbatons",
+      "characters": [],
+      "description": "法国魔法学校；跨国招生区域和个人录取不能凭空假定为固定概率。",
+      "sources": [
+        {
+          "refId": "BOOK_GF",
+          "locator": "第16章"
+        },
+        {
+          "refId": "JK_SCHOOLS",
+          "locator": "国际学校"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "beauxbatons_available"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "europe_school"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-durmstrang",
+      "title": "德姆斯特朗为欧洲魔法学校",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "institution",
+      "region": "Europe",
+      "location": "Durmstrang",
+      "characters": [],
+      "description": "具有不同于霍格沃茨的文化与招生取向；其精确地理位置保密。",
+      "sources": [
+        {
+          "refId": "BOOK_GF",
+          "locator": "第16章"
+        },
+        {
+          "refId": "JK_SCHOOLS",
+          "locator": "学校保密位置"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "durmstrang_available"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "europe_school"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-international-others",
+      "title": "其他国际魔法学校与非寄宿教育",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "institution",
+      "region": "GLOBAL",
+      "location": "Multiple",
+      "characters": [],
+      "description": "魔法所、瓦加度、卡斯特罗布舍等应另建学校资料表，避免在历史事件表虚构逐年校史。",
+      "sources": [
+        {
+          "refId": "JK_SCHOOLS",
+          "locator": "十一校说明"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "international_education"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "regional_school"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1908-newt",
+      "title": "纽特·斯卡曼德就读霍格沃茨（年代待核）",
+      "date": {
+        "start": "1908",
+        "end": "1913",
+        "precision": "range"
+      },
+      "recordType": "biography",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Newt Scamander"
+      ],
+      "description": "前传人物的入学/离校年份需要对照剧本与官方人物资料逐项核实。",
+      "sources": [
+        {
+          "refId": "FB",
+          "locator": "纽特背景；年份待核"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_review",
+      "canonLayer": "expanded",
+      "gameImpact": {
+        "tags": [
+          "historical_student_context"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [],
+      "notes": null
+    },
+    {
+      "id": "edu-1938-riddle",
+      "title": "汤姆·里德尔入读霍格沃茨",
+      "date": {
+        "start": "1938",
+        "end": "1938",
+        "precision": "year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Tom Riddle",
+        "Albus Dumbledore"
+      ],
+      "description": "邓布利多向孤儿院中的里德尔介绍霍格沃茨。",
+      "sources": [
+        {
+          "refId": "BOOK_HBP",
+          "locator": "第13章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "riddle_student"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "riddle_cohort"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1943-chamber",
+      "title": "密室事件导致学生死亡与学校危机",
+      "date": {
+        "start": "1943",
+        "end": "1943",
+        "precision": "year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Tom Riddle",
+        "Myrtle Warren",
+        "Rubeus Hagrid"
+      ],
+      "description": "密室开启、桃金娘死亡，海格被指控；学校面临关闭威胁。",
+      "sources": [
+        {
+          "refId": "BOOK_CS",
+          "locator": "第13、17章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "school_danger",
+          "student_death",
+          "school_closure_risk"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "school_safety_crisis"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1945-riddle-leaves",
+      "title": "汤姆·里德尔完成霍格沃茨学业",
+      "date": {
+        "start": "1945",
+        "end": "1945",
+        "precision": "year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Tom Riddle"
+      ],
+      "description": "里德尔离校，后续逐渐发展黑魔法势力。",
+      "sources": [
+        {
+          "refId": "BOOK_HBP",
+          "locator": "第20章附近，待核"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "needs_primary_review",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "historical_graduation"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [],
+      "notes": null
+    },
+    {
+      "id": "edu-1971-marauders",
+      "title": "掠夺者与斯内普、莉莉入学",
+      "date": {
+        "start": "1971",
+        "end": "1971",
+        "precision": "year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "James Potter",
+        "Lily Evans",
+        "Sirius Black",
+        "Remus Lupin",
+        "Peter Pettigrew",
+        "Severus Snape"
+      ],
+      "description": "这一届学生在第一次巫师战争背景下成长。",
+      "sources": [
+        {
+          "refId": "BOOK_OP",
+          "locator": "第28章"
+        },
+        {
+          "refId": "BOOK_DH",
+          "locator": "第33章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "marauders_cohort"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "marauders_peer"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1981-war-aftermath",
+      "title": "第一次巫师战争结束后学校环境变化",
+      "date": {
+        "start": "1981",
+        "end": "1990",
+        "precision": "range"
+      },
+      "recordType": "social_context",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "大战结束后的社会气氛影响家庭与学生，但不存在已证实的统一课程改革。",
+      "sources": [
+        {
+          "refId": "LEX_TIMELINE",
+          "locator": "1981–1990"
+        }
+      ],
+      "certainty": "inferred",
+      "reviewStatus": "needs_primary_review",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "postwar_school_context"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [],
+      "notes": null
+    },
+    {
+      "id": "edu-1991-harry",
+      "title": "哈利·波特入学与分院",
+      "date": {
+        "start": "1991-09-01",
+        "end": "1991-09-01",
+        "precision": "day"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger"
+      ],
+      "description": "哈利与同届学生开始第一学年。",
+      "sources": [
+        {
+          "refId": "BOOK_PS",
+          "locator": "第6–7章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "harry_cohort"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "same_year_as_harry"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1992-chamber",
+      "title": "密室重开造成校园恐慌",
+      "date": {
+        "start": "1992",
+        "end": "1993",
+        "precision": "school_year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Harry Potter",
+        "Ginny Weasley",
+        "Gilderoy Lockhart"
+      ],
+      "description": "多名学生被石化，麻瓜出身者安全受威胁，年终考试被取消。",
+      "sources": [
+        {
+          "refId": "BOOK_CS",
+          "locator": "第9–18章"
+        },
+        {
+          "refId": "HP_SUBJECTS",
+          "locator": "End of year exams"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "school_danger",
+          "exams_cancelled"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "school_safety_crisis"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1993-dementors",
+      "title": "摄魂怪进驻霍格沃茨周边",
+      "date": {
+        "start": "1993",
+        "end": "1994",
+        "precision": "school_year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Harry Potter",
+        "Remus Lupin",
+        "Sirius Black"
+      ],
+      "description": "阿兹卡班越狱事件影响学校安保与学生心理。",
+      "sources": [
+        {
+          "refId": "BOOK_PA",
+          "locator": "第5章及后续"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "school_security",
+          "dementor_risk"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "dementor_encounter"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1994-triwizard",
+      "title": "三强争霸赛在霍格沃茨举办",
+      "date": {
+        "start": "1994",
+        "end": "1995",
+        "precision": "school_year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Harry Potter",
+        "Cedric Diggory",
+        "Viktor Krum",
+        "Fleur Delacour"
+      ],
+      "description": "布斯巴顿与德姆斯特朗学生代表来到霍格沃茨，学校举办跨国赛事。",
+      "sources": [
+        {
+          "refId": "BOOK_GF",
+          "locator": "第12、16、17章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "international_exchange",
+          "tournament",
+          "quidditch_cup_cancelled"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "spectate_tournament"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1995-umbridge",
+      "title": "乌姆里奇任黑魔法防御术教授",
+      "date": {
+        "start": "1995-09-01",
+        "end": "1995-09-01",
+        "precision": "day"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Dolores Umbridge"
+      ],
+      "description": "魔法部干预霍格沃茨教学，防御术实践训练受到限制。",
+      "sources": [
+        {
+          "refId": "BOOK_OP",
+          "locator": "第12、15章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "ministry_interference",
+          "practical_defence_restricted"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "school_policy_conflict"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1995-inquisitor",
+      "title": "霍格沃茨高级调查官制度",
+      "date": {
+        "start": "1995-09",
+        "end": "1995-09",
+        "precision": "month"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Dolores Umbridge",
+        "Cornelius Fudge"
+      ],
+      "description": "魔法部通过教育令扩大对学校的监管。",
+      "sources": [
+        {
+          "refId": "BOOK_OP",
+          "locator": "第15章"
+        },
+        {
+          "refId": "LEX_EDICT",
+          "locator": "教育令索引"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "teacher_inspections",
+          "ministry_interference"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "teacher_evaluation"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1995-student-groups",
+      "title": "教育令限制学生组织",
+      "date": {
+        "start": "1995-10",
+        "end": "1995-10",
+        "precision": "month"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Dolores Umbridge",
+        "Harry Potter",
+        "Hermione Granger"
+      ],
+      "description": "学生组织活动受到限制，邓布利多军秘密训练。",
+      "sources": [
+        {
+          "refId": "BOOK_OP",
+          "locator": "第17–18章"
+        },
+        {
+          "refId": "LEX_EDICT",
+          "locator": "教育令24"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "student_groups_banned",
+          "secret_defence_club"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "join_da",
+        "report_da"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1996-umbridge-head",
+      "title": "乌姆里奇短暂担任校长",
+      "date": {
+        "start": "1996-04",
+        "end": "1996-04",
+        "precision": "month"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Dolores Umbridge",
+        "Albus Dumbledore"
+      ],
+      "description": "邓布利多离校后乌姆里奇被任命为校长，日期按二手时间线标记待核。",
+      "sources": [
+        {
+          "refId": "BOOK_OP",
+          "locator": "第27–28章"
+        },
+        {
+          "refId": "LEX_HEAD",
+          "locator": "校长索引"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_review",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "school_leadership_change",
+          "student_resistance"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [],
+      "notes": null
+    },
+    {
+      "id": "edu-1996-snape-dada",
+      "title": "斯内普担任黑魔法防御术教授",
+      "date": {
+        "start": "1996",
+        "end": "1997",
+        "precision": "school_year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Severus Snape",
+        "Horace Slughorn"
+      ],
+      "description": "斯内普转任黑魔法防御术，斯拉格霍恩接任魔药学。",
+      "sources": [
+        {
+          "refId": "BOOK_HBP",
+          "locator": "第8–9章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "teacher_change",
+          "course_access"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "new_teacher"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1997-dumbledore-death",
+      "title": "邓布利多去世引发学校领导危机",
+      "date": {
+        "start": "1997-06",
+        "end": "1997-06",
+        "precision": "month"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Albus Dumbledore",
+        "Minerva McGonagall"
+      ],
+      "description": "学校前途与安全受到重大影响。",
+      "sources": [
+        {
+          "refId": "BOOK_HBP",
+          "locator": "第27–30章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "leadership_vacuum",
+          "school_danger"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "grief",
+        "school_future"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1997-snape-head",
+      "title": "斯内普出任霍格沃茨校长",
+      "date": {
+        "start": "1997",
+        "end": "1998",
+        "precision": "school_year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Severus Snape",
+        "Alecto Carrow",
+        "Amycus Carrow"
+      ],
+      "description": "食死徒控制下的学校强化黑魔法与针对麻瓜出身者的迫害。",
+      "sources": [
+        {
+          "refId": "BOOK_DH",
+          "locator": "第29–30章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "authoritarian_school",
+          "muggleborn_exclusion",
+          "dark_arts_curriculum"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "resist_carrows",
+        "survive_school"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1997-attendance",
+      "title": "战时霍格沃茨出勤政策改变",
+      "date": {
+        "start": "1997",
+        "end": "1998",
+        "precision": "school_year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "魔法部控制下要求巫师儿童就学，同时以血统审查排除麻瓜出身者。",
+      "sources": [
+        {
+          "refId": "BOOK_DH",
+          "locator": "第11章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "compulsory_attendance",
+          "blood_status_screening"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "blood_status_investigation"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-1998-battle",
+      "title": "霍格沃茨大战中断正常教学",
+      "date": {
+        "start": "1998-05-02",
+        "end": "1998-05-02",
+        "precision": "day"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Harry Potter",
+        "Minerva McGonagall",
+        "Neville Longbottom"
+      ],
+      "description": "学校成为战场，战后需要重建与恢复教学。",
+      "sources": [
+        {
+          "refId": "BOOK_DH",
+          "locator": "第31–36章"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "battle_at_school",
+          "education_disruption"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "evacuate",
+        "defend_hogwarts"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-postwar-return",
+      "title": "赫敏战后返回完成学业",
+      "date": {
+        "start": "1998",
+        "end": "1999",
+        "precision": "school_year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Hermione Granger"
+      ],
+      "description": "官方资料确认赫敏返回学校完成学业；不应据此推断所有学生必须重读。",
+      "sources": [
+        {
+          "refId": "HP_EXAMS",
+          "locator": "赫敏返校"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "returning_students"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "resume_education"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-postwar-mcgonagall",
+      "title": "麦格担任战后霍格沃茨校长",
+      "date": {
+        "start": "1998",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Minerva McGonagall"
+      ],
+      "description": "战后麦格担任校长，但精确任期终点及各年学校政策需要逐项核实。",
+      "sources": [
+        {
+          "refId": "LEX_HEAD",
+          "locator": "校长任期"
+        },
+        {
+          "refId": "CC",
+          "locator": "学校场景"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_review",
+      "canonLayer": "primary",
+      "gameImpact": {
+        "tags": [
+          "postwar_leadership"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "postwar_school"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-2017-nextgen",
+      "title": "阿不思·波特与斯科皮入学",
+      "date": {
+        "start": "2017-09-01",
+        "end": "2017-09-01",
+        "precision": "day"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Albus Severus Potter",
+        "Scorpius Malfoy",
+        "Rose Granger-Weasley"
+      ],
+      "description": "下一代学生入学，开启《被诅咒的孩子》主要校园时间线。",
+      "sources": [
+        {
+          "refId": "BOOK_DH",
+          "locator": "尾声"
+        },
+        {
+          "refId": "CC",
+          "locator": "第一幕"
+        }
+      ],
+      "certainty": "confirmed",
+      "reviewStatus": "cross_checked",
+      "canonLayer": "expanded",
+      "gameImpact": {
+        "tags": [
+          "next_generation_cohort"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "nextgen_peer"
+      ],
+      "notes": null
+    },
+    {
+      "id": "edu-2020-cursed",
+      "title": "《被诅咒的孩子》时间旅行事件影响学生",
+      "date": {
+        "start": "2020",
+        "end": "2020",
+        "precision": "year"
+      },
+      "recordType": "historical",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [
+        "Albus Severus Potter",
+        "Scorpius Malfoy",
+        "Delphi"
+      ],
+      "description": "剧情中的时间旅行与替代时间线需独立存储，不应直接覆盖默认历史。",
+      "sources": [
+        {
+          "refId": "CC",
+          "locator": "第三至四幕，日期待核"
+        }
+      ],
+      "certainty": "approximate",
+      "reviewStatus": "needs_primary_review",
+      "canonLayer": "expanded",
+      "gameImpact": {
+        "tags": [
+          "time_travel_branch"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "alternate_timeline"
+      ],
+      "notes": null
+    },
+    {
+      "id": "sim-admission-probability",
+      "title": "游戏原创：学校录取与家庭教育权重",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "simulation",
+      "region": "GLOBAL",
+      "location": "Game engine",
+      "characters": [],
+      "description": "按地区、家长选择、学校规则分配教育路径；具体概率由开发者配置，非原著统计。",
+      "sources": [],
+      "certainty": "invented",
+      "reviewStatus": "game_design",
+      "canonLayer": "original",
+      "gameImpact": {
+        "tags": [
+          "weighted_admission"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "choose_school"
+      ],
+      "notes": null
+    },
+    {
+      "id": "sim-school-daily",
+      "title": "游戏原创：每学年普通校园事件池",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "simulation",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "课程表现、社团、同学关系、考试压力、意外事故的随机事件模板。",
+      "sources": [],
+      "certainty": "invented",
+      "reviewStatus": "game_design",
+      "canonLayer": "original",
+      "gameImpact": {
+        "tags": [
+          "school_event_pool"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "friendship",
+        "exam_stress",
+        "club_activity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "sim-school-danger",
+      "title": "游戏原创：历史风险映射至校园事件概率",
+      "date": {
+        "start": "1900",
+        "end": "2021",
+        "precision": "range"
+      },
+      "recordType": "simulation",
+      "region": "UK",
+      "location": "Hogwarts",
+      "characters": [],
+      "description": "战争/安全事件影响校园危机发生权重；所有数值是平衡参数，不是正史。",
+      "sources": [],
+      "certainty": "invented",
+      "reviewStatus": "game_design",
+      "canonLayer": "original",
+      "gameImpact": {
+        "tags": [
+          "dynamic_school_risk"
+        ],
+        "mechanicsAreOriginal": true
+      },
+      "playerHooks": [
+        "evacuation",
+        "injury_risk"
+      ],
+      "notes": null
+    }
+  ]
+}

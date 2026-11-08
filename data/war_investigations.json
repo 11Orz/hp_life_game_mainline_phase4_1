@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "dataset": "war_investigations",
+  "records": [
+    {
+      "id": "missing_messenger_investigation",
+      "case_id": "missing_messenger",
+      "evidence": [
+        {
+          "id": "missing_messenger_witness",
+          "kind": "testimony",
+          "reliability": 55
+        },
+        {
+          "id": "missing_messenger_document",
+          "kind": "record",
+          "reliability": 75
+        }
+      ],
+      "outcomes": [
+        "verified",
+        "unresolved",
+        "protected_source"
+      ],
+      "requires_corroboration": true
+    },
+    {
+      "id": "forged_warning_investigation",
+      "case_id": "forged_warning",
+      "evidence": [
+        {
+          "id": "forged_warning_witness",
+          "kind": "testimony",
+          "reliability": 55
+        },
+        {
+          "id": "forged_warning_document",
+          "kind": "record",
+          "reliability": 75
+        }
+      ],
+      "outcomes": [
+        "verified",
+        "unresolved",
+        "protected_source"
+      ],
+      "requires_corroboration": true
+    },
+    {
+      "id": "unsafe_route_investigation",
+      "case_id": "unsafe_route",
+      "evidence": [
+        {
+          "id": "unsafe_route_witness",
+          "kind": "testimony",
+          "reliability": 55
+        },
+        {
+          "id": "unsafe_route_document",
+          "kind": "record",
+          "reliability": 75
+        }
+      ],
+      "outcomes": [
+        "verified",
+        "unresolved",
+        "protected_source"
+      ],
+      "requires_corroboration": true
+    },
+    {
+      "id": "lost_medicine_investigation",
+      "case_id": "lost_medicine",
+      "evidence": [
+        {
+          "id": "lost_medicine_witness",
+          "kind": "testimony",
+          "reliability": 55
+        },
+        {
+          "id": "lost_medicine_document",
+          "kind": "record",
+          "reliability": 75
+        }
+      ],
+      "outcomes": [
+        "verified",
+        "unresolved",
+        "protected_source"
+      ],
+      "requires_corroboration": true
+    },
+    {
+      "id": "shelter_dispute_investigation",
+      "case_id": "shelter_dispute",
+      "evidence": [
+        {
+          "id": "shelter_dispute_witness",
+          "kind": "testimony",
+          "reliability": 55
+        },
+        {
+          "id": "shelter_dispute_document",
+          "kind": "record",
+          "reliability": 75
+        }
+      ],
+      "outcomes": [
+        "verified",
+        "unresolved",
+        "protected_source"
+      ],
+      "requires_corroboration": true
+    }
+  ]
+}
